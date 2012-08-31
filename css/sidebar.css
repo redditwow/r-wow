@@ -188,15 +188,33 @@ z-index: 99999;
 .icon-menu a::before { background-image: url('../images/icons/modicons_test_shaded.png') !important; width: 18px !important; height: 18px !important;}
 
 /* Moderator Box */
-.icon-menu .reddit-edit::before { background-position: -0 -0px; }
-.icon-menu .moderator-mail::before { background-position: -0 -23px; }
-.icon-menu .reddit-moderators::before { background-position: -0 -46px; }
-.icon-menu .reddit-contributors::before { background-position: -0 -70px; }
-.icon-menu .reddit-traffic::before { background-position: -0 -93px; }
-.icon-menu .reddit-modqueue::before { background-position: -0 -116px; }
-.icon-menu .reddit-reported::before { background-position: -0 -139px; }
-.icon-menu .reddit-spam::before { background-position: -0 -163px; }
-.icon-menu .reddit-ban::before { background-position: -0 -186px; }
-.icon-menu .reddit-flair::before { background-position: -0 -210px; }
-.icon-menu .reddit-moderationlog::before { background-position: -0 -233px; }
+
+.icon-menu li {
+	line-height: 1.em;
+}
+
+.icon-menu .reddit-edit::before { background-position: -0 -2px; }
+.icon-menu .moderator-mail::before { background-position: -0 -30px; }
+.icon-menu .reddit-moderators::before { background-position: -0 -50px; }
+.icon-menu .reddit-contributors::before { background-position: -0 -73px; }
+.icon-menu .reddit-traffic::before { background-position: -0 -97px; }
+.icon-menu .reddit-modqueue::before { background-position: -0 -119px; }
+.icon-menu .reddit-reported::before { background-position: -0 -142px; }
+.icon-menu .reddit-spam::before { background-position: -0 -166px; }
+.icon-menu .reddit-ban::before { background-position: -0 -190px; }
+.icon-menu .reddit-flair::before { background-position: -0 -214px; }
+.icon-menu .reddit-moderationlog::before { background-position: -0 -237px; }
 .icon-menu .reddit-unmoderated::before { background-position: -0 -259px; }
+
+.collapse-button {
+	float: right;
+}
+
+#moderation_tools {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#ad {
+ /* needs centering */
+}
