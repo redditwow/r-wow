@@ -186,13 +186,9 @@ z-index: 99999;
 
 /* Sidebar Icons */
 .icon-menu a::before { background-image: url('../images/icons/modicons_test_shaded.png') !important; width: 18px !important; height: 18px !important;}
+.icon-menu li { line-height: 17px; }
 
 /* Moderator Box */
-
-.icon-menu li {
-  line-height: 17px;
-}
-
 .icon-menu .reddit-edit::before { background-position: -0 -2px; }
 .icon-menu .moderator-mail::before { background-position: -0 -30px; }
 .icon-menu .reddit-moderators::before { background-position: -0 -50px; }
@@ -211,8 +207,7 @@ z-index: 99999;
 }
 
 #moderation_tools {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 #ad {
