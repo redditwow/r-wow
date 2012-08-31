@@ -5,7 +5,8 @@
  .side {
   margin: 25px 25px 0 25px;
   width:439px;
-  background:url(%%frame-wood-repeat%%);
+  /* background:url(%%frame-wood-repeat%%);*/
+  background:url('../images/frame-wood-repeat.png');
   background-repeat:repeat-y;
   background-position:center top;
   position:relative;
@@ -29,7 +30,8 @@
   padding:0 0 0 61px;
 }
 .side > .spacer:first-child {
-  background:url(%%mop-graphics%%);
+  /* background:url(%%mop-graphics%%); */
+  background:url('../images/sprites/mop-graphics.png');
   background-position: -0px -589px;
   background-repeat:no-repeat;
   width: 430px;
@@ -39,7 +41,8 @@
   top: -40px;
 }
 .side > .spacer:last-child {
-  background:url(%%mop-graphics%%);
+  /* background:url(%%mop-graphics%%); */
+  background:url('../images/sprites/mop-graphics.png');
   background-position: -0px -839px;
   background-repeat:no-repeat;
   width:439px;
@@ -123,7 +126,7 @@ z-index: 99999;
 }
 
 .morelink a, .morelink a:hover { color: #FFB100; border: 0px; }
-.morelink, .morelink:hover, .morelink .nub, .morelink:hover .nub { background-image: url(%%mop-graphics%%); }
+.morelink, .morelink:hover, .morelink .nub, .morelink:hover .nub { /* background:url(%%mop-graphics%%); */ background-image: url('../images/sprites/mop-graphics.png'); }
 
 .morelink { background-position: -0px -0px; }
 .morelink .nub { background-position: -0px -186px; }
@@ -139,7 +142,8 @@ z-index: 99999;
 .fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut,
 .fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover {
   background: transparent !important; 
-  background-image: url(%%mop-graphics%%) !important;
+  /* background-image:url(%%mop-graphics%%); */
+  background-image: url('../images/sprites/mop-graphics.png') !important;
   border: 0px !important;
   /*height: 20px !important; */
   line-height: 20px !important;

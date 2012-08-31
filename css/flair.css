@@ -11,8 +11,8 @@
   border-radius: 0;
 }
 
-.flair:after { /* %%flair-sprite%% */
-  background: url(%%flair-sprite%%) no-repeat scroll 16px 16px transparent;
+.flair:after { /* background: url(%%flair-sprite%%) no-repeat scroll 16px 16px transparent; */
+  background: url('../images/sprites/flair.png') no-repeat scroll 16px 16px transparent;
   display: inline-block;
   margin-left: 3px;
   vertical-align: middle;
