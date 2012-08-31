@@ -60,13 +60,19 @@
   border-radius: 0px;
   color: #797e84;
   font-weight: bold;
+  padding-left: 30px;
+  padding-right: 7px;
+  font-size: 10px;
 }
+
 #header-bottom-right a {
   color: #797e84;
 }
 
+#header-bottom-right > * { position: relative; top: 4px; }
+
 /* Mail */
-#mail { width: 13px; height: 9px; }
+#mail { width: 13px; height: 9px; position: relative; top: 5px; }
 #modmail { width: 16px; height: 16px; }
 
 #mail.nohavemail { background-image: url('../images/icons/mail_nonew.png'); background-position: -0 -0; background-repeat: no-repeat; }
