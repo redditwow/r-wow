@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="modmenu_icons.svg">
+   sodipodi:docname="modmenu_icons.svg"
+   inkscape:export-filename="C:\Users\Lasse\Documents\GitHub\r-wow\images\icons\modicons_test_large.png"
+   inkscape:export-xdpi="69.199997"
+   inkscape:export-ydpi="69.199997">
   <defs
      id="defs4">
     <marker
@@ -47,9 +50,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="15.904293"
-     inkscape:cy="266.8234"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="-3.8137799"
+     inkscape:cy="277.66281"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
