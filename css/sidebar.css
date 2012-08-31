@@ -186,7 +186,7 @@ z-index: 99999;
 
 /* Moderator Icons */
 
-.icon-menu .reddit-spam::before, .icon-menu .reddit-moderators::before, .icon-menu .reddit-unmoderated::before { background-image: url('../images/icons/modicons_test_large.png'); }
+.icon-menu a::before { background-image: url('../images/icons/modicons_test_large.png') !important; }
 
 .icon-menu .reddit-spam::before { background-position: -0 -0; width: 19px; height: 17px; }
 .icon-menu .reddit-moderators::before { background-position: -57px -0; width: 19px; height: 17px; }
