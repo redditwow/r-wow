@@ -185,7 +185,7 @@ z-index: 99999;
 }
 
 /* Sidebar Icons */
-.icon-menu *::before { background-image: url('../images/icons/modicons_test_large.png') !important; width: 0px; height: 0px;}
+.icon-menu *::before { background-image: url('../images/icons/modicons_test_large.png') !important; width: 0px !important; height: 0px !important;}
 
 /* Moderator Box */
 .icon-menu .reddit-edit::before { background-position: -0 -0; }
