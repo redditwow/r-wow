@@ -63,9 +63,9 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   padding: 0 0 0 12px;
 }
 #searchexpando {
-padding-top: 10px;
-position: relative;
-z-index: 99999;
+  padding-top: 10px;
+  position: relative;
+  z-index: 99999;
 }
 #search input[type="text"] {
   width: 300px;
@@ -95,6 +95,8 @@ z-index: 99999;
 .sidebox .spacer {
   background:transparent;
 }
+
+.titlebox { margin-top: 30px; /* For link submit button */ }
 
 .titlebox h1 a {
   color: #008467 !important;
@@ -137,6 +139,9 @@ z-index: 99999;
 
 /* Disable the useless reddit information after a morelink */
 .morelink+.spacer { visibility: hidden; height: 0px; }
+
+/* Move our submit button to the top of the sidebar */
+.sidebox.submit { position: absolute; top: 80px; width: 300px; padding-left: 15px;}
 
 /* Reddit/RES "Subscribe" Buttons */
 .fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove,
