@@ -210,6 +210,7 @@ z-index: 99999;
   margin: 20px 0;
 }
 
-#ad {
- /* needs centering */
+/* Reddit Advertisements */
+#ad-frame {
+  margin-left: 17px;
 }
