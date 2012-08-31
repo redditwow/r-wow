@@ -176,15 +176,22 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 	position:relative;
 	top:66px;
 }
+
 #searchexpando {
-padding-top: 10px;
-position: relative;
-z-index: 99999;
+	padding-top: 10px;
+	position: relative;
+	z-index: 99999;
 }
+
 #search input[type="text"] {
 	width:210px;
 	position:relative;
-	}
+}
+
+h1#redditname a {
+	/* Fuck the police */
+	font-family: "Georgia", "Garamond", serif;
+}
 
 
 
