@@ -2,10 +2,12 @@
  * Sidebar.css
  */
 
- .side {
+h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
+
+.side {
   margin: 25px 25px 0 25px;
   width:439px;
-  /* background:url(%%frame-wood-repeat%%);*/
+  /* background:url(%%frame-wood-repeat%%); */
   background:url('../images/frame-wood-repeat.png');
   background-repeat:repeat-y;
   background-position:center top;
@@ -179,5 +181,5 @@ z-index: 99999;
 
 /* Login Form */
 .login-form-side {
-    border: 0px;
+  border: 0px;
 }
