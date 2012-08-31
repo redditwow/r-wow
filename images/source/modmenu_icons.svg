@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="New document 1.2012_08_31_22_16_38.0.svg">
+   sodipodi:docname="modmenu_icons.svg">
   <defs
      id="defs4">
     <marker
@@ -47,13 +47,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="-8.8392125"
-     inkscape:cy="255.91043"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="15.904293"
+     inkscape:cy="266.8234"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
      inkscape:window-height="1018"
@@ -164,7 +164,7 @@
          sodipodi:type="arc" />
     </g>
     <g
-       transform="matrix(0.67582707,0,0,0.67582707,-442.43018,-41.446271)"
+       transform="matrix(0.76751703,0,0,0.76751703,-449.39079,-40.205493)"
        id="g4171"
        inkscape:export-filename="C:\Users\Lasse\Documents\GitHub\r-wow\images\icons\modicons_test_large.png"
        inkscape:export-xdpi="69.199997"
@@ -377,7 +377,7 @@
        inkscape:export-ydpi="69.199997" />
     <path
        style="fill:#550000;fill-opacity:1;stroke:none"
-       d="m -394.57162,216.45582 -4.42838,4.38794 4.42838,4.38794 0,-2.82415 5.51459,0 0,-3.12758 -5.51459,0 0,-2.82415 z m 6.89324,4.66802 0,2.82415 -5.51459,0 0,3.12758 5.51459,0 0,2.82415 4.42838,-4.38794 -4.42838,-4.38794 z"
+       d="m -394.89987,215.81564 -4.85013,4.80583 4.85013,4.80584 0,-3.09311 6.03979,0 0,-3.42545 -6.03979,0 0,-3.09311 z m 7.54974,5.11259 0,3.09311 -6.03979,0 0,3.42545 6.03979,0 0,3.09311 4.85013,-4.80583 -4.85013,-4.80584 z"
        id="path7021"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Lasse\Documents\GitHub\r-wow\images\icons\modicons_test_large.png"
