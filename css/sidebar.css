@@ -190,7 +190,7 @@ z-index: 99999;
 /* Moderator Box */
 
 .icon-menu li {
-	line-height: 1.em;
+  line-height: 17px;
 }
 
 .icon-menu .reddit-edit::before { background-position: -0 -2px; }
@@ -207,12 +207,12 @@ z-index: 99999;
 .icon-menu .reddit-unmoderated::before { background-position: -0 -259px; }
 
 .collapse-button {
-	float: right;
+  float: right;
 }
 
 #moderation_tools {
-	margin-top: 20px;
-	margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #ad {
