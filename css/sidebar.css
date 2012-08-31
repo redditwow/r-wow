@@ -1,0 +1,179 @@
+/***
+ * Sidebar.css
+ */
+
+ .side {
+  margin: 25px 25px 0 25px;
+  width:439px;
+  background:url(%%frame-wood-repeat%%);
+  background-repeat:repeat-y;
+  background-position:center top;
+  position:relative;
+  padding-top: 0px;
+  top:15px;
+  color: #B39265;
+}
+
+.side a {
+  color: #008467;
+  background: none;
+}
+
+.side a:hover {
+  border-bottom: 1px dotted #008467;
+}
+
+.side .spacer { 
+  margin:0;
+  width: 334px;
+  padding:0 0 0 61px;
+}
+.side > .spacer:first-child {
+  background:url(%%mop-graphics%%);
+  background-position: -0px -589px;
+  background-repeat:no-repeat;
+  width: 430px;
+  height:86px;
+  position:relative;
+  bottom:20px;
+  top: -40px;
+}
+.side > .spacer:last-child {
+  background:url(%%mop-graphics%%);
+  background-position: -0px -839px;
+  background-repeat:no-repeat;
+  width:439px;
+  height:142px;
+  
+}
+
+form.toggle.flairtoggle, form.toggle.leavemoderator-button {
+  background:transparent;
+}
+
+#search {
+  width: 300px;
+  position: relative;
+  top: 80px;
+  padding: 0 0 0 12px;
+}
+#searchexpando {
+padding-top: 10px;
+position: relative;
+z-index: 99999;
+}
+#search input[type="text"] {
+  width: 300px;
+  background-color: #1b1108;
+  border: 3px double #2c180d;
+  color: #FFB100;
+}
+
+
+.titlebox form.toggle, .leavemoderator {
+  padding:2px 4px;
+  background:transparent;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: #FFB100;
+}
+.titlebox .usertext .md > h1 {
+  background: #221409;
+  color: #E2C7A3;
+  border: 3px double #2c180d;
+  padding:2px 5px;
+}
+.sidecontentbox .content {
+  background:transparent;
+}
+
+.sidebox .spacer {
+  background:transparent;
+}
+
+.titlebox h1 a {
+  color: #008467 !important;
+}
+
+.titlebox .bottom { color: #B39265; }
+
+.sidecontentbox .content {
+  /* Moderator box */
+  border: 0px;
+}
+
+
+/* MoreLinks (Submit/Create Buttons) */
+.morelink { 
+  height: 25px;
+  line-height: 25px;
+  background: transparent;
+  background-repeat: repeat-x;
+  border: 0px;
+  font-size: 120%;
+ }
+
+.morelink .nub, .morelink:hover .nub { 
+  position: absolute;
+  top: 0px;
+  right: -3px;
+  height: 25px;
+  width: 18px;
+  background: transparent;
+}
+
+.morelink a, .morelink a:hover { color: #FFB100; border: 0px; }
+.morelink, .morelink:hover, .morelink .nub, .morelink:hover .nub { background-image: url(%%mop-graphics%%); }
+
+.morelink { background-position: -0px -0px; }
+.morelink .nub { background-position: -0px -186px; }
+.morelink:hover { background-position: -0px -25px; }
+.morelink:hover .nub { background-position: -18px -186px; }
+
+/* Disable the useless reddit information after a morelink */
+.morelink+.spacer { visibility: hidden; height: 0px; }
+
+/* Reddit/RES "Subscribe" Buttons */
+.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove,
+.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover,
+.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut,
+.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover {
+  background: transparent !important; 
+  background-image: url(%%mop-graphics%%) !important;
+  border: 0px !important;
+  /*height: 20px !important; */
+  line-height: 20px !important;
+  padding: 4px 8px !important; 
+}
+/* RES is more of a hack then reddit */
+.RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove  { padding: 0px 8px !important; }
+.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove { background-position: -0px -50px !important; }
+.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESshortcut.RESshortcutside.remove:hover { background-position: -0px -90px !important; }
+.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut { background-position: -0px -70px !important; }
+.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background-position: -0px -110px !important; }
+
+/* Flair Selector */
+.flairselector { box-shadow: 2px 2px 2px #2C180D; }
+.flairselector.drop-choices.active { border: 3px double #2C180D; }
+.flairselector.drop-choices.active h2 { background: #322111; color: #E2C7A3; border: 3px double #2C180D; }
+.flairselector.drop-choices.active button { background-color: #1B1108; color: #E2C7A3; border: 3px double #2C180D; }
+.flairselector.drop-choices.active button:hover { background-color: #422913; cursor:pointer; }
+.flairselector form { border-top: 3px double #2C180D; }
+.drop-choices {
+  background-color: #221409;
+  border: 3px double #2C180D;
+  width: 220px !important;
+  left: 150px !important;
+}
+.flairselector li { border: 0px; }
+.customizer input[type="text"] {
+  background-color: #1B1108;
+  border: 3px double #2C180D;
+}
+
+.flairselector li:hover{ background-color: #2C180D; border:0px; }
+
+/* Login Form */
+.login-form-side {
+    border: 0px;
+}
