@@ -184,10 +184,18 @@ z-index: 99999;
   border: 0px;
 }
 
-/* Moderator Icons */
+/* Sidebar Icons */
+.icon-menu *::before { background-image: url('../images/icons/modicons_test_large.png') !important; width: 0px; height: 0px;}
 
-.icon-menu a::before { background-image: url('../images/icons/modicons_test_large.png') !important; }
-
-.icon-menu .reddit-spam::before { background-position: -0 -0; width: 19px; height: 17px; }
-.icon-menu .reddit-moderators::before { background-position: -57px -0; width: 19px; height: 17px; }
-.icon-menu .reddit-unmoderated::before { background-position: -76px -0; width: 19px; height: 17px; }
+/* Moderator Box */
+.icon-menu .reddit-edit::before { background-position: -0 -0; }
+.icon-menu .moderator-mail::before { background-position: -0 -0; }
+.icon-menu .reddit-moderators::before { background-position: -0 -0; }
+.icon-menu .reddit-contributors::before { background-position: -0 -0; }
+.icon-menu .reddit-traffic::before { background-position: -0 -0; }
+.icon-menu .reddit-modqueue::before { background-position: -0 -0; }
+.icon-menu .reddit-reported::before { background-position: -0 -0; }
+.icon-menu .reddit-spam::before { background-position: -0 -0; }
+.icon-menu .reddit-ban::before { background-position: -0 -0; }
+.icon-menu .reddit-flair::before { background-position: -0 -0; }
+.icon-menu .reddit-moderationlog::before { background-position: -0 -0; }
