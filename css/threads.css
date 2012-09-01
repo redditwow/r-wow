@@ -29,6 +29,8 @@
 .domain, .domain a, .tagline { color: #B39265; }
 .entry .buttons li a { color: #B39265; }
 
+.link .rank { margin-top: 23px; color: #000; }
+
 /* Upboats and Downboats */
 .arrow {
   height: 24px;
