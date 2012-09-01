@@ -29,5 +29,30 @@
 .domain, .domain a, .tagline { color: #B39265; }
 .entry .buttons li a { color: #B39265; }
 
+/* Upboats and Downboats */
+.arrow {
+  height: 24px;
+  width: 21px;
+}
 
+.arrow.up {
+  background-image: url('../images/arrow_up_false.png');
+  background-position: -0 -0;
+}
 
+.arrow.upmod {
+  background-image: url('../images/arrow_up_vote.png');
+  background-position: -0 -0;
+}
+
+.arrow.down {
+  background-image: url('../images/arrow_dn_false.png');
+  background-position: -0 -0;
+}
+
+.arrow.downmod {
+  background-image: url('../images/arrow_dn_true.png');
+  background-position: -0 -0;
+}
+
+.midcol { width: 28px !important; }
