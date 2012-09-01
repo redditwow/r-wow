@@ -24,3 +24,10 @@
 #siteTable .thing .title {
   color: #008467;
 }
+
+/* Text stuff inside of thing */
+.domain, .domain a, .tagline { color: #B39265; }
+.entry .buttons li a { color: #B39265; }
+
+
+
