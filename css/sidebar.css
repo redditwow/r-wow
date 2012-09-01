@@ -92,12 +92,21 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   margin-top: 5px;
   color: #FFB100;
 }
-.titlebox .usertext .md > h1 {
+.titlebox .usertext .md > h1, .sidecontentbox .title {
   background: #221409;
   color: #E2C7A3;
   border: 3px double #2c180d;
   padding:2px 5px;
 }
+
+.sidecontentbox .title h1 {
+  color: #E2C7A3;
+}
+
+.sidecontentbox a.helplink {
+  margin: 8px 5px 0 0;
+}
+
 .sidecontentbox .content {
   background:transparent;
 }
