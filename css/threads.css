@@ -1,3 +1,22 @@
 /***
  * Threads.css
  */
+
+#siteTable {
+  margin-top: 40px;
+}
+
+#siteTable .thing {
+  background-color: #27160e;
+  margin-right: 440px; /*  The way our sidebar is positioned we need this =/ */
+  padding: 10px;
+}
+
+#siteTable > .thing:first-child { 
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+#siteTable > .thing:last-child {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;  
+}
