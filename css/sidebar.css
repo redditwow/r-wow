@@ -23,7 +23,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 }
 
 .side a:hover {
-  border-bottom: 1px dotted #008467;
+  border-bottom: 1px solid #008467;
 }
 
 .side .spacer { 
