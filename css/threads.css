@@ -3,7 +3,7 @@
  */
 
 #siteTable {
-  margin-top: 40px;
+  margin-top: 40px; /* Keeps us lined up with the sidebar header */
 }
 
 #siteTable .thing {
@@ -19,4 +19,8 @@
 #siteTable > .thing:last-child {
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;  
+}
+
+#siteTable .thing .title {
+  color: #008467;
 }
