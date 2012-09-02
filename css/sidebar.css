@@ -75,7 +75,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   width: 300px;
   background-color: #1b1108;
   border: 3px double #2c180d;
-  color: #FFB100;
+  color: #E2C7A3;
 }
 
 /* Search Box "Expando" */
@@ -202,6 +202,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 .customizer input[type="text"] {
   background-color: #1B1108;
   border: 3px double #2C180D;
+  color: #E2C7A3;
 }
 
 .flairselector li:hover{ background-color: #2C180D; border:0px; }
@@ -220,6 +221,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   width: 300px;
   border-radius: 5px;
   padding: 7px 4px 7px 12px;
+  color: #E2C7A3;
 }
 
 #remember-me { 
