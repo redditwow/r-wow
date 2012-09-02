@@ -7,3 +7,7 @@ body {
   background-image: url('../images/body-background.png');
   color: #B39265;
 }
+
+.infobar {
+    margin-right: 440px;
+}
