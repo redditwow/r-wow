@@ -215,12 +215,11 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 .login-form-side input[type="text"], .login-form-side input[type="password"] {
   border: 3px double #2C180D;
   background-color: #1B1108;
-  padding: 4px;
   float: left;
   clear: both;
   width: 300px;
-  padding-left: 12px;
   border-radius: 5px;
+  padding: 7px 4px 7px 12px;
 }
 
 #remember-me { 
