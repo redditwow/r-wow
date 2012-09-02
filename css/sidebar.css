@@ -53,7 +53,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 }
 
 /* Collapse Button */
-.sidecontentbox .collapse-button
+.sidecontentbox .collapse-button {}
 
 form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   background:transparent;
