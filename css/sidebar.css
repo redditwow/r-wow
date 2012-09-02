@@ -209,6 +209,38 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 /* Login Form */
 .login-form-side {
   border: 0px;
+  margin-top: 40px;
+}
+
+.login-form-side input[type="text"], .login-form-side input[type="password"] {
+  border: 3px double #2C180D;
+  background-color: #1B1108;
+  padding: 4px;
+  float: left;
+  clear: both;
+  width: 300px;
+  padding-left: 12px;
+  border-radius: 5px;
+}
+
+#remember-me { 
+  padding-left: 6px; 
+  line-height: 20px;
+}
+
+.submit button.btn  { 
+  height: 30px;
+  border: 1px solid #2C180D;
+  background: #1B1108;
+  color: #FFB100;
+  border-radius: 4px;
+  padding: 0 20px;
+  text-transform: capitalize;
+}
+
+.submit button.btn:hover {
+  background: #2f1D0E;
+  cursor: pointer;
 }
 
 /* Sidebar Icons */
