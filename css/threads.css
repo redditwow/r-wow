@@ -7,8 +7,10 @@
 }
 
 #siteTable .thing {
-  background-color: #27160e;
-  margin-right: 440px; /*  The way our sidebar is positioned we need this =/ */
+  background-color: #0A0A0A; /*#27160e;*/
+  border: 1px solid #000;
+  margin-right: 460px; /*  The way our sidebar is positioned we need this =/ */
+  margin-left: 30px;
   padding: 10px;
 }
 
