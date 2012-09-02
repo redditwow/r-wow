@@ -286,6 +286,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   width: 260px;
   border-radius: 3px;
   margin: 35px auto -15px auto;
+  border-radius: 5px;
 }
 
 .linkinfo .upvotes, .linkinfo .downvotes, .linkinfo .score {
