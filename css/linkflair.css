@@ -2,4 +2,10 @@
  * Linkflair.css
  */
 
-.linkflair-blizzard
+.linkflair-blizzard {
+  background-image: url('../images/linkflair-blizzard-background.png') !important;
+}
+
+.linkflair-blizzard .title {
+  color: #00B4FF !important;
+}
