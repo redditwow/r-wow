@@ -39,7 +39,8 @@ a.thumbnail.default, a.thumbnail.self { background: url('../images/sprites/linkf
 
 /* Special Blizzard Employee posts */
 .linkflair-blizzard {
-  background-image: url('../images/linkflair-blizzard-background.png') !important;
+  background: url('../images/linkflair-blizzard-background.png') repeat-x #0A0E1C !important;
+  color: #00B4FF !important;
 }
 
 .linkflair-blizzard .title {
