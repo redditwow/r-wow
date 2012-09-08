@@ -88,3 +88,23 @@ p.tagline, .tagline { height: 18px; margin: 4px 0; border: 0px; }
 .flair-shaman+.author,.flair-alliance-shaman+.author,.flair-horde-shaman+.author { color: #0070DE !important; }
 .flair-warlock+.author,.flair-alliance-warlock+.author,.flair-horde-warlock+.author { color: #9482C9 !important; }
 .flair-warrior+.author,.flair-alliance-warrior+.author,.flair-horde-warrior+.author { color: #C79C6E !important; }
+
+
+/* Special flair for special people */
+
+/* Blizzard Employees Icon */
+a.author[href$='reddit.com/user/Zarhym']:before {
+  content: url('../images/blizzardlogo.png');
+  display: block;
+  vertical-align: middle;
+  margin: 0 3px;
+}
+
+/* Blizzard Employees Styling */
+a.author[href$="reddit.com/user/Zarhym"] {
+  color: #00B4FF !important;
+}
+
+
+
+thefargo, ghostcrawler, watcherdev,
