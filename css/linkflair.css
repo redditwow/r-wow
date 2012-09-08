@@ -2,6 +2,7 @@
  * Linkflair.css
  */
 
+/* Special Blizzard Employee posts */
 .linkflair-blizzard {
   background-image: url('../images/linkflair-blizzard-background.png') !important;
 }
@@ -9,3 +10,7 @@
 .linkflair-blizzard .title {
   color: #00B4FF !important;
 }
+
+.linkflair-blizzard .domain, .linkflair-blizzard .domain a, .linkflair-blizzard .tagline { color: #888877; }
+
+.linkflair-blizzard .entry .buttons li a { color: #888877; font-weight: bold; }
