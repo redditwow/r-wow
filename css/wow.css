@@ -374,7 +374,7 @@ body > .content {
 .thing.link {
 	background:url(%%linktile%%);
 	background-repeat:repeat-x;
-	padding:20px 0 10px;
+	padding:5px 0 10px;
 	margin-left:15px;
 }
 #siteTable .thing.link .title a {
