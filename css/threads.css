@@ -7,11 +7,13 @@
 }
 
 #siteTable .thing {
-  background-color: #151515; /*#27160e;*/
+  background-color: #0f0f0f; /*#27160e;*/
+  background: url('../images/thing-background.jpg');
   border: 1px solid #000;
   margin-right: 460px; /*  The way our sidebar is positioned we need this =/ */
   margin-left: 30px;
-  padding: 10px;
+  padding: 20px;
+  margin: 0 460px 0 30px;
 }
 
 #siteTable > .thing:first-child { 
