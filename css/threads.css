@@ -61,3 +61,18 @@
 }
 
 .midcol { width: 28px !important; padding: 0 20px; }
+
+
+/* Expandos */
+
+.expando-button {
+  height: 31px;
+  width: 30px;
+  background: transparent;
+  background-image: url('../images/sprites/playicons.png') !important;
+}
+
+.expando-button.selftext.collapsed, .expando-button.selftext.expanded:hover { background-position: -0 -0; }
+.expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded { background-position: -0 -31px; }
+.expando-button.video.collapsed, .expando-button.video.expanded:hover { background-position: -0 -62px; }
+.expando-button.video.collapsed:hover, .expando-button.video.expanded { background-position: -0 -93px; }
