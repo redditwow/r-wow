@@ -34,7 +34,7 @@
 .entry .buttons li a { color: #EFC9A0; font-weight: normal; /* #B39265;*/ }
 .link .flat-list, .domain, .domain a, .tagline { padding: 5px 0;}
 
-.link .rank { margin-top: 23px; color: #000; }
+.link .rank { display: none; margin-top: 23px; color: #000; }
 
 /* Upboats and Downboats */
 .arrow {
