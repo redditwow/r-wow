@@ -2,6 +2,8 @@
  * Linkflair.css
  */
 
+.linkflairlabel { display: none; }
+
 .thing a.thumbnail::after {
     background-image: url('../images/linkflair-default.png');
     width: 76px;
