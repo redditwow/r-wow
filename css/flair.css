@@ -93,7 +93,16 @@ p.tagline, .tagline { height: 18px; margin: 4px 0; border: 0px; }
 /* Special flair for special people */
 
 /* Blizzard Employees Icon */
-a.author[href$='reddit.com/user/Zarhym']:before {
+a.author[href$='reddit.com/user/bashiok_foreal']:before, a.author[href$='reddit.com/user/lylirra']:before,
+a.author[href$='reddit.com/user/Grimiku']:before, a.author[href$='reddit.com/user/Brennvin']:before,
+a.author[href$='reddit.com/user/Vaeflare']:before, a.author[href$='reddit.com/user/Traysent']:before,
+a.author[href$='reddit.com/user/Crithto']:before, a.author[href$='reddit.com/user/Kaivax']:before,
+a.author[href$='reddit.com/user/Rygarius']:before, a.author[href$='reddit.com/user/Nethaera']:before,
+a.author[href$='reddit.com/user/Aldrexus']:before, a.author[href$='reddit.com/user/andrewchambers']:before,
+a.author[href$='reddit.com/user/wyattcheng']:before, a.author[href$='reddit.com/user/JayPWilson']:before,
+a.author[href$='reddit.com/user/BlizzDaxxarri']:before, a.author[href$='reddit.com/user/Zarhym']:before,
+a.author[href$='reddit.com/user/TheFargo']:before, a.author[href$='reddit.com/user/Ghostcrawler']:before,
+a.author[href$='reddit.com/user/WatcherDev']:before {
   content: url('../images/blizzardlogo.png');
   display: block;
   vertical-align: middle;
@@ -101,10 +110,15 @@ a.author[href$='reddit.com/user/Zarhym']:before {
 }
 
 /* Blizzard Employees Styling */
-a.author[href$="reddit.com/user/Zarhym"] {
+a.author[href$='reddit.com/user/bashiok_foreal'], a.author[href$='reddit.com/user/lylirra'],
+a.author[href$='reddit.com/user/Grimiku'], a.author[href$='reddit.com/user/Brennvin'],
+a.author[href$='reddit.com/user/Vaeflare'], a.author[href$='reddit.com/user/Traysent'],
+a.author[href$='reddit.com/user/Crithto'], a.author[href$='reddit.com/user/Kaivax'],
+a.author[href$='reddit.com/user/Rygarius'], a.author[href$='reddit.com/user/Nethaera'],
+a.author[href$='reddit.com/user/Aldrexus'], a.author[href$='reddit.com/user/andrewchambers'],
+a.author[href$='reddit.com/user/wyattcheng'], a.author[href$='reddit.com/user/JayPWilson'],
+a.author[href$='reddit.com/user/BlizzDaxxarri'], a.author[href$='reddit.com/user/Zarhym'],
+a.author[href$='reddit.com/user/TheFargo'], a.author[href$='reddit.com/user/Ghostcrawler'],
+a.author[href$='reddit.com/user/WatcherDev'] {
   color: #00B4FF !important;
 }
-
-
-
-thefargo, ghostcrawler, watcherdev,
