@@ -4,11 +4,37 @@
 
 .linkflairlabel { display: none; }
 
-.thing a.thumbnail::after {
-    background-image: url('../images/linkflair-default.png');
+.thing a.thumbnail {
+    content: url('../images/linkflair-border.png');
+    z-index: 2;
     width: 76px;
     height: 76px;
 }
+
+/* All custom link flair thumbs */
+
+.linkflair a.thumbnail {
+    background-image: url('../images/sprites/linkflair.png') !important;
+}
+
+.linkflair-deathknight a.thumbnail { background-position: -0px -0px !important; }
+.linkflair-druid a.thumbnail { background-position: -0px -76px !important; }
+.linkflair-hunter a.thumbnail { background-position: -0px -152px !important; }
+.linkflair-mage a.thumbnail { background-position: -0px -228px !important; }
+.linkflair-monk a.thumbnail { background-position: -0px -304px !important; }
+.linkflair-paladin a.thumbnail { background-position: -0px -380px !important; }
+.linkflair-priest a.thumbnail { background-position: -0px -456px !important; }
+.linkflair-rogue a.thumbnail { background-position: -0px -532px !important; }
+.linkflair-shaman a.thumbnail { background-position: -0px -608px !important; }
+.linkflair-warlock a.thumbnail { background-position: -0px -684px !important; }
+.linkflair-warrior a.thumbnail { background-position: -0px -760px !important; }
+.linkflair-lore a.thumbnail { background-position: -0px -836px !important; }
+.linkflair-pvp a.thumbnail { background-position: -0px -912px !important; }
+.linkflair-raiding a.thumbnail { background-position: -0px -988px !important; }
+.linkflair-blizzard a.thumbnail { background-position: -0px -1064px !important; }
+
+a.thumbnail.default, a.thumbnail.self { background: url('../images/sprites/linkflair.png') -0 -0;}
+
 
 /* Special Blizzard Employee posts */
 .linkflair-blizzard {
