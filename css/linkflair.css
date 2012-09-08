@@ -2,6 +2,12 @@
  * Linkflair.css
  */
 
+.thing a.thumbnail::after {
+    background-image: url('../images/linkflair-default.png');
+    width: 76px;
+    height: 76px;
+}
+
 /* Special Blizzard Employee posts */
 .linkflair-blizzard {
   background-image: url('../images/linkflair-blizzard-background.png') !important;
