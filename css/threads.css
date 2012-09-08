@@ -8,7 +8,7 @@
 
 #siteTable .thing {
   background-color: #0f0f0f; /*#27160e;*/
-  background: url('../images/thing-background.jpg');
+  background: url('../images/thing-background.jpg') repeat-x #1A0F09;
   border: 1px solid #000;
   padding: 15px 0 10px;
   margin: 0 460px 0 30px;
@@ -76,3 +76,7 @@
 .expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded { background-position: -0 -31px; }
 .expando-button.video.collapsed, .expando-button.video.expanded:hover { background-position: -0 -62px; }
 .expando-button.video.collapsed:hover, .expando-button.video.expanded { background-position: -0 -93px; }
+
+/* Posts within threads */
+
+.link .usertext .md { background: transparent; border: none; }
