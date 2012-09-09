@@ -80,3 +80,13 @@
 /* Posts within threads */
 
 .link .usertext .md { background: transparent; border: none; }
+
+
+/* Blizzard posts within threads hack */
+
+a[href*='#blizzpost']~em {
+  color: #00B4FF;
+  display: block;
+  font-style: normal;
+  margin-top: 10px;
+}
