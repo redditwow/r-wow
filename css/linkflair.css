@@ -5,17 +5,26 @@
 .linkflairlabel { display: none; }
 
 .thing a.thumbnail {
-    content: url('../images/linkflair-border.png');
-    z-index: 2;
-    width: 76px;
-    height: 76px;
-    margin-right:20px;
+  width: 76px;
+  height: 76px;
+}
+
+.thing a.thumbnail img {
+  display: none;
+}
+
+.thing a.thumbnail:after {
+  content: url('../images/linkflair-border.png');
+  z-index: 2;
+  width: 76px;
+  height: 76px;
+  margin-right:20px;
 }
 
 /* All custom link flair thumbs */
 
 .linkflair a.thumbnail {
-    background-image: url('../images/sprites/linkflair.png') !important;
+  background-image: url('../images/sprites/linkflair.png') !important;
 }
 
 .linkflair-deathknight a.thumbnail { background-position: -0px -0px !important; }
