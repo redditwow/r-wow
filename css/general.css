@@ -9,5 +9,12 @@ body {
 }
 
 .infobar {
-    margin-right: 440px;
+  margin-right: 440px;
+}
+
+
+/* RES Trickery - screw you honestbleeps for having so much css! am jk */
+.keyHighlight {
+  outline: none !important;
+  background-color: transparent !important;
 }
