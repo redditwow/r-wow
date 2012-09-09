@@ -102,3 +102,21 @@ a[href*='#blizzpost']~em {
 #siteTable .thing.reported, #siteTable .thing.spam {
   background: url('../images/thing-bg-reported.png') repeat-x;
 }
+
+.entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp {
+  background-color: #4C0418;
+  color: #FFFFFF;
+}
+
+a.pretty-button.negative, a.pretty-button.neutral, a.pretty-button.positive {
+  background: transparent;
+  border: 1px solid #000000;
+  color: #FFFFFF;
+}
+a.pretty-button.negative { background-color: #4C0418; }
+a.pretty-button.neutral { background-color: #043C4C; }
+a.pretty-button.positive { background-color: #044C14; }
+
+a.pretty-button.negative:hover { background-color: #640520; }
+a.pretty-button.neutral:hover { background-color: #054F64; }
+a.pretty-button.positive:hover { background-color: #05641A; }
