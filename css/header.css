@@ -80,3 +80,42 @@
 
 #mail.havemail { background-image: url('../images/icons/mail_new.png'); background-position: -0 -0; background-repeat: no-repeat; }
 #modmail.havemail { background-image: url('../images/icons/modmail_new.png'); background-position: -0 -0; background-repeat: no-repeat; }
+
+/* Logo, Redditname, Tabmenu */
+
+#header-bottom-left {
+  position: absolute;
+  bottom: 0;
+}
+
+.tabmenu {
+  background: url('../images/thing-background.jpg');
+  padding: 10px 10px 0 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tabmenu li {
+  height: 18px;
+  display: block;
+  float: left;
+  background: transparent #CC00DD;
+}
+
+.tabmenu li a {
+  background: transparent;
+  border: none;
+  text-align: center;
+  display: block;
+  color: #FFB100;
+}
+
+.tabmenu li a:hover {
+  color: #FFFFFF;
+}
+
+.tabmenu li.selected a {
+  background: transparent;
+  border: none;
+  display: block;
+}
