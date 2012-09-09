@@ -96,3 +96,9 @@ a[href*='#blizzpost']~em {
   font-style: normal;
   margin-top: 10px;
 }
+
+/* Reported and Spam Posts */
+
+#siteTable .thing.reported, #siteTable .thing.spam {
+  background: url('../images/thing-bg-reported.png') repeat-x;
+}
