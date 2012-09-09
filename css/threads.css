@@ -127,7 +127,7 @@ a.pretty-button.positive:hover { background-color: #05641A; }
   margin: 0 460px 0 30px;
 }
 
-.sitetable.nestedlisting {
+.sitetable.nestedlisting > .thing{
   background: url('http://us.battle.net/wow/static/images/layout/cms/reply_bg.jpg') repeat-x #1C110B;
 }
 
