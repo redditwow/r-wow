@@ -127,6 +127,10 @@ a.pretty-button.positive:hover { background-color: #05641A; }
   margin: 0 460px 0 30px;
 }
 
+.sitetable {
+  background: url('http://us.battle.net/wow/static/images/layout/cms/reply_bg.jpg') repeat-x #1C110B;
+}
+
 .usertext-edit {
   padding: 30px 40px;
   color: #FFF;
