@@ -126,6 +126,9 @@ a.pretty-button.positive:hover { background-color: #05641A; }
   background: url('http://us.battle.net/wow/static/images/layout/cms/reply_bg.jpg') repeat-x #1C110B;
   margin: 0 460px 0 30px;
 }
+.commentarea .child {
+  border-left: 1px dotted #26150D;
+}
 
 .sitetable.nestedlisting > .thing{
   background: url('http://us.battle.net/wow/static/images/layout/cms/reply_bg.jpg') repeat-x #1C110B;
