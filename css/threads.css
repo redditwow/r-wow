@@ -130,6 +130,10 @@ a.pretty-button.positive:hover { background-color: #05641A; }
   border-left: 1px dotted #26150D;
 }
 
+.comment {
+  padding: 6px;
+}
+
 .sitetable.nestedlisting > .thing{
   background: url('http://us.battle.net/wow/static/images/layout/cms/reply_bg.jpg') repeat-x #1C110B;
 }
