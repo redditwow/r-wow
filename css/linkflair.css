@@ -34,7 +34,7 @@
 .linkflair-raiding a.thumbnail { background-position: -0px -988px !important; }
 .linkflair-blizzard a.thumbnail { background-position: -0px -1064px !important; }
 
-a.thumbnail.default, a.thumbnail.self { background: url('../images/sprites/linkflair.png') -0 -0;}
+a.thumbnail.default, a.thumbnail.self { background: url('../images/sprites/linkflair.png') -0px -0px;}
 
 
 /* Special Blizzard Employee posts */

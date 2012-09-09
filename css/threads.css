@@ -42,22 +42,22 @@
 
 .arrow.up {
   background-image: url('../images/arrow_up_false.png');
-  background-position: -0 -0;
+  background-position: -0px -0px;
 }
 
 .arrow.upmod {
   background-image: url('../images/arrow_up_vote.png');
-  background-position: -0 -0;
+  background-position: -0px -0px;
 }
 
 .arrow.down {
   background-image: url('../images/arrow_dn_false.png');
-  background-position: -0 -0;
+  background-position: -0px -0px;
 }
 
 .arrow.downmod {
   background-image: url('../images/arrow_dn_true.png');
-  background-position: -0 -0;
+  background-position: -0px -0px;
 }
 
 .midcol { width: 28px !important; padding: 0 20px; }
@@ -72,10 +72,10 @@
   background-image: url('../images/sprites/playicons.png') !important;
 }
 
-.expando-button.selftext.collapsed, .expando-button.selftext.expanded:hover { background-position: -0 -0; }
-.expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded { background-position: -0 -31px; }
-.expando-button.video.collapsed, .expando-button.video.expanded:hover { background-position: -0 -62px; }
-.expando-button.video.collapsed:hover, .expando-button.video.expanded { background-position: -0 -93px; }
+.expando-button.selftext.collapsed, .expando-button.selftext.expanded:hover { background-position: -0px -0px; }
+.expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded { background-position: -0px -31px; }
+.expando-button.video.collapsed, .expando-button.video.expanded:hover { background-position: -0px -62px; }
+.expando-button.video.collapsed:hover, .expando-button.video.expanded { background-position: -0px -93px; }
 
 /* Posts within threads */
 

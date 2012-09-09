@@ -75,11 +75,11 @@
 #mail { width: 13px; height: 9px; position: relative; top: 5px; }
 #modmail { width: 16px; height: 16px; }
 
-#mail.nohavemail { background-image: url('../images/icons/mail_nonew.png'); background-position: -0 -0; background-repeat: no-repeat; }
-#modmail.nohavemail { background-image: url('../images/icons/modmail_nonew.png'); background-position: -0 -0; background-repeat: no-repeat; }
+#mail.nohavemail { background-image: url('../images/icons/mail_nonew.png'); background-position: -0px -0px; background-repeat: no-repeat; }
+#modmail.nohavemail { background-image: url('../images/icons/modmail_nonew.png'); background-position: -0px -0px; background-repeat: no-repeat; }
 
-#mail.havemail { background-image: url('../images/icons/mail_new.png'); background-position: -0 -0; background-repeat: no-repeat; }
-#modmail.havemail { background-image: url('../images/icons/modmail_new.png'); background-position: -0 -0; background-repeat: no-repeat; }
+#mail.havemail { background-image: url('../images/icons/mail_new.png'); background-position: -0px -0px; background-repeat: no-repeat; }
+#modmail.havemail { background-image: url('../images/icons/modmail_new.png'); background-position: -0px -0px; background-repeat: no-repeat; }
 
 /* Logo, Redditname, Tabmenu */
 
