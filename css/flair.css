@@ -102,7 +102,7 @@ a.author[href$='reddit.com/user/Aldrexus']:before, a.author[href$='reddit.com/us
 a.author[href$='reddit.com/user/wyattcheng']:before, a.author[href$='reddit.com/user/JayPWilson']:before,
 a.author[href$='reddit.com/user/BlizzDaxxarri']:before, a.author[href$='reddit.com/user/Zarhym']:before,
 a.author[href$='reddit.com/user/TheFargo']:before, a.author[href$='reddit.com/user/Ghostcrawler']:before,
-a.author[href$='reddit.com/user/WatcherDev']:before {
+a.author[href$='reddit.com/user/WatcherDev']:before, a.author[href$='reddit.com/user/Kalgan']:before {
   content: url('../images/blizzardlogo.png');
   vertical-align: middle;
   margin: 0 3px;
@@ -120,6 +120,6 @@ a.author[href$='reddit.com/user/Aldrexus'], a.author[href$='reddit.com/user/andr
 a.author[href$='reddit.com/user/wyattcheng'], a.author[href$='reddit.com/user/JayPWilson'],
 a.author[href$='reddit.com/user/BlizzDaxxarri'], a.author[href$='reddit.com/user/Zarhym'],
 a.author[href$='reddit.com/user/TheFargo'], a.author[href$='reddit.com/user/Ghostcrawler'],
-a.author[href$='reddit.com/user/WatcherDev'] {
+a.author[href$='reddit.com/user/WatcherDev'], a.author[href$='reddit.com/user/Kalgan'] {
   color: #00B4FF !important;
 }
