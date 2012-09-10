@@ -21,6 +21,10 @@ try:
                 if(line.startswith('  background:') or line.startswith('  background-image:')):
                     line = line.replace("../images/", "%%")
                     line = line.replace(".png')", "%%')")
+
+                    ##] Get rid more more annoying dev stuff
+                    line = line.replace("sprites/", "")
+                    line = line.replace("icons/", "")
                     masterfile.write(line)
                 else:         
                     masterfile.write(line)
