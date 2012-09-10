@@ -135,6 +135,7 @@ a.pretty-button.positive:hover { background-color: #05641A; }
 html .comment {
   padding: 6px !important;
   border: 1px solid #2C180D !important;
+  border-radius: 4px;
 }
 
 html .comment .comment,
@@ -145,16 +146,17 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
   background-color: #1C0F09 !important;
 }
 
-
+html .comment,
 html .comment .comment .comment, 
 html .comment .comment .comment .comment .comment, 
 html .comment .comment .comment .comment .comment .comment .comment,  
 html .comment .comment .comment .comment .comment .comment .comment .comment .comment{
-  background-color: transparent !important;
+  background-color: #1F110A !important;
 }
 
 .sitetable.nestedlisting > .thing{
-  background: url('../images/reply-bg.png') repeat-x #1C110B;
+  background: #1C0F09;
+  margin-top: 15px;
 }
 
 .usertext-edit {
