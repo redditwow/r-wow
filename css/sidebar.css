@@ -162,7 +162,9 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 }
 
 .morelink a, .morelink a:hover { color: #FFB100; border: 0px; }
-.morelink, .morelink:hover, .morelink .nub, .morelink:hover .nub { /* background:url(%%mop-graphics%%); */ background-image: url('../images/sprites/mop-graphics.png'); }
+.morelink, .morelink:hover, .morelink .nub, .morelink:hover .nub { 
+  background-image: url('../images/sprites/mop-graphics.png'); 
+}
 
 .morelink { background-position: -0px -0px; }
 .morelink .nub { background-position: -0px -186px; }
@@ -255,7 +257,11 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 }
 
 /* Sidebar Icons */
-.icon-menu a::before { background-image: url('../images/icons/modicons_test_shaded.png') !important; width: 18px !important; height: 18px !important;}
+.icon-menu a::before { 
+  background-image: url('../images/sprites/modicons.png') !important; 
+  width: 18px !important; 
+  height: 18px !important;
+}
 .icon-menu li { line-height: 17px; }
 
 /* Moderator Box */
