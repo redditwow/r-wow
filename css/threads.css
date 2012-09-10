@@ -72,17 +72,12 @@
 /* Expandos */
 
 .expando-button {
-  height: 31px;
-  width: 30px;
-  background: transparent;
-  background-image: url('../images/sprites/playicons.png') !important;
-}
-
-.expando-button.image {
-  max-height: 31px !important;
-  max-width: 30px !important;
   height: 31px !important;
   width: 30px !important;
+  max-height: 31px !important;
+  max-width: 30px !important;
+  background: transparent;
+  background-image: url('../images/sprites/playicons.png') !important;
 }
 
 .expando-button.selftext.collapsed, .expando-button.selftext.expanded:hover { background-position: -0px -0px; }
