@@ -61,7 +61,11 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 }
 
 /* Collapse Button */
-.sidecontentbox .collapse-button {}
+.sidecontentbox .collapse-button {
+  background: #2f1c0e;
+  color: #866A45;
+  border: #866A45;
+}
 
 
 
