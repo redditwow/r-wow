@@ -47,22 +47,22 @@
 }
 
 .arrow.up {
-  background-image: url('../images/arrow_up_false.png');
+  background-image: url('../images/arrow-up-false.png');
   background-position: -0px -0px;
 }
 
 .arrow.upmod {
-  background-image: url('../images/arrow_up_vote.png');
+  background-image: url('../images/arrow-up-vote.png');
   background-position: -0px -0px;
 }
 
 .arrow.down {
-  background-image: url('../images/arrow_dn_false.png');
+  background-image: url('../images/arrow-dn-false.png');
   background-position: -0px -0px;
 }
 
 .arrow.downmod {
-  background-image: url('../images/arrow_dn_true.png');
+  background-image: url('../images/arrow-dn-true.png');
   background-position: -0px -0px;
 }
 
