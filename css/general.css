@@ -48,3 +48,7 @@ blockquote {
   border-left: 2px solid #FFB100 !important;
 }
 
+/* Author defaults */
+.tagline a {
+    color: #008467;
+}
