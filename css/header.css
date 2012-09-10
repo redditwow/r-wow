@@ -96,14 +96,14 @@
 
 /* Mail */
 #mail { 
-  width: 13px; 
-  height: 9px; 
-  position: relative; 
-  top: 5px; 
+  width: 13px !important; 
+  height: 9px !important; 
+  position: relative !important; 
+  top: 5px !important; 
 }
 #modmail { 
-  width: 14px; 
-  height: 12px; 
+  width: 14px !important; 
+  height: 12px !important; 
 }
 
 .nohavemail, .havemail {
