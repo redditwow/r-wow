@@ -61,7 +61,7 @@
   max-height: 31px !important;
   max-width: 30px !important;
   background: transparent;
-  background-image: url('../images/sprites/playicons.png') !important;
+  background-image: url('../images/sprites/expando.png') !important;
 }
 
 .expando-button.selftext.collapsed, .expando-button.selftext.expanded:hover { background-position: -0px -0px; }
