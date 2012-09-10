@@ -26,3 +26,9 @@
 .thing.id-t3_zkgu2 a.thumbnail {
   background: url('../images/sprites/linkflair.png') -0px -1064px !important;
 }
+
+/* Offical Blizzard Posts */
+
+.thing.id-t1_c660p85>.entry {
+  color: #00B4FF !important;
+}
