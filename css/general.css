@@ -42,3 +42,9 @@ body {
   color: #E2C7A3 !important;
   background: #070502 !important;
 }
+
+/* Markup changes */
+blockquote {
+  border-left: 2px solid #FFB100 !important;
+}
+
