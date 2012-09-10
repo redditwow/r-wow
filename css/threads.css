@@ -43,6 +43,7 @@
 .arrow {
   height: 24px;
   width: 21px;
+  background-image: url('../images/sprites/voting.png');
 }
 
 .arrow.up {
