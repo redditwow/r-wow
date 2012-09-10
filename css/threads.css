@@ -78,6 +78,13 @@
   background-image: url('../images/sprites/playicons.png') !important;
 }
 
+.expando-button.image {
+  max-height: 31px !important;
+  max-width: 30px !important;
+  height: 31px !important;
+  width: 30px !important;
+}
+
 .expando-button.selftext.collapsed, .expando-button.selftext.expanded:hover { background-position: -0px -0px; }
 .expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded { background-position: -0px -31px; }
 .expando-button.video.collapsed, .expando-button.video.expanded:hover { background-position: -0px -62px; }
