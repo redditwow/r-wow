@@ -41,30 +41,14 @@
 
 /* Upboats and Downboats */
 .arrow {
-  height: 24px;
+  height: 20px;
   width: 21px;
-  background-image: url('../images/sprites/voting.png');
+  background-image: url('../images/sprites/voting.png') !important;
 }
-
-.arrow.up {
-  background-image: url('../images/arrow-up-false.png');
-  background-position: -0px -0px;
-}
-
-.arrow.upmod {
-  background-image: url('../images/arrow-up-vote.png');
-  background-position: -0px -0px;
-}
-
-.arrow.down {
-  background-image: url('../images/arrow-dn-false.png');
-  background-position: -0px -0px;
-}
-
-.arrow.downmod {
-  background-image: url('../images/arrow-dn-true.png');
-  background-position: -0px -0px;
-}
+.arrow.up { background-position: -0px -0px; }
+.arrow.upmod { background-position: -0px -20px; }
+.arrow.down { background-position: -0px -40px; }
+.arrow.downmod { background-position: -0px -60px; }
 
 .midcol { width: 28px !important; padding: 0 20px; }
 
