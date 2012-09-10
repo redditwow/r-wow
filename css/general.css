@@ -17,10 +17,6 @@ body {
 .keyHighlight {
   outline: none !important;
   background-color: transparent !important;
-  background: url('../images/paw-overlay.png');
-  position: absolute;
-  right:0;
-  bottom:0;
 }
 
 .markdownEditor a {
