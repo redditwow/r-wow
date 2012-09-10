@@ -2,6 +2,21 @@
  * Header.css
  */
 
+/* World of reddit Logo */
+.pagename a {
+  display: block;
+  background-image: url('../images/worldofreddit.png');
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  font-size: 0px;
+  padding: 76px 0 0 0;
+  color: #364657;
+  left: 125px;
+  position: absolute;
+  top: 0px;
+  width: 230px;
+}
+
 /* Subreddit Listing Bar / Shared */
 #sr-header-area, #header-bottom-right {
   padding: 10px 0px 10px 5px;
