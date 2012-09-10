@@ -30,7 +30,8 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 .side .spacer { 
   margin:0;
   width: 334px;
-  padding:0 0 0 61px;
+  padding:0 43px 0 0;
+  float: right;
 }
 .side > .spacer:first-child {
   /* background:url(%%mop-graphics%%); */
@@ -42,6 +43,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   position:relative;
   bottom:20px;
   top: -40px;
+  padding-right: 9px;
 }
 .side > .spacer:last-child {
   /* background:url(%%mop-graphics%%); */
@@ -50,6 +52,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   background-repeat:no-repeat;
   width:439px;
   height:142px;
+  padding-right: 0px;
 }
 
 .side > .spacer:last-child .sidecontentbox {
@@ -79,6 +82,8 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   position: relative;
   top: 80px;
   padding: 0 0 0 12px;
+  float: right;
+  padding-right: 58px;
 }
 #searchexpando {
   padding-top: 10px;
