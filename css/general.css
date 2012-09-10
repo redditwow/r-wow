@@ -22,3 +22,23 @@ body {
 .markdownEditor a {
   color: #008467 !important;
 }
+
+
+/* Markdown help table */
+.usertext table.markhelp {
+  background: #1B1108;
+  color: #B39265 !important;
+}
+
+.usertext table.markhelp a {
+  color: #008467 !important;
+}
+
+.usertext table.markhelp, .usertext .markhelp td, .usertext .markhelp tr {
+  border: 1px solid #2C180D;
+}
+
+.usertext table.markhelp tbody tr:first-child {
+  color: #E2C7A3 !important;
+  background: #070502 !important;
+}
