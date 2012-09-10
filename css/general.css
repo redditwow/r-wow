@@ -18,3 +18,7 @@ body {
   outline: none !important;
   background-color: transparent !important;
 }
+
+.markdownEditor a {
+  color: #008467 !important;
+}
