@@ -86,6 +86,14 @@
 
 #header-bottom-right > * { position: relative; top: 4px; }
 
+.flat-list.sr-bar {
+  margin-right: 325px;
+}
+
+.sr-list .flat-list.sr-bar:first-child {
+  margin-right: 0px;
+}
+
 /* Mail */
 #mail { 
   width: 13px; 
