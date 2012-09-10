@@ -171,3 +171,9 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
   background: #2f1D0E;
   cursor: pointer;
 }
+
+
+.panestack-title {
+  padding-top: 16px;
+  border-bottom: 1px dotted #B39265;
+}
