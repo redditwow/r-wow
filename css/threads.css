@@ -45,8 +45,8 @@
   width: 21px;
   background-image: url('../images/sprites/voting.png') !important;
 }
-.arrow.up { background-position: -0px -0px; }
-.arrow.upmod { background-position: -0px -20px; }
+.arrow.upmod { background-position: -0px -0px; }
+.arrow.up { background-position: -0px -20px; }
 .arrow.down { background-position: -0px -40px; }
 .arrow.downmod { background-position: -0px -60px; }
 
