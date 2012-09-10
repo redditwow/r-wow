@@ -18,7 +18,7 @@ try:
             print fname + " opened."
         
             for line in thefile.readlines():
-                if(line.startswith('  background:') or line.startswith('  background-image:')):
+                if(line.startswith('  background:') or line.startswith('  background-image:') or line.startswith('  content:')):
                     line = line.replace("../images/", "%%")
                     line = line.replace(".png')", "%%')")
 
