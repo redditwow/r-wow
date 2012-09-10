@@ -1,0 +1,72 @@
+/***
+ * General.css
+ * Things that just don't fit anywhere else and don't need their ownfile
+ */
+
+body {
+  background-image: url('../images/body-background.png');
+  color: #B39265;
+}
+
+.infobar {
+  margin-right: 440px;
+}
+
+
+/* RES Trickery - screw you honestbleeps for having so much css! am jk */
+.keyHighlight {
+  outline: none !important;
+  background-color: transparent !important;
+}
+
+.markdownEditor a {
+  color: #008467 !important;
+}
+
+#userbarToggle {
+  color: #FFB100 !important;
+  background-color: #1D1D1D !important;
+  border-right: 1px solid #000000 !important;
+  padding-left: 4px;
+}
+
+#RESShortcutsEditContainer {
+  position: absolute !important;
+  right: 0px !important;
+  top: 40px !important;
+  background-color: #1D1D1D !important;
+}
+
+#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+  color: #FFB100 !important;
+  background-color: #1D1D1D !important;
+}
+
+/* Markdown help table */
+.usertext table.markhelp {
+  background: #1B1108;
+  color: #B39265 !important;
+}
+
+.usertext table.markhelp a {
+  color: #008467 !important;
+}
+
+.usertext table.markhelp, .usertext .markhelp td, .usertext .markhelp tr {
+  border: 1px solid #2C180D;
+}
+
+.usertext table.markhelp tbody tr:first-child {
+  color: #E2C7A3 !important;
+  background: #070502 !important;
+}
+
+/* Markup changes */
+blockquote {
+  border-left: 2px solid #FFB100 !important;
+}
+
+/* Author defaults */
+.tagline a {
+    color: #008467;
+}

@@ -1,0 +1,38 @@
+Shit we need to get done before the launch
+-----------------------------------------------------------------------
+Finish the FlairLink images
+ - Default
+ - Quests
+ - <other stuff>
+Create some sort of image for topmenu
+Fix the "T" on WorldofReddit logo (its cut off and a few px too high)
+New icon for "users online"
+RES is fucking up the top right of the header. Fuck you RES
+Restore CSS based flair for people that are members of community websites
+
+
+
+Shit we can do whenever to make it a much cooler user experience
+-----------------------------------------------------------------------
+Cakeday image (Murloc perhaps?)
+Need to better organize our image directories
+Trim down the sidebar to make it less bad (Andrew said he would =D)
+
+
+
+Shit that is super important
+-----------------------------------------------------------------------
+We need everyones help to keep all of our CSS and images versioned.
+We didn't just waste a whole lot of time doing this to let people
+ruin it. May be a good idea to also backup our sidebar every once in
+a while. Version control is FTW I, Robert, suggest that we have all
+issues with the reddit stylesheets either posted on one of our github
+repos and/or posted to the moderator mail. Preferrably a repo issue
+tracker so we can resolve them easier. 
+
+
+
+Shit we found out is impossible because of reddit
+-----------------------------------------------------------------------
+Blue posters get blue text on their posts
+Blue posters get avatars beside their post content

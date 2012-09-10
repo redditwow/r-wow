@@ -1,0 +1,368 @@
+/***
+ * Sidebar.css
+ */
+
+h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
+
+.side {
+  margin: 25px 25px 0 25px;
+  width:439px;
+  /* background:url(%%frame-wood-repeat%%); */
+  background:url('../images/frame-wood-repeat.png');
+  background-repeat:repeat-y;
+  background-position:center top;
+  position:relative;
+  padding-top: 0px;
+  top:15px;
+  color: #B39265;
+}
+
+.side a {
+  color: #008467;
+  background: none;
+}
+
+.side a:hover {
+  text-decoration: underline;
+  /*border-bottom: 1px solid #008467;*/
+}
+
+.side .spacer { 
+  margin:0;
+  width: 334px;
+  padding:0 43px 0 0;
+  float: right;
+}
+.side > .spacer:first-child {
+  /* background:url(%%mop-graphics%%); */
+  background:url('../images/sprites/mop-graphics.png');
+  background-position: -0px -589px;
+  background-repeat:no-repeat;
+  width: 430px;
+  height:86px;
+  position:relative;
+  bottom:20px;
+  top: -40px;
+  padding-right: 9px;
+}
+.side > .spacer:last-child {
+  /* background:url(%%mop-graphics%%); */
+  background:url('../images/sprites/mop-graphics.png');
+  background-position: -0px -839px;
+  background-repeat:no-repeat;
+  width:439px;
+  height:142px;
+  padding-right: 0px;
+}
+
+.side > .spacer:last-child .sidecontentbox {
+  width: 334px;
+}
+
+.sidecontentbox {
+
+}
+
+/* Collapse Button */
+.sidecontentbox .collapse-button {
+  background: #2f1c0e;
+  color: #866A45;
+  border: #866A45;
+}
+
+
+
+form.toggle.flairtoggle, form.toggle.leavemoderator-button {
+  background:transparent;
+}
+
+/* Search Box */
+#search {
+  width: 300px;
+  position: relative;
+  top: 80px;
+  padding: 0 0 0 12px;
+  float: right;
+  padding-right: 58px;
+}
+#searchexpando {
+  padding-top: 10px;
+  position: relative;
+  z-index: 99999;
+}
+#search input[type="text"] {
+  width: 300px;
+  background-color: #1b1108;
+  border: 3px double #2c180d;
+  color: #E2C7A3;
+}
+
+/* Search Box "Expando" */
+.infobar { 
+  background-color: #221409;
+  border: 3px double #2C180D;
+}
+
+
+.titlebox form.toggle, .leavemoderator {
+  padding:2px 4px;
+  background:transparent;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: #FFB100;
+}
+.titlebox .usertext .md > h1, .sidecontentbox .title {
+  background: #221409;
+  color: #E2C7A3;
+  border: 3px double #2c180d;
+  padding:2px 5px;
+}
+
+.sidecontentbox .title h1 {
+  color: #E2C7A3;
+}
+
+.sidecontentbox a.helplink {
+  margin: 8px 5px 0 0;
+}
+
+.sidecontentbox .content {
+  background:transparent;
+}
+
+.sidebox .spacer {
+  background:transparent;
+}
+
+.titlebox { margin-top: 30px; /* For link submit button */ }
+
+.titlebox h1 a {
+  color: #008467 !important;
+}
+
+.titlebox .bottom { 
+  color: #B39265;
+  border-top: 3px solid #221409;
+}
+
+.sidecontentbox .content {
+  /* Moderator box */
+  border: 0px;
+}
+
+
+/* MoreLinks (Submit/Create Buttons) */
+.morelink { 
+  height: 25px;
+  line-height: 25px;
+  background: transparent;
+  background-repeat: repeat-x;
+  border: 0px;
+  font-size: 120%;
+ }
+
+.morelink .nub, .morelink:hover .nub { 
+  position: absolute;
+  top: 0px;
+  right: -3px;
+  height: 25px;
+  width: 18px;
+  background: transparent;
+}
+
+.morelink a, .morelink a:hover { color: #FFB100; border: 0px; }
+.morelink, .morelink:hover, .morelink .nub, .morelink:hover .nub { 
+  background-image: url('../images/sprites/mop-graphics.png'); 
+}
+
+.morelink { background-position: -0px -0px; }
+.morelink .nub { background-position: -0px -186px; }
+.morelink:hover { background-position: -0px -25px; }
+.morelink:hover .nub { background-position: -18px -186px; }
+
+/* Disable the useless reddit information after a morelink */
+.morelink+.spacer { visibility: hidden; height: 0px; }
+
+/* Move our submit button to the top of the sidebar */
+.sidebox.submit { position: absolute; top: 80px; width: 300px; padding-left: 15px;}
+
+/* Reddit/RES "Subscribe" Buttons */
+.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove,
+.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover,
+.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut,
+.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover {
+  background: transparent !important; 
+  /* background-image:url(%%mop-graphics%%); */
+  background-image: url('../images/sprites/mop-graphics.png') !important;
+  border: 0px !important;
+  /*height: 20px !important; */
+  line-height: 20px !important;
+  padding: 4px 8px !important; 
+}
+/* RES is more of a hack then reddit */
+.RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove  { padding: 0px 8px !important; }
+.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove { background-position: -0px -50px !important; }
+.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESshortcut.RESshortcutside.remove:hover { background-position: -0px -90px !important; }
+.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut { background-position: -0px -70px !important; }
+.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background-position: -0px -110px !important; }
+
+/* Flair Selector */
+.flairselector { box-shadow: 2px 2px 2px #2C180D; }
+.flairselector.drop-choices.active { border: 3px double #2C180D; }
+.flairselector.drop-choices.active h2 { background: #322111; color: #E2C7A3; border: 3px double #2C180D; }
+.flairselector.drop-choices.active button { background-color: #1B1108; color: #E2C7A3; border: 3px double #2C180D; }
+.flairselector.drop-choices.active button:hover { background-color: #422913; cursor:pointer; }
+.flairselector form { border-top: 3px double #2C180D; }
+.drop-choices {
+  background-color: #221409;
+  border: 3px double #2C180D;
+  width: 220px !important;
+  left: 150px !important;
+}
+.flairselector li { border: 0px; }
+.customizer input[type="text"] {
+  background-color: #1B1108;
+  border: 3px double #2C180D;
+  color: #E2C7A3;
+}
+
+.flairselector li:hover{ background-color: #2C180D; border:0px; }
+
+/* Login Form */
+.login-form-side {
+  border: 0px;
+  margin-top: 40px;
+}
+
+.login-form-side input[type="text"], .login-form-side input[type="password"] {
+  border: 3px double #2C180D;
+  background-color: #1B1108;
+  float: left;
+  clear: both;
+  width: 300px;
+  border-radius: 5px;
+  padding: 7px 4px 7px 12px;
+  color: #E2C7A3;
+}
+
+#remember-me { 
+  padding-left: 6px; 
+  line-height: 20px;
+}
+
+.submit button.btn  { 
+  height: 30px;
+  border: 1px solid #2C180D;
+  background: #1B1108;
+  color: #FFB100;
+  border-radius: 4px;
+  padding: 0 20px;
+  text-transform: capitalize;
+}
+
+.submit button.btn:hover {
+  background: #2f1D0E;
+  cursor: pointer;
+}
+
+/* Sidebar Icons */
+.icon-menu a::before { 
+  background-image: url('../images/sprites/modicons.png') !important; 
+  width: 18px !important; 
+  height: 18px !important;
+}
+.icon-menu li { line-height: 17px; }
+
+/* Moderator Box */
+.icon-menu .reddit-edit::before { background-position: -0px -2px; }
+.icon-menu .moderator-mail::before { background-position: -0px -30px; }
+.icon-menu .reddit-moderators::before { background-position: -0px -50px; }
+.icon-menu .reddit-contributors::before { background-position: -0px -73px; }
+.icon-menu .reddit-traffic::before { background-position: -0px -97px; }
+.icon-menu .reddit-modqueue::before { background-position: -0px -119px; }
+.icon-menu .reddit-reported::before { background-position: -0px -142px; }
+.icon-menu .reddit-spam::before { background-position: -0px -166px; }
+.icon-menu .reddit-ban::before { background-position: -0px -190px; }
+.icon-menu .reddit-flair::before { background-position: -0px -214px; }
+.icon-menu .reddit-moderationlog::before { background-position: -0px -237px; }
+.icon-menu .reddit-unmoderated::before { background-position: -0px -259px; }
+
+.collapse-button {
+  float: right;
+}
+
+#moderation_tools {
+  margin: 20px 0;
+}
+
+/* Reddit Advertisements */
+#ad-frame {
+  margin-left: 17px;
+}
+
+
+/* LinkInfo (Like it, ups, downs, shortlink) */
+
+.linkinfo {
+  background-color: #1B1108;
+  text-align: center;
+  font-size: 11px;
+  padding: 10px 0px 15px 0px;
+  border: 3px double #2C180D;
+  width: 260px;
+  border-radius: 3px;
+  margin: 35px auto -15px auto;
+  border-radius: 5px;
+}
+
+.linkinfo .upvotes, .linkinfo .downvotes, .linkinfo .score {
+  float: left;
+  padding: 5px 10px 5px 0;
+  margin: 8px 10px 10px 0;
+  text-align: center;
+}
+
+.linkinfo .downvotes .number, .linkinfo .upvotes .number, .linkinfo .score .number {
+  font-size: 20px !important;
+  display: block;
+  font-weight: normal !important;
+}
+
+.linkinfo .score, .linkinfo .upvotes {
+  border-right: 1px solid #2C180D;
+}
+
+.linkinfo .score {
+  font-size: 11px;
+  color: #FFB100;
+  display: block;
+  min-width: 59px;
+  margin-left: 25px !important;
+}
+
+.linkinfo .score .word {
+  display: none;
+}
+
+.linkinfo .downvotes .word, .linkinfo .upvotes .word {
+  font-size: 11px;
+  color: #FFB100;
+}
+
+.linkinfo .shortlink {
+  clear: both !important;
+  font-size: 10px;
+  margin-top: 10px;
+  color: #B39265;
+}
+
+.linkinfo .shortlink input {
+  background: transparent;
+  border: 0px;
+  padding-left: 8px;
+  font-size: 12px;
+  color: #008467;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
