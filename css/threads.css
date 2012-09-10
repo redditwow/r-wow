@@ -177,3 +177,9 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
   padding-top: 16px;
   border-bottom: 1px dotted #B39265;
 }
+
+.usertext.border .usertext-body {
+  background-color: #180D08;
+  padding-left: 5px;
+  border: 1px solid #000000;
+}
