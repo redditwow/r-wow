@@ -1,0 +1,155 @@
+/***
+ * Header.css
+ */
+
+/* World of reddit Logo */
+.pagename a {
+  display: block;
+  background-image: url('../images/worldofreddit.png');
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  font-size: 0px;
+  padding: 76px 0 0 0;
+  color: #364657;
+  left: 125px;
+  position: absolute;
+  top: 0px;
+  width: 230px;
+}
+
+/* Subreddit Listing Bar / Shared */
+#sr-header-area, #header-bottom-right {
+  padding: 10px 0px 10px 5px;
+  background-color: #1d1d1d;
+  color: #EEEEEE;
+  white-space: nowrap;
+  overflow: hidden;
+  border-bottom: 1px solid #1d1d1d;
+  font-size: 90%
+}
+
+#sr-header-area { text-transform: uppercase; }
+
+#sr-more-link {
+  background-color: #1d1d1d;
+  padding: 5px 5px 5px 15px;
+  top: -5px;
+  color: #EEEEEE
+}
+
+.dropdown.srdrop .selected, .sr-bar a { color: #eee }
+
+.srdrop.drop-choices {
+  background:#1d1d1d !important;
+}
+
+.srdrop.drop-choices a:hover{
+  color:#eee !important;
+  background:#787878 !important;
+
+}
+
+
+/* Header Image */
+#header {
+  /* background:url(%%header%%); */
+  background:url('../images/header.png');
+  background-position:center;
+  border-bottom:1px solid #000;
+  height:150px;
+}
+
+#header-img {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 15px
+}
+
+/* User information block - making this baby "bnet style" */ 
+#header-bottom-right {
+  position: absolute;
+  right: 0px;
+  top:0px !important;
+  bottom: 0px;
+  height: 18px;
+  border-radius: 0px;
+  color: #797e84;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 7px;
+  font-size: 10px;
+}
+
+#header-bottom-right a {
+  color: #797e84;
+}
+
+#header-bottom-right > * { position: relative; top: 4px; }
+
+.flat-list.sr-bar {
+  margin-right: 325px;
+}
+
+.sr-list .flat-list.sr-bar:first-child {
+  margin-right: 0px;
+}
+
+/* Mail */
+#mail { 
+  width: 13px !important; 
+  height: 9px !important; 
+  position: relative !important; 
+  top: 5px !important; 
+}
+#modmail { 
+  width: 14px !important; 
+  height: 12px !important; 
+}
+
+.nohavemail, .havemail {
+  background-image: url('../images/sprites/mail.png') !important;
+}
+
+#mail.nohavemail { background-position: -0px -0px; background-repeat: no-repeat; }
+#mail.havemail { background-position: -0px -9px; background-repeat: no-repeat; }
+#modmail.nohavemail { background-position: -0px -18px; background-repeat: no-repeat; }
+#modmail.havemail { background-position: -0px -30px; background-repeat: no-repeat; }
+
+/* Logo, Redditname, Tabmenu */
+
+#header-bottom-left {
+  position: absolute;
+  bottom: 0;
+}
+
+.tabmenu {
+  background: url('../images/fishie.png');
+  padding: 10px 10px 0 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tabmenu li {
+  height: 18px;
+  display: block;
+  float: left;
+  background: transparent #CC00DD;
+}
+
+.tabmenu li a {
+  background: transparent;
+  border: none;
+  text-align: center;
+  display: block;
+  color: #FFB100;
+}
+
+.tabmenu li a:hover {
+  color: #FFFFFF;
+}
+
+.tabmenu li.selected a {
+  background: transparent;
+  border: none;
+  display: block;
+}

@@ -1,0 +1,34 @@
+/***
+ * Special.css
+ *  -- This area is used for flagging threads or posts based on their ids --
+ */
+
+ /* Official Blizzard Threads */
+
+.thing.id-t3_zkgu2 {
+  background: url('../images/fishie-blue.png') repeat-x #0A0E1C !important;
+  color: #00B4FF !important;
+}
+
+.thing.id-t3_zkgu2 .title {
+  color: #00B4FF !important; 
+}
+
+.thing.id-t3_zkgu2 .domain, .thing.id-t3_zkgu2 .domain a, .thing.id-t3_zkgu2 .tagline { 
+  color: #888877 !important; 
+}
+
+.thing.id-t3_zkgu2 .entry .buttons li a { 
+  color: #888877 !important; 
+  font-weight: bold !important; 
+}
+
+.thing.id-t3_zkgu2 a.thumbnail {
+  background: url('../images/sprites/linkflair.png') -0px -1064px !important;
+}
+
+/* Offical Blizzard Posts */
+
+.thing.id-t1_c660p85>.entry {
+  color: #00B4FF !important;
+}

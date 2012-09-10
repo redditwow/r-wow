@@ -1,0 +1,185 @@
+/***
+ * Threads.css
+ */
+
+#siteTable {
+  margin-top: 40px; /* Keeps us lined up with the sidebar header */
+}
+
+#siteTable .thing {
+  background: url('../images/fishie.png') repeat-x #1A0F09;
+  border: 1px solid #000;
+  padding: 15px 0 10px;
+  margin: 0 460px 0 30px;
+}
+
+/*
+#siteTable .thing:hover {
+  background: url('../images/thing-background-hover.png') repeat-x #1A0F09;
+}
+*/
+
+#siteTable > .thing:first-child { 
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+#siteTable > .thing:last-child {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;  
+}
+
+#siteTable .thing .title {
+  color: #008467;
+}
+
+/* Text stuff inside of thing */
+.domain, .domain a, .tagline { color: #B39265; }
+.entry .buttons li a { color: #EFC9A0; font-weight: normal; /* #B39265;*/ }
+.link .flat-list, .domain, .domain a, .tagline { padding: 5px 0;}
+
+.link .rank { display: none; margin-top: 23px; color: #000; }
+
+/* Upboats and Downboats */
+.arrow {
+  height: 20px;
+  width: 21px;
+  background-image: url('../images/sprites/voting.png') !important;
+}
+.arrow.upmod { background-position: -0px -0px; }
+.arrow.up { background-position: -0px -20px; }
+.arrow.down { background-position: -0px -40px; }
+.arrow.downmod { background-position: -0px -60px; }
+
+.midcol { width: 28px !important; padding: 0 20px; }
+
+
+/* Expandos */
+
+.expando-button {
+  height: 31px !important;
+  width: 30px !important;
+  max-height: 31px !important;
+  max-width: 30px !important;
+  background: transparent;
+  background-image: url('../images/sprites/expando.png') !important;
+}
+
+.expando-button.selftext.collapsed, .expando-button.selftext.expanded:hover { background-position: -0px -0px; }
+.expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded { background-position: -0px -31px; }
+.expando-button.video.collapsed, .expando-button.video.expanded:hover { background-position: -0px -62px; }
+.expando-button.video.collapsed:hover, .expando-button.video.expanded { background-position: -0px -93px; }
+
+/* Posts within threads */
+
+.link .usertext .md { background: transparent; border: none; }
+
+
+/* Blizzard posts within threads hack */
+
+a[href*='#blizzpost']~em {
+  color: #00B4FF;
+  display: block;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+/* Reported and Spam Posts */
+
+#siteTable .thing.reported, #siteTable .thing.spam {
+  background: url('../images/fishie-red.png') repeat-x;
+}
+
+.entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp {
+  background-color: #4C0418;
+  color: #FFFFFF;
+}
+
+a.pretty-button.negative, a.pretty-button.neutral, a.pretty-button.positive {
+  background: transparent;
+  border: 1px solid #000000;
+  color: #FFFFFF;
+}
+a.pretty-button.negative { background-color: #4C0418; }
+a.pretty-button.neutral { background-color: #043C4C; }
+a.pretty-button.positive { background-color: #044C14; }
+
+a.pretty-button.negative:hover { background-color: #640520; }
+a.pretty-button.neutral:hover { background-color: #054F64; }
+a.pretty-button.positive:hover { background-color: #05641A; }
+
+
+.commentarea {
+  background: url('../images/fishie.png') repeat-x #1C110B;
+  margin: 0 460px 0 30px;
+}
+.commentarea .child {
+  border-left: 1px dotted #26150D;
+}
+
+html .comment {
+  padding: 6px !important;
+  border: 1px solid #2C180D !important;
+  border-radius: 4px;
+}
+
+html .comment .comment,
+html .comment .comment .comment .comment,
+html .comment .comment .comment .comment .comment .comment,
+html .comment .comment .comment .comment .comment .comment .comment .comment,
+html .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+  background-color: #1C0F09 !important;
+}
+
+html .comment,
+html .comment .comment .comment, 
+html .comment .comment .comment .comment .comment, 
+html .comment .comment .comment .comment .comment .comment .comment,  
+html .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+  background-color: #1F110A !important;
+}
+
+.sitetable.nestedlisting > .thing{
+  background: #1C0F09;
+  margin-top: 15px;
+}
+
+.usertext-edit {
+  padding: 30px 40px;
+  color: #FFF;
+}
+
+.usertext-edit textarea {
+  border: 3px double #2C180D;
+  background-color: #1B1108;
+  color: #E2C7A3;
+  border-radius: 5px;
+}
+
+.usertext button, .usertext .help-toggle.toggle a.option.active {
+  height: 30px;
+  border: 1px solid #2C180D;
+  background: #1B1108;
+  color: #FFB100;
+  border-radius: 4px;
+  padding: 0 20px;
+  text-transform: capitalize;
+  display: block;
+  line-height: 30px;
+}
+
+.usertext button:hover, .usertext .help-toggle a.option.active:hover {
+  background: #2f1D0E;
+  cursor: pointer;
+}
+
+
+.panestack-title {
+  padding-top: 16px;
+  border-bottom: 1px dotted #B39265;
+}
+
+.usertext.border .usertext-body {
+  background-color: #180D08;
+  padding-left: 5px;
+  border: 1px solid #000000;
+}
