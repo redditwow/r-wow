@@ -23,6 +23,24 @@ body {
   color: #008467 !important;
 }
 
+#userbarToggle {
+  color: #FFB100 !important;
+  background-color: #1D1D1D !important;
+  border-right: 1px solid #000000 !important;
+  padding-left: 4px;
+}
+
+#RESShortcutsEditContainer {
+  position: absolute !important;
+  right: 0px !important;
+  top: 40px !important;
+  background-color: #1D1D1D !important;
+}
+
+#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+  color: #FFB100 !important;
+  background-color: #1D1D1D !important;
+}
 
 /* Markdown help table */
 .usertext table.markhelp {
