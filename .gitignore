@@ -1,0 +1,24 @@
+############
+## OS
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Mac crap
+.DS_Store
+
+#############
+## Python
+#############
+
+*.py[co]
+
+#############
+## Project
+#############
+
+stylesheet.css
