@@ -1,0 +1,11 @@
+/***
+ * RES Hacks.css
+ * -- Hacks to make RES work go in here. 
+ */
+/** +++ RES HACKS STARTS +++ **/
+
+a.voteWeight {
+  background-color: transparent !important;
+}
+
+/** +++ RES HACKS ENDS +++ **/
