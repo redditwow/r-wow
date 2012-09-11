@@ -202,3 +202,7 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
 .collapsed .flair {
     display:inline-block;
     }
+
+md h2 {
+	color: #008467;
+}
