@@ -111,6 +111,7 @@ a.pretty-button.positive:hover { background-color: #05641A; }
 .commentarea {
   background: url('../images/fishie.png') repeat-x #1C110B;
   margin: 0 460px 0 30px;
+  padding-right: 10px;
 }
 .commentarea .child {
   border-left: 1px dotted #26150D;
