@@ -17,7 +17,7 @@ div.content {
 .side .usertext h3{
   position:absolute;
   display: block;
-  top:107px;
+  top:-145px;
   left:10px;
   color: #000;
   text-align: left;
@@ -29,6 +29,7 @@ div.content {
   background-image: url();
   background-repeat: no-repeat;
   background-position:left;
+  z-index:9999;
 }  
 
 /** +++ ANNOUNCE ENDS +++ **/
