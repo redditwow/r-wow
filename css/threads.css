@@ -183,3 +183,12 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
   padding-left: 5px;
   border: 1px solid #000000;
 }
+
+.comment a {
+  color: #008467;
+}
+
+.comment a:visited, .comment .md p > a:visited {
+  border-bottom: 1px dotted #008467 !important;
+  color: #008467 !important;
+}
