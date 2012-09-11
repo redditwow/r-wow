@@ -52,8 +52,8 @@
 
 /* Header Image */
 #header {
-  /* background:url(%%header%%); */
-  background:url('../images/header3.png');
+  /* background:url(%%header3%%); */
+  background:url('../images/header3.jpg');
   background-position:center;
   border-bottom:1px solid #000;
   height:150px;
