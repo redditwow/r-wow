@@ -155,3 +155,7 @@ blockquote {
   background: #221409;
   color: #B39265;
 }
+
+.content h1 a { 
+  color: #008467; 
+}
