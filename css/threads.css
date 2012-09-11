@@ -192,3 +192,12 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
   border-bottom: 1px dotted #008467 !important;
   color: #008467 !important;
 }
+
+/* Collapsible Comments */
+
+.comment .collapsed {
+    padding: 9px 0 10px 67px;
+    }
+.collapsed .flair {
+    display:inline-block;
+    }
