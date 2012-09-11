@@ -20,6 +20,7 @@
 
 #siteTable .thing > .entry {
   top:0;
+  padding-bottom:11px;
   }
 #siteTable .thing .entry > * {
   position:relative;
