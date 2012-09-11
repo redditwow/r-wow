@@ -202,11 +202,11 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   padding: 4px 8px !important;
 }
 /* RES is more of a hack then reddit */
-.RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove, .RESSubscriptionButton.unsubscribe  { padding: 0px 8px !important; }
-.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove, .RESSubscriptionButton.unsubscribe:hover { background-position: -0px -50px !important; }
+.RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove  { padding: 0px 8px !important; }
+.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove { background-position: -0px -50px !important; }
 .fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESshortcut.RESshortcutside.remove:hover { background-position: -0px -90px !important; }
-.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut, .RESSubscriptionButton { background-position: -0px -70px !important; }
-.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover, .RESSubscriptionButton:hover { background-position: -0px -110px !important; }
+.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut { background-position: -0px -70px !important; }
+.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background-position: -0px -110px !important; }
 
 /* Flair Selector */
 .flairselector { box-shadow: 2px 2px 2px #2C180D; }
@@ -221,6 +221,16 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   width: 220px !important;
   left: 150px !important;
 }
+
+.drop-choices a.choice:hover{
+  background: #36200E;
+  color: #FFFFFF;
+}
+
+div.subbuttons {
+  padding-top: 10px;
+}
+
 .flairselector li { border: 0px; }
 .customizer input[type="text"] {
   background-color: #1B1108;

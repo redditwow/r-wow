@@ -25,6 +25,7 @@ try:
 
                     line = line.replace("../images/", "%%")
                     line = line.replace(".png')", "%%')")
+                    line - line.replace(".jpg')", "%%')")
 
                     ##] Get rid more more annoying dev stuff
                     line = line.replace("sprites/", "")
