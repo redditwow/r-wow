@@ -1,5 +1,11 @@
-/* Mists of Pandaria sidebar */
+/***
+ * Countdown.css
+ * -- The countdown for mists of pandaria.
+ * -- To update, just decrement the background-position by 113.
+ */
+/** +++ COUNTDOWN STARTS +++ **/
 
+/* Mists of Pandaria sidebar */
 .side h5 {
   background: url('../images/countdown.png');
   background-position:0 -1582px;
@@ -8,3 +14,5 @@
   height: 113px;
   text-indent: -5555em;
 }
+
+/** +++ COUNTEDOWN ENDS +++ */
