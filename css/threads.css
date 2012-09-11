@@ -64,11 +64,15 @@
 .expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded { background-position: -0px -31px; }
 .expando-button.video.collapsed, .expando-button.video.expanded:hover { background-position: -0px -62px; }
 .expando-button.video.collapsed:hover, .expando-button.video.expanded { background-position: -0px -93px; }
+.expando-button.image, .expando-button.image.expanded:hover { background-position: -0px -129px; }
+.expando-button.image:hover, .expando-button.image.expanded { background-position: -0px -161px; }
+.expando-button.gallery, .expando-button.gallery.expanded:hover { background-position: -0px -193px; }
+.expando-button.gallery:hover, .expando-button.gallery.expanded { background-position: -0px -225px; }
 
 /* Posts within threads */
 
 .link .usertext .md { background: transparent; border: none; }
-.usertext-body {margin-bottom:15px;}
+.usertext-body { margin-bottom:15px; }
 
 /* Blizzard posts within threads hack */
 
