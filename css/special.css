@@ -10,6 +10,10 @@
   color: #00B4FF !important;
 }
 
+.gadget .thing.id-t3_zkgu2 {
+  background:none;
+  }
+
 .thing.id-t3_zkgu2 .title {
   color: #00B4FF !important; 
 }
@@ -20,6 +24,9 @@
   width: 168px !important;
   height: 60px;
 }
+.gadget .thing.id-t3_zkgu2 .midcol {
+  background-image:none;
+  }
 .thing.id-t3_zkgu2 .entry, .thing.id-t3_zkgu2 .thumbnail {
   position: relative;
   right: 140px;
@@ -48,3 +55,4 @@
 .thing.id-t1_c660p85>.entry {
   color: #00B4FF !important;
 }
+
