@@ -6,14 +6,7 @@
  /* Official Blizzard Threads */
 
 .thing.id-t3_zkgu2 {
-  
-  /*  CSS3 Only =/ oh well 
-  background: url('../images/bgicon-blizz.png') bottom left no-repeat, url('../images/fishie-blue.png') top left repeat-x;*/
-  background: #0A0E1C !important;
-  background-image: url('../images/blizz-hacks.png'), url('../images/fishie-blue.png')!important;
-  background-position: top left, top left !important;
-  background-repeat: repeat-x !important;
-  background-size: 100%, auto auto;
+  background: url('../images/fishie-blue.png') #0A0E1C repeat-x !important;
   color: #00B4FF !important;
 }
 
