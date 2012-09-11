@@ -201,6 +201,12 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   line-height: 20px !important;
   padding: 4px 8px !important;
 }
+
+.RESSubscriptionButton.unsubscribe, .RESSubscriptionButton.unsubscribe:hover,
+.RESSubscriptionButton, .RESSubscriptionButton:hover {
+  line-height: 17px !important;
+}
+
 /* RES is more of a hack then reddit */
 .RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove  { padding: 0px 8px !important; }
 .fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove { background-position: -0px -50px !important; }

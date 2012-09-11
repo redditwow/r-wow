@@ -205,10 +205,10 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
 
 /* Messy shit */
 
-md h2 {
+.md h2 {
 	color: #008467;
 }
 
 p#noresults {
-	margin: 10px 0 15px 30px;
+  padding: 15px;
 }
