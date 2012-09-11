@@ -111,6 +111,9 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   margin-top: 5px;
   color: #FFB100;
 }
+.leavemoderator {
+  margin-top:8px;
+  }
 .titlebox .usertext .md > h1, .sidecontentbox .title {
   background: #221409;
   color: #E2C7A3;
@@ -270,6 +273,23 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   width: 18px !important; 
   height: 18px !important;
 }
+.users-online::before {
+  background: url('../images/sprites/modicons.png') no-repeat -1px -118px;
+  width:20px;
+  height:19px;
+  }
+.users-online {
+  margin-top:6px;
+  margin-left:4px;
+  }
+.titlebox form.flairtoggle {
+  margin-left:4px;
+  }
+.titlebox .leavemoderator::before, .moderator.remove-self .main::before {
+  background: url('../images/sprites/modicons.png') no-repeat -1px -51px;
+  width: 20px;
+  height: 21px;
+}|
 .icon-menu li { line-height: 17px; }
 
 /* Moderator Box */
