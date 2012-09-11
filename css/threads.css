@@ -203,6 +203,12 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
     display:inline-block;
     }
 
+/* Messy shit */
+
 md h2 {
 	color: #008467;
+}
+
+p#noresults {
+	margin: 10px 0 15px 30px;
 }
