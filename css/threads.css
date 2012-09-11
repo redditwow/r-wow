@@ -50,7 +50,7 @@
 .arrow.down { background-position: -0px -40px; }
 .arrow.downmod { background-position: -0px -60px; }
 
-.midcol { width: 28px !important; padding: 0 20px; }
+.midcol { width: 28px !important; padding: 10px 20px; }
 
 
 /* Expandos */
@@ -72,7 +72,7 @@
 /* Posts within threads */
 
 .link .usertext .md { background: transparent; border: none; }
-
+.usertext-body {margin-bottom:15px;}
 
 /* Blizzard posts within threads hack */
 

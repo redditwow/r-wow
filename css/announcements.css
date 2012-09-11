@@ -12,24 +12,25 @@ div.content {
   margin-top:60px;
 }
 .titlebox form{
-  position: static
+  position: static;
 }
 .side .usertext h3{
   position:absolute;
   display: block;
-  top:-145px;
+  top:-172px;
   left:10px;
   color: #000;
   text-align: left;
   margin: 20px;
   margin-left:35px;
-  width: 55%;
+  width: 268px;
+  height:74px;
   font-weight: normal;
-  padding: 7px 0px 7px 20px;
-  background-image: url();
-  background-repeat: no-repeat;
-  background-position:left;
+  padding: 37px 20px 8px 72px;
   z-index:9999;
+  background:url(../images/announcehead.png);
+  background-repeat:no-repeat;
+  color:#B39265;
 }  
 
 /** +++ ANNOUNCE ENDS +++ **/
