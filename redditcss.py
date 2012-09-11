@@ -29,6 +29,7 @@ try:
                     ##] Get rid more more annoying dev stuff
                     line = line.replace("sprites/", "")
                     line = line.replace("icons/", "")
+                    line = line.replace("_", "-")
                     print "New Line: " + line
 
                     masterfile.write(line)
