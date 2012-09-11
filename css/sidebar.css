@@ -386,3 +386,13 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* Recently Viewed Links */
+
+.gadget .midcol {
+  padding:0 5px;
+  }
+.gadget .reddit-link {
+  margin:8px 0;
+  }
