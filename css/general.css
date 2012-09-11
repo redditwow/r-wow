@@ -139,23 +139,18 @@ blockquote {
 }
 
 .tabmenu.formtab .selected a {
-  color: white;
-  font-size: 130%;
   background-color: #B39265;
   border: none;
 }
 
 .tabmenu.formtab a {
-  font-weight: normal;
-  outline: none;
   padding: 0px 12px;
-  vertical-align: bottom;
   border: 1px solid #2C180D;
   border-bottom: none;
   background: #221409;
   color: #B39265;
 }
 
-.content h1 a { 
-  color: #008467; 
+.content h1 a {
+  color: #008467;
 }
