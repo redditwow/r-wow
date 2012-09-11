@@ -134,10 +134,10 @@
   height: 18px;
   display: block;
   float: left;
-  background: transparent #CC00DD;
+  background: transparent;
 }
 
-#header-bottom-left.tabmenu li a {
+#header-bottom-left .tabmenu li a {
   background: transparent;
   border: none;
   text-align: center;
