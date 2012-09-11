@@ -22,6 +22,9 @@ a {
   background: url('../images/border_selected_one.png') no-repeat;
   background-color: transparent !important;
 }
+.commentarea .keyHighlight {
+  background:none;
+  }
 
 .markdownEditor a {
   color: #008467 !important;
