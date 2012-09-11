@@ -283,6 +283,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   margin-left:4px;
   }
 .titlebox form.flairtoggle {
+  margin-top:6px;
   margin-left:4px;
   }
 .titlebox .leavemoderator::before, .moderator.remove-self .main::before {
