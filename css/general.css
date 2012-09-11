@@ -19,7 +19,7 @@ a {
 /* RES Trickery - screw you honestbleeps for having so much css! am jk */
 .keyHighlight {
   outline: none !important;
-  border: 1px dotted #B39265 !important;
+  background: url('../images/border_selected_one.png') no-repeat;
   background-color: transparent !important;
 }
 
@@ -184,3 +184,7 @@ blockquote {
 .sheets textarea {
   width: 100% !important;
 }
+
+.menuarea {
+  margin:5px 40px;
+  }
