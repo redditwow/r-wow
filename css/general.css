@@ -111,3 +111,46 @@ blockquote {
   background: #1B1108;
   color: #E2C7A3;
 }
+
+#suggested-reddits a {
+  color: #008467 !important;
+}
+
+#url-field button {
+  height: 30px;
+  border: 1px solid #2C180D;
+  background: #1B1108;
+  color: #FFB100;
+  border-radius: 4px;
+  padding: 0 20px;
+  text-transform: capitalize;
+  display: block;
+  line-height: 30px;
+}
+
+#url-field button:hover {
+  background: #2f1D0E;
+  cursor: pointer;
+}
+
+.formtabs-content {
+  border: none;
+  padding-top: 0px;
+}
+
+.tabmenu.formtab .selected a {
+  background-color: #B39265;
+  border: none;
+}
+
+.tabmenu.formtab a {
+  padding: 0px 12px;
+  border: 1px solid #2C180D;
+  border-bottom: none;
+  background: #221409;
+  color: #B39265;
+}
+
+.content h1 a {
+  color: #008467;
+}
