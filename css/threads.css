@@ -42,7 +42,7 @@
 /* Upboats and Downboats */
 .arrow {
   height: 20px;
-  width: 21px;
+  width: 24px;
   background-image: url('../images/sprites/voting.png') !important;
 }
 .arrow.upmod { background-position: -0px -0px; }
