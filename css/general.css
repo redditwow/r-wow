@@ -70,3 +70,28 @@ blockquote {
 .tagline a {
     color: #008467;
 }
+
+/* Footer */
+.footer {
+  color: #B39265;
+  padding: 5px;
+  margin: 15px;
+  border: 1px solid #2C180D !important;
+  background-color: #1C0F09 !important;
+}
+
+.flat-vert.title {
+  color: #B39265;
+}
+
+.footer a, .bottommenu a {
+  color: #008467 !important;
+}
+
+.footer .col {
+  border-left: 1px solid #B39265;
+}
+
+.bottommenu {
+  color: #B39265;
+}
