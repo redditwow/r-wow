@@ -26,9 +26,6 @@ div.content {
   width: 55%;
   font-weight: normal;
   padding: 7px 0px 7px 20px;
-  background-image: url();
-  background-repeat: no-repeat;
-  background-position:left;
   z-index:9999;
 }  
 
