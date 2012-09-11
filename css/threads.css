@@ -13,21 +13,6 @@
   margin: 0 460px 0 30px;
 }
 
-#siteTable .thing > * {
-  position:relative;
-  top:11px;
-  }
-
-#siteTable .thing > .entry {
-  top:0;
-  padding-bottom:11px;
-  }
-#siteTable .thing .entry > * {
-  position:relative;
-  top:11px;
-  }
-
-/*
 #siteTable .thing:hover {
   background: url('../images/thing-background-hover.png') repeat-x #1A0F09;
 }
@@ -44,7 +29,10 @@
 
 #siteTable .thing .title {
   color: #0EAF8C;
+  margin-top:11px;
 }
+.midcol, .thumbnail {margin-top:11px;}
+
 
 /* Text stuff inside of thing */
 .domain, .domain a, .tagline { color: #B39265; }
