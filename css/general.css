@@ -7,6 +7,10 @@ body {
   color: #B39265;
 }
 
+a {
+  color: #008467;
+}
+
 .infobar {
   margin-right: 440px;
 }
