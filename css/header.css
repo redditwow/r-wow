@@ -122,7 +122,7 @@
   bottom: 0;
 }
 
-.tabmenu {
+#header-bottom-left .tabmenu {
   background: url('../images/fishie.png');
   padding: 10px 10px 0 10px;
   border-top-left-radius: 5px;
@@ -130,14 +130,14 @@
   margin-left:195px;
 }
 
-.tabmenu li {
+#header-bottom-left .tabmenu li {
   height: 18px;
   display: block;
   float: left;
   background: transparent #CC00DD;
 }
 
-.tabmenu li a {
+#header-bottom-left.tabmenu li a {
   background: transparent;
   border: none;
   text-align: center;
@@ -145,11 +145,11 @@
   color: #FFB100;
 }
 
-.tabmenu li a:hover {
+#header-bottom-left .tabmenu li a:hover {
   color: #FFFFFF;
 }
 
-.tabmenu li.selected a {
+#header-bottom-left .tabmenu li.selected a {
   background: transparent;
   border: none;
   display: block;
