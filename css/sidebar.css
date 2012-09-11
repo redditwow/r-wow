@@ -346,6 +346,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   font-size: 20px !important;
   display: block;
   font-weight: normal !important;
+  font-family: "Palatino Linotype", Georgia, Garamond, serif;
 }
 
 .linkinfo .score, .linkinfo .upvotes {
