@@ -64,10 +64,10 @@
 .expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded { background-position: -0px -31px; }
 .expando-button.video.collapsed, .expando-button.video.expanded:hover { background-position: -0px -62px; }
 .expando-button.video.collapsed:hover, .expando-button.video.expanded { background-position: -0px -93px; }
-.expando-button.image, .expando-button.image.expanded:hover { background-position: -0px -129px; }
-.expando-button.image:hover, .expando-button.image.expanded { background-position: -0px -161px; }
-.expando-button.gallery, .expando-button.gallery.expanded:hover { background-position: -0px -193px; }
-.expando-button.gallery:hover, .expando-button.gallery.expanded { background-position: -0px -225px; }
+.expando-button.image, .expando-button.image.expanded:hover { background-position: -0px -129px !important; }
+.expando-button.image:hover, .expando-button.image.expanded { background-position: -0px -160px !important; }
+.expando-button.gallery, .expando-button.gallery.expanded:hover { background-position: -0px -193px !important; }
+.expando-button.gallery:hover, .expando-button.gallery.expanded { background-position: -0px -224px !important; }
 
 /* Posts within threads */
 
