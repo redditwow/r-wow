@@ -18,6 +18,14 @@
   top:11px;
   }
 
+#siteTable .thing > .entry {
+  top:0;
+  }
+#siteTable .thing .entry > * {
+  position:relative;
+  top:11px;
+  }
+
 /*
 #siteTable .thing:hover {
   background: url('../images/thing-background-hover.png') repeat-x #1A0F09;
