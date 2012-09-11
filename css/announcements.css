@@ -28,7 +28,7 @@ div.content {
   font-weight: normal;
   padding: 37px 20px 8px 72px;
   z-index:9999;
-  background:url(../images/announcehead.png);
+  background:url('../images/announcehead.png');
   background-repeat:no-repeat;
   color:#B39265;
 }  
