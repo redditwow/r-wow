@@ -50,6 +50,10 @@
   background: url('../images/sprites/linkflair.png') -0px -1064px !important;
 }
 
+.thing.id-t3_zkgu2 a.thumbnail::after {
+  position: static;
+}
+
 /* Offical Blizzard Posts */
 
 .thing.id-t1_c660p85>.entry {

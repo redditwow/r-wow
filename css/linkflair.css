@@ -3,6 +3,7 @@
  */
 
 .linkflairlabel { display: none; }
+.flairoptionpane .linkflairlabel { display: inline-block; }
 
 .thing a.thumbnail {
   width: 76px;
@@ -10,15 +11,27 @@
 }
 
 .thing a.thumbnail img {
-  display: none;
+  width: 56px;
+  height: 56px;
+  position: relative;
+  top: 12px;
+  left: 12px;
 }
 
-.thing a.thumbnail:after {
+.thing a.thumbnail::after {
   content: url('../images/linkflair-border.png');
   z-index: 2;
-  width: 76px;
+  position: absolute;
+  left: 120px;
+  margin-top: 3px;
+  /*width: 76px;
   height: 76px;
-  margin-right:20px;
+  margin-right:20px;*/
+}
+
+.thing a.thumbnail img {
+  width: 56px;
+  height: 56px;
 }
 
 /* All custom link flair thumbs */
