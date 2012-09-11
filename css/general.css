@@ -42,6 +42,21 @@ body {
   background-color: #1D1D1D !important;
 }
 
+.RESSubscriptionButton,.RESSubscriptionButton:hover {
+  background: #226D0E !important;
+  border: 1px solid #447023 !important;
+  color: #FFFFFF !important;
+}
+
+.RESSubscriptionButton.unsubscribe, .RESSubscriptionButton.unsubscribe:hover {
+  background: #630517 !important;
+  border: 1px solid #6D0110 !important;
+  color: #FFFFFF !important;
+}
+
+
+
+
 /* Markdown help table */
 .usertext table.markhelp {
   background: #1B1108;

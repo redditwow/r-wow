@@ -187,24 +187,23 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 .sidebox.submit { position: absolute; top: 80px; width: 300px; padding-left: 15px;}
 
 /* Reddit/RES "Subscribe" Buttons */
-.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove,
-.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover,
-.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut,
-.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover {
-  background: transparent !important; 
-  /* background-image:url(%%mop-graphics%%); */
+.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESSubscriptionButton.unsubscribe,
+.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESSubscriptionButton.unsubscribe:hover,
+.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut, .RESSubscriptionButton,
+.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover, .RESSubscriptionButton:hover {
+  background: transparent !important;
   background-image: url('../images/sprites/mop-graphics.png') !important;
   border: 0px !important;
   /*height: 20px !important; */
   line-height: 20px !important;
-  padding: 4px 8px !important; 
+  padding: 4px 8px !important;
 }
 /* RES is more of a hack then reddit */
-.RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove  { padding: 0px 8px !important; }
-.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove { background-position: -0px -50px !important; }
+.RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove, .RESSubscriptionButton.unsubscribe  { padding: 0px 8px !important; }
+.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove, .RESSubscriptionButton.unsubscribe:hover { background-position: -0px -50px !important; }
 .fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESshortcut.RESshortcutside.remove:hover { background-position: -0px -90px !important; }
-.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut { background-position: -0px -70px !important; }
-.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background-position: -0px -110px !important; }
+.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut, .RESSubscriptionButton { background-position: -0px -70px !important; }
+.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover, .RESSubscriptionButton:hover { background-position: -0px -110px !important; }
 
 /* Flair Selector */
 .flairselector { box-shadow: 2px 2px 2px #2C180D; }
