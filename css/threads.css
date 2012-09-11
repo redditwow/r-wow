@@ -12,12 +12,6 @@
   padding: 4px 0 20px;
   margin: 0 460px 0 30px;
 }
-
-#siteTable .thing:hover {
-  background: url('../images/thing-background-hover.png') repeat-x #1A0F09;
-}
-*/
-
 #siteTable > .thing:first-child { 
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
