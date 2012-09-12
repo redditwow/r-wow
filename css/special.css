@@ -5,58 +5,62 @@
 
  /* Official Blizzard Threads */
 
-.thing.id-t3_zkgu2 {
+.thing.id-t3_zkgu2, 
+.thing.id-t3_zqm8d {
   background: url('../images/fishie-blue.png') #0A0E1C repeat-x !important;
   color: #00B4FF !important;
 }
 
-.gadget .thing.id-t3_zkgu2 {
+.gadget .thing.id-t3_zkgu2, 
+.gadget .thing.id-t3_zqm8d {
   background:none;
   }
 
-.thing.id-t3_zkgu2 .title {
+.thing.id-t3_zkgu2 .title,
+.thing.id-t3_zqm8d .title {
   color: #00B4FF !important; 
 }
 
-.thing.id-t3_zkgu2 .midcol {
+.thing.id-t3_zkgu2 .midcol,
+.thing.id-t3_zqm8d .midcol {
   display: block;
   background-image: url('../images/bgicon-blizz.png') !important;
   width: 168px !important;
   height: 60px;
 }
-.gadget .thing.id-t3_zkgu2 .midcol {
+.gadget .thing.id-t3_zkgu2 .midcol,
+.gadget .thing.id-t3_zqm8d .midcol {
   background-image:none;
   }
-.thing.id-t3_zkgu2 .entry, .thing.id-t3_zkgu2 .thumbnail {
+.thing.id-t3_zkgu2 .entry, .thing.id-t3_zkgu2 .thumbnail,
+.thing.id-t3_zqm8d .entry, .thing.id-t3_zqm8d .thumbnail {
   position: relative;
   right: 140px;
 }
-.thing.id-t3_zkgu2 .midcol > div {
+.thing.id-t3_zkgu2 .midcol > div,
+.thing.id-t3_zqm8d .midcol > div {
   position: relative;
   right: 72px;
   top: 4px;
 }
 
-.thing.id-t3_zkgu2 .domain, .thing.id-t3_zkgu2 .domain a, .thing.id-t3_zkgu2 .tagline { 
+.thing.id-t3_zkgu2 .domain, .thing.id-t3_zkgu2 .domain a, .thing.id-t3_zkgu2 .tagline,
+.thing.id-t3_zqm8d .domain, .thing.id-t3_zqm8d .domain a, .thing.id-t3_zqm8d .tagline { 
   color: #888877 !important; 
 }
 
-.thing.id-t3_zkgu2 .entry .buttons li a { 
+.thing.id-t3_zkgu2 .entry .buttons li a,
+.thing.id-t3_zqm8d .entry .buttons li a { 
   color: #888877 !important; 
   font-weight: bold !important; 
 }
 
-.thing.id-t3_zkgu2 a.thumbnail {
+.thing.id-t3_zkgu2 a.thumbnail,
+.thing.id-t3_zqm8d a.thumbnail {
   background: url('../images/sprites/linkflair.png') -0px -1064px !important;
 }
 
-.thing.id-t3_zkgu2 a.thumbnail::after {
+.thing.id-t3_zkgu2 a.thumbnail::after,
+.thing.id-t3_zqm8d a.thumbnail::after {
   position: static;
 }
-
-/* Offical Blizzard Posts */
-
-.thing.id-t1_c660p85>.entry {
-  color: #00B4FF !important;
-}
-
