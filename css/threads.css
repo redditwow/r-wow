@@ -119,6 +119,7 @@ a.pretty-button.positive:hover { background-color: #05641A; }
   background: url('../images/fishie.png') repeat-x #1C110B;
   margin: 0 415px 0 5px;
   padding-right: 10px;
+  padding-bottom:10px;
 }
 .commentarea .child {
   border-left: 1px dotted #26150D;
@@ -148,7 +149,7 @@ html .comment .comment .comment,
 html .comment .comment .comment .comment .comment, 
 html .comment .comment .comment .comment .comment .comment .comment,  
 html .comment .comment .comment .comment .comment .comment .comment .comment .comment{
-  background-color: #1F110A !important;
+  background-color: #0F0805 !important;
 }
 
 .sitetable.nestedlisting > .thing{
