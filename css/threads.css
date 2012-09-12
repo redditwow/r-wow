@@ -9,8 +9,8 @@
 #siteTable .thing {
   background: url('../images/fishie.png') repeat-x #1A0F09;
   border: 1px solid #000;
-  padding: 4px 0 20px;
-  margin: 0 460px 0 30px;
+  padding: 4px 0 5px;
+  margin: 0 415px 0 5px;
 }
 #siteTable > .thing:first-child { 
   border-top-right-radius: 8px;
@@ -32,7 +32,7 @@
   font-weight: normal;
 }
 
-.midcol, .thumbnail {margin-top:11px;}
+.midcol, .thumbnail {margin-top:0px;}
 
 
 /* Text stuff inside of thing */
@@ -53,8 +53,8 @@
 .arrow.down { background-position: -0px -40px; }
 .arrow.downmod { background-position: -0px -60px; }
 
-.midcol { width: 28px !important; padding: 10px 20px; }
-
+.midcol { width: 28px !important; padding: 10px 0px; }
+.entry { padding: 5px 0 0;}
 
 /* Expandos */
 
@@ -79,7 +79,7 @@
 /* Posts within threads */
 
 .link .usertext .md { background: transparent; border: none; }
-.usertext-body { margin-bottom:15px; }
+.usertext-body { margin-bottom:8px; }
 
 /* Blizzard posts within threads hack */
 
@@ -117,7 +117,7 @@ a.pretty-button.positive:hover { background-color: #05641A; }
 
 .commentarea {
   background: url('../images/fishie.png') repeat-x #1C110B;
-  margin: 0 460px 0 30px;
+  margin: 0 415px 0 5px;
   padding-right: 10px;
 }
 .commentarea .child {
@@ -125,10 +125,15 @@ a.pretty-button.positive:hover { background-color: #05641A; }
 }
 
 html .comment {
-  padding: 6px !important;
+  padding: 0px 3px !important;
   border: 1px solid #2C180D !important;
   border-radius: 4px;
+  margin-left: 5px;
 }
+
+.comment .child {
+  margin:10px 1px 4px;
+  }
 
 html .comment .comment,
 html .comment .comment .comment .comment,
@@ -148,7 +153,7 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
 
 .sitetable.nestedlisting > .thing{
   background: #1C0F09;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .usertext-edit {
