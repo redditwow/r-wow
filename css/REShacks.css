@@ -8,4 +8,12 @@ a.voteWeight {
   background-color: transparent !important;
 }
 
+.gearIcon, #RESSettingsButton {
+  width: 14px !important;
+  height: 12px !important;
+  background-image: url('../images/sprites/mail.png') !important;
+  background-repeat: no-repeat  !important;
+  background-position: 0px -42px  !important;
+}
+
 /** +++ RES HACKS ENDS +++ **/
