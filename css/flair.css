@@ -101,7 +101,7 @@ a.author[href$='reddit.com/user/Rygarius']:before, a.author[href$='reddit.com/us
 a.author[href$='reddit.com/user/Aldrexus']:before, a.author[href$='reddit.com/user/andrewchambers']:before,
 a.author[href$='reddit.com/user/wyattcheng']:before, a.author[href$='reddit.com/user/JayPWilson']:before,
 a.author[href$='reddit.com/user/BlizzDaxxarri']:before, a.author[href$='reddit.com/user/Zarhym']:before,
-a.author[href$='reddit.com/user/thefargo']:before, a.author[href$='reddit.com/user/Ghostcrawler']:before,
+a.author[href$='reddit.com/user/TheFargo']:before, a.author[href$='reddit.com/user/Ghostcrawler']:before,
 a.author[href$='reddit.com/user/WatcherDev']:before, a.author[href$='reddit.com/user/Kalgan']:before {
   content: url('../images/blizzardlogo.png');
   vertical-align: middle;
@@ -119,13 +119,26 @@ a.author[href$='reddit.com/user/Rygarius'], a.author[href$='reddit.com/user/Neth
 a.author[href$='reddit.com/user/Aldrexus'], a.author[href$='reddit.com/user/andrewchambers'],
 a.author[href$='reddit.com/user/wyattcheng'], a.author[href$='reddit.com/user/JayPWilson'],
 a.author[href$='reddit.com/user/BlizzDaxxarri'], a.author[href$='reddit.com/user/Zarhym'],
-a.author[href$='reddit.com/user/thefargo'], a.author[href$='reddit.com/user/Ghostcrawler'],
+a.author[href$='reddit.com/user/TheFargo'], a.author[href$='reddit.com/user/Ghostcrawler'],
 a.author[href$='reddit.com/user/WatcherDev'], a.author[href$='reddit.com/user/Kalgan'] {
   color: #00B4FF !important;
 }
 
+a.author[href$='reddit.com/user/bashiok_foreal']:visited, a.author[href$='reddit.com/user/lylirra']:visited,
+a.author[href$='reddit.com/user/Grimiku']:visited, a.author[href$='reddit.com/user/Brennvin']:visited,
+a.author[href$='reddit.com/user/Vaeflare']:visited, a.author[href$='reddit.com/user/Traysent']:visited,
+a.author[href$='reddit.com/user/Crithto']:visited, a.author[href$='reddit.com/user/Kaivax']:visited,
+a.author[href$='reddit.com/user/Rygarius']:visited, a.author[href$='reddit.com/user/Nethaera']:visited,
+a.author[href$='reddit.com/user/Aldrexus']:visited, a.author[href$='reddit.com/user/andrewchambers']:visited,
+a.author[href$='reddit.com/user/wyattcheng']:visited, a.author[href$='reddit.com/user/JayPWilson']:visited,
+a.author[href$='reddit.com/user/BlizzDaxxarri']:visited, a.author[href$='reddit.com/user/Zarhym']:visited,
+a.author[href$='reddit.com/user/TheFargo']:visited, a.author[href$='reddit.com/user/Ghostcrawler']:visited,
+a.author[href$='reddit.com/user/WatcherDev']:visited, a.author[href$='reddit.com/user/Kalgan']:visited {
+  color: #00B4FF !important;
+}
+
 a.author[href$='reddit.com/user/Ghostcrawler']:after, a.author[href$='reddit.com/user/Kalgan']:after,
-a.author[href$='reddit.com/user/Zarhym']:after, a.author[href$='reddit.com/user/thefargo']:after,
+a.author[href$='reddit.com/user/Zarhym']:after, a.author[href$='reddit.com/user/TheFargo']:after,
 a.author[href$='reddit.com/user/WatcherDev']:after {
   margin-left: 5px;
   padding: 2px 4px;
@@ -137,5 +150,5 @@ a.author[href$='reddit.com/user/WatcherDev']:after {
 a.author[href$='reddit.com/user/Ghostcrawler']:after { content: "Greg Street (Lead Systems Designer)"; }
 a.author[href$='reddit.com/user/Kalgan']:after { content: "Tom Chilton (Game Director)"; }
 a.author[href$='reddit.com/user/Zarhym']:after { content: "Jonathan Brown (Community Manager)"; }
-a.author[href$='reddit.com/user/thefargo']:after { content: "Dave Kosak (Lead Quest Designer)"; }
+a.author[href$='reddit.com/user/TheFargo']:after { content: "Dave Kosak (Lead Quest Designer)"; }
 a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (Lead Encounter Designer)"; }
