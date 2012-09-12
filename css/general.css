@@ -15,15 +15,6 @@ a {
   margin-right: 440px;
 }
 
-/* RES Trickery - screw you honestbleeps for having so much css! am jk */
-.keyHighlight {
-  outline: none !important;
-  background: url('../images/border_selected_one.png') no-repeat;
-  background-color: transparent !important;
-}
-.commentarea .keyHighlight {
-  background:none;
-  }
 
 .markdownEditor a {
   color: #008467 !important;

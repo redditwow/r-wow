@@ -3,7 +3,13 @@
  * -- Hacks to make RES work go in here. 
  */
 /** +++ RES HACKS STARTS +++ **/
+/* RES Trickery - screw you honestbleeps for having so much css! am jk */
 
+.keyHighlight {
+  outline: none !important;
+  background: url('../images/border_selected_one.png') no-repeat;
+  background-color: transparent !important;
+}
 a.voteWeight {
   background-color: transparent !important;
 }
