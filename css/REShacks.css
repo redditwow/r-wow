@@ -22,4 +22,14 @@ a.voteWeight {
   background-position: 0px -42px  !important;
 }
 
+.RESDialogSmall > h3 {
+  background: #221409;
+  color: #E2C7A3;
+  }
+.RESDialogSmall {
+  background: #e2c7a3;
+  color:#221409;
+  }
+
+
 /** +++ RES HACKS ENDS +++ **/
