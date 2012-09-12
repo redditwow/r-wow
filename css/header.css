@@ -78,6 +78,7 @@
   padding-left: 30px;
   padding-right: 7px;
   font-size: 10px;
+  z-index:9999;
 }
 
 #header-bottom-right a {
