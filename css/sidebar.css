@@ -4,11 +4,14 @@
 
 /* What do we call our users? */
 
-.titlebox .word {display:none;}
-.titlebox .number::after {
-  content: " designers";
+.subscribers .word {display:none;}
+.subscribers .number::after {
+  content: " Dwarf Rogues";
 }
-
+.users-online .word {display:none;}
+.subscribers .number::after {
+  content: " currently in Goldshire";
+  }
 
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 
