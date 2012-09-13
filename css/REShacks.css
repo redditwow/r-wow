@@ -43,4 +43,15 @@ a.voteWeight {
 #NREMail {height:9px !important;}
 
 
+/* MF Darkmode */
+
+.res-nightmode #header {background-image:none;}
+.res-nightmode #siteTable .thing {background-image:none;}
+.res-nightmode .side {background-image:none;}
+.res-nightmode .side > .spacer:first-child {background-image:none;}
+.res-nightmode .side > .spacer:last-child {background-image:none;}
+.res-nightmode #sr-header-area, .res-nightmode #sr-more-link {background:black !important;}
+.res-nightmode .expando-button {max-height:23px !important;max-width:23px !important;}
+.res-nightmode .keyHighlight {background-image:none;}
+.res-nightmode .titlebox .usertext .md > h1, .res-nightmode .sidecontentbox .title {background:transparent;border:1px solid #999;}
 /** +++ RES HACKS ENDS +++ **/
