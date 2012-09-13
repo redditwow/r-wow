@@ -210,7 +210,7 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
 /* Collapsible Comments */
 
 .comment .collapsed {
-    padding: 9px 0 10px 67px;
+    padding: 0px 0 10px 29px;
     }
 .collapsed .flair {
     display:inline-block;
