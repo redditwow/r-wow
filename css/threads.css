@@ -24,12 +24,10 @@
 #siteTable .thing .title a {
   color: #0EAF8C;
   margin-top: 11px;
-  font-weight: bold;
 }
 
 #siteTable .thing .title a:visited {
-  color: #4f6f68;
-  font-weight: normal;
+  color: #6A7472;
 }
 
 .midcol, .thumbnail {margin-top:0px;}
