@@ -3,6 +3,7 @@
  * Things that just don't fit anywhere else and don't need their ownfile
  */
 body {
+  background-color:#333;
   background-image: url('../images/body-background.png');
   color: #d2bfa4;
 }
