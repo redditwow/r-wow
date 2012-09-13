@@ -231,3 +231,12 @@ p#noresults {
 a.friend, a.friend:visited, a.moderator, a.moderator:visited, a.author, a.author:visited {
   color:white !important;
   }
+
+/* Gold New Comments issue */
+
+.new-comment .usertext-body {
+background-color: #E2C7A3;
+color: #221409;
+border: solid 1px #CDDAF3;
+margin: -1px 0;
+}
