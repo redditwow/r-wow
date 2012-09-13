@@ -50,13 +50,15 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   background:url('../images/sprites/mop-graphics.png');
   background-position: -0px -839px;
   background-repeat:no-repeat;
-  width:439px;
+  width:359px;
   height:142px;
-  padding-right: 0px;
+  padding: 0 0 0 80px;
 }
 
 .side > .spacer:last-child .sidecontentbox {
   width: 334px;
+  height:24px;
+  overflow:hidden;
 }
 
 .sidecontentbox {
