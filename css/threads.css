@@ -233,8 +233,9 @@ a.friend, a.friend:visited, a.moderator, a.moderator:visited, a.author, a.author
 /* Gold New Comments issue */
 
 .new-comment .usertext-body {
-background-color: #E2C7A3;
-color: #221409;
-border: solid 1px #CDDAF3;
-margin: -1px 0;
+  background-color: #E2C7A3;
+  color: #221409;
+  border: 1px solid #666;
+  padding: 3px 10px;
+  margin: 5px 5px 5px 0;
 }
