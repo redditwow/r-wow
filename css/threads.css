@@ -225,3 +225,9 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
 p#noresults {
   padding: 15px;
 }
+
+/* Overrides for friends / OPs / Mods - ditch link colour */
+
+a.friend, a.friend:visited, a.moderator, a.moderator:visited, a.author, a.author:visited {
+  color:white !important;
+  }
