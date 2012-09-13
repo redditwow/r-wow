@@ -2,6 +2,14 @@
  * Sidebar.css
  */
 
+/* What do we call our users? */
+
+.titlebox .word {display:none;}
+.titlebox .number::after {
+  content: " designers";
+}
+
+
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 
 .side {
