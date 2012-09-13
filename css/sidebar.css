@@ -4,12 +4,13 @@
 
 /* What do we call our users? */
 
+.subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
   content: " Dwarf Rogues";
 }
 .users-online .word {display:none;}
-.subscribers .number::after {
+.users-online .number::after {
   content: " currently in Goldshire";
   }
 
