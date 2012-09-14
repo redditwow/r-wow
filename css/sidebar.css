@@ -92,7 +92,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 }
 
 /* Search Box */
-#search {
+.side #search {
   width: 300px;
   position: relative;
   top: 80px;
