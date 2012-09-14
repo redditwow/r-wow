@@ -28,8 +28,8 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   top:15px;
   color: #d2bfa4;
   z-index:666;
+  float:right;
 }
-
 .side a {
   color: #008467;
   background: none;

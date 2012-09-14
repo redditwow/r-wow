@@ -10,7 +10,7 @@
   background: url('../images/fishie.png') repeat-x #1A0F09;
   border: 1px solid #000;
   padding: 4px 0 5px;
-  margin: 0 415px 0 5px;
+  margin: 0 10px 0 5px;
 }
 #siteTable > .thing:first-child { 
   border-top-right-radius: 8px;
@@ -115,7 +115,7 @@ a.pretty-button.positive:hover { background-color: #05641A; }
 
 .commentarea {
   background: url('../images/fishie.png') repeat-x #1C110B;
-  margin: 0 415px 0 5px;
+  margin: 0 10px 0 5px;
   padding-right: 10px;
   padding-bottom:10px;
 }
