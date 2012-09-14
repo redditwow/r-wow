@@ -13,7 +13,9 @@
 a.voteWeight {
   background-color: transparent !important;
 }
-
+.gearIcon {
+  top:7px;
+  }
 .gearIcon, #RESSettingsButton {
   width: 14px !important;
   height: 12px !important;
@@ -49,6 +51,7 @@ a.voteWeight {
   background-color:#170e02 !important;
   height:18px !important;
   padding: 10px 3px 1px 3px !important;
+  width:20px !important;
   }
 .RESDropdownList {
   background-color:#170e02 !important;
