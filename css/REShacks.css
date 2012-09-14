@@ -13,8 +13,8 @@
 a.voteWeight {
   background-color: transparent !important;
 }
-.gearIcon {
-  top:7px;
+#RESMainGearOverlay .gearIcon {
+  top:7px !important;
   }
 .gearIcon, #RESSettingsButton {
   width: 14px !important;
@@ -51,6 +51,7 @@ a.voteWeight {
   background-color:#170e02 !important;
   height:18px !important;
   width:20px !important;
+  border:1px black solid;
   }
 .RESDropdownList {
   background-color:#170e02 !important;
