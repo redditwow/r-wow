@@ -7,11 +7,11 @@
 .subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
-  content: " Dwarf Rogues";
+  content: " Victims of the Darkmoon Rabbit";
 }
 .users-online .word {display:none;}
 .users-online .number::after {
-  content: " currently in Goldshire";
+  content: " in trade chat";
   }
 
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
