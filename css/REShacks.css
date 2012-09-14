@@ -40,6 +40,27 @@ a.voteWeight {
   background-color: #E2C7A3 !important;
   }
 
+/* and dropdowns */
+
+.RESDropdownList a {
+  color:#797E84;
+  }
+#RESMainGearOverlay {
+  background-color:#170e02;
+  height:18px !important;
+  padding: 10px 3px 1px 3px;
+  }
+.RESDropdownList {
+  background-color:#170e02;
+  border:1px solid black;
+  border-bottom:none;
+  }
+.RESDropdownList li {
+  border-bottom:1px solid black;
+  }
+.moduleToggle .toggleOff, .toggleButton .toggleOff {
+  background-color: #60240E;
+  }
 /* Hack for mail icon on scroll down */
 
 #NREMail.nohavemail, #NREMail.havemail {
