@@ -138,6 +138,35 @@ p.tagline, .tagline { height: 18px; margin: 4px 0 0; border: 0px; }
 .flair-warrior+a.submitter:visited,.flair-alliance-warrior+a.submitter:visited,.flair-horde-warrior+a.submitter:visited
   { background-color: #C79C6E !important; color: #FFFFFF  !important; }
 
+/* Let friends keep their flair but add an icon to their name */
+a.author.friend, a.author.friend:hover {
+  background: none !important;
+  border: none !important;
+}
+
+a.author.friend:hover {
+  text-decoration: underline;
+}
+
+a.author.friend::after {
+  /* TODO: Add the icon here */
+}
+
+.flair-alliance+a.author.friend { color: #247FAA !important; }
+.flair-horde+a.author.friend { color: #B30000 !important; }
+.flair-deathknight+a.author.friend,.flair-alliance-deathknight+a.author.friend,.flair-horde-deathknight+a.author.friend { color: #C41F3B !important; }
+.flair-druid+a.author.friend,.flair-alliance-druid+a.author.friend,.flair-horde-druid+a.author.friend { color: #FF7D0A !important; }
+.flair-hunter+a.author.friend,.flair-alliance-hunter+a.author.friend,.flair-horde-hunter+a.author.friend { color: #ABD473 !important; }
+.flair-mage+a.author.friend,.flair-alliance-mage+a.author.friend,.flair-horde-mage+a.author.friend { color: #69CCF0 !important; }
+.flair-monk+a.author.friend,.flair-alliance-monk+a.author.friend,.flair-horde-monk+a.author.friend { color: #558A84 !important; }
+.flair-paladin+a.author.friend,.flair-alliance-paladin+a.author.friend,.flair-horde-paladin+a.author.friend { color: #F58CBA !important; }
+.flair-priest+a.author.friend,.flair-alliance-priest+a.author.friend,.flair-horde-priest+a.author.friend { color: #FFFFFF !important; }
+.flair-rogue+a.author.friend,.flair-alliance-rogue+a.author.friend,.flair-horde-rogue+a.author.friend { color: #FFF569 !important; }
+.flair-shaman+a.author.friend,.flair-alliance-shaman+a.author.friend,.flair-horde-shaman+a.author.friend { color: #0070DE !important; }
+.flair-warlock+a.author.friend,.flair-alliance-warlock+a.author.friend,.flair-horde-warlock+a.author.friend { color: #9482C9 !important; }
+.flair-warrior+a.author.friend,.flair-alliance-warrior+a.author.friend,.flair-horde-warrior+a.author.friend { color: #C79C6E !important; }
+
+
 
 /* Special flair for special people */
 
