@@ -74,6 +74,11 @@ a {
   background: #070502 !important;
 }
 
+/* Usertext crazy margin fix */
+
+.usertext-edit {padding:0 1px;}
+
+
 /* Markup changes */
 blockquote {
   border-left: 2px solid #FFB100 !important;

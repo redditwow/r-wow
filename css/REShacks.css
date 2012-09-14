@@ -31,6 +31,14 @@ a.voteWeight {
   color:#221409 !important;
   }
 
+/* styling some popups */
+#authorInfoToolTip .blueButton {
+  background-color:#221409 !important;
+  }
+.RESCloseButton {
+  color: #221409 !important;
+  background-color: #E2C7A3 !important;
+  }
 
 /* Hack for mail icon on scroll down */
 
