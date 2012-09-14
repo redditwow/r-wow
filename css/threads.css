@@ -22,12 +22,12 @@
 }
 
 #siteTable .thing .title a {
-  color: #0EAF8C;
+  color: #5FFBDA;
   margin-top: 11px;
 }
 
 #siteTable .thing .title a:visited {
-  color: #6A7472;
+  color: #826A19;
 }
 
 .midcol, .thumbnail {margin-top:0px;}
@@ -51,7 +51,7 @@
 .arrow.down { background-position: -0px -40px; }
 .arrow.downmod { background-position: -0px -60px; }
 
-.midcol { width: 28px !important; padding: 10px 0px; }
+.midcol { width: 36px !important; padding: 10px 0px; }
 .entry { padding: 5px 0 0;}
 
 /* Expandos */
