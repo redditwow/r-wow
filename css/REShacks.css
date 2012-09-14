@@ -43,23 +43,23 @@ a.voteWeight {
 /* and dropdowns */
 
 .RESDropdownList a {
-  color:#797E84;
+  color:#797E84 !important;
   }
 #RESMainGearOverlay {
-  background-color:#170e02;
+  background-color:#170e02 !important;
   height:18px !important;
-  padding: 10px 3px 1px 3px;
+  padding: 10px 3px 1px 3px !important;
   }
 .RESDropdownList {
-  background-color:#170e02;
-  border:1px solid black;
-  border-bottom:none;
+  background-color:#170e02 !important;
+  border:1px solid black !important;
+  border-bottom:none !important;
   }
 .RESDropdownList li {
-  border-bottom:1px solid black;
+  border-bottom:1px solid black !important;
   }
 .moduleToggle .toggleOff, .toggleButton .toggleOff {
-  background-color: #60240E;
+  background-color: #60240E !important;
   }
 /* Hack for mail icon on scroll down */
 
