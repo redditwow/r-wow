@@ -167,6 +167,10 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
   border-radius: 5px;
 }
 
+.comment .usertext {
+  margin-right:40px;
+  }
+
 .usertext button, .usertext .help-toggle.toggle a.option.active {
   height: 30px;
   border: 1px solid #2C180D;
