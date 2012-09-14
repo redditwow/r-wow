@@ -109,7 +109,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   width: 300px;
   background-color: #1b1108;
   border: 3px double #2c180d;
-  color: #E2C7A3;
+  color: #E2C7A3 !important;
 }
 
 /* Search Box "Expando" */

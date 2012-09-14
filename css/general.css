@@ -192,6 +192,10 @@ blockquote {
 /* Search page settings */
 
 .searchpane {
-  margin:5px 418px 5px 0;
+  margin:25px 418px 5px 0;
+  background-color:#311c0f;
+  }
+.raisedbox {
+  border:1px solid #010c0f;
   }
 
