@@ -1,6 +1,18 @@
 /***
  * Flair.css
+ * This also handles username coloring in general.
  */
+
+/* Setup people with no flair */
+a.author {
+  color: #FFFFFF;
+}
+
+a.submitter { 
+  color: #FFFFFF;
+  padding: 2px 4px;
+  border-radius: 3px; 
+}
 
 /* General Rules */
  .flair {
@@ -88,6 +100,43 @@ p.tagline, .tagline { height: 18px; margin: 4px 0 0; border: 0px; }
 .flair-shaman+.author,.flair-alliance-shaman+.author,.flair-horde-shaman+.author { color: #0070DE !important; }
 .flair-warlock+.author,.flair-alliance-warlock+.author,.flair-horde-warlock+.author { color: #9482C9 !important; }
 .flair-warrior+.author,.flair-alliance-warrior+.author,.flair-horde-warrior+.author { color: #C79C6E !important; }
+
+ /* Let thread submitters keep awesome flair related colorschemes */
+.flair-alliance+a.submitter, .flair-alliance+a.submitter:visited { background-color: #247FAA !important; color: #FFFFFF !important; }
+.flair-horde+a.submitter, .flair-horde+a.submitter:visited { background-color: #B30000 !important; color: #FFFFFF !important; }
+.flair-deathknight+a.submitter,.flair-alliance-deathknight+a.submitter,.flair-horde-deathknight+a.submitter,
+.flair-deathknight+a.submitter:visited,.flair-alliance-deathknight+a.submitter:visited,.flair-horde-deathknight+a.submitter:visited
+  { background-color: #C41F3B !important; color: #FFFFFF !important; }
+.flair-druid+a.submitter,.flair-alliance-druid+a.submitter,.flair-horde-druid+a.submitter,
+.flair-druid+a.submitter:visited,.flair-alliance-druid+a.submitter:visited,.flair-horde-druid+a.submitter:visited
+  { background-color: #FF7D0A !important; color: #FFFFFF !important; }
+.flair-hunter+a.submitter,.flair-alliance-hunter+a.submitter,.flair-horde-hunter+a.submitter,
+.flair-hunter+a.submitter:visited,.flair-alliance-hunter+a.submitter:visited,.flair-horde-hunter+a.submitter:visited
+  { background-color: #ABD473 !important; color: #000000 !important; }
+.flair-mage+a.submitter,.flair-alliance-mage+a.submitter,.flair-horde-mage+a.submitter,
+.flair-mage+a.submitter:visited,.flair-alliance-mage+a.submitter:visited,.flair-horde-mage+a.submitter:visited
+  { background-color: #69CCF0 !important; color: #000000 !important; }
+.flair-monk+a.submitter,.flair-alliance-monk+a.submitter,.flair-horde-monk+a.submitter,
+.flair-monk+a.submitter:visited,.flair-alliance-monk+a.submitter:visited,.flair-horde-monk+a.submitter:visited
+  { background-color: #558A84 !important; color: #000000 !important; }
+.flair-paladin+a.submitter,.flair-alliance-paladin+a.submitter,.flair-horde-paladin+a.submitter,
+.flair-paladin+a.submitter:visited,.flair-alliance-paladin+a.submitter:visited,.flair-horde-paladin+a.submitter:visited
+  { background-color: #F58CBA !important; color: #000000 !important;}
+.flair-priest+a.submitter,.flair-alliance-priest+a.submitter,.flair-horde-priest+a.submitter,
+.flair-priest+a.submitter:visited,.flair-alliance-priest+a.submitter:visited,.flair-horde-priest+a.submitter:visited
+  { background-color: #FFFFFF !important; color: #000000 !important; }
+.flair-rogue+a.submitter,.flair-alliance-rogue+a.submitter,.flair-horde-rogue+a.submitter,
+.flair-rogue+a.submitter:visited,.flair-alliance-rogue+a.submitter:visited,.flair-horde-rogue+a.submitter:visited
+  { background-color: #FFF569 !important;  color: #000000 !important; }
+.flair-shaman+a.submitter,.flair-alliance-shaman+a.submitter,.flair-horde-shaman+a.submitter,
+.flair-shaman+a.submitter:visited,.flair-alliance-shaman+a.submitter:visited,.flair-horde-shaman+a.submitter:visited
+  { background-color: #0070DE !important; color: #FFFFFF !important; }
+.flair-warlock+a.submitter,.flair-alliance-warlock+a.submitter,.flair-horde-warlock+a.submitter,
+.flair-warlock+a.submitter:visited,.flair-alliance-warlock+a.submitter:visited,.flair-horde-warlock+a.submitter:visited
+  { background-color: #9482C9 !important; color: #000000 !important; }
+.flair-warrior+a.submitter,.flair-alliance-warrior+a.submitter,.flair-horde-warrior+a.submitter,
+.flair-warrior+a.submitter:visited,.flair-alliance-warrior+a.submitter:visited,.flair-horde-warrior+a.submitter:visited
+  { background-color: #C79C6E !important; color: #FFFFFF  !important; }
 
 
 /* Special flair for special people */
