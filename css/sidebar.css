@@ -17,7 +17,7 @@
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 
 .side {
-  margin: 25px 5px 0 25px;
+  margin: 0px 5px 0 25px;
   width:439px;
   /* background:url(%%frame-wood-repeat%%); */
   background:url('../images/frame-wood-repeat.png');
@@ -27,6 +27,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   padding-top: 0px;
   top:15px;
   color: #d2bfa4;
+  z-index:666;
 }
 
 .side a {
