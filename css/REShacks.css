@@ -100,4 +100,14 @@ a.voteWeight {
 .res-nightmode .expando-button {max-height:23px !important;max-width:23px !important;}
 .res-nightmode .keyHighlight {background-image:none;}
 .res-nightmode .titlebox .usertext .md > h1, .res-nightmode .sidecontentbox .title {background:transparent;border:1px solid #999;}
+
+/* Glaive instead of Bacon */
+
+#baconBit {
+  background-image: url('../images/glaive.png') !important;
+  width: 50px !important;
+  height: 20px !important;
+}
+
+
 /** +++ RES HACKS ENDS +++ **/
