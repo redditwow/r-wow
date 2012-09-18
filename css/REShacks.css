@@ -54,13 +54,24 @@ a.voteWeight {
   border:1px black solid;
   }
 .RESDropdownList {
-  background-color:#170e02 !important;
-  border:1px solid black !important;
-  border-bottom:none !important;
+  background-color: #221409 !important;
+  border: 1px solid #2C180D !important;
   }
 .RESDropdownList li {
-  border-bottom:1px solid black !important;
+  border-bottom:1px solid #2C180D !important;
   }
+  
+.RESDropdownList li,  
+.RESDropdownList li a {
+  color: #008467 !important;
+  }
+  
+.RESDropdownList li:hover,
+.RESDropdownList li a:hover {
+  background-color: #36200E !important;
+  color: #FFFFFF !important;
+  }
+  
 .moduleToggle .toggleOff, .toggleButton .toggleOff {
   background-color: #60240E !important;
   }
@@ -73,6 +84,9 @@ a.voteWeight {
 #NREMail.nohavemail {background-position:0 0 !important;}
 #NREMail.havemail {background-position:0 -9px !important;}
 #NREMail {height:9px !important;}
+
+
+/* Hack for dropdown menus  */
 
 
 /* MF Darkmode */
