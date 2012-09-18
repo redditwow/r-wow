@@ -99,7 +99,7 @@
 /* Mail */
 #mail { 
   width: 13px !important; 
-  height: 9px !important; 
+  height: 10px !important; 
   position: relative !important; 
   top: 5px !important; 
 }
@@ -113,9 +113,9 @@
 }
 
 #mail.nohavemail { background-position: -0px -0px; background-repeat: no-repeat; }
-#mail.havemail { background-position: -0px -9px; background-repeat: no-repeat; }
-#modmail.nohavemail { background-position: -0px -18px; background-repeat: no-repeat; }
-#modmail.havemail { background-position: -0px -30px; background-repeat: no-repeat; }
+#mail.havemail { background-position: -0px -12px; background-repeat: no-repeat; }
+#modmail.nohavemail { background-position: -0px -24px; background-repeat: no-repeat; }
+#modmail.havemail { background-position: -0px -38px; background-repeat: no-repeat; }
 
 /* Logo, Redditname, Tabmenu */
 
