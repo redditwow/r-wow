@@ -148,7 +148,12 @@ a.author.friend:hover {
 }
 
 a.author.friend::after {
-  /* TODO: Add the icon here */
+  content: url(%%friend-icon%%);
+  margin-left: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 12px;
+  height: 12px;
 }
 
 .flair-alliance+a.author.friend { color: #247FAA !important; }
