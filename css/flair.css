@@ -148,7 +148,7 @@ a.author.friend:hover {
 }
 
 a.author.friend::after {
-  content: url(%%friend-icon%%);
+  content: url('../images/friend-icon.png');
   margin-left: 3px;
   display: inline-block;
   vertical-align: middle;
