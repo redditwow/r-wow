@@ -104,7 +104,7 @@ a.voteWeight {
 /* Glaive instead of Bacon */
 
 #baconBit {
-  background-image: url(http://e.thumbs.redditmedia.com/vfjxCaPGr2cyp3cL.png) !important;
+  background-image: url("../images/glaive.png") !important;
   width: 50px !important;
   height: 20px !important;
 }
