@@ -11,8 +11,8 @@
 }
 
 .thing a.thumbnail img {
-  width: 54px;
-  height: 54px;
+  width: 54px !important;
+  height: 54px !important;
   position: relative;
   top: 12px;
   left: 11px;
