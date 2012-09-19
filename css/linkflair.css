@@ -24,9 +24,6 @@
   position: absolute;
   left: 62px;
   margin-top: 3px;
-  /*width: 76px;
-  height: 76px;
-  margin-right:20px;*/
 }
 
 .thing a.thumbnail img {
@@ -67,12 +64,6 @@ a.thumbnail.default, a.thumbnail.self {
   background: url('../images/fishie-blue.png') repeat-x #0A0E1C !important;
   color: #00B4FF !important;
 }
-
-/*
-.linkflair-blizzard:hover {
-  background: url('../images/linkflair-blizzard-background-hover.png') repeat-x #0A0E1C !important;
-}
-*/
 
 .linkflair-blizzard .title {
   color: #00B4FF !important;
