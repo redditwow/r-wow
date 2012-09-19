@@ -11,11 +11,11 @@
 }
 
 .thing a.thumbnail img {
-  width: 56px;
-  height: 56px;
+  width: 54px;
+  height: 54px;
   position: relative;
   top: 12px;
-  left: 12px;
+  left: 11px;
 }
 
 .thing a.thumbnail::after {
