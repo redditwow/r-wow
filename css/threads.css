@@ -77,7 +77,7 @@
 
 .link .usertext .md { background: transparent; border: none; }
 .usertext-body { margin-bottom:8px; }
-
+.usertext.grayed .usertext-body { background:transparent;color:#cacaca;}
 /* Blizzard posts within threads hack */
 
 a[href*='#blizzpost']~em {
