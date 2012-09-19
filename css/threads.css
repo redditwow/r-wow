@@ -77,7 +77,6 @@
 
 .link .usertext .md { background: transparent; border: none; }
 .usertext-body { margin-bottom:8px; }
-.usertext.grayed .usertext-body { background:transparent;color:#cacaca;}
 /* Blizzard posts within threads hack */
 
 a[href*='#blizzpost']~em {
@@ -193,7 +192,7 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
   border-bottom: 1px dotted #B39265;
 }
 
-.usertext.grayed .usertext-body {
+.usertext.border .usertext-body, .usertext.grayed .usertext-body {
   background-color: #180D08;
   padding-left: 5px;
   border: 1px solid #000000;
