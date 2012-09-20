@@ -3,6 +3,13 @@
  * This also handles username styling
  */
 
+/* Moderators */
+.comment a.author.moderator, .comment a.author.moderator:visited {
+  color: #FFFFFF !important;
+  background-color: #228822 !important;
+  border-radius: 3px;
+}
+ 
 /* People without Flair (aka n00bs) */
 a.author {
   color: #FFFFFF;
