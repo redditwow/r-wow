@@ -7,11 +7,11 @@
 .subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
-  content: " Victims of the Darkmoon Rabbit";
+  content: " PvPers in the Blasted Lands";
 }
 .users-online .word {display:none;}
 .users-online .number::after {
-  content: " in trade chat";
+  content: " Screen Shots of Blasted Lands";
   }
 
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
