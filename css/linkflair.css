@@ -33,13 +33,11 @@
 
 /* All custom link flair thumbs */
 
-.linkflair a.thumbnail {
+.linkflair a.thumbnail, a.thumbnail.default, a.thumbnail.self, a.thumbnail.nsfw {
   background-image: url('../images/sprites/linkflair.png') !important;
 }
 
-a.thumbnail.default, a.thumbnail.self { 
-  background: url('../images/sprites/linkflair.png') -0px -1140px !important;
-}
+a.thumbnail.default, a.thumbnail.self { background-position: -0px -1140px !important; }
 
 /** Note on the way the math works: 
  *  To get the background y position just take the pos_sprite
@@ -63,9 +61,7 @@ a.thumbnail.default, a.thumbnail.self {
 .linkflair-general a.thumbnail { background-position: -0px -1213px !important; }
 
 /* NSFW goes at the end because it will always override linkflair */
-a.thumbnail.nsfw {
-  background: url('../images/sprites/linkflair.png') -0px -1292px !important;
-}
+a.thumbnail.nsfw { background-position: -0px -1292px !important; }
 
 /* Special Blizzard Employee posts */
 .linkflair-blizzard {
