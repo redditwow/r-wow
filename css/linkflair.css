@@ -55,10 +55,6 @@
 .linkflair-general a.thumbnail { background-position: -0px -1216px !important; }
 
 a.thumbnail.default, a.thumbnail.self { 
-  background: url('../images/sprites/linkflair.png') -0px -1216px !important;
-}
-
-a.thumbnail.nsfw {
   background: url('../images/sprites/linkflair.png') -0px -1140px !important;
 }
 
