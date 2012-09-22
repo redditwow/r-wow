@@ -65,7 +65,7 @@ a.thumbnail.nsfw { background-position: -0px -1292px !important; }
 
 /* Special Blizzard Employee posts */
 .linkflair-blizzard {
-  background: url('../images/fishie-blue.png') repeat-x #0A0E1C !important;
+  background: url('../images/thread-background-blizzard.png') repeat-x #0A0E1C !important;
   color: #00B4FF !important;
 }
 

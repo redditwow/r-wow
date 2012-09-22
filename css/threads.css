@@ -7,7 +7,7 @@
 }
 
 #siteTable .thing {
-  background: url('../images/fishie.png') repeat-x #1A0F09;
+  background: url('../images/thread-background.png') repeat-x #1A0F09;
   border: 1px solid #000;
   padding: 4px 0 5px;
   margin: 0 10px 0 5px;
@@ -89,7 +89,7 @@ a[href*='#blizzpost']~em {
 /* Reported and Spam Posts */
 
 #siteTable .thing.reported, #siteTable .thing.spam {
-  background: url('../images/fishie-red.png') repeat-x;
+  background: url('../images/thread-background-reported.png') repeat-x;
 }
 
 .entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp {
@@ -112,7 +112,7 @@ a.pretty-button.positive:hover { background-color: #05641A; }
 
 
 .commentarea {
-  background: url('../images/fishie.png') repeat-x #1C110B;
+  background: url('../images/thread-background.png') repeat-x #1C110B;
   margin: 0 10px 0 5px;
   padding-right: 10px;
   padding-bottom:10px;
