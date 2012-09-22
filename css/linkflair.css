@@ -41,23 +41,28 @@ a.thumbnail.default, a.thumbnail.self {
   background: url('../images/sprites/linkflair.png') -0px -1140px !important;
 }
 
+/** Note on the way the math works: 
+ *  To get the background y position just take the pos_sprite
+ *  subtract 1 from it, multiply by 76 and then subtract 3.
+ *  This is only needed for linkflair, not thumbnails. **/
 .linkflair-deathknight a.thumbnail { background-position: -0px -0px !important; }
-.linkflair-druid a.thumbnail { background-position: -0px -76px !important; }
-.linkflair-hunter a.thumbnail { background-position: -0px -152px !important; }
-.linkflair-mage a.thumbnail { background-position: -0px -228px !important; }
-.linkflair-monk a.thumbnail { background-position: -0px -304px !important; }
-.linkflair-paladin a.thumbnail { background-position: -0px -380px !important; }
-.linkflair-priest a.thumbnail { background-position: -0px -456px !important; }
-.linkflair-rogue a.thumbnail { background-position: -0px -532px !important; }
-.linkflair-shaman a.thumbnail { background-position: -0px -608px !important; }
-.linkflair-warlock a.thumbnail { background-position: -0px -684px !important; }
-.linkflair-warrior a.thumbnail { background-position: -0px -760px !important; }
-.linkflair-lore a.thumbnail { background-position: -0px -836px !important; }
-.linkflair-pvp a.thumbnail { background-position: -0px -912px !important; }
-.linkflair-raiding a.thumbnail { background-position: -0px -988px !important; }
-.linkflair-blizzard a.thumbnail { background-position: -0px -1064px !important; }
-.linkflair-general a.thumbnail { background-position: -0px -1216px !important; }
+.linkflair-druid a.thumbnail { background-position: -0px -73px !important; }
+.linkflair-hunter a.thumbnail { background-position: -0px -149px !important; }
+.linkflair-mage a.thumbnail { background-position: -0px -225px !important; }
+.linkflair-monk a.thumbnail { background-position: -0px -301px !important; }
+.linkflair-paladin a.thumbnail { background-position: -0px -377px !important; }
+.linkflair-priest a.thumbnail { background-position: -0px -453px !important; }
+.linkflair-rogue a.thumbnail { background-position: -0px -529px !important; }
+.linkflair-shaman a.thumbnail { background-position: -0px -605px !important; }
+.linkflair-warlock a.thumbnail { background-position: -0px -681px !important; }
+.linkflair-warrior a.thumbnail { background-position: -0px -757px !important; }
+.linkflair-lore a.thumbnail { background-position: -0px -833px !important; }
+.linkflair-pvp a.thumbnail { background-position: -0px -909px !important; }
+.linkflair-raiding a.thumbnail { background-position: -0px -985px !important; }
+.linkflair-blizzard a.thumbnail { background-position: -0px -1061px !important; }
+.linkflair-general a.thumbnail { background-position: -0px -1213px !important; }
 
+/* NSFW goes at the end because it will always override linkflair */
 a.thumbnail.nsfw {
   background: url('../images/sprites/linkflair.png') -0px -1292px !important;
 }
