@@ -5,7 +5,7 @@
 /* World of reddit Logo */
 .pagename a {
   display: block;
-  background-image: url('../images/worldofreddit.png');
+  background-image: url('../images/reddit-mistslogo.png');
   background-repeat: no-repeat;
   margin: 0 auto;
   font-size: 0px;
@@ -54,7 +54,7 @@
 #header {
   /* background:url(%%header3%%); */
   background-color:#333;
-  background-image:url('../images/header3.jpg');
+  background-image:url('../images/reddit-header.jpg');
   background-position:center;
   border-bottom:1px solid #000;
   height:150px;

@@ -7,7 +7,7 @@
 
 .keyHighlight {
   outline: none !important;
-  background: url('../images/border_selected_one.png') no-repeat;
+  background: url('../images/res-highlight-green.png') no-repeat;
   background-color: transparent !important;
 }
 a.voteWeight {
@@ -104,7 +104,7 @@ a.voteWeight {
 /* Glaive instead of Bacon */
 
 #baconBit {
-  background-image: url('../images/glaive.png') !important;
+  background-image: url('../images/res-glaive.png') !important;
   width: 50px !important;
   height: 20px !important;
 }
