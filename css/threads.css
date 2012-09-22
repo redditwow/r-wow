@@ -197,6 +197,10 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
   padding-left: 5px;
   border: 1px solid #000000;
 }
+.comment.spam > .child, .message.spam > .child {
+background-color:#521D10;
+}
+
 
 .comment a {
   color: #008467;
