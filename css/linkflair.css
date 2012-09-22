@@ -37,6 +37,10 @@
   background-image: url('../images/sprites/linkflair.png') !important;
 }
 
+a.thumbnail.default, a.thumbnail.self { 
+  background: url('../images/sprites/linkflair.png') -0px -1140px !important;
+}
+
 .linkflair-deathknight a.thumbnail { background-position: -0px -0px !important; }
 .linkflair-druid a.thumbnail { background-position: -0px -76px !important; }
 .linkflair-hunter a.thumbnail { background-position: -0px -152px !important; }
@@ -53,10 +57,6 @@
 .linkflair-raiding a.thumbnail { background-position: -0px -988px !important; }
 .linkflair-blizzard a.thumbnail { background-position: -0px -1064px !important; }
 .linkflair-general a.thumbnail { background-position: -0px -1216px !important; }
-
-a.thumbnail.default, a.thumbnail.self { 
-  background: url('../images/sprites/linkflair.png') -0px -1140px !important;
-}
 
 a.thumbnail.nsfw {
   background: url('../images/sprites/linkflair.png') -0px -1292px !important;
