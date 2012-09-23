@@ -7,13 +7,13 @@
 # Written by Robert "Fluxflashor" Veitch
 import os
 
-FOLDERPATH = "css/"
+FOLDERPATH = "../css/"
 
 # Open up each file one by one
 dirlist=os.listdir(FOLDERPATH)
 
 try:
-    masterfile = open('stylesheet.css', 'w')
+    masterfile = open('../stylesheet.css', 'w')
     for fname in dirlist:
         try:
             thefile = open(FOLDERPATH+fname, 'r')
