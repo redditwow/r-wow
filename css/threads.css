@@ -230,12 +230,6 @@ p#noresults {
   padding: 15px;
 }
 
-/* Overrides for friends / OPs / Mods - ditch link colour */
-
-/*a.friend, a.friend:visited, a.moderator, a.moderator:visited, a.author, a.author:visited {
-  color:white !important;
-  }*/
-
 /* Gold New Comments issue */
 
 .new-comment .usertext-body {
@@ -243,5 +237,13 @@ p#noresults {
   color: #221409;
   border: 1px solid #666;
   padding: 3px 10px;
-  margin: 5px 5px 5px 0;
+  margin: 5px 5px 5px 0;}
+
+
+/* Tables */
+
+.md th {color:#fae3c3;}
+.md td, .md th {
+border: 1px solid #D2BFA4;
+padding: 5px 10px;
 }
