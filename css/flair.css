@@ -97,7 +97,7 @@ p.tagline, .tagline { height: 18px; margin: 4px 0 0; border: 0px; }
 .flair-druid+.author,.flair-alliance-druid+.author,.flair-horde-druid+.author { color: #FF7D0A !important; }
 .flair-hunter+.author,.flair-alliance-hunter+.author,.flair-horde-hunter+.author { color: #ABD473 !important; }
 .flair-mage+.author,.flair-alliance-mage+.author,.flair-horde-mage+.author { color: #69CCF0 !important; }
-.flair-monk+.author,.flair-alliance-monk+.author,.flair-horde-monk+.author { color: #558A84 !important; }
+.flair-monk+.author,.flair-alliance-monk+.author,.flair-horde-monk+.author { color: #00FF96 !important; }
 .flair-paladin+.author,.flair-alliance-paladin+.author,.flair-horde-paladin+.author { color: #F58CBA !important; }
 .flair-priest+.author,.flair-alliance-priest+.author,.flair-horde-priest+.author { color: #FFFFFF !important; }
 .flair-rogue+.author,.flair-alliance-rogue+.author,.flair-horde-rogue+.author { color: #FFF569 !important; }
@@ -124,7 +124,7 @@ p.tagline, .tagline { height: 18px; margin: 4px 0 0; border: 0px; }
   { background-color: #69CCF0 !important; color: #000000 !important; }
 .flair-monk+a.submitter,.flair-alliance-monk+a.submitter,.flair-horde-monk+a.submitter,
 .flair-monk+a.submitter:visited,.flair-alliance-monk+a.submitter:visited,.flair-horde-monk+a.submitter:visited
-  { background-color: #558A84 !important; color: #000000 !important; }
+  { background-color: #00FF96 !important; color: #000000 !important; }
 .flair-paladin+a.submitter,.flair-alliance-paladin+a.submitter,.flair-horde-paladin+a.submitter,
 .flair-paladin+a.submitter:visited,.flair-alliance-paladin+a.submitter:visited,.flair-horde-paladin+a.submitter:visited
   { background-color: #F58CBA !important; color: #000000 !important;}
@@ -169,7 +169,7 @@ a.author.friend::after {
 .flair-druid+a.author.friend,.flair-alliance-druid+a.author.friend,.flair-horde-druid+a.author.friend { color: #FF7D0A !important; }
 .flair-hunter+a.author.friend,.flair-alliance-hunter+a.author.friend,.flair-horde-hunter+a.author.friend { color: #ABD473 !important; }
 .flair-mage+a.author.friend,.flair-alliance-mage+a.author.friend,.flair-horde-mage+a.author.friend { color: #69CCF0 !important; }
-.flair-monk+a.author.friend,.flair-alliance-monk+a.author.friend,.flair-horde-monk+a.author.friend { color: #558A84 !important; }
+.flair-monk+a.author.friend,.flair-alliance-monk+a.author.friend,.flair-horde-monk+a.author.friend { color: #00FF96 !important; }
 .flair-paladin+a.author.friend,.flair-alliance-paladin+a.author.friend,.flair-horde-paladin+a.author.friend { color: #F58CBA !important; }
 .flair-priest+a.author.friend,.flair-alliance-priest+a.author.friend,.flair-horde-priest+a.author.friend { color: #FFFFFF !important; }
 .flair-rogue+a.author.friend,.flair-alliance-rogue+a.author.friend,.flair-horde-rogue+a.author.friend { color: #FFF569 !important; }
