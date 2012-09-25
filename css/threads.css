@@ -21,14 +21,18 @@
   border-bottom-left-radius: 8px;  
 }
 
-#siteTable .thing .title a {
+#siteTable .thing .title a, #sitetable .thing.comment a.title {
   color: #5FFBDA;
   margin-top: 11px;
 }
 
-#siteTable .thing .title a:visited {
+#siteTable .thing .title a:visited, #siteTable .thing.comment a.title:visited {
   color: #826A19;
 }
+
+#siteTable .thing.comment .parent {
+padding: 15px 10px 10px 40px;}
+  
 
 .midcol, .thumbnail {margin-top:0px;}
 
