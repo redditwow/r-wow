@@ -6,12 +6,15 @@
 
 .subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
-.subscribers .number::after {
-  content: " PvPers in the Blasted Lands";
+.subscribers .number::before {
+  content: "Position in queue:  ";
 }
 .users-online .word {display:none;}
+.users-online .number::before {
+  congent: "Estimated time: ";
+  }
 .users-online .number::after {
-  content: " Screen Shots of Blasted Lands";
+  content: " min";
   }
 
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
