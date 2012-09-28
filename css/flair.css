@@ -184,57 +184,21 @@ li.flairsample-left { padding-top: 5px; }
 /*____ The following section is flair that is related to special posters. ____*/
 
 /* Blizzard Employees - Icons */
-a.author[href$='reddit.com/user/bashiok_foreal']:before, a.author[href$='reddit.com/user/lylirra']:before,
-a.author[href$='reddit.com/user/Grimiku']:before, a.author[href$='reddit.com/user/Brennvin']:before,
-a.author[href$='reddit.com/user/Vaeflare']:before, a.author[href$='reddit.com/user/Traysent']:before,
-a.author[href$='reddit.com/user/Crithto']:before, a.author[href$='reddit.com/user/Kaivax']:before,
-a.author[href$='reddit.com/user/Rygarius']:before, a.author[href$='reddit.com/user/Nethaera']:before,
-a.author[href$='reddit.com/user/Aldrexus']:before, a.author[href$='reddit.com/user/andrewchambers']:before,
-a.author[href$='reddit.com/user/wyattcheng']:before, a.author[href$='reddit.com/user/JayPWilson']:before,
-a.author[href$='reddit.com/user/BlizzDaxxarri']:before, a.author[href$='reddit.com/user/Zarhym']:before,
-a.author[href$='reddit.com/user/TheFargo']:before, a.author[href$='reddit.com/user/WatcherDev']:before, 
-a.author[href$='reddit.com/user/Kalgan']:before {
-  content: url('../images/flair-blizzard.png');
-  vertical-align: middle;
-  margin: 0 3px;
+/* They have special flair classes that are not user selectable */
+
+.flair-blizzard::after {
+  content: url('../images/flair-blizzard.png') !important;
   width: 20px;
   height: 13px;
 }
 
-a.author[href$='reddit.com/user/Ghostcrawler']:before {
+.flair-rainbowdash::after {
   content: url('../images/flair-ghostcrawler.png');
-  vertical-align: middle;
-  margin: 0 3px;
   width: 20px;
   height: 13px;
 }
 
-/* Blizzard Employees - Username Color */
-a.author[href$='reddit.com/user/bashiok_foreal'], a.author[href$='reddit.com/user/lylirra'],
-a.author[href$='reddit.com/user/Grimiku'], a.author[href$='reddit.com/user/Brennvin'],
-a.author[href$='reddit.com/user/Vaeflare'], a.author[href$='reddit.com/user/Traysent'],
-a.author[href$='reddit.com/user/Crithto'], a.author[href$='reddit.com/user/Kaivax'],
-a.author[href$='reddit.com/user/Rygarius'], a.author[href$='reddit.com/user/Nethaera'],
-a.author[href$='reddit.com/user/Aldrexus'], a.author[href$='reddit.com/user/andrewchambers'],
-a.author[href$='reddit.com/user/wyattcheng'], a.author[href$='reddit.com/user/JayPWilson'],
-a.author[href$='reddit.com/user/BlizzDaxxarri'], a.author[href$='reddit.com/user/Zarhym'],
-a.author[href$='reddit.com/user/TheFargo'], a.author[href$='reddit.com/user/Ghostcrawler'],
-a.author[href$='reddit.com/user/WatcherDev'], a.author[href$='reddit.com/user/Kalgan'] {
-  color: #00B4FF !important;
-}
-
-a.author[href$='reddit.com/user/bashiok_foreal']:visited, a.author[href$='reddit.com/user/lylirra']:visited,
-a.author[href$='reddit.com/user/Grimiku']:visited, a.author[href$='reddit.com/user/Brennvin']:visited,
-a.author[href$='reddit.com/user/Vaeflare']:visited, a.author[href$='reddit.com/user/Traysent']:visited,
-a.author[href$='reddit.com/user/Crithto']:visited, a.author[href$='reddit.com/user/Kaivax']:visited,
-a.author[href$='reddit.com/user/Rygarius']:visited, a.author[href$='reddit.com/user/Nethaera']:visited,
-a.author[href$='reddit.com/user/Aldrexus']:visited, a.author[href$='reddit.com/user/andrewchambers']:visited,
-a.author[href$='reddit.com/user/wyattcheng']:visited, a.author[href$='reddit.com/user/JayPWilson']:visited,
-a.author[href$='reddit.com/user/BlizzDaxxarri']:visited, a.author[href$='reddit.com/user/Zarhym']:visited,
-a.author[href$='reddit.com/user/TheFargo']:visited, a.author[href$='reddit.com/user/Ghostcrawler']:visited,
-a.author[href$='reddit.com/user/WatcherDev']:visited, a.author[href$='reddit.com/user/Kalgan']:visited {
-  color: #00B4FF !important;
-}
+.flair-blizzard+.author, .flair-rainbowdash+.author { color: #00B4FF !important; }
 
 /* Blizzard Employees - Job Titles */
 a.author[href$='reddit.com/user/Ghostcrawler']:after, a.author[href$='reddit.com/user/Kalgan']:after,
