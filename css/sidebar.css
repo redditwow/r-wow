@@ -11,7 +11,7 @@
 }
 .users-online .word {display:none;}
 .users-online .number::before {
-  congent: "Estimated time: ";
+  content: "Estimated time: ";
   }
 .users-online .number::after {
   content: " min";
