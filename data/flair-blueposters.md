@@ -1,4 +1,4 @@
-** Community Managers **
+**Community Managers**
 * [bashiok_foreal](http://reddit.com/u/bashiok_foreal)
 * [lylirra](http://reddit.com/u/lylirra)
 * [Grimiku](http://reddit.com/u/Grimiku)
@@ -14,13 +14,13 @@
 * [Traysent](http://reddit.com/u/Traysent)
 * [Aldrexus](http://reddit.com/u/Aldrexus)
 
-** World of Warcraft Developers **
+**World of Warcraft Developers**
 * [TheFargo](http://reddit.com/u/TheFargo)
 * [WatcherDev](http://reddit.com/u/WatcherDev)
 * [Kalgan](http://reddit.com/u/Kalgan)
 * [Ghostcrawler](http://reddit.com/u/Ghostcrawler)
 
-** Diablo Developers **
+**Diablo Developers**
 * [andrewchambers](http://reddit.com/u/andrewchambers)
 * [wyattcheng](http://reddit.com/u/wyattcheng)
 * [JayPWilson](http://reddit.com/u/JayPWilson)
