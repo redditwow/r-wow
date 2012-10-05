@@ -234,6 +234,12 @@ p#noresults {
   padding: 15px;
 }
 
+hr {
+  border-color:#5f5447;
+  position:relative;
+  right:5px;
+  }
+
 /* Gold New Comments issue */
 
 .new-comment .usertext-body {
