@@ -116,8 +116,9 @@ blockquote {
 
 /* /r/wow/submit styling */
 
-.roundfield {
+.roundfield, .content.submit .roundfield.info-notice {
   background-color: #221409;
+  border:none;
 }
 
 .roundfield textarea, .roundfield input[type="text"], 
