@@ -21,14 +21,17 @@
   border-bottom-left-radius: 8px;  
 }
 
-#siteTable .thing .title a {
+.link.promotedlink.promoted a, #siteTable .thing .title a, #sitetable .thing.comment a.title {
   color: #5FFBDA;
   margin-top: 11px;
 }
-
-#siteTable .thing .title a:visited {
+.link.promotedlink.promoted a:visited, #siteTable .thing .title a:visited, #siteTable .thing.comment a.title:visited {
   color: #826A19;
 }
+
+#siteTable .thing.comment .parent {
+padding: 15px 10px 10px 40px;}
+  
 
 .midcol, .thumbnail {margin-top:0px;}
 
@@ -230,6 +233,12 @@ p#noresults {
   padding: 15px;
 }
 
+hr {
+  border-color:#5f5447;
+  position:relative;
+  right:5px;
+  }
+
 /* Gold New Comments issue */
 
 .new-comment .usertext-body {
@@ -247,3 +256,16 @@ p#noresults {
 border: 1px solid #D2BFA4;
 padding: 5px 10px;
 }
+
+
+/* Sponsored Links */
+
+.link.promotedlink.promoted {
+  background:#241104;
+  }
+.link.promotedlink {
+  border:1px solid #59200f;
+  margin:15px 10px;
+  }
+
+
