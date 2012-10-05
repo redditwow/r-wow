@@ -21,12 +21,11 @@
   border-bottom-left-radius: 8px;  
 }
 
-#siteTable .thing .title a, #sitetable .thing.comment a.title {
+.link.promotedlink.promoted a, #siteTable .thing .title a, #sitetable .thing.comment a.title {
   color: #5FFBDA;
   margin-top: 11px;
 }
-
-#siteTable .thing .title a:visited, #siteTable .thing.comment a.title:visited {
+.link.promotedlink.promoted a:visited, #siteTable .thing .title a:visited, #siteTable .thing.comment a.title:visited {
   color: #826A19;
 }
 
@@ -257,3 +256,16 @@ hr {
 border: 1px solid #D2BFA4;
 padding: 5px 10px;
 }
+
+
+/* Sponsored Links */
+
+.link.promotedlink.promoted {
+  background:#241104;
+  }
+.link.promotedlink {
+  border:1px solid #59200f;
+  margin:15px 10px;
+  }
+
+
