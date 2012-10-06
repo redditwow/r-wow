@@ -233,19 +233,19 @@ a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (
   height: 16px;
 }
 
-.flair-fansite-mmochampion { 
+.flair-fansite-mmochampion::after { 
   content: url('../images/flair-mmochampion.png') !important;
   width: 29px;
   height: 16px;
 }
 
-.flair-fansite-wowinsider { 
+.flair-fansite-wowinsider::after { 
   content: url('../images/flair-wowinsider.png') !important;
   width: 101px;
   height: 14px;
 }
 
-.flair-fansite-askmrrobot { 
+.flair-fansite-askmrrobot::after { 
   content: url('../images/flair-askmrrobot.png') !important;
   width: 29px;
   height: 16px;
