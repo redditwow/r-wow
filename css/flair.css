@@ -224,3 +224,29 @@ a.author[href$='reddit.com/user/Kalgan']:after { content: "Tom Chilton (Game Dir
 a.author[href$='reddit.com/user/Zarhym']:after { content: "Jonathan Brown (Community Manager)"; }
 a.author[href$='reddit.com/user/TheFargo']:after { content: "Dave Kosak (Lead Quest Designer)"; }
 a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (Lead Encounter Designer)"; }
+
+
+/* Popular WoWFansite Flairs */
+.flair-fansite-wowhead::after { 
+  content: url('../images/flair-wowhead.png') !important;
+  width: 29px;
+  height: 16px;
+}
+
+.flair-fansite-mmochampion { 
+  content: url('../images/flair-mmochampion.png') !important;
+  width: 29px;
+  height: 16px;
+}
+
+.flair-fansite-wowinsider { 
+  content: url('../images/flair-wowinsider.png') !important;
+  width: 101px;
+  height: 14px;
+}
+
+.flair-fansite-askmrrobot { 
+  content: url('../images/flair-askmrrobot.png') !important;
+  width: 29px;
+  height: 16px;
+}
