@@ -202,8 +202,8 @@ li.flairsample-left { padding-top: 5px; }
 
 .flair-rainbowdash::after {
   content: url('../images/flair-ghostcrawler.png');
-  width: 20px;
-  height: 13px;
+  width: 47px;
+  height: 22px;
 }
 
 .flair-blizzard+.author, .flair-rainbowdash+.author { color: #00B4FF !important; }
