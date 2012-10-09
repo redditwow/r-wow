@@ -233,7 +233,7 @@ a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (
   height: 16px;
 }
 
-.flair-fansite-wowhead+.author { color: #C41F3B !important;}
+.flair-fansite-wowhead+.author, .flair-fansite-wowhead+.author:visited  { color: #C41F3B !important;}
 .flair-fansite-wowhead+a.submitter, .flair-fansite-wowhead+a.submitter:visited{ background-color: #C41F3B !important; color: #FFFFFF !important; }
 
 .flair-fansite-mmochampion::after { 
