@@ -200,3 +200,10 @@ blockquote {
   border:1px solid #010c0f;
   }
 
+/* Moderator Tools */
+
+.linefield {
+  background-color: #221409;
+  border: none;
+  color: #D2BFA4;
+}
