@@ -253,3 +253,14 @@ a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (
   width: 29px;
   height: 16px;
 }
+
+/* WoWCaretaker */
+
+.flair-robot-wowcaretaker::after {
+  background: url('../images/sprites/modicons.png') no-repeat -1px -51px;
+  width: 20px;
+  height: 21px;
+}
+
+.flair-robot-wowcaretaker+.author, .flair-robot-wowcaretaker+.author:visited { color: #FFB100 !important; }
+.flair-robot-wowcaretaker+.submitter, .flair-robot-wowcaretaker+.submitter:visited { color: #000000 !important; background-color: #FFB100 !important; }
