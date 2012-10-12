@@ -4,7 +4,6 @@
  */
 
 a[href$='#alliance-icon']:after, a[href$='#horde-icon']:after {
-  content: "";
   background-image: url('../images/sprites/flair.png');
   display: inline-block;
   vertical-align: middle;
@@ -12,6 +11,6 @@ a[href$='#alliance-icon']:after, a[href$='#horde-icon']:after {
   height: 16px;
 }
 
-a[href$='#alliance-icon']:after { background-position: 0px -0px; }
+a[href$='#alliance-icon']:after { content: ""; background-position: 0px -0px; }
 
-a[href$='#horde-icon']:after { background-position: 0px -18px; }
+a[href$='#horde-icon']:after { content: ""; background-position: 0px -18px; }
