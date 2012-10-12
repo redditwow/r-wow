@@ -1,0 +1,25 @@
+/***
+ * Hacks.css
+ * We shouldn't even be able to do stuff like this.
+ */
+
+ /* Mouseover "Help Tooltips" */
+a[href$='#helptip'] em { display: none; }
+
+a[href$='#helptip']:hover {
+  cursor: help;
+  position: relative;
+}
+
+a[href$='#helptip']:hover em {
+  background: #000000;
+  color: #FFB100;
+  border: #FFB100 1px dotted;
+  display: block;
+  z-index: 100;
+  padding: 5px 20px 5px 5px;
+  margin: 10px;
+  width: 250px;
+  position: absolute;
+  text-decoration: none;
+}
