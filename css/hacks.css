@@ -23,3 +23,16 @@ a[href$='#helptip']:hover em {
   position: absolute;
   text-decoration: none;
 }
+
+/* Faction Icons on URLS */
+a[href$='#alliance-icon']:before, a[href$='#horde-icon']:before {
+  background-image: url('../images/sprites/flair.png');
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+
+a[href$='#alliance-icon']:before { content: ""; background-position: 0px -0px; }
+
+a[href$='#horde-icon']:before { content: ""; background-position: 0px -18px; }
