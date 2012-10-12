@@ -1,0 +1,15 @@
+/***
+ * Icons.css
+ * Gives fake urls pretty icons!
+ */
+
+a[href$='#alliance-icon']::after, a[href$='#horde-icon']::after {
+  content: "";
+  background-image: url('../images/sprites/flair.png');
+  width: 18px;
+  height: 18px;
+}
+
+a[href$='#alliance-icon']::after { background-position: 0px -0px; }
+
+a[href$='#horde-icon']::after { background-position: 0px -18px; }
