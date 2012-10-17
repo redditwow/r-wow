@@ -6,15 +6,12 @@
 
 .subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
-.subscribers .number::before {
-  content: "Position in queue:  ";
+.subscribers .number::after {
+  content: " in Kun-Lai Summit ";
 }
 .users-online .word {display:none;}
-.users-online .number::before {
-  content: "Estimated time: ";
-  }
 .users-online .number::after {
-  content: " min";
+  content: " LF Sha inv? Sha?";
   }
 
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
