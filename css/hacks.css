@@ -33,6 +33,10 @@ a[href$='#alliance-icon']:before, a[href$='#horde-icon']:before {
   height: 16px;
 }
 
-a[href$='#alliance-icon']:before { content: ""; background-position: 0px -0px; }
+a[href$='#alliance-icon']:before+span.keyNavAnnotation,
+a[href$='#horde-icon']:before+span.keyNavAnnotation {
+  display: none;
+}
 
+a[href$='#alliance-icon']:before { content: ""; background-position: 0px -0px; }
 a[href$='#horde-icon']:before { content: ""; background-position: 0px -18px; }
