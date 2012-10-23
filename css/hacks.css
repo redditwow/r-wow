@@ -31,6 +31,7 @@ a[href$='#alliance-icon']:before {
   vertical-align: middle;
   width: 18px;
   height: 18px;
+  content: "";
 }
 
 a[href$='#horde-icon']:before {
@@ -39,6 +40,7 @@ a[href$='#horde-icon']:before {
   vertical-align: middle;
   width: 18px;
   height: 18px;
+  content: "";
 }
 
 a[href$='#alliance-icon']:before+span.keyNavAnnotation,
