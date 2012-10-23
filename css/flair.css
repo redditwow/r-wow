@@ -273,7 +273,7 @@ a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (
   height: 14px;
 }
 
-.flair-goldama+.author, .flair-goldama+.author:visited { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; border-radius: 4px !important; }
-.flair-goldama+.submitter, .flair-goldama+.submitter:visited { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; border-radius: 4px !important; }
+.flair-goldama+a.author, .flair-goldama+a.author:visited { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; border-radius: 4px !important; }
+.flair-goldama+a.submitter, .flair-goldama+a.submitter:visited { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; border-radius: 4px !important; }
 
 /* TODO: Figure out a way to just use the fucking thread id to change 3 user's flairs */
