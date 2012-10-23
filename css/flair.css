@@ -267,5 +267,13 @@ a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (
 .flair-robot-wowcaretaker+.submitter, .flair-robot-wowcaretaker+.submitter:visited { color: #000000 !important; vertical-align: baseline !important; background-color: #FFB100 !important; }
 
 /* Goldmaking AMA Thread */
+.flair-goldama::after {
+  content: url('../images/flair-goldcoin.png') !important;
+  width: 14px;
+  height: 14px;
+}
+
+.flair.goldama+.author, .flair.goldama+.author { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; }
+.flair.goldama+.submitter, .flair.goldama+.submitter { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; }
 
 /* TODO: Figure out a way to just use the fucking thread id to change 3 user's flairs */
