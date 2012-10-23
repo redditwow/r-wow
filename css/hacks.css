@@ -25,7 +25,7 @@ a[href$='#helptip']:hover em {
 }
 
 /* Faction Icons on URLS */
-a[href$='#alliance-icon']:before {
+a[href*='#alliance-icon']:before {
   background-image: url('../images/icon-alliance.png');
   display: inline-block;
   vertical-align: middle;
@@ -34,7 +34,7 @@ a[href$='#alliance-icon']:before {
   content: "";
 }
 
-a[href$='#horde-icon']:before {
+a[href*='#horde-icon']:before {
   background-image: url('../images/icon-horde.png');
   display: inline-block;
   vertical-align: middle;
@@ -43,7 +43,7 @@ a[href$='#horde-icon']:before {
   content: "";
 }
 
-a[href$='#alliance-icon']:before+span.keyNavAnnotation,
-a[href$='#horde-icon']:before+span.keyNavAnnotation {
+a[href*='#alliance-icon']:before+span.keyNavAnnotation,
+a[href*='#horde-icon']:before+span.keyNavAnnotation {
   display: none;
 }
