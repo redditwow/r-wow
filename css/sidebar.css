@@ -7,11 +7,11 @@
 .subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
-  content: " in Kun-Lai Summit ";
+  content: " in Townlong Steppes";
 }
 .users-online .word {display:none;}
 .users-online .number::after {
-  content: " LF Sha inv? Sha?";
+  content: " BFFs for Huggalon";
   }
 
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
