@@ -3,6 +3,10 @@
  * This also handles username styling
  */
 
+/* Text flair colour */
+
+.flair, .linkflair { color:#00FF96;}
+
 /* Moderators */
 .comment a.author.moderator, .comment a.author.moderator:visited {
   color: #FFFFFF !important;
