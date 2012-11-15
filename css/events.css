@@ -1,0 +1,28 @@
+/***
+ * Events.css
+ * -- This file styles the H4 element on the sidebar.
+ * -- Special hackery for large events we are promoting.
+ * -- Parental Advisory: This file contains crazy fucked up code.
+ */
+
+/** +++ BATTLE.NET WORLD INVITATIONAL START +++ **/
+/*
+.side .usertext h4 { display: none; }
+.side .usertext h4+table, .side .usertext h4 {
+    position:absolute;
+    z-index: 200;
+    top:140px;
+    left:0px;
+    right: 9px;
+    color: #000;
+    text-align: left;
+    margin: 20px;
+    margin-left:35px;
+    margin-right: 440px;
+    background-color: #FFFFFF;
+    width: 55%;
+    font-weight: normal;
+    padding: 7px 0px 7px 20px;
+}
+*/
+/** +++ BATTLE.NET WORLD INVITATIONAL END +++ **/
