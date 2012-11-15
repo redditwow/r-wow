@@ -18,17 +18,14 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 
 .side {
   margin: 0px 5px 0 0;
-  width:439px;
-  /* background:url(%%frame-wood-repeat%%); */
-  background:url('../images/frame-wood-repeat.png');
-  background-repeat:repeat-y;
-  background-position:center top;
-  position:relative;
+  width: 439px;
+  background: url('../images/frame-wood-repeat.png');
+  background-repeat: repeat-y;
+  background-position: center top;
   padding-top: 0px;
-  top:15px;
   color: #d2bfa4;
-  z-index:666;
-  float:right;
+  z-index: 9001;
+  float: right;
 }
 .side a {
   color: #008467;
@@ -37,7 +34,6 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 
 .side a:hover {
   text-decoration: underline;
-  /*border-bottom: 1px solid #008467;*/
 }
 
 .side .spacer { 
@@ -47,7 +43,6 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   float: right;
 }
 .side > .spacer:first-child {
-  /* background:url(%%mop-graphics%%); */
   background:url('../images/sprites/mop-graphics.png');
   background-position: -0px -589px;
   background-repeat:no-repeat;
@@ -57,9 +52,9 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   bottom:20px;
   top: -40px;
   padding-right: 9px;
+  z-index: 9001;
 }
 .side > .spacer:last-child {
-  /* background:url(%%mop-graphics%%); */
   background:url('../images/sprites/mop-graphics.png');
   background-position: -0px -839px;
   background-repeat:no-repeat;
@@ -202,7 +197,13 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 .morelink+.spacer { visibility: hidden; height: 0px; }
 
 /* Move our submit button to the top of the sidebar */
-.sidebox.submit { position: absolute; top: 80px; width: 300px; padding-left: 15px;}
+.sidebox.submit { 
+    position: absolute;
+    top: 230px;
+    width: 300px;
+    padding-left: 15px;
+    z-index: 9001;
+}
 
 /* Reddit/RES "Subscribe" Buttons */
 .fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESSubscriptionButton.unsubscribe,
