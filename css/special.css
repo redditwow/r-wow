@@ -76,6 +76,13 @@
   position: static;
 }
 
+.thing.id-t3_zkgu2 .entry a,
+.thing.id-t3_zqm8d .entry a,
+.thing.id-t3_13afx8 .entry a {
+  color: #FFFFFF !important;
+  font-weight: bold;
+}
+
 /* Goldmaking AMA Thread */
 
 /* TODO: Special icon, special ama background */
