@@ -76,11 +76,23 @@
   position: static;
 }
 
+.thing.id-t3_zkgu2 .entry .usertext-body strong,
+.thing.id-t3_zqm8d .entry .usertext-body strong,
+.thing.id-t3_13afx8 .entry .usertext-body strong {
+  color: #FFFFFF !important;
+  font-weight: bold;
+}
+
 .thing.id-t3_zkgu2 .entry .usertext-body a,
 .thing.id-t3_zqm8d .entry .usertext-body a,
 .thing.id-t3_13afx8 .entry .usertext-body a {
+  color: #FFB100 !important;
+}
+
+.thing.id-t3_zkgu2 .entry .usertext-body a:hover,
+.thing.id-t3_zqm8d .entry .usertext-body a:hover,
+.thing.id-t3_13afx8 .entry .usertext-body a:hover {
   color: #FFFFFF !important;
-  font-weight: bold;
 }
 
 /* Goldmaking AMA Thread */
