@@ -116,9 +116,20 @@
   color: #00B4FF !important;
 }
 
-.thing.id-t1_c7282i7>.entry a,
-.thing.id-t1_c728c69>.entry a
+.thing.id-t1_c7282i7>.entry .usertext-body a,
+.thing.id-t1_c728c69>.entry .usertext-body a
+{
+  color: #FFB100 !important;
+}
+
+.thing.id-t1_c7282i7>.entry .usertext-body a:hover,
+.thing.id-t1_c728c69>.entry .usertext-body a:hover
 {
   color: #FFFFFF !important;
-  font-weight: bold;
+}
+
+.thing.id-t1_c7282i7>.entry .usertext-body strong,
+.thing.id-t1_c728c69>.entry .usertext-body strong
+{
+  color: #FFFFFF !important;
 }
