@@ -108,7 +108,10 @@
 .thing.id-t1_c66wb7t>.entry,
 .thing.id-t1_c66wc99>.entry,
 .thing.id-t1_c66wglf>.entry,
-.thing.id-t1_c66wkh4>.entry
+.thing.id-t1_c66wkh4>.entry,
+/* BWC */
+.thing id-t1_c7282i7>.entry,
+.thing id-t1_c728c69>.entry
 {
   color: #00B4FF !important;
 }
