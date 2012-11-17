@@ -9,14 +9,14 @@
 
 .side .usertext h4 {
     position:absolute;
-    z-index: 9001;
+    z-index: 9000;
     top:160px;
     left:0px;
     right: 9px;
     color: #000;
     text-align: left;
     margin-left:15px;
-    margin-right: 440px;
+    margin-right: 410px;
     background-color: #FFFFFF;
     height: 40px;
     line-height: 40px;
