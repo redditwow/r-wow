@@ -31,6 +31,14 @@
     color: #FFFFFF;
 }
 
+.side .usertext h4 a, .side .usertext h4 a:visited {
+    color: #FFB100;
+}
+
+.side .usertext h4 a:hover {
+    color: #FFFFFF;
+}
+
 div.content {
 margin-top: 70px !important;
 }
