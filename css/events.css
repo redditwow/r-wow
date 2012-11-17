@@ -22,7 +22,7 @@
     line-height: 40px;
     font-weight: normal;
     padding: 7px 0px 7px 20px;
-    background: url('../images/thread-background-blizzard.png') repeat-x #0A0E1C !important;
+    background: url("../images/thread-background-blizzard.png") repeat-x #0A0E1C !important;
     color: #00B4FF !important;
     display: block;
 }
