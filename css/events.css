@@ -6,23 +6,29 @@
  */
 
 /** +++ BATTLE.NET WORLD INVITATIONAL START +++ **/
-/*
-.side .usertext h4 { display: none; }
-.side .usertext h4+table, .side .usertext h4 {
+
+.side .usertext h4 {
     position:absolute;
-    z-index: 200;
-    top:140px;
+    z-index: 9001;
+    top:160px;
     left:0px;
     right: 9px;
     color: #000;
     text-align: left;
-    margin: 20px;
-    margin-left:35px;
+    margin-left:15px;
     margin-right: 440px;
     background-color: #FFFFFF;
-    width: 55%;
+    height: 40px;
+    line-height: 40px;
     font-weight: normal;
     padding: 7px 0px 7px 20px;
+    background: url('../images/thread-background-blizzard.png') repeat-x #0A0E1C !important;
+    color: #00B4FF !important;
+    display: block;
 }
-*/
+
+.side .usertext h4 strong {
+    color: #FFFFFF;
+}
+
 /** +++ BATTLE.NET WORLD INVITATIONAL END +++ **/
