@@ -213,7 +213,6 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   background: transparent !important;
   background-image: url('../images/sprites/mop-graphics.png') !important;
   border: 0px !important;
-  /*height: 20px !important; */
   line-height: 20px !important;
   padding: 4px 8px !important;
 }
