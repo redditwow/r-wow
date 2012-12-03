@@ -96,7 +96,7 @@
 }
 
 /* Because I love you man */
-a[href$='wowhead.com/item=19019'], a[href$='wowhead.com/item=19019']:before, a[href$='wowhead.com/item=19019']:after {
+a[href$='wowhead.com/item=19019'], .comment .md p > a[href$="wowhead.com/item=19019"]:visited, a[href$='wowhead.com/item=19019']:before, a[href$='wowhead.com/item=19019']:after {
   color: #FF8000 !important;
 }
 a[href$='wowhead.com/item=19019']:before {
