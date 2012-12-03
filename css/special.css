@@ -95,6 +95,14 @@
   color: #FFFFFF !important;
 }
 
-/* Goldmaking AMA Thread */
+/* Because I love you man */
+a[href$='wowhead.com/item=19019'], a[href$='wowhead.com/item=19019']:before, a[href$='wowhead.com/item=19019']:after {
+  color: #FF8000 !important;
+}
+a[href$='wowhead.com/item=19019']:before {
+  content: "DID SOMEBODY SAY ";
+}
 
-/* TODO: Special icon, special ama background */
+a[href$='wowhead.com/item=19019']:after {
+  content: "?!?!!?";
+}
