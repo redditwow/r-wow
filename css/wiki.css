@@ -1,7 +1,8 @@
 /* Wiki Styles */
 
 .wiki-page .content {
-    background-color: #0F0805 !important;
+    /*background-color: #0F0805 !important;*/
+    background: url(%%thread-background%%) repeat-x #1C110B;
 }
 
 .pageactions {
