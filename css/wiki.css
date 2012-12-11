@@ -29,3 +29,9 @@
 
 .md.wiki h1, .md.wiki h2, .md.wiki h3,
 .md.wiki h4, .md.wiki h5, .md.wiki h6 { color: #E2C7A3; }
+
+.wikititle { 
+    color: #E2C7A3; 
+    text-transform: capitalize;
+    margin-left: 20px; /* Testing purposes, may need to be defaulted back to 15 */
+}
