@@ -1,0 +1,10 @@
+/* Wiki Styles */
+.wiki-page-content {
+    background-color: #1C0F09;
+    border: 1px solid #2C180D !important;
+    padding: 5px;
+}
+
+#editform {
+    margin-right: 400px;
+}
