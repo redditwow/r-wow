@@ -12,6 +12,18 @@
     background-color:#1C0F09;
 }
 
+.pageactions .wikiaction-current {
+    background-color: #100905;
+}
+
+.pageactions .wikiaction-current:hover {
+    background-color: #100905;
+}
+
+.pageactions .wikiaction:hover {
+    background-color: #322621;
+}
+
 .wiki-page-content {
     /*background-color: #0F0805 !important;
     padding: 5px;*/
