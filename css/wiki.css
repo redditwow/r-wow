@@ -26,3 +26,6 @@
 #editform {
     margin-right: 100px;
 }
+
+.md.wiki h1, .md.wiki h2, .md.wiki h3,
+.md.wiki h4, .md.wiki h5, .md.wiki h6 { color: #E2C7A3; }
