@@ -1,4 +1,10 @@
 /* Wiki Styles */
+.pageactions {
+    float: right;
+    border: none;
+    line-height: 40px;
+}
+
 .wiki-page-content {
     background-color: #0F0805 !important;
     padding: 5px;
