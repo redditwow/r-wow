@@ -1,8 +1,14 @@
 /* Wiki Styles */
+
+.wiki-page .content {
+    background-color: #0F0805 !important;
+}
+
 .pageactions {
     float: right;
     border: none;
-    line-height: 40px;
+    line-height: 30px;
+    background-color:#1C0F09;
 }
 
 .wiki-page-content {
