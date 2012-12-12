@@ -1,4 +1,4 @@
-### **Announcement:** /r/wow has an irc channel now! [Come and join us](http://www.reddit.com/r/wow/comments/10emd0/official_rwow_irc_channel/).
+### **Announcement:** /r/wow has an irc channel now! [Come and join us](http://www.reddit.com/r/wow/comments/14qi9j/you_should_join_us_on_the_official_rwow_irc_esper/).
 
 #Official Blizzard Links
 
