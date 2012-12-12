@@ -108,7 +108,7 @@ a[href$='wowhead.com/item=19019']:after {
 }
 
 .rulespage {
-  background:#1C0F09
+  background:#1C0F09;
   border: 1px solid #2C180D;
   border-radius:14px;
   }
