@@ -39,7 +39,7 @@
 .wiki-page-content .wiki {
     background-color: #1C0F09 !important;
     border: 1px solid #2C180D !important;
-    padding: 5px;
+    padding: 5px 15px;
 }
 
 #editform {
