@@ -428,4 +428,7 @@ div.subbuttons {
 .gadget .reddit-link {
   margin:8px 0;
 }
-
+.side .md h2 {
+  color: #D2BFA5;
+  font-style: italic;
+  }

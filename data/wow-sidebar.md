@@ -5,15 +5,16 @@
 * [Blizzard Website](http://blizzard.com)
 * [World of Warcraft Website](http://worldofwarcraft.com)
 * [WoW Official Forums](http://us.battle.net/wow/en/forum/)
-# Rules of /r/WoW
 
-[In-depth rules](/r/wow/wiki/rules) 
+#Rules
 
-## Protection of Personal Information
+[Read the in-depth rules](/r/wow/wiki/rules) 
+
+##Protection of Personal Information
 
 * In posts and comments, blur out names of players, where appropriate, to keep them anonymous. Do not post personal information. This is not a forum to call out specific players.
 
-## Posting Rules
+##Posting Rules
 
 **DO POST**
 
