@@ -281,3 +281,9 @@ a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (
 .flair-goldama+a.submitter, .flair-goldama+a.submitter:visited { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; border-radius: 4px !important; }
 
 /* TODO: Figure out a way to just use the fucking thread id to change 3 user's flairs */
+
+/* Douchebag */
+.tagline a[href$="reddit.com/user/pierpont123"]:after {
+  color: red;
+  content: "I am a scamming douchebag. AMA";
+}
