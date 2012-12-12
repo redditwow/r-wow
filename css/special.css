@@ -112,3 +112,10 @@ a[href$='wowhead.com/item=19019']:after {
   border: 1px solid #2C180D;
   border-radius:14px;
   }
+
+.rulespage li.bad-example {
+background:#720101;
+}
+.rulespage li.good-example {
+background: #1E500D;
+}
