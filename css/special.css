@@ -108,8 +108,9 @@ a[href$='wowhead.com/item=19019']:after {
 }
 
 .rulespage {
+margin-top:1em;
   background:#1C0F09;
-  border: 1px solid #2C180D;
+  border:1px solid #2C180D;
   border-radius:14px;
   }
 
@@ -117,5 +118,5 @@ a[href$='wowhead.com/item=19019']:after {
 background:#720101;
 }
 .rulespage li.good-example {
-background: #1E500D;
+background:#1E500D;
 }
