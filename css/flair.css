@@ -285,5 +285,5 @@ a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (
 /* Douchebag */
 .tagline a[href$="reddit.com/user/pierpont123"]:after {
   color: red;
-  content: "I am a scamming douchebag. AMA";
+  content: "  I am a scamming douchebag. AMA";
 }
