@@ -61,3 +61,7 @@
 .wiki-page-content hr {
     display:none;
 }
+
+.linefield .title {
+color: white;
+}
