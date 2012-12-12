@@ -106,3 +106,7 @@ a[href$='wowhead.com/item=19019']:before {
 a[href$='wowhead.com/item=19019']:after {
   content: "?!?!!?";
 }
+
+.rulespage {
+  background:#21120D;
+  }
