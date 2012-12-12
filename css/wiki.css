@@ -53,8 +53,8 @@
     color: #E2C7A3; 
     text-transform: capitalize;
     margin-left: 20px; /* Testing purposes, may need to be defaulted back to 15 */
-    height: 35px;
-    display: inline-block;
+    /*height: 35px;
+    display: inline-block; This is messing stuff up, dunno why but w.e */
     line-height: 35px;
 }
 
