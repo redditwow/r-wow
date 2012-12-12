@@ -284,7 +284,9 @@ a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (
 
 /* Douchebag */
 .tagline a[href$="reddit.com/user/pierpont123"]:after, 
-.collapsed a[href$="reddit.com/user/pierpont123"]:after {
+.collapsed a[href$="reddit.com/user/pierpont123"]:after,
+.tagline a[href$="reddit.com/user/whoisthismilfhere"]:after, 
+.collapsed a[href$="reddit.com/user/whoisthismilfhere"]:after {
   color: red;
   content: "  I am a scamming douchebag. AMA";
 }
