@@ -63,5 +63,9 @@
 }
 
 .linefield .title {
-color: white;
+    color: white;
+}
+
+.wikirevisionlisting .generic-table {
+    width: auto;
 }
