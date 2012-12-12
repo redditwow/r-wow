@@ -283,7 +283,8 @@ a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (
 /* TODO: Figure out a way to just use the fucking thread id to change 3 user's flairs */
 
 /* Douchebag */
-.tagline a[href$="reddit.com/user/pierpont123"]:after {
+.tagline a[href$="reddit.com/user/pierpont123"]:after, 
+.collapsed a[href$="reddit.com/user/pierpont123"]:after {
   color: red;
   content: "  I am a scamming douchebag. AMA";
 }
