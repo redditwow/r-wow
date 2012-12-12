@@ -69,3 +69,7 @@
 .wikirevisionlisting .generic-table {
     width: auto;
 }
+
+.wikirevisionlisting table tr td {
+    color: #D2BFA4;
+}
