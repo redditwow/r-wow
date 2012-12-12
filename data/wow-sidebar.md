@@ -4,7 +4,7 @@
 
 * [Blizzard Website](http://blizzard.com)
 * [World of Warcraft Website](http://worldofwarcraft.com)
-* [WoW Official Forums](http://us.battle.net/wow/en/forum/)
+* [WoW Official Forums](http://battle.net/wow/en/forum/)
 
 #Rules
 
