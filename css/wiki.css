@@ -54,3 +54,7 @@
     text-transform: capitalize;
     margin-left: 20px; /* Testing purposes, may need to be defaulted back to 15 */
 }
+
+.wiki-page-content hr {
+    position: static;
+}
