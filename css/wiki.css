@@ -36,7 +36,7 @@
     border-radius: 0;
 }
 
-.wiki-page-content .wiki, .md.wiki+em {
+.wiki-page-content .wiki {
     background-color: #1C0F09 !important;
     border: 1px solid #2C180D !important;
     padding: 5px 15px;
@@ -72,4 +72,12 @@
 
 .wikirevisionlisting table tr td {
     color: #D2BFA4;
+}
+
+.md.wiki~em {
+    display: block;
+    background-color: #1C0F09 !important;
+    border: 1px solid #2C180D !important;
+    padding: 5px 15px;
+    margin-top: 15px;
 }
