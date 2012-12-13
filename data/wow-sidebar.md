@@ -26,10 +26,13 @@
 
 **DON'T POST**
 
+* Cheats, hacks, account trades
+* Gold selling, other WoW TOS violations
 * GM Conversations (jokes or tickets)
 * Rage Comics, Image Macros
-* Reposts that have been on the frontpage this week
+* Reposts from this week. 
 * More than one personal submission per week
+* I'm quitting WoW posts
 
 ## Comment Rules
 
