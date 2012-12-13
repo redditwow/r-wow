@@ -5,7 +5,7 @@
 
 /* Text flair colour */
 
-.flair, .linkflair { color:#00FF96;}
+.flair { color:#00FF96;}
 
 /* Moderators */
 .comment a.author.moderator, .comment a.author.moderator:visited {
