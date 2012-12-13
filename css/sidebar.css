@@ -439,4 +439,4 @@ div.subbuttons {
 a[href="/message/compose?to=%2Fr%2Fwow"] + .title + .content {
     text-align:right;
 }
-.side .RESUserTag, .side .voteWeight {display:none;}
+.side .RESUserTag, .side .voteWeight {display:none !important;}
