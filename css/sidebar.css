@@ -432,3 +432,19 @@ div.subbuttons {
   color: #D2BFA5;
   font-style: italic;
   }
+
+/* The Moderator box has looked awful so lets adjust that and right the
+ * moderators names. Yay for chaining selectors. */
+
+a[href="/message/compose?to=%2Fr%2Fwow"] + .title + .content {
+    text-align:right;
+}
+.side .RESUserTag, .side .voteWeight {display:none !important;}
+
+
+/* Inactive Moderators & Bots */
+
+.side a[href="http://www.reddit.com/user/neura"],
+.side a[href="http://www.reddit.com/user/WoWCaretaker"] {
+    display: none;
+}
