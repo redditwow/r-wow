@@ -12,6 +12,9 @@
   padding: 4px 0 5px;
   margin: 0 10px 0 5px;
 }
+#siteTable .thing.linkflair-modpost {
+  background: url('../images/thread-background-transparent.png') repeat-x #005500;
+  }
 #siteTable > .thing:first-child { 
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
