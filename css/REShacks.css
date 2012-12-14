@@ -109,5 +109,15 @@ a.voteWeight {
   height: 20px !important;
 }
 
+/* NER marker sucks */
+
+.NERPageMarker {
+  background-color:transparent !important;
+  border:none !important;
+  }
+#progressIndicator {
+  border:none !important;
+  }
+
 
 /** +++ RES HACKS ENDS +++ **/
