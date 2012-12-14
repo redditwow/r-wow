@@ -115,5 +115,9 @@ a.voteWeight {
   background-color:transparent !important;
   border:none !important;
   }
+#progressIndicator {
+  border:none !important;
+  }
+
 
 /** +++ RES HACKS ENDS +++ **/
