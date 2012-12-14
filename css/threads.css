@@ -14,7 +14,14 @@
 }
 #siteTable .thing.linkflair-modpost {
   background: url('../images/thread-background-transparent.png') repeat-x #020;
+  color:#efe;
   }
+#siteTable .think.linkflair-modpost a {
+  color:#07D97F;
+}
+#siteTable .think.linkflair-modpost .md h2 {
+  color: #D2BFA4;
+}
 #siteTable > .thing:first-child { 
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
