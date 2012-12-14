@@ -59,6 +59,7 @@ a.thumbnail.default, a.thumbnail.self { background-position: -0px -1140px !impor
 .linkflair-raiding a.thumbnail { background-position: -0px -985px !important; }
 .linkflair-blizzard a.thumbnail { background-position: -0px -1061px !important; }
 .linkflair-general a.thumbnail { background-position: -0px -1213px !important; }
+.linkflair-modpost a.thumbnail { background-position: -0px -1364px !important; }
 
 /* NSFW goes at the end because it will always override linkflair */
 a.thumbnail.nsfw { background-position: -0px -1292px !important; }
