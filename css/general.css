@@ -229,3 +229,7 @@ blockquote {
   border: none;
   color: #D2BFA4;
 }
+
+.thing .title {
+  color: #008467!important;
+}
