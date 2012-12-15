@@ -1,5 +1,17 @@
 ### **Announcement:** /r/wow has an irc channel now! [Come and join us](http://www.reddit.com/r/wow/comments/14qi9j/you_should_join_us_on_the_official_rwow_irc_esper/).
 
+#Subreddit of the Day
+
+/r/WoWComics - a place for WoW Rage comics, memes, GM Jokes and more.
+
+[All related subreddits](/r/wow/wiki/related)
+
+#Site of the Day
+
+[Open Raid](http://openraid.us) - cross realm raiding made easy.
+
+[All related websites](/r/wow/wiki/resources)
+
 #Official Blizzard Links
 
 * [Blizzard Website](http://blizzard.com)
