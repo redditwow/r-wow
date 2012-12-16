@@ -1,14 +1,14 @@
-### **Announcement:** /r/wow has an irc channel now! [Come and join us](http://www.reddit.com/r/wow/comments/14qi9j/you_should_join_us_on_the_official_rwow_irc_esper/).
+### **Happy Winter Veil**
 
 #Subreddit of the Day
 
-/r/WoWComics - a place for WoW Rage comics, memes, GM Jokes and more.
+/r/WoWPodcasts - listen to the lastest wow related podcasts
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Open Raid](http://openraid.us) - cross realm raiding made easy.
+[Teamfind](http://www.teamfind.com) - Find players and teams for arenas, RBGs, challenge modes, guilds, and raiding.
 
 [All related websites](/r/wow/wiki/resources)
 
