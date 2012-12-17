@@ -27,7 +27,7 @@ div.content {
   height:74px;
   font-weight: normal;
   padding: 37px 20px 8px 78px;
-  z-index:99; /* APHOENIX! WHAT DOES THE SCOUTER SAY ABOUT HIS POWERLEVEL? it fucks with RES dropdowns, that's what. */
+  z-index:9001; /* APHOENIX! WHAT DOES THE SCOUTER SAY ABOUT HIS POWERLEVEL? */
   background:url('../images/announcehead.png');
   background-repeat:no-repeat;
   color:#B39265;
