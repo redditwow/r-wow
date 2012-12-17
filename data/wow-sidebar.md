@@ -2,13 +2,13 @@
 
 #Subreddit of the Day
 
-/r/WoWPodcasts - listen to the lastest wow related podcasts
+/r/Diablo - wait, Blizzard makes *other* games? 
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Teamfind](http://www.teamfind.com) - Find players and teams for arenas, RBGs, challenge modes, guilds, and raiding.
+[Wowhead](http://www.wowhead.com) - you know why.
 
 [All related websites](/r/wow/wiki/resources)
 
