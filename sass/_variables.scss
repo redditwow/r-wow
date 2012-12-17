@@ -1,0 +1,36 @@
+// variables.scss
+// makes reusing shit easy - keep stuff that is touched all the time at the top
+
+// subreddit user descriptor thingers
+$users_subscribed_text: "Winter Veil Revellers";
+$users_online_text: "Greench Hunters";
+
+// announcements
+$announcement_markdown: "Happy Winter Veil!";
+
+// of the day
+$subreddit_otd_markdown: "/r/Diablo - wait, Blizzard makes *other* games?";
+$fansite_otd_markdown: "[Wowhead](http://wowhead.com) - you know why.";
+
+// world of warcraft class & faction colors
+$deathknight: #C41F3B;
+$druid: #FF7D0A;
+$hunter: #ABD473;
+$mage: #69CCF0;
+$monk: #00FF96;
+$paladin: #F58CBA;
+$priest: #FFFFFF;
+$rogue: #FFF569;
+$shaman: #0070DE;
+$warlock: #9482C9;
+$warrior: #C79C6E;
+
+$alliance: #247FAA;
+$horde: #B30000;
+
+// super special colors
+$linkcolor: #008467;                      // darker green
+$thing_linkcolor: #5FFBDA;                // minty green
+$thing_visited_linkcolor: #826A19;        // light brown shit
+
+// linkflair related (mod, blizzard, mod promo)
