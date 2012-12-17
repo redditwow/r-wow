@@ -31,6 +31,8 @@ div.content {
   background:url('../images/announcehead.png');
   background-repeat:no-repeat;
   color:#B39265;
+
+  padding-top:46px; /* for single line announcements. Remove for double. */
 }  
 
 /** +++ ANNOUNCE ENDS +++ **/

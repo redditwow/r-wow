@@ -119,5 +119,8 @@ a.voteWeight {
   border:none !important;
   }
 
-
+#RESDropdownList {
+  position:relative;
+  z-index:9107;
+}
 /** +++ RES HACKS ENDS +++ **/
