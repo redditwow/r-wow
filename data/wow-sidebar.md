@@ -2,13 +2,13 @@
 
 #Subreddit of the Day
 
-/r/Diablo - wait, Blizzard makes *other* games? 
+/r/MMORPGs - others exist!
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Wowhead](http://www.wowhead.com) - you know why.
+[WoWPedia](http://www.wowpedia.org) - the best WoW Wiki around.
 
 [All related websites](/r/wow/wiki/resources)
 
