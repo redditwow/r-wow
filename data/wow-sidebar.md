@@ -8,7 +8,7 @@
 
 #Site of the Day
 
-[WoWPedia](http://www.wowpedia.org) - the best WoW Wiki around.
+[Wowpedia](http://www.wowpedia.org) - the best WoW Wiki around.
 
 [All related websites](/r/wow/wiki/resources)
 
