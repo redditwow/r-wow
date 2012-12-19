@@ -163,6 +163,9 @@ a.voteWeight {
 
 /* An Additional CSS hack for the Nuke userscript */
 
+a[title="Nuke!"] img {
+  display:none;
+}
 a[title="Nuke!"] {
   background:url('../images/sprites/glyphicons-halflings.png') no-repeat -74px -120px;
   text-indent:-999em;
