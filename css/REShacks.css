@@ -160,4 +160,14 @@ a.voteWeight {
 .userTagLink.hasTag, #userTaggerPreview {
   border-color:#311B1B !important;
   }
+
+/* An Additional CSS hack for the Nuke userscript */
+
+a[title="Nuke!"] {
+  background:url('../images/sprites/glyphicons-halflings.png') no-repeat -74px -120px;
+  text-indent:-999em;
+  width: 11px;
+  height: 14px;
+  }
+
 /** +++ RES HACKS ENDS +++ **/
