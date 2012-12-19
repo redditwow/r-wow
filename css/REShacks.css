@@ -127,34 +127,37 @@ a.voteWeight {
 /* I keep having a problem with glyphicons getting changed, so I have the reddit tags in here */
 
 .RESGalleryControls a {
-    cursor: pointer;
-    display: inline-block;
-    background-image: url('%%glyphicons-halflings%%') !important;
-    width: 12px;
-    height: 12px;
-    margin: 7px;
+  cursor: pointer;
+  display: inline-block;
+  background-image: url('../images/sprites/glyphicons-halflings.png') !important;
+  width: 12px;
+  height: 12px;
+  margin: 7px;
 }
 
 .RESGalleryControls .next {
-    background-position:-361px -74px !important;
+  background-position:-361px -74px !important;
 }
 .RESGalleryControls .previous {
-    background-position:-217px -74px !important;
+  background-position:-217px -74px !important;
 }
 .RESGalleryControls .next.end {
-    background-position:-195px -74px !important;
+  background-position:-195px -74px !important;
 }
 .RESGalleryControls .previous.end {
-    background-position:-388px -74px !important;
+  background-position:-388px -74px !important;
 }
 
 .RESUserTagImage {
-    background-image: url('%%glyphicons-halflings%%') !important;
-    background-repeat:no-repeat;
-    background-position: -1px -49px !important;
-    width: 12px !important;
-    height: 13px !important;
-    position:relative;
-    top:4px;right:3px;
+  background-image: url('../images/sprites/glyphicons-halflings.png') !important;
+  background-repeat:no-repeat;
+  background-position: -1px -49px !important;
+  width: 12px !important;
+  height: 13px !important;
+  position:relative;
+  top:4px;right:3px;
+  }
+.userTagLink.hasTag, #userTaggerPreview {
+  border-color:#311B1B !important;
   }
 /** +++ RES HACKS ENDS +++ **/
