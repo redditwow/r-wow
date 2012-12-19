@@ -155,7 +155,7 @@ a.voteWeight {
   width: 12px !important;
   height: 13px !important;
   position:relative;
-  top:4px;right:3px;
+  right:3px;
   }
 .userTagLink.hasTag, #userTaggerPreview {
   border-color:#311B1B !important;
@@ -171,6 +171,7 @@ a[title="Nuke!"] {
   text-indent:-999em;
   width: 11px;
   height: 14px;
+  display:inline-block;
   }
 
 /** +++ RES HACKS ENDS +++ **/
