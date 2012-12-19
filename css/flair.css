@@ -17,6 +17,7 @@
 /* People without Flair (aka n00bs) */
 a.author {
   color: #FFFFFF;
+  padding-right:4px;
 }
 
 a.author.submitter, a.author.submitter:visited { 
@@ -34,6 +35,8 @@ a.author.submitter, a.author.submitter:visited {
   background: none;
   border: 0;
   border-radius: 0;
+  position:relative;
+  top:-3px;
 }
 
 .flair:after {
@@ -48,6 +51,8 @@ a.author.submitter, a.author.submitter:visited {
   font-weight: bold !important;
   padding: 4px 5px 4px 2px !important;
   vertical-align: middle !important;
+  position:relative;
+  top:-3px;
 }
 
 p.tagline, .tagline { height: 18px; margin: 4px 0 0; border: 0px; }
