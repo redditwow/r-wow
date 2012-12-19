@@ -131,5 +131,7 @@ a.voteWeight {
     background-position: -1px -49px !important;
     width: 12px !important;
     height: 13px !important;
+    position:relative;
+    top:4px;right:3px;
   }
 /** +++ RES HACKS ENDS +++ **/
