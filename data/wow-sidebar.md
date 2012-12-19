@@ -2,13 +2,13 @@
 
 #Subreddit of the Day
 
-/r/MMORPGs - others exist!
+[Transmogrification](/r/Transmogrification) - for World of Outfitcraft enthusiasts
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Wowpedia](http://www.wowpedia.org) - the best WoW Wiki around.
+[WoW Progress](http://www.wowprogress.com/) - so you know exactly how far behind DREAM Paragon you are.
 
 [All related websites](/r/wow/wiki/resources)
 
