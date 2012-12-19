@@ -126,7 +126,7 @@ a.voteWeight {
 
 
 .RESUserTagImage {
-    background-image: url('../images/glyphicons-halflings.png');
+    background-image: url('../images/sprites/glyphicons-halflings.png');
     background-repeat:no-repeat;
     background-position: -1px -49px !important;
     width: 12px !important;
