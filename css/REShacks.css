@@ -12,6 +12,7 @@
 }
 a.voteWeight {
   background-color: transparent !important;
+  margin-right:7px;
 }
 #RESMainGearOverlay .gearIcon {
   top:7px !important;
