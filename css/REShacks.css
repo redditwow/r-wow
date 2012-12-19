@@ -123,4 +123,11 @@ a.voteWeight {
   position:relative;
   z-index:9107;
 }
+
+
+.RESUserTagImage {
+    background: url('../images/glyphicons-halflings.png') no-repeat -1px -49px;
+    width: 12px;
+    height: 13px;
+  }
 /** +++ RES HACKS ENDS +++ **/
