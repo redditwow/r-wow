@@ -1,4 +1,5 @@
 /***
+  padding-right:4px;
  * RES Hacks.css
  * -- Hacks to make RES work go in here. 
  */
@@ -157,7 +158,7 @@ a.voteWeight {
   height: 13px !important;
   position:relative;
   right:3px;
-  top:4px;
+  top:2px;
   }
 .userTagLink.hasTag, #userTaggerPreview {
   border-color:#311B1B !important;
@@ -175,7 +176,7 @@ a[title="Nuke!"] {
   height: 14px;
   display:inline-block;
   position:relative;
-  top:3px;
+  top:1px;
   }
 
 .thing.comment .tagline span {
