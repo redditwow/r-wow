@@ -178,4 +178,8 @@ a[title="Nuke!"] {
   top:3px;
   }
 
+.thing.comment .tagline span {
+  position:relative;
+  }
+
 /** +++ RES HACKS ENDS +++ **/
