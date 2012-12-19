@@ -126,8 +126,8 @@ a.voteWeight {
 
 
 .RESUserTagImage {
-    background: url('../images/glyphicons-halflings.png') no-repeat -1px -49px;
-    width: 12px;
-    height: 13px;
+    background: url('../images/glyphicons-halflings.png') no-repeat -1px -49px !important;
+    width: 12px !important;
+    height: 13px !important;
   }
 /** +++ RES HACKS ENDS +++ **/
