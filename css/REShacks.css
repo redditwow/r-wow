@@ -171,7 +171,7 @@ a.voteWeight {
   margin:3px;
   }
 #NREPause .paused {
-  background-position:-267px -74px;
+  background-position:-267px -74px !important;
   width: 9px;
   height: 12px;
   margin:2px;
