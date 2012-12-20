@@ -164,6 +164,14 @@ a.voteWeight {
   border-color:#311B1B !important;
   }
 
+#NREPause {
+  background:url('../images/sprites/glyphicons-halflings.png') no-repeat -291px -75px !important;
+  width: 7px !important;
+  height: 10px !important;
+  margin:3px;
+  }
+
+
 /* An Additional CSS hack for the Nuke userscript */
 
 a[title="Nuke!"] img {
