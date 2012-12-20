@@ -170,7 +170,12 @@ a.voteWeight {
   height: 10px !important;
   margin:3px;
   }
-
+#NREPause .paused {
+  background-position:-267px -74px;
+  width: 9px;
+  height: 12px;
+  margin:2px;
+  }
 
 /* An Additional CSS hack for the Nuke userscript */
 
