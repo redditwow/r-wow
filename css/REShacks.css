@@ -166,14 +166,14 @@ a.voteWeight {
 
 #NREPause {
   background:url('../images/sprites/glyphicons-halflings.png') no-repeat -291px -75px !important;
-  width: 7px !important;
+  width: 8px !important;
   height: 10px !important;
   margin:3px;
   }
 #NREPause.paused {
   background-position:-267px -74px !important;
-  width: 9px;
-  height: 12px;
+  width: 9px!important;
+  height: 12px!important;
   margin:2px;
   }
 
