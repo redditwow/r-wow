@@ -2,13 +2,13 @@
 
 #Subreddit of the Day
 
-[Transmogrification](/r/Transmogrification) - for World of Outfitcraft enthusiasts
+/r/WoWUI - for all your WoW User Interface questions and answers
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[WoW Progress](http://www.wowprogress.com/) - so you know exactly how far behind DREAM Paragon you are.
+[Jarett's Art](http://jarettwalen.com/) - buy some art, support a redditor!
 
 [All related websites](/r/wow/wiki/resources)
 
