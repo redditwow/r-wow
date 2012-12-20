@@ -233,3 +233,10 @@ blockquote {
 .thing .title {
   color: #008467;
 }
+
+/* Fucking WoWWiki */
+
+a[href*='wowwiki.com']:after {
+    color: red;
+    content: "You have linked to WoWWiki which is deprecated. Please link to the correct page Wowpedia.org instead.";
+}
