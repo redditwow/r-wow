@@ -240,3 +240,16 @@ a[href*='wowwiki.com']:after {
     color: red;
     content: " You have linked to WoWWiki which is deprecated. Please link to the correct page on Wowpedia.org instead.";
 }
+
+/* Report function needs a warning. */
+
+.report-button:hover:before{
+    position: absolute;
+    display: block;
+    z-index: 9001;
+    padding: 5px;
+    border: 1px solid #2C180D;
+    background-color: #221409;
+    color: #FFB100;;
+    content: "Please only report posts that actually violate the subreddit's rules.";
+}
