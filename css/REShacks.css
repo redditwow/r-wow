@@ -1,4 +1,5 @@
 /***
+  padding-right:4px;
  * RES Hacks.css
  * -- Hacks to make RES work go in here. 
  */
@@ -12,6 +13,7 @@
 }
 a.voteWeight {
   background-color: transparent !important;
+  margin-right:7px;
 }
 #RESMainGearOverlay .gearIcon {
   top:7px !important;
@@ -123,4 +125,75 @@ a.voteWeight {
   position:relative;
   z-index:9107;
 }
+
+/* I keep having a problem with glyphicons getting changed, so I have the reddit tags in here */
+
+.RESGalleryControls a {
+  cursor: pointer;
+  display: inline-block;
+  background-image: url('../images/sprites/glyphicons-halflings.png') !important;
+  width: 12px;
+  height: 12px;
+  margin: 7px;
+}
+
+.RESGalleryControls .next {
+  background-position:-361px -74px !important;
+}
+.RESGalleryControls .previous {
+  background-position:-217px -74px !important;
+}
+.RESGalleryControls .next.end {
+  background-position:-195px -74px !important;
+}
+.RESGalleryControls .previous.end {
+  background-position:-388px -74px !important;
+}
+
+.RESUserTagImage {
+  background-image: url('../images/sprites/glyphicons-halflings.png') !important;
+  background-repeat:no-repeat;
+  background-position: -1px -49px !important;
+  width: 12px !important;
+  height: 13px !important;
+  position:relative;
+  right:3px;
+  top:2px;
+  }
+.userTagLink.hasTag, #userTaggerPreview {
+  border-color:#311B1B !important;
+  }
+
+#NREPause {
+  background:url('../images/sprites/glyphicons-halflings.png') no-repeat -291px -75px !important;
+  width: 8px !important;
+  height: 10px !important;
+  margin:3px;
+  }
+#NREPause.paused {
+  background-position:-267px -74px !important;
+  width: 9px!important;
+  height: 12px!important;
+  margin:2px;
+  }
+
+/* An Additional CSS hack for the Nuke userscript */
+
+a[title="Nuke!"] img {
+  display:none !important;
+}
+a[title="Nuke!"] {
+  background:url('../images/sprites/glyphicons-halflings.png') no-repeat -74px -120px;
+  text-indent:-999em;
+  width: 11px;
+  height: 14px;
+  display:inline-block;
+  position:relative;
+  top:1px;
+  }
+
+.thing.comment .tagline span {
+  position:relative;
+  }
+
 /** +++ RES HACKS ENDS +++ **/

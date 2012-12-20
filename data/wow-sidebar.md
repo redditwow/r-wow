@@ -2,13 +2,13 @@
 
 #Subreddit of the Day
 
-/r/Diablo - wait, Blizzard makes *other* games? 
+[Transmogrification](/r/Transmogrification) - for World of Outfitcraft enthusiasts
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Wowhead](http://www.wowhead.com) - you know why.
+[WoW Progress](http://www.wowprogress.com/) - so you know exactly how far behind DREAM Paragon you are.
 
 [All related websites](/r/wow/wiki/resources)
 
