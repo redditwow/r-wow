@@ -250,6 +250,6 @@ a[href*='wowwiki.com']:after {
     padding: 5px;
     border: 1px solid #2C180D;
     background-color: #221409;
-    color: #FFB100;;
+    color: #FFB100;
     content: "Please only report posts that actually violate the subreddit's rules.";
 }
