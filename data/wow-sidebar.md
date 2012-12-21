@@ -1,14 +1,14 @@
-### **Happy Winter Veil**
+### [The Thunder King is Risen](/r/wow/comments/157vp8/blizzard_just_sent_us_the_first_image_of_thunder/
 
 #Subreddit of the Day
 
-/r/WoWUI - for all your WoW User Interface questions and answers
+/r/WoWGuilds - Guild Recruitment the reddit way.
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Jarett's Art](http://jarettwalen.com/) - buy some art, support a redditor!
+[Xmog.cc](http://xmog.cc) - A cool little app to spit out your transmog list.
 
 [All related websites](/r/wow/wiki/resources)
 
