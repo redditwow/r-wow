@@ -1,4 +1,4 @@
-### [The Thunder King is Risen](/r/wow/comments/157vp8/blizzard_just_sent_us_the_first_image_of_thunder/
+### [The Thunder King is Risen](/r/wow/comments/157vp8/blizzard_just_sent_us_the_first_image_of_thunder/)
 
 #Subreddit of the Day
 
