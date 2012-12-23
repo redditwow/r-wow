@@ -2,13 +2,13 @@
 
 #Subreddit of the Day
 
-/r/WoWGuilds - Guild Recruitment the reddit way.
+/r/woweconomy - WoW gold discussion.
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Xmog.cc](http://xmog.cc) - A cool little app to spit out your transmog list.
+[The Undermine Journal](https://theunderminejournal.com/) - AH Statistics and Data.
 
 [All related websites](/r/wow/wiki/resources)
 

@@ -47,3 +47,7 @@ a[href*='#alliance-icon']:before+span.keyNavAnnotation,
 a[href*='#horde-icon']:before+span.keyNavAnnotation {
   display: none;
 }
+
+.thing.id-t3_15be39 {  
+    display: none;
+}
