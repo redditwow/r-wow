@@ -42,6 +42,10 @@
   color: #826A19;
 }
 
+.link.promotedlink.promoted .thumbnail {
+    margin: 0px 10px;
+}
+
 #siteTable .thing.comment .parent {
 padding: 15px 10px 10px 40px;}
   
