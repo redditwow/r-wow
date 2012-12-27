@@ -1,14 +1,16 @@
-### [The Thunder King is Risen](/r/wow/comments/157vp8/blizzard_just_sent_us_the_first_image_of_thunder/)
+### Vote for the [Best of 2012](/r/wow/comments/15i6ug/best_of_2012_in_rwow/)
 
 #Subreddit of the Day
 
-/r/woweconomy - WoW gold discussion.
+/r/warcraftlore - learn more about the lore
+
+I had to do it, it rhymed.
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[The Undermine Journal](https://theunderminejournal.com/) - AH Statistics and Data.
+[World of Warcraft](http://worldofwarcraft.com/) - the official website.0
 
 [All related websites](/r/wow/wiki/resources)
 
