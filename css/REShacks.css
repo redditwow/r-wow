@@ -157,7 +157,6 @@ a.voteWeight {
   width: 12px !important;
   height: 13px !important;
   position:relative;
-  right:3px;
   top:2px;
   }
 .userTagLink.hasTag, #userTaggerPreview {
