@@ -32,7 +32,7 @@ div.content {
   background-repeat:no-repeat;
   color:#B39265;
 
-  padding-top:46px; /* for single line announcements. Remove for double. */
+/*  padding-top:46px; /* for single line announcements. Remove for double. */
 }  
 
 /** +++ ANNOUNCE ENDS +++ **/
