@@ -1,4 +1,4 @@
-### [Best of 2012 Results](/r/wow/comments/15u8du/best_of_2012_winners/) 
+### [Best of 2012 Results](/r/wow/comments/15u8du/best_of_2012_winners/) / [Weekly Healer Thread](/r/wow/comments/15u8yt/wednesdays_weekly_healing_thread_starting_off_the/)
 
 #Subreddit of the Day
 
