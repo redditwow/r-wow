@@ -1,6 +1,10 @@
 // variables.scss
 // makes reusing shit easy - keep stuff that is touched all the time at the top
 
+// theme selection
+// valid names: default, winterveil, darkmoonfaire
+$theme: default;
+
 // subreddit user descriptor thingers
 $users_subscribed_text: "Winter Veil Revellers";
 $users_online_text: "Greench Hunters";
@@ -34,3 +38,17 @@ $thing_linkcolor: #5FFBDA;                // minty green
 $thing_visited_linkcolor: #826A19;        // light brown shit
 
 // linkflair related (mod, blizzard, mod promo)
+
+
+// the following variables MUST be at the end of the file.
+// these variables will override above variables if a theme
+// is to be loaded.
+
+@if $theme == winterveil {
+    // load winterveil changes
+    $header_image_path: "../images/reddit-header-winterveil.jpg";
+
+} @else if $theme == darkmoonfaire {
+    // load darkmoonfaire holiday changes
+    $header_image_path: "../images/reddit-header-darkmoonfaire.jpg";
+}
