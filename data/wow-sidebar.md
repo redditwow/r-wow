@@ -1,16 +1,16 @@
-### Vote for the [Best of 2012](/r/wow/comments/15i6ug/best_of_2012_in_rwow/)
+### [Best of 2012 Results](/r/wow/comments/15u8du/best_of_2012_winners/) 
 
 #Subreddit of the Day
 
-/r/warcraftlore - learn more about the lore
-
-I had to do it, it rhymed.
+/r/WoWComics - one stop shop for memes, rage comics and more.
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[World of Warcraft](http://worldofwarcraft.com/) - the official website.0
+[Pet Battle Arena](http://www.petbattlearena.com) is basically your Pokedex.
+
+(/u/aphoenix wrote this; he may be too old to make good pokemon references)
 
 [All related websites](/r/wow/wiki/resources)
 
