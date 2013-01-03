@@ -54,7 +54,7 @@
 /* Header Image */
 #header {
     background-color: #333333;
-    background-image: url('../images/reddit-header.jpg');
+    background-image: url($header_image_path);
     background-position: center;
     border-bottom: 1px solid #000000;
     height: 150px;
