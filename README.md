@@ -13,3 +13,14 @@ Sidebar heading markup:
 * H4 is reserved for special events (Battle.Net World Championships)
 * H5 is reserved for countdowns (Mists of Pandaria Launch)
 * H6 is currently available for use
+
+SASS Rewrite Coding Standards
+----------------------------------------
+
+Proposed is the following:
+
+* Indentation must be spaces. 4 spaces each level per [PEP8](http://www.python.org/dev/peps/pep-0008/#indentation)
+* All property definitions must end with a semicolon. While not necessary for the last prop in a set, it keeps shit clean.
+* One space following the colon after the name of a property. Again, for cleanliness.
+* All colors must be in hexadecimal format. Letters should also be capitalized.
+* No single-line declarations unless you're setting up a million related things in a row. Example: setting the background position for a sprite
