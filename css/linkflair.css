@@ -65,15 +65,15 @@ a.thumbnail.default, a.thumbnail.self { background-position: -0px -1140px !impor
 a.thumbnail.nsfw { background-position: -0px -1292px !important; }
 
 /* Special Blizzard Employee posts */
-.linkflair-blizzard {
-  background: url('../images/thread-background-blizzard.png') repeat-x #0A0E1C !important;
+#siteTable .thing.linkflair-blizzard {
+  background: url('../images/thread-background-transparent.png') repeat-x #022642 !important;
   color: #00B4FF !important;
 }
 
-.linkflair-blizzard .title {
+#siteTable .thing.linkflair-blizzard .title {
   color: #00B4FF !important;
 }
 
-.linkflair-blizzard .domain, .linkflair-blizzard .domain a, .linkflair-blizzard .tagline { color: #888877; }
+#siteTable .thing.linkflair-blizzard .domain, #siteTable .thing.linkflair-blizzard .domain a, #siteTable .thing.linkflair-blizzard .tagline { color: #888877; }
 
-.linkflair-blizzard .entry .buttons li a { color: #888877; font-weight: bold; }
+#siteTable .thing.linkflair-blizzard .entry .buttons li a { color: #888877; font-weight: bold; }
