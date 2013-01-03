@@ -40,6 +40,19 @@ $thing_visited_linkcolor: #826A19;        // light brown shit
 // header stuffs
 $header_image_path: "../images/reddit-header.jpg";
 
+// thread thing colors
+$normalpost_background_color: #29120A;
+
+$modpost_background_color: #002200;
+
+$awesomepost_background_color: #37190E;
+
+$blizzpost_background_color: #022642;
+$blizzpost_title_color: #00B4FF;
+$blizzpost_text_color: #00B4FF;
+$blizzpost_tagline_color: #888877;
+$blizzpost_buttons_color: #888877;
+
 // the following variables MUST be at the end of the file.
 // these variables will override above variables if a theme
 // is to be loaded.
