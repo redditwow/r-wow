@@ -7,11 +7,11 @@
 .subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
-  content: " Winter Veil Revellers";
+  content: " Awaiting the Darkmoon Faire";
 }
 .users-online .word {display:none;}
 .users-online .number::after {
-  content: " Greench Hunters";
+  content: " Drunken Dwarves";
   }
 
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
