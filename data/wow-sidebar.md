@@ -2,15 +2,13 @@
 
 #Subreddit of the Day
 
-/r/WoWComics - one stop shop for memes, rage comics and more.
+/r/woweconomy - Learn from the best or fail like the rest! Warning: Might make you richer!
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Pet Battle Arena](http://www.petbattlearena.com) is basically your Pokedex.
-
-(/u/aphoenix wrote this; he may be too old to make good pokemon references)
+[Curse.com](http://www.curse.com/addons/wow) - AddOns make your life easier!
 
 [All related websites](/r/wow/wiki/resources)
 
