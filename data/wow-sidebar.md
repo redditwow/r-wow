@@ -2,13 +2,13 @@
 
 #Subreddit of the Day
 
-/r/woweconomy - Learn from the best or fail like the rest! Warning: Might make you richer!
+/r/wowporn - Like the SFW porn network, but for wow
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Curse.com](http://www.curse.com/addons/wow) - AddOns make your life easier!
+[Elitist Jerks](http://elitistjerks.com/forums.php) - Best of the best circa 2010 
 
 [All related websites](/r/wow/wiki/resources)
 
