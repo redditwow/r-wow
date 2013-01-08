@@ -109,7 +109,7 @@ a[href*='#blizzpost']~em {
 /* Reported and Spam Posts */
 
 #siteTable .thing.reported, #siteTable .thing.spam {
-  background: url('../images/thread-background-reported.png') repeat-x;
+  background: url('../images/thread-background-transparent.png') repeat-x #bf0000;
 }
 
 .entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp {
