@@ -1,4 +1,4 @@
-### [Best of 2012 Results](/r/wow/comments/15u8du/best_of_2012_winners/) are in **and**    [Weekly Healer Thread](/r/wow/comments/15u8yt/wednesdays_weekly_healing_thread_starting_off_the/) is up
+### Check out the new [Weekly Loot Thread](http://www.reddit.com/r/wow/comments/16757s/official_weekly_loot_thread_jan_8th_14th/). All loot submissions are now being removed. Post them there instead!
 
 #Subreddit of the Day
 
