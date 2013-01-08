@@ -19,6 +19,11 @@
   background: url('../images/thread-background-transparent.png') repeat-x #020;
   color:#cdc;
   }
+
+#siteTable .thing.linkflair-lootpost {
+  background: url('../image/thread-background-transparent.png') repeat-x #260329;
+}
+
 #siteTable .thing.linkflair-modpost a {
   color:#07D97F;
 }
