@@ -1,4 +1,4 @@
-### Check out the new [Weekly Loot Thread](http://www.reddit.com/r/wow/comments/16757s/official_weekly_loot_thread_jan_8th_14th/). All loot submissions are now being removed. Post them there instead!
+### Check out the new [Weekly Loot Thread](http://www.reddit.com/r/wow/comments/16768g/weekly_loot_mount_achievements_thread_for_january/). All loot submissions are now being removed. Post them there instead!
 
 #Subreddit of the Day
 
