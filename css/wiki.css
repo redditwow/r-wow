@@ -3,9 +3,12 @@
 .wiki-page .content {
     /*background-color: #0F0805 !important;*/
     background: url(%%thread-background%%) repeat-x #1C110B;
+    padding:20px 0;
 }
 
-.pageactions {
+.
+
+.wiki-page .pageactions {
     float: right;
     border: none;
     line-height: 30px;
@@ -14,15 +17,15 @@
     height: 35px;
 }
 
-.pageactions .wikiaction-current {
+.wiki-page .pageactions .wikiaction-current {
     background-color: #100905;
 }
 
-.pageactions .wikiaction-current:hover {
+.wiki-page .pageactions .wikiaction-current:hover {
     background-color: #100905;
 }
 
-.pageactions .wikiaction:hover {
+.wiki-page .pageactions .wikiaction:hover {
     background-color: #322621;
 }
 
@@ -47,16 +50,29 @@
     margin-right: 440px;
 }
 
-.md.wiki h1, .md.wiki h2, .md.wiki h3,
-.md.wiki h4, .md.wiki h5, .md.wiki h6 { color: #E2C7A3; }
+.wiki-page .wiki-page-content .md.wiki h1, 
+.wiki-page .wiki-page-content .md.wiki h2, 
+.wiki-page .wiki-page-content .md.wiki h3, 
+.wiki-page .wiki-page-content .md.wiki h4, 
+.wiki-page .wiki-page-content .md.wiki h5, 
+.wiki-page .wiki-page-content .md.wiki h6  { color: #E2C7A3; }
 
-.wikititle { 
+.wiki-page .wiki-page-content .md.wiki h1 {font-size:2em;} 
+.wiki-page .wiki-page-content .md.wiki h2 {font-size:1.8em;}
+.wiki-page .wiki-page-content .md.wiki h3 {font-size:1.6em;}
+.wiki-page .wiki-page-content .md.wiki h4 {font-size:1.4em;} 
+.wiki-page .wiki-page-content .md.wiki h5 {font-size:1.3em;}
+.wiki-page .wiki-page-content .md.wiki h6 {font-size:1.2em;}
+
+
+.wiki-page .wikititle { 
     color: #E2C7A3; 
     text-transform: capitalize;
     margin-left: 20px; /* Testing purposes, may need to be defaulted back to 15 */
     /*height: 35px;
     display: inline-block; This is messing stuff up, dunno why but w.e */
     line-height: 35px;
+    font-size:2.5em;
 }
 
 .wiki-page-content hr {
@@ -82,4 +98,8 @@
     padding: 5px 15px;
     margin-top: 15px;
     width:460px;
+}
+
+.wiki-page .wiki-page-content .md.wiki h2 {
+    color:;
 }
