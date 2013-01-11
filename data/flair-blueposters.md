@@ -7,7 +7,6 @@
 * [BlizzDaxxarri](http://reddit.com/u/BlizzDaxxarri)
 * [Zarhym](http://reddit.com/u/Zarhym)
 * [Nethaera](http://reddit.com/u/Nethaera)
-* [Crithto](http://reddit.com/u/Crithto)
 * [Vaeflare](http://reddit.com/u/Vaeflare)
 * [Rygarius](http://reddit.com/u/Rygarius)
 * [Kaivax](http://reddit.com/u/Kaivax)
