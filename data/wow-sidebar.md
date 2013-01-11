@@ -2,13 +2,13 @@
 
 #Subreddit of the Day
 
-/r/wowporn - Like the SFW porn network, but for wow
+/r/wowscrolls - For those of you that want to see what's changed without putting some money down.
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Elitist Jerks](http://elitistjerks.com/forums.php) - Best of the best circa 2010 
+[BlizzPlanet](http://www.blizzplanet.com/) - Everything Blizzard Entertainment
 
 [All related websites](/r/wow/wiki/resources)
 
