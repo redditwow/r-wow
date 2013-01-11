@@ -220,7 +220,7 @@ li.flairsample-left { padding-top: 5px; }
 /* Blizzard Employees - Job Titles */
 a.author[href$='reddit.com/user/Ghostcrawler']:after, a.author[href$='reddit.com/user/Kalgan']:after,
 a.author[href$='reddit.com/user/Zarhym']:after, a.author[href$='reddit.com/user/TheFargo']:after,
-a.author[href$='reddit.com/user/WatcherDev']:after {
+a.author[href$='reddit.com/user/WatcherDev']:after, a.author[href$='reddit.com/user/Araxom']:after {
   margin-left: 5px;
   padding: 2px 4px;
   border: 1px solid #000000;
@@ -233,6 +233,7 @@ a.author[href$='reddit.com/user/Kalgan']:after { content: "Tom Chilton (Game Dir
 a.author[href$='reddit.com/user/Zarhym']:after { content: "Jonathan Brown (Community Manager)"; }
 a.author[href$='reddit.com/user/TheFargo']:after { content: "Dave Kosak (Lead Quest Designer)"; }
 a.author[href$='reddit.com/user/WatcherDev']:after { content: "Ion Hazzikostas (Lead Encounter Designer)"; }
+a.author[href$='reddit.com/user/Araxom']:after { content: "Blizzard Customer Support"; }
 
 
 /* Popular WoWFansite Flairs */
