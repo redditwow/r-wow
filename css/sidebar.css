@@ -7,11 +7,11 @@
 .subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
-  content: " Faire Revellers";
+  content: " Swift Windsteeds";
 }
 .users-online .word {display:none;}
 .users-online .number::after {
-  content: " Steamtonk Combatants";
+  content: " Lonely Pandaren";
   }
 
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
