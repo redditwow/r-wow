@@ -119,17 +119,28 @@ a[href$='#shaman'] { color: #0070DE; }
 a[href$='#warlock'] { color: #9482C9; }
 a[href$='#warrior'] { color: #C79C6E; }
 
-a[href$='#warlock']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -36px; width: 18px; }
-a[href$='#warrior']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -54px; width: 18px; }
-a[href$='#paladin']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -72px; width: 18px; }
-a[href$='#hunter']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -90px; width: 18px; }
-a[href$='#druid']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -108px; width: 18px; }
-a[href$='#monk']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -126px; width: 18px; }
-a[href$='#priest']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -144px; width: 18px; }
-a[href$='#rogue']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -162px; width: 18px; }
-a[href$='#shaman']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -180px; width: 18px; }
-a[href$='#deathknight']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -198px; width: 18px; }
-a[href$='#mage']:before{ content: ""; background: url('../images/sprites/flair.png') no-repeat scroll; display: inline-block; margin-left: 3px; vertical-align: middle; height: 18px; background-position: 0px -216px; width: 18px; }
+
+a[href$='#deathknight']:before, a[href$='#druid']:before, a[href$='#hunter']:before, a[href$='#mage']:before,
+a[href$='#monk']:before, a[href$='#paladin']:before, a[href$='#priest']:before, a[href$='#rogue']:before,
+a[href$='#shaman']:before, a[href$='#warlock']:before, a[href$='#warrior']:before {
+  background: url('../images/sprites/flair.png') no-repeat scroll;
+  display: inline-block;
+  margin-left: 3px;
+  vertical-align: middle;
+  height: 18px;
+}
+
+a[href$='#warlock']:before{ content: ""; background-position: 0px -36px; width: 18px; }
+a[href$='#warrior']:before{ content: ""; background-position: 0px -54px; width: 18px; }
+a[href$='#paladin']:before{ content: ""; background-position: 0px -72px; width: 18px; }
+a[href$='#hunter']:before{ content: ""; background-position: 0px -90px; width: 18px; }
+a[href$='#druid']:before{ content: ""; background-position: 0px -108px; width: 18px; }
+a[href$='#monk']:before{ content: ""; background-position: 0px -126px; width: 18px; }
+a[href$='#priest']:before{ content: ""; background-position: 0px -144px; width: 18px; }
+a[href$='#rogue']:before{ content: ""; background-position: 0px -162px; width: 18px; }
+a[href$='#shaman']:before{ content: ""; background-position: 0px -180px; width: 18px; }
+a[href$='#deathknight']:before{ content: ""; background-position: 0px -198px; width: 18px; }
+a[href$='#mage']:before{ content: ""; background-position: 0px -216px; width: 18px; }
 
 .rulespage {
 margin-top:2em;
