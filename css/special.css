@@ -107,6 +107,30 @@ a[href$='wowhead.com/item=19019']:after {
   content: "?!?!!?";
 }
 
+a[href$='#deathknight'] { color: #C41F3B; }
+a[href$='#druid'] { color: #FF7D0A; }
+a[href$='#hunter'] { color: #ABD473; }
+a[href$='#mage'] { color: #69CCF0; }
+a[href$='#monk'] { color: #00FF96; }
+a[href$='#paladin'] { color: #F58CBA; }
+a[href$='#priest'] { color: #FFFFFF; }
+a[href$='#rogue'] { color: #FFF569; }
+a[href$='#shaman'] { color: #0070DE; }
+a[href$='#warlock'] { color: #9482C9; }
+a[href$='#warrior'] { color: #C79C6E; }
+
+a[href$='#warlock']:before{ content: ""; background-position: 0px -36px; width: 18px; }
+a[href$='#warrior']:before{ content: ""; background-position: 0px -54px; width: 18px; }
+a[href$='#paladin']:before{ content: ""; background-position: 0px -72px; width: 18px; }
+a[href$='#hunter']:before{ content: ""; background-position: 0px -90px; width: 18px; }
+a[href$='#druid']:before{ content: ""; background-position: 0px -108px; width: 18px; }
+a[href$='#monk']:before{ content: ""; background-position: 0px -126px; width: 18px; }
+a[href$='#priest']:before{ content: ""; background-position: 0px -144px; width: 18px; }
+a[href$='#rogue']:before{ content: ""; background-position: 0px -162px; width: 18px; }
+a[href$='#shaman']:before{ content: ""; background-position: 0px -180px; width: 18px; }
+a[href$='#deathknight']:before{ content: ""; background-position: 0px -198px; width: 18px; }
+a[href$='#mage']:before{ content: ""; background-position: 0px -216px; width: 18px; }
+
 .rulespage {
 margin-top:2em;
   background:#1C0F09;
@@ -120,3 +144,4 @@ background:#720101;
 .rulespage li.good-example {
 background:#1E500D;
 }
+
