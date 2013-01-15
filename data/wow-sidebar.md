@@ -1,13 +1,13 @@
 
 #Subreddit of the Day
 
-/r/wowscrolls - For those of you that want to see what's changed without putting some money down.
+/r/wowguilds - for all your guild recruitment needs.
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[BlizzPlanet](http://www.blizzplanet.com/) - Everything Blizzard Entertainment
+[WoWProfessions](http://www.wow-professions.com/) - figuring out how to get Zen Master JC
 
 [All related websites](/r/wow/wiki/resources)
 
@@ -30,10 +30,10 @@
 **DO POST**
 
 * Relevant Material to World of Warcraft. Highlight your images to show us where to look.
+* Loot! But only in [Tuesday's Loot Thread](/r/wow/wiki/loot)
 * Things in the proper related subreddit
  * Example: put your Transmog post in /r/Transmogrification
  * Example: put your UI post in /r/wowui
- * Feel free to cross post here!
 
 **DON'T POST**
 
@@ -44,12 +44,13 @@
 * Reposts from this week. 
 * More than one personal submission per week
 * I'm quitting WoW posts
+* [Loot](/r/wow/wiki/loot) if it isn't Tuesday
 
 ## Comment Rules
 
 * Racist, homophobic, sexist or otherwise hateful comments will be removed, and will result in a warning or a ban.
 * Please try to remain civil. Attempts to annoy or harass may result in a ban.
-* Trolling is not tolerated.
+* **Trolling is not tolerated.**
 
 #IRC
 
