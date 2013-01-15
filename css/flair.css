@@ -114,6 +114,20 @@ p.tagline, .tagline { height: 18px; margin: 4px 0 0; border: 0px; }
 .flair-warlock+.author,.flair-alliance-warlock+.author,.flair-horde-warlock+.author { color: #9482C9 !important; }
 .flair-warrior+.author,.flair-alliance-warrior+.author,.flair-horde-warrior+.author { color: #C79C6E !important; }
 
+.flair-alliance+.author:visited { color: #247FAA !important; }
+.flair-horde+.author:visited { color: #B30000 !important; }
+.flair-deathknight+.author:visited,.flair-alliance-deathknight+.author:visited,.flair-horde-deathknight+.author:visited { color: #C41F3B !important; }
+.flair-druid+.author:visited,.flair-alliance-druid+.author:visited,.flair-horde-druid+.author:visited { color: #FF7D0A !important; }
+.flair-hunter+.author:visited,.flair-alliance-hunter+.author:visited,.flair-horde-hunter+.author:visited { color: #ABD473 !important; }
+.flair-mage+.author:visited,.flair-alliance-mage+.author:visited,.flair-horde-mage+.author:visited { color: #69CCF0 !important; }
+.flair-monk+.author:visited,.flair-alliance-monk+.author:visited,.flair-horde-monk+.author:visited { color: #00FF96 !important; }
+.flair-paladin+.author:visited,.flair-alliance-paladin+.author:visited,.flair-horde-paladin+.author:visited { color: #F58CBA !important; }
+.flair-priest+.author:visited,.flair-alliance-priest+.author:visited,.flair-horde-priest+.author:visited { color: #FFFFFF !important; }
+.flair-rogue+.author:visited,.flair-alliance-rogue+.author:visited,.flair-horde-rogue+.author:visited { color: #FFF569 !important; }
+.flair-shaman+.author:visited,.flair-alliance-shaman+.author:visited,.flair-horde-shaman+.author:visited { color: #0070DE !important; }
+.flair-warlock+.author:visited,.flair-alliance-warlock+.author:visited,.flair-horde-warlock+.author:visited { color: #9482C9 !important; }
+.flair-warrior+.author:visited,.flair-alliance-warrior+.author:visited,.flair-horde-warrior+.author:visited { color: #C79C6E !important; }
+
  /* Let thread submitters keep awesome flair related colorschemes */
 .flair-alliance+a.submitter, .flair-alliance+a.submitter:visited
   { background-color: #247FAA !important; color: #FFFFFF !important; }
