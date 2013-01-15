@@ -1,4 +1,6 @@
 
+### [Tanking Tuesday](http://www.reddit.com/r/wow/comments/16mpi9/tanking_tuesday_your_weekly_tanking_thread/) is up! So is our [Weekly Loot Thread](http://www.reddit.com/r/wow/comments/16m65s/weekly_loot_mount_achievements_thread_for_january/)
+
 #Subreddit of the Day
 
 /r/wowguilds - for all your guild recruitment needs.
