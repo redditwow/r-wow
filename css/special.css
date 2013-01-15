@@ -130,17 +130,17 @@ a[href$='#shaman']:before, a[href$='#warlock']:before, a[href$='#warrior']:befor
   height: 18px;
 }
 
-a[href$='#warlock']:before{ content: ""; background-position: 0px -36px; width: 18px; }
-a[href$='#warrior']:before{ content: ""; background-position: 0px -54px; width: 18px; }
-a[href$='#paladin']:before{ content: ""; background-position: 0px -72px; width: 18px; }
-a[href$='#hunter']:before{ content: ""; background-position: 0px -90px; width: 18px; }
 a[href$='#druid']:before{ content: ""; background-position: 0px -108px; width: 18px; }
+a[href$='#deathknight']:before{ content: ""; background-position: 0px -198px; width: 18px; }
+a[href$='#hunter']:before{ content: ""; background-position: 0px -90px; width: 18px; }
+a[href$='#mage']:before{ content: ""; background-position: 0px -216px; width: 18px; }
 a[href$='#monk']:before{ content: ""; background-position: 0px -126px; width: 18px; }
+a[href$='#paladin']:before{ content: ""; background-position: 0px -72px; width: 18px; }
 a[href$='#priest']:before{ content: ""; background-position: 0px -144px; width: 18px; }
 a[href$='#rogue']:before{ content: ""; background-position: 0px -162px; width: 18px; }
 a[href$='#shaman']:before{ content: ""; background-position: 0px -180px; width: 18px; }
-a[href$='#deathknight']:before{ content: ""; background-position: 0px -198px; width: 18px; }
-a[href$='#mage']:before{ content: ""; background-position: 0px -216px; width: 18px; }
+a[href$='#warlock']:before{ content: ""; background-position: 0px -36px; width: 18px; }
+a[href$='#warrior']:before{ content: ""; background-position: 0px -54px; width: 18px; }
 
 .rulespage {
 margin-top:2em;
