@@ -195,4 +195,8 @@ a[title="Nuke!"] {
   position:relative;
   }
 
+#RESAccountSwitcherDropdown {
+  z-index:9005 !important;
+}
+
 /** +++ RES HACKS ENDS +++ **/
