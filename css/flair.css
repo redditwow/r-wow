@@ -229,7 +229,8 @@ li.flairsample-left { padding-top: 5px; }
   height: 22px;
 }
 
-.flair-blizzard+.author, .flair-rainbowdash+.author { color: #00B4FF !important; }
+.flair-blizzard+a.author, .flair-rainbowdash+a.author,
+.flair-blizzard+a.author:visited, .flair-rainbowdash+a.author:visited { color: #00B4FF !important; }
 
 /* Blizzard Employees - Job Titles */
 a.author[href$='reddit.com/user/Ghostcrawler']:after, a.author[href$='reddit.com/user/Kalgan']:after,
