@@ -2,7 +2,6 @@
 * [bashiok_foreal](http://reddit.com/u/bashiok_foreal)
 * [lylirra](http://reddit.com/u/lylirra)
 * [Grimiku](http://reddit.com/u/Grimiku)
-* [Brennvin](http://reddit.com/u/Brennvin)
 * [Crithto](http://reddit.com/u/Crithto)
 * [BlizzDaxxarri](http://reddit.com/u/BlizzDaxxarri)
 * [Zarhym](http://reddit.com/u/Zarhym)
