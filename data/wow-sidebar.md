@@ -1,15 +1,14 @@
-
-
+### Check out the new [MVP Program](/r/wow/comments/170eiu/the_rwow_mvp_system/)
 
 #Subreddit of the Day
 
-/r/wowguilds - for all your guild recruitment needs.
+/r/Transmogrification - if you want to dress up real purty like.
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[WoWProfessions](http://www.wow-professions.com/) - figuring out how to get Zen Master JC
+[WoW Insider](http://wow.joystiq.com/) - has the latest on Mists of Pandaria.
 
 [All related websites](/r/wow/wiki/resources)
 
