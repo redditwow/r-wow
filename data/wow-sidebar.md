@@ -1,5 +1,5 @@
 
-### [Friday Raid Q/A Thread](http://www.reddit.com/r/wow/comments/16tppd/friday_raid_boss_encounter_qa/) is up! So is our [Weekly Loot Thread](http://www.reddit.com/r/wow/comments/16m65s/weekly_loot_mount_achievements_thread_for_january/).
+
 
 #Subreddit of the Day
 
