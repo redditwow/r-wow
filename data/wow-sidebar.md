@@ -1,4 +1,4 @@
-### Check out the new [MVP Program](/r/wow/comments/170eiu/the_rwow_mvp_system/)
+### Check out the new [MVP Program](/r/wow/comments/170eiu/the_rwow_mvp_system/). The [Weekly Loot Thread](http://www.reddit.com/r/wow/comments/171ywx/weekly_loot_mount_achievements_thread_for_january/) is now up.
 
 #Subreddit of the Day
 
