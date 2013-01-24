@@ -57,7 +57,7 @@ a.thumbnail.default, a.thumbnail.self { background-position: -0px -1140px !impor
 .linkflair-lore a.thumbnail { background-position: -0px -833px !important; }
 .linkflair-pvp a.thumbnail { background-position: -0px -909px !important; }
 .linkflair-raiding a.thumbnail { background-position: -0px -985px !important; }
-.linkflair-blizzard a.thumbnail { background-position: -0px -1061px !important; }
+.linkflair-bluepost a.thumbnail { background-position: -0px -1061px !important; }
 .linkflair-general a.thumbnail { background-position: -0px -1213px !important; }
 .linkflair-modpost a.thumbnail { background-position: -0px -1364px !important; }
 
@@ -65,15 +65,15 @@ a.thumbnail.default, a.thumbnail.self { background-position: -0px -1140px !impor
 a.thumbnail.nsfw { background-position: -0px -1292px !important; }
 
 /* Special Blizzard Employee posts */
-#siteTable .thing.linkflair-blizzard {
+#siteTable .thing.linkflair-bluepost {
   background: url('../images/thread-background-transparent.png') repeat-x #022642 !important;
   color: #00B4FF !important;
 }
 
-#siteTable .thing.linkflair-blizzard .title {
+#siteTable .thing.linkflair-bluepost .title {
   color: #00B4FF !important;
 }
 
-#siteTable .thing.linkflair-blizzard .domain, #siteTable .thing.linkflair-blizzard .domain a, #siteTable .thing.linkflair-blizzard .tagline { color: #888877; }
+#siteTable .thing.linkflair-bluepost .domain, #siteTable .thing.linkflair-bluepost .domain a, #siteTable .thing.linkflair-bluepost .tagline { color: #888877; }
 
-#siteTable .thing.linkflair-blizzard .entry .buttons li a { color: #888877; font-weight: bold; }
+#siteTable .thing.linkflair-bluepost .entry .buttons li a { color: #888877; font-weight: bold; }
