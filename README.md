@@ -2,6 +2,8 @@
 
 This is the place for the design of the World of Warcraft subreddit.
 
+**If you would like to use any of our assets for your subreddit's stylesheet. PLEASE [contact us](http://www.reddit.com/message/compose?to=%2Fr%2Fwow) before doing so.**
+
 Sanity Documentation
 ----------------------------------------
 
