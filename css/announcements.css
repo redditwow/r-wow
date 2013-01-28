@@ -17,8 +17,8 @@ div.content {
 .side .usertext h3{
   position:absolute;
   display: block;
-  top:21px;
-  right:28px;
+  top:-130px;
+  right:-10px;
   color: #000;
   text-align: left;
   margin: 20px;
