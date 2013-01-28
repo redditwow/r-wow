@@ -11,6 +11,8 @@
   border: 1px solid #000;
   padding: 4px 0 5px;
   margin: 0 10px 0 5px;
+  position:relative;
+  z-index:1;
 }
 #siteTable .thing.linkflair-awesomepost {
   background: url('../images/thread-background-transparent.png') repeat-x #37190e;

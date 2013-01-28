@@ -8,8 +8,19 @@
 
 .keyHighlight {
   outline: none !important;
-  background: url('../images/res-highlight-green.png') no-repeat;
+ /* background: url('../images/res-highlight-green.png') no-repeat;*/
   background-color: transparent !important;
+}
+.keyHighlight + div {
+background:transparent;
+width: 60px;
+position: absolute;
+top: 15px;
+left: 60px;
+height: 60px;
+z-index: 1;
+border-radius: 1em;
+box-shadow: 0px 0px 25px #992;
 }
 a.voteWeight {
   background-color: transparent !important;
