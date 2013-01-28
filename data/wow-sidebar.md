@@ -2,13 +2,13 @@
 
 #Subreddit of the Day
 
-/r/Transmogrification - if you want to dress up real purty like.
+/r/rppvpproject - For those who want to have a real battle. This is just starting, get in and make some decisions!
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[WoW Insider](http://wow.joystiq.com/) - has the latest on Mists of Pandaria.
+[Wowhead](http://wow.wowhead.com/) - The one thing on which Ninjas and Pirates agree.
 
 [All related websites](/r/wow/wiki/resources)
 
