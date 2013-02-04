@@ -6,12 +6,12 @@
 /** +++ RES HACKS STARTS +++ **/
 /* RES Trickery - screw you honestbleeps for having so much css! am jk */
 
-.keyHighlight {
+.thing.link > .keyHighlight {
   outline: none !important;
  /* background: url('../images/res-highlight-green.png') no-repeat;*/
   background-color: transparent !important;
 }
-.keyHighlight + div {
+.thing.link > .keyHighlight + div {
 background:transparent;
 width: 60px;
 position: absolute;
@@ -22,6 +22,16 @@ z-index: 1;
 border-radius: 1em;
 box-shadow: 0px 0px 25px #992;
 }
+.thing.link.reported > .keyHighlight + div {
+box-shadow:0px 0px 40px #fff;
+}
+
+.thing.comment > .keyHighlight {
+  outline: none !important;
+  background: url('../images/res-highlight-green.png') no-repeat;
+  background-color: transparent !important;
+  }
+
 a.voteWeight {
   background-color: transparent !important;
   margin-right:7px;
