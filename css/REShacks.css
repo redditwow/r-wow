@@ -35,7 +35,7 @@ box-shadow:0px 0px 40px #fff;
 
 
 .thing.comment > .keyHighlight {
-  background: url('../images/sprites/res-highlight-green.png') no-repeat;
+  background: url('../images/res-highlight-green.png') no-repeat;
   outline: none !important;
   background-color: transparent !important;
   }
