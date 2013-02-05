@@ -200,7 +200,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 /* Move our submit button to the top of the sidebar */
 .sidebox.submit { 
     position: absolute;
-    top: 230px;
+    top: 80px;
     width: 300px;
     padding-left: 15px;
     z-index: 50;
