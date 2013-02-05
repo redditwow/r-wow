@@ -1,13 +1,13 @@
 
 #Subreddit of the Day
 
-/r/rppvpproject - For those who want to have a real battle. This is just starting, get in and make some decisions!
+/r/wowraf - Looking to recruit a friend, or be recruited?
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Wowhead](http://wow.wowhead.com/) - The one thing on which Ninjas and Pirates agree.
+[WowUpgrade](http://wowupgrade.com/) - Instant item upgrade comparison.
 
 [All related websites](/r/wow/wiki/resources)
 
