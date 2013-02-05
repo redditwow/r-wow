@@ -323,6 +323,7 @@ reddit.com/user/whoisthismilfhere was here originally, got removed
 .flair-imjustthatawesome+a.author, .flair-imjustthatawesome+a.author:visited,
 .flair-imjustthatawesome+a.submitter, .flair-imjustthatawesome+a.submitter:visited {
   color: #FF8000 !important;
+  background-color: #000000 !important;
 }
 
 .flair-imjustthatawesome+a.author::before { content: "["; }
