@@ -2,7 +2,7 @@
 
 .wiki-page .content {
     /*background-color: #0F0805 !important;*/
-    background: url(%%thread-background%%) repeat-x #1C110B;
+    background: url(%%thread-background-transparent%%) repeat-x #1C110B;
     padding:20px 0;
 }
 

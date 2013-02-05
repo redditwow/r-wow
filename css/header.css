@@ -52,9 +52,8 @@
 
 /* Header Image */
 #header {
-  /* background:url(%%header3%%); */
   background-color:#333;
-  background-image:url('../images/reddit-header-lunarfestival.jpg');
+  background-image:url('../images/reddit-header-darkmoonfaire.jpg');
   background-position:center;
   border-bottom:1px solid #000;
   height:150px;
@@ -125,7 +124,7 @@
 }
 
 #header-bottom-left .tabmenu {
-  background: url('../images/thread-background.png');
+  background: url('../images/thread-background-transparent.png') #29120A;
   padding: 7px 10px 5px 10px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
