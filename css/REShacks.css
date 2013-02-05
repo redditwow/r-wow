@@ -9,6 +9,9 @@
 #RESConsole {
   z-index:99999 !important;
   }
+#modalOverlay {
+  z-index:99981 !important;
+  }
 
 .thing.link > .keyHighlight {
   outline: none !important;
