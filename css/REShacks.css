@@ -30,8 +30,8 @@ border-radius: 1em;
 box-shadow: 0px 0px 25px #992;
 }
 
-.ting.link.compressed > .keyHighlight + div {
-box-shadow:0px 0px 0px transparent !important;
+.thing.link.compressed > .keyHighlight + div {
+box-shadow: none !important;
 }
 
 .thing.link.reported > .keyHighlight + div {
@@ -40,7 +40,7 @@ box-shadow:0px 0px 40px #fff;
 
 
 
-.thing.comment > .keyHighlight, .think.link.compressed > .keyHighlight {
+.thing.comment > .keyHighlight, .thing.link.compressed > .keyHighlight {
   background: url('../images/res-highlight-green.png') no-repeat;
   outline: none !important;
   background-color: transparent !important;
