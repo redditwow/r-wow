@@ -1,13 +1,13 @@
 
 #Subreddit of the Day
 
-/r/wowraf - Looking to recruit a friend, or be recruited?
+/r/hiddenwow - follow those footsteps. Find something new. 
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[WowUpgrade](http://wowupgrade.com/) - Instant item upgrade comparison.
+[WowJuJu Rep Calculator](http://www.wowjuju.com/repcalc) - it involves pie and rep.
 
 [All related websites](/r/wow/wiki/resources)
 
