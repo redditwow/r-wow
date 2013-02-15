@@ -148,7 +148,6 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   background:transparent;
 }
 
-.titlebox { margin-top: 30px; /* For link submit button */ }
 
 .titlebox h1 a {
   color: #008467 !important;
@@ -197,13 +196,11 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 /* Disable the useless reddit information after a morelink */
 .morelink+.spacer { visibility: hidden; height: 0px; }
 
-/* Move our submit button to the top of the sidebar */
 .sidebox.submit { 
-    position: absolute;
-    top: 80px;
     width: 300px;
     padding-left: 15px;
     z-index: 50;
+    margin-bottom:1em;
 }
 
 /* Reddit/RES "Subscribe" Buttons */
