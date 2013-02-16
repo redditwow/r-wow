@@ -2,6 +2,27 @@
  * Linkflair.css
  */
 
+
+/* The Linkflair Classes */
+
+
+#siteTable .thing.linkflair-modpost a {
+  color:#07D97F;
+}
+#siteTable .thing.linkflair-modpost .md h2 {
+  color: #D2BFA4;
+}
+#siteTable .thing.linkflair-lootpost {
+  background: url('../images/thread-background-transparent.png') repeat-x #260329;
+}
+#siteTable .thing.linkflair-modpost {
+  background: url('../images/thread-background-transparent.png') repeat-x #020;
+  color:#cdc;
+  }
+#siteTable .thing.linkflair-awesomepost {
+  background: url('../images/thread-background-transparent.png') repeat-x #37190e;
+  }
+
 .linkflairlabel { display: none; }
 .flairoptionpane .linkflairlabel { display: inline-block; }
 
