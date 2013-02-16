@@ -1,7 +1,7 @@
 
 #Subreddit of the Day
 
-/r/hiddenwow - follow those footsteps. Find something new. 
+/r/Honrar - The adventures of Honrar 
 
 [All related subreddits](/r/wow/wiki/related)
 
