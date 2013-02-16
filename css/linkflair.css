@@ -5,6 +5,12 @@
 
 /* The Linkflair Classes */
 
+.linkflairlabel {border:none;padding:4px;font-size:10px;}
+.linkflair-bluepost .linkflairlabel {background:#022642;color:#00b4ff}
+.linkflair-modpost .linkflairlabel {color:#d2bfa4;background:#020}
+.linkflair-lootpost .linkflairlabel {color:white;background:#260329;}
+.linkflair-awesomepost .linkflairlabel {color:#d2bfa4;background:#571700;}
+
 
 #siteTable .thing.linkflair-bluepost .domain, #siteTable .thing.linkflair-bluepost .domain a, #siteTable .thing.linkflair-bluepost .tagline { color: #888877; }
 
