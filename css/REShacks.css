@@ -32,6 +32,7 @@ box-shadow: 0px 0px 25px #992;
 
 .thing.link.compressed > .keyHighlight + div {
 box-shadow: none !important;
+display:none;
 }
 
 .thing.link.reported > .keyHighlight + div {
