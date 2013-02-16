@@ -238,6 +238,8 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   background-color: #221409;
   border: 3px double #2C180D;
   width: 220px !important;
+  }
+.side .drop-choices {
   left: 150px !important;
 }
 
