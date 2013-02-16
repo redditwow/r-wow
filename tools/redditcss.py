@@ -21,7 +21,7 @@ try:
         
             for line in thefile.readlines():
                 if line.startswith('  background:') or line.startswith('  background-image:') or line.startswith('  content:'):
-                    print "--\nMatched ("+fname+"):\nOld Line: " + line
+                    #print "--\nMatched ("+fname+"):\nOld Line: " + line
 
                     line = line.replace("../images/", "%%")
                     line = line.replace(".png')", "%%')")
@@ -31,7 +31,7 @@ try:
                     line = line.replace("sprites/", "")
                     line = line.replace("icons/", "")
                     line = line.replace("_", "-")
-                    print "New Line: " + line
+                    #print "New Line: " + line
 
                     masterfile.write(line)
                 else:         
