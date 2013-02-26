@@ -11,6 +11,7 @@
 * [Kaivax](http://reddit.com/u/Kaivax)
 * [Traysent](http://reddit.com/u/Traysent)
 * [Aldrexus](http://reddit.com/u/Aldrexus)
+* [Eldtyara](http://reddit.com/u/Eldtyara)
 
 **World of Warcraft Developers**
 * [TheFargo](http://reddit.com/u/TheFargo)
