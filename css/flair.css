@@ -269,18 +269,6 @@ a.author[href$='reddit.com/user/Eldtyara']:after { content: "Community Manager E
   height: 16px;
 }
 
-.flair-fansite-wowinsider::after { 
-  content: url('%%flair-wowinsider%%') !important;
-  width: 101px;
-  height: 14px;
-}
-
-.flair-fansite-askmrrobot::after { 
-  content: url('%%flair-askmrrobot%%') !important;
-  width: 29px;
-  height: 16px;
-}
-
 /* WoWCaretaker */
 
 .flair-robot-wowcaretaker::after {
