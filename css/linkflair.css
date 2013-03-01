@@ -17,7 +17,7 @@
 #siteTable .thing.linkflair-bluepost .entry .buttons li a { color: #888877; font-weight: bold; }
 
 #siteTable .thing.linkflair-bluepost {
-  background: url('../images/thread-background-transparent.png') repeat-x #022642 !important;
+  background: url('%%thread-background-transparent%%') repeat-x #022642 !important;
   color: #00B4FF !important;
 }
 
@@ -31,14 +31,14 @@
   color: #D2BFA4;
 }
 #siteTable .thing.linkflair-lootpost {
-  background: url('../images/thread-background-transparent.png') repeat-x #260329;
+  background: url('%%thread-background-transparent%%') repeat-x #260329;
 }
 #siteTable .thing.linkflair-modpost {
-  background: url('../images/thread-background-transparent.png') repeat-x #020;
+  background: url('%%thread-background-transparent%%') repeat-x #020;
   color:#cdc;
   }
 #siteTable .thing.linkflair-awesomepost {
-  background: url('../images/thread-background-transparent.png') repeat-x #571700;
+  background: url('%%thread-background-transparent%%') repeat-x #571700;
   }
 
 .linkflairlabel { display: none; }
@@ -58,7 +58,7 @@
 }
 
 .thing a.thumbnail::after {
-  content: url('../images/linkflair-border.png');
+  content: url('%%linkflair-border%%');
   z-index: 2;
   position: absolute;
   left: 52px;
@@ -73,7 +73,7 @@
 /* All custom link flair thumbs */
 
 .linkflair a.thumbnail, a.thumbnail.default, a.thumbnail.self, a.thumbnail.nsfw {
-  background-image: url('../images/sprites/linkflair.png') !important;
+  background-image: url('%%linkflair%%') !important;
 }
 
 a.thumbnail.default, a.thumbnail.self { background-position: -0px -1140px !important; }

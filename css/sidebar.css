@@ -19,7 +19,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 .side {
   margin: 0px 5px 0 0;
   width: 439px;
-  background: url('../images/frame-wood-repeat.png');
+  background: url('%%frame-wood-repeat%%');
   background-repeat: repeat-y;
   background-position: center top;
   padding-top: 0px;
@@ -44,7 +44,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   float: right;
 }
 .side > .spacer:first-child {
-  background:url('../images/sprites/mop-graphics.png');
+  background:url('%%mop-graphics%%');
   background-position: -0px -589px;
   background-repeat:no-repeat;
   width: 430px;
@@ -56,7 +56,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   z-index: 9001;
 }
 .side > .spacer:last-child {
-  background:url('../images/sprites/mop-graphics.png');
+  background:url('%%mop-graphics%%');
   background-position: -0px -839px;
   background-repeat:no-repeat;
   width:359px;
@@ -185,7 +185,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 
 .morelink a, .morelink a:hover { color: #FFB100; border: 0px; }
 .morelink, .morelink:hover, .morelink .nub, .morelink:hover .nub { 
-  background-image: url('../images/sprites/mop-graphics.png'); 
+  background-image: url('%%mop-graphics%%'); 
 }
 
 .morelink { background-position: -0px -0px; }
@@ -209,7 +209,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 .fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut, .RESSubscriptionButton,
 .fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover, .RESSubscriptionButton:hover {
   background: transparent !important;
-  background-image: url('../images/sprites/mop-graphics.png') !important;
+  background-image: url('%%mop-graphics%%') !important;
   border: 0px !important;
   line-height: 20px !important;
   padding: 4px 8px !important;
@@ -300,12 +300,12 @@ div.subbuttons {
 
 /* Sidebar Icons */
 .icon-menu a::before { 
-  background-image: url('../images/sprites/modicons.png') !important; 
+  background-image: url('%%modicons%%') !important; 
   width: 18px !important; 
   height: 18px !important;
 }
 .users-online::before {
-  background: url('../images/sprites/modicons.png') no-repeat -1px -120px;
+  background: url('%%modicons%%') no-repeat -1px -120px;
   width:20px;
   height:19px;
   }
@@ -318,7 +318,7 @@ div.subbuttons {
   margin-left:4px;
   }
 .titlebox .leavemoderator::before, .moderator.remove-self .main::before {
-  background: url('../images/sprites/modicons.png') no-repeat -1px -51px;
+  background: url('%%modicons%%') no-repeat -1px -51px;
   width: 20px;
   height: 21px;
 }

@@ -37,7 +37,7 @@ a[href$='#warrior'] { color: #C79C6E; }
 a[href$='#deathknight']:before, a[href$='#druid']:before, a[href$='#hunter']:before, a[href$='#mage']:before,
 a[href$='#monk']:before, a[href$='#paladin']:before, a[href$='#priest']:before, a[href$='#rogue']:before,
 a[href$='#shaman']:before, a[href$='#warlock']:before, a[href$='#warrior']:before {
-  background: url('../images/sprites/flair.png') no-repeat scroll;
+  background: url('%%flair%%') no-repeat scroll;
   display: inline-block;
   margin-right: 3px;
   vertical-align: middle;

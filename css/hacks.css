@@ -26,7 +26,7 @@ a[href$='#helptip']:hover em {
 
 /* Faction Icons on URLS */
 a[href*='#alliance-icon']:before {
-  background: url('../images/icon-alliance.png') no-repeat scroll;
+  background: url('%%icon-alliance%%') no-repeat scroll;
   display: inline-block;
   vertical-align: middle;
   width: 18px;
@@ -35,7 +35,7 @@ a[href*='#alliance-icon']:before {
 }
 
 a[href*='#horde-icon']:before {
-  background: url('../images/icon-horde.png') no-repeat scroll;
+  background: url('%%icon-horde%%') no-repeat scroll;
   display: inline-block;
   vertical-align: middle;
   width: 18px;

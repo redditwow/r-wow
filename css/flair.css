@@ -40,7 +40,7 @@ a.author.submitter, a.author.submitter:visited {
 }
 
 .flair:after {
-  background: url('../images/sprites/flair.png') no-repeat scroll 16px 16px transparent;
+  background: url('%%flair%%') no-repeat scroll 16px 16px transparent;
   display: inline-block;
   margin-left: 3px;
   vertical-align: middle;
@@ -178,7 +178,7 @@ a.author.friend:hover {
 }
 
 a.author.friend::after {
-  content: url('../images/friend-icon.png');
+  content: url('%%friend-icon%%');
   margin-left: 3px;
   display: inline-block;
   vertical-align: middle;
@@ -209,7 +209,7 @@ li.flairsample-left { padding-top: 5px; }
 /* Pandasnoo creator */
 
 .flair-pandasnoo::after {
-  content: url('../images/flair-pandasnoo.png') !important;
+  content: url('%%flair-pandasnoo%%') !important;
 }
 
 .flair-pandasnoo+.author { color: #FFFFFF; }
@@ -218,13 +218,13 @@ li.flairsample-left { padding-top: 5px; }
 /* They have special flair classes that are not user selectable */
 
 .flair-blizzard::after {
-  content: url('../images/flair-blizzard.png') !important;
+  content: url('%%flair-blizzard%%') !important;
   width: 20px;
   height: 13px;
 }
 
 .flair-rainbowdash::after {
-  content: url('../images/flair-ghostcrawler.png');
+  content: url('%%flair-ghostcrawler%%');
   width: 47px;
   height: 22px;
 }
@@ -255,7 +255,7 @@ a.author[href$='reddit.com/user/Eldtyara']:after { content: "Community Manager E
 
 /* Popular WoWFansite Flairs */
 .flair-fansite-wowhead::after { 
-  content: url('../images/flair-wowhead.png') !important;
+  content: url('%%flair-wowhead%%') !important;
   width: 29px;
   height: 16px;
 }
@@ -264,19 +264,19 @@ a.author[href$='reddit.com/user/Eldtyara']:after { content: "Community Manager E
 .flair-fansite-wowhead+a.submitter, .flair-fansite-wowhead+a.submitter:visited{ background-color: #C41F3B !important; color: #FFFFFF !important; }
 
 .flair-fansite-mmochampion::after { 
-  content: url('../images/flair-mmochampion.png') !important;
+  content: url('%%flair-mmochampion%%') !important;
   width: 29px;
   height: 16px;
 }
 
 .flair-fansite-wowinsider::after { 
-  content: url('../images/flair-wowinsider.png') !important;
+  content: url('%%flair-wowinsider%%') !important;
   width: 101px;
   height: 14px;
 }
 
 .flair-fansite-askmrrobot::after { 
-  content: url('../images/flair-askmrrobot.png') !important;
+  content: url('%%flair-askmrrobot%%') !important;
   width: 29px;
   height: 16px;
 }
@@ -285,7 +285,7 @@ a.author[href$='reddit.com/user/Eldtyara']:after { content: "Community Manager E
 
 .flair-robot-wowcaretaker::after {
   content: "";
-  background: url('../images/sprites/modicons.png') no-repeat -1px -51px;
+  background: url('%%modicons%%') no-repeat -1px -51px;
   width: 20px;
   height: 21px;
 }
@@ -295,7 +295,7 @@ a.author[href$='reddit.com/user/Eldtyara']:after { content: "Community Manager E
 
 /* Goldmaking AMA Thread */
 .flair-goldama::after {
-  content: url('../images/flair-goldcoin.png') !important;
+  content: url('%%flair-goldcoin%%') !important;
   width: 14px;
   height: 14px;
 }
@@ -316,7 +316,7 @@ reddit.com/user/whoisthismilfhere was here originally, got removed
 
 /* Lunar Festival */
 .flair-lunar::after {
-  content: url('../images/flair-lunar.png') !important;
+  content: url('%%flair-lunar%%') !important;
   width: 18px;
   height: 18px;
 }
@@ -332,13 +332,13 @@ reddit.com/user/whoisthismilfhere was here originally, got removed
 .flair-imjustthatawesome+a.author::after { content: "]"; }
 
 .flair-imjustthatawesome::after {
-  content: url('../images/flair-imjustthatawesome.png') !important;
+  content: url('%%flair-imjustthatawesome%%') !important;
   width: 16px;
   height: 16px;
 }
 
 .flair-sausagefest::after {
-  content: url('../images/flair-sausagefest2.png') !important;
+  content: url('%%flair-sausagefest2%%') !important;
   width: 16px;
   height: 16px;
 }

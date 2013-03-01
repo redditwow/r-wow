@@ -42,7 +42,7 @@ box-shadow:0px 0px 40px #fff;
 
 
 .thing.comment > .keyHighlight, .thing.link.compressed > .keyHighlight {
-  background: url('../images/res-highlight-green.png') no-repeat;
+  background: url('%%res-highlight-green%%') no-repeat;
   outline: none !important;
   background-color: transparent !important;
   }
@@ -57,7 +57,7 @@ a.voteWeight {
 .gearIcon, #RESSettingsButton {
   width: 14px !important;
   height: 12px !important;
-  background-image: url('../images/sprites/mail.png') !important;
+  background-image: url('%%mail%%') !important;
   background-repeat: no-repeat  !important;
   background-position: 0px -52px  !important;
 }
@@ -116,7 +116,7 @@ a.voteWeight {
 /* Hack for mail icon on scroll down */
 
 #NREMail.nohavemail, #NREMail.havemail {
-  background-image: url('../images/sprites/mail.png') !important;
+  background-image: url('%%mail%%') !important;
   background-repeat:no-repeat;
   }
 #NREMail.nohavemail {background-position:0 0 !important;}
@@ -142,7 +142,7 @@ a.voteWeight {
 /* Glaive instead of Bacon */
 
 #baconBit {
-  background-image: url('../images/res-glaive.png') !important;
+  background-image: url('%%res-glaive%%') !important;
   width: 50px !important;
   height: 20px !important;
 }
@@ -167,7 +167,7 @@ a.voteWeight {
 .RESGalleryControls a {
   cursor: pointer;
   display: inline-block;
-  background-image: url('../images/sprites/glyphicons-halflings.png') !important;
+  background-image: url('%%glyphicons-halflings%%') !important;
   width: 12px;
   height: 12px;
   margin: 7px;
@@ -187,7 +187,7 @@ a.voteWeight {
 }
 
 .RESUserTagImage {
-  background-image: url('../images/sprites/glyphicons-halflings.png') !important;
+  background-image: url('%%glyphicons-halflings%%') !important;
   background-repeat:no-repeat;
   background-position: -1px -49px !important;
   width: 12px !important;
@@ -200,7 +200,7 @@ a.voteWeight {
   }
 
 #NREPause {
-  background:url('../images/sprites/glyphicons-halflings.png') no-repeat -291px -75px !important;
+  background:url('%%glyphicons-halflings%%') no-repeat -291px -75px !important;
   width: 8px !important;
   height: 10px !important;
   margin:3px;
@@ -218,7 +218,7 @@ a[title="Nuke!"] img {
   display:none !important;
 }
 a[title="Nuke!"] {
-  background:url('../images/sprites/glyphicons-halflings.png') no-repeat -74px -120px;
+  background:url('%%glyphicons-halflings%%') no-repeat -74px -120px;
   text-indent:-999em;
   width: 11px;
   height: 14px;

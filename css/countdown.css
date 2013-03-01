@@ -7,7 +7,7 @@
 
 /* Mists of Pandaria sidebar */
 .side h5 {
-  background: url('../images/countdown.png');
+  background: url('%%countdown%%');
   display: block;
   width: 300px;
   height: 113px;

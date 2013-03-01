@@ -5,7 +5,7 @@
 /* World of reddit Logo */
 .pagename a {
   display: block;
-  background-image: url('../images/reddit-mistslogo.png');
+  background-image: url('%reddit-mistslogo%%');
   background-repeat: no-repeat;
   margin: 0 auto;
   font-size: 0px;
@@ -53,7 +53,7 @@
 /* Header Image */
 #header {
   background-color:#333;
-  background-image:url('../images/reddit-header-loveisintheair.jpg');
+  background-image:url('%%reddit-header%%');
   background-position:center;
   border-bottom:1px solid #000;
   height:150px;
@@ -108,7 +108,7 @@
 }
 
 .nohavemail, .havemail {
-  background-image: url('../images/sprites/mail.png') !important;
+  background-image: url('%%mail%%') !important;
 }
 
 #mail.nohavemail { background-position: -0px -0px; background-repeat: no-repeat; }
@@ -124,7 +124,7 @@
 }
 
 #header-bottom-left .tabmenu {
-  background: url('../images/thread-background-transparent.png') #29120A;
+  background: url('%%thread-background-transparent%%') #29120A;
   padding: 7px 10px 5px 10px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;

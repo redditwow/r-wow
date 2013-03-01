@@ -4,7 +4,7 @@
  */
 body {
   background-color:#333;
-  background-image: url('../images/body-background.png');
+  background-image: url('%%body-background%%');
   color: #d2bfa4;
 }
 
