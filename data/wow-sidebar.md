@@ -1,13 +1,13 @@
 
 #Subreddit of the Day
 
-/r/Honrar - The adventures of Honrar 
+/r/wow - Because sometimes, it should be about **us**
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[WowJuJu Rep Calculator](http://www.wowjuju.com/repcalc) - it involves pie and rep.
+[WoW](http://worldofwarcraft.com) - if you have not yet, watch the cinematic.
 
 [All related websites](/r/wow/wiki/resources)
 
