@@ -8,7 +8,7 @@ System Status
 ----------------------------------------
 
 
-| Subreddit     | Status                                        |
+| Subreddit     | Status                                      |||
 | ------------- |:-------------:|:-------------:|:-------------:|
 | /r/wow        | ![CSS][wowcssstatus] | ![Images][wowimgstatus] | ~[Sidebar][wowsdbstatus] |
 
