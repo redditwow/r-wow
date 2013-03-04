@@ -9,9 +9,9 @@ Current Status
 
 /r/wow
 
-![](http://gohan.fluxflashor.net/status/wow-images.png)
-![](http://gohan.fluxflashor.net/status/wow-css.png)
-![](http://gohan.fluxflashor.net/status/wow-sidebar.png)
+![WoW Image Upload Status](http://gohan.fluxflashor.net/status/wow-images.png)
+![WoW CSS Upload Status](http://gohan.fluxflashor.net/status/wow-css.png)
+![WoW Sidebar Upload Status](http://gohan.fluxflashor.net/status/wow-sidebar.png)
 
 
 Sanity Documentation
