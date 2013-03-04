@@ -4,14 +4,17 @@ This is the place for the design of the World of Warcraft subreddit.
 
 **If you would like to use any of our assets for your subreddit's stylesheet. PLEASE [contact us](http://www.reddit.com/message/compose?to=%2Fr%2Fwow) before doing so.**
 
-Current Status
+System Status
 ----------------------------------------
 
-/r/wow
 
-![WoW Image Upload Status](http://gohan.fluxflashor.net/status/wow-images.png)
-![WoW CSS Upload Status](http://gohan.fluxflashor.net/status/wow-css.png)
-![WoW Sidebar Upload Status](http://gohan.fluxflashor.net/status/wow-sidebar.png)
+| Subreddit     | Status                                        |
+| ------------- |:-------------:|:-------------:|:-------------:|
+| /r/wow        | ![CSS][wowcssstatus] | ![Images][wowimgstatus] | ~[Sidebar][wowsdbstatus] |
+
+[wowcssstatus]: http://gohan.fluxflashor.net/status/wow-css.png
+[wowimgstatus]: http://gohan.fluxflashor.net/status/wow-images.png
+[wowsdbstatus]: http://gohan.fluxflashor.net/status/wow-sidebar.png
 
 
 Sanity Documentation
