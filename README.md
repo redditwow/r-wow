@@ -10,7 +10,7 @@ System Status
 
 | Subreddit     | Status                                      |||
 | ------------- |:-------------:|:-------------:|:-------------:|
-| /r/wow        | ![CSS][wowcssstatus] | ![Images][wowimgstatus] | ~[Sidebar][wowsdbstatus] |
+| /r/wow        | ![CSS][wowcssstatus] | ![Images][wowimgstatus] | ![Sidebar][wowsdbstatus] |
 
 [wowcssstatus]: http://gohan.fluxflashor.net/status/wow-css.png
 [wowimgstatus]: http://gohan.fluxflashor.net/status/wow-images.png
