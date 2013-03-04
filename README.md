@@ -4,6 +4,16 @@ This is the place for the design of the World of Warcraft subreddit.
 
 **If you would like to use any of our assets for your subreddit's stylesheet. PLEASE [contact us](http://www.reddit.com/message/compose?to=%2Fr%2Fwow) before doing so.**
 
+Current Status
+----------------------------------------
+
+/r/wow
+
+![](http://gohan.fluxflashor.net/status/wow-images.png)
+![](http://gohan.fluxflashor.net/status/wow-css.png)
+![](http://gohan.fluxflashor.net/status/wow-sidebar.png)
+
+
 Sanity Documentation
 ----------------------------------------
 
