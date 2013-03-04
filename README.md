@@ -7,10 +7,10 @@ This is the place for the design of the World of Warcraft subreddit.
 System Status
 ----------------------------------------
 
-
 | Subreddit     | Status                                      |||
 | ------------- |:-------------:|:-------------:|:-------------:|
-| /r/wow        | ![CSS][wowcssstatus] | ![Images][wowimgstatus] | ![Sidebar][wowsdbstatus] |
+| **/r/wow**    | [![wowcssstatus][wowcssstatus]][wowcssstatus] | [![wowimgstatus][wowimgstatus]][wowimgstatus] | [![wowsdbstatus][wowsdbstatus]][wowsdbstatus] |
+
 
 [wowcssstatus]: http://gohan.fluxflashor.net/status/wow-css.png
 [wowimgstatus]: http://gohan.fluxflashor.net/status/wow-images.png
