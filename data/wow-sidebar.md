@@ -2,7 +2,7 @@
 
 #Subreddit of the Day
 
-/r/wow - Because sometimes, it should be about **us**
+/r/woweconomy - Discuss all the new 5.2 goldmaking stuff!
 
 [All related subreddits](/r/wow/wiki/related)
 
