@@ -1,4 +1,4 @@
-### Patch 5.2 is upon us! Bored while the servers are down? [Join us on irc](http://reddit.com/r/wow/wiki/irc)!
+### Just because the servers are up doesn't mean you can't [join us on irc](http://reddit.com/r/wow/wiki/irc)!
 
 #Subreddit of the Day
 
