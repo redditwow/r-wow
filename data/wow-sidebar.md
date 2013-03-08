@@ -1,14 +1,25 @@
 ### Patch 5.2 is upon us! Bored while the servers are down? [Join us on irc](http://reddit.com/r/wow/wiki/irc)!
 
+#Of Interest
+
+These FAQs can probably help you.
+
+[Just Starting Out?](/r/wow/wiki/guides/newplayer)  
+[Returning to WoW?](/r/wow/wiki/guides/returning_to_wow)  
+
+The moderators and MVPs for this sub have started curating content that we think is espeically interesting.
+
+[Curated Content](/r/wow/search?q=flair%3A%27mod%27+OR+flair%3A%27blizzard%27&sort=new&restrict_sr=on&t=all)
+
 #Subreddit of the Day
 
-/r/woweconomy - Discuss all the new 5.2 goldmaking stuff!
+/r/hiddenwow - pop culture references in out of the way places
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[WoW](http://worldofwarcraft.com) - if you have not yet, watch the cinematic.
+[WowPedia](http://wowpedia.org) - the right place to find info
 
 [All related websites](/r/wow/wiki/resources)
 
