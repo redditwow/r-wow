@@ -4,7 +4,7 @@
 
 These FAQs can probably help you.
 
-[Just Starting Out?](/r/wow/wiki/guides/newplayer)  
+[Just Starting Out?](/r/wow/wiki/newplayer)  
 [Returning to WoW?](/r/wow/wiki/guides/returning_to_wow)  
 
 The moderators and MVPs for this sub have started curating content that we think is espeically interesting.
