@@ -164,10 +164,13 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
   margin-top: 5px;
 }
 
-.usertext-edit {
-  padding: 20px 0px;
+.thing .usertext-edit {
+  padding: 20px 0px 0px 30px;
   color: #FFF;
 }
+.fancy-settings .usertext-edit {
+  padding-left:0;
+  }
 
 .usertext-edit textarea {
   border: 3px double #2C180D;
@@ -177,7 +180,7 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
 }
 
 .comment .usertext {
-  margin-right:0 20px;
+  margin-right: 20px;
   }
 
 .usertext button, .usertext .help-toggle.toggle a.option.active {

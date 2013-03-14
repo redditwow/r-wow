@@ -11,10 +11,14 @@
   font-size: 0px;
   padding: 76px 0 0 0;
   color: #364657;
-  left: 125px;
+  left: 85px;
   position: absolute;
-  top: 23px;
-  width: 230px;
+  top: 32px;
+  width: 150px;
+  background-position:center top;
+}
+.pagename a:hover {
+background-position:center bottom;
 }
 
 /* Subreddit Listing Bar / Shared */
@@ -25,7 +29,7 @@
   white-space: nowrap;
   overflow: hidden;
   border-bottom: 1px solid #1d1d1d;
-  font-size: 90%
+  font-size: 90%;
 }
 
 #sr-header-area { text-transform: uppercase; }
@@ -59,11 +63,21 @@
   height:150px;
 }
 
-#header-img {
+#header-img-a {
   margin-top: 5px;
   margin-right: 5px;
-  margin-left: 15px
+  margin-left: 5px;
+  height:100px;
+  width:90px;
+  background:url('%%hoversnoo%%');
+  background-position:center bottom;
+  display:inline-block;
 }
+#header-img-a:hover {
+  background-position:center top;
+  }
+#header-img {display:none;}  
+
 
 /* User information block - making this baby "bnet style" */ 
 #header-bottom-right {
@@ -128,7 +142,7 @@
   padding: 7px 10px 5px 10px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin-left:195px;
+  margin-left:140px;
 }
 
 #header-bottom-left .tabmenu li {
