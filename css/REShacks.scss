@@ -235,4 +235,10 @@ a[title="Nuke!"] {
   z-index:9005 !important;
 }
 
+#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+  background:transparent !important;
+  }
+#RESShortcutsEditContainer { border-radius:2em; top:29px !important; right:-3px !important;}
+
+
 /** +++ RES HACKS ENDS +++ **/

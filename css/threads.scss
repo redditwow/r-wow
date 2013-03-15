@@ -43,6 +43,13 @@ padding: 15px 10px 10px 40px;}
 
 .midcol, .thumbnail {margin-top:0px;}
 
+/* Fugly Search fixes */
+.searchpane.raisedbox {min-height:6em;}
+.searchpane.raisedbox form > * {display:none;}
+.searchpane.raisedbox form {display:block;}
+.searchpane.raisedbox:hover form > * {display:block;}
+.searchpane.raisedbox form > input:first-child {display:block;}
+
 
 /* Text stuff inside of thing */
 .domain, .domain a, .tagline { color: #B39265; }
@@ -163,10 +170,13 @@ html .comment .comment .comment .comment .comment .comment .comment .comment .co
   margin-top: 5px;
 }
 
-.usertext-edit {
-  padding: 20px 0px;
+.thing .usertext-edit {
+  padding: 20px 0px 0px 30px;
   color: #FFF;
 }
+.fancy-settings .usertext-edit {
+  padding-left:0;
+  }
 
 .usertext-edit textarea {
   border: 3px double #2C180D;
