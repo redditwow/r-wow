@@ -43,6 +43,13 @@ padding: 15px 10px 10px 40px;}
 
 .midcol, .thumbnail {margin-top:0px;}
 
+/* Fugly Search fixes */
+.searchpane.raisedbox {min-height:6em;}
+.searchpane.raisedbox form > * {display:none;}
+.searchpane.raisedbox form {display:block;}
+.searchpane.raisedbox:hover form > * {display:block;}
+.searchpane.raisedbox form > input:first-child {display:block;}
+
 
 /* Text stuff inside of thing */
 .domain, .domain a, .tagline { color: #B39265; }
