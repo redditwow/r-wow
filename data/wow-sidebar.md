@@ -13,13 +13,13 @@ The moderators and MVPs for this sub have started curating content that we think
 
 #Subreddit of the Day
 
-/r/hiddenwow - pop culture references in out of the way places
+/r/starcraft - They just did a gorgeous redesign for HotS. Check it out!
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[WowPedia](http://wowpedia.org) - the right place to find info
+[BossBluePrint](http://bossblueprint.com/world-of-warcraft/) - trying to help DKs understand since 2010.
 
 [All related websites](/r/wow/wiki/resources)
 
