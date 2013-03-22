@@ -1,4 +1,4 @@
-### Blizzard announces [Hearthstone: Heroes of Warcraft](http://www.reddit.com/r/wow/comments/1asrnv/blizzard_announces_hearthstone_heroes_of_warcraft/) at PAX East. Join us on /r/playhearthstone!
+### Blizzard announces [Hearthstone: Heroes of Warcraft](http://www.reddit.com/r/wow/comments/1asrnv/blizzard_announces_hearthstone_heroes_of_warcraft/). Join us /r/hearthstone!
 
 #Of Interest
 
