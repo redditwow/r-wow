@@ -1,4 +1,4 @@
-### PAX East has begun! Blizzard's Panel is currently being [streamed](http://www.twitch.tv/pax/)! [Info](http://www.reddit.com/r/wow/comments/1arbd4/blizzard_invades_pax_east_march_2224/)
+### Blizzard announces [Hearthstone: Heroes of Warcraft](http://www.reddit.com/r/wow/comments/1asrnv/blizzard_announces_hearthstone_heroes_of_warcraft/) at PAX East. Join us on /r/playhearthstone!
 
 #Of Interest
 
