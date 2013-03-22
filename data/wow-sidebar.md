@@ -1,4 +1,4 @@
-### Just because the servers are up doesn't mean you can't [join us on irc](http://reddit.com/r/wow/wiki/irc)!
+### PAX East has begun! Blizzard's Panel is currently being [streamed](http://www.twitch.tv/pax/)! [Info](http://www.reddit.com/r/wow/comments/1arbd4/blizzard_invades_pax_east_march_2224/)
 
 #Of Interest
 
