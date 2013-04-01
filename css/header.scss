@@ -133,7 +133,7 @@ background-position:center bottom;
 /* Logo, Redditname, Tabmenu */
 
 #header-bottom-left {
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
@@ -143,6 +143,8 @@ background-position:center bottom;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   margin-left:140px;
+  position:relative;
+  top:3px;
 }
 
 #header-bottom-left .tabmenu li {
