@@ -1,4 +1,4 @@
-### Just because the servers are up doesn't mean you can't [join us on irc](http://reddit.com/r/wow/wiki/irc)!
+### Blizzard announces [Hearthstone: Heroes of Warcraft](http://www.reddit.com/r/wow/comments/1asrnv/blizzard_announces_hearthstone_heroes_of_warcraft/). Join us /r/hearthstone!
 
 #Of Interest
 
