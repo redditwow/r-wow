@@ -13,13 +13,13 @@ The moderators and MVPs for this sub have started curating content that we think
 
 #Subreddit of the Day
 
-/r/starcraft - They just did a gorgeous redesign for HotS. Check it out!
+/r/Transmogrification - play dressup then stab somebody
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[BossBluePrint](http://bossblueprint.com/world-of-warcraft/) - trying to help DKs understand since 2010.
+[WoWPedia](http://www.wowpedia.org/Portal:Main) - So much better than WoW Wiki.
 
 [All related websites](/r/wow/wiki/resources)
 
@@ -31,7 +31,9 @@ The moderators and MVPs for this sub have started curating content that we think
 
 #Rules
 
-[Read the in-depth rules](/r/wow/wiki/rules) 
+[Read the in-depth rules of /r/wow](/r/wow/wiki/rules) 
+
+[Read the Rules of Reddit](/rules)
 
 ##Protection of Personal Information
 

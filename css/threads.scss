@@ -285,4 +285,13 @@ padding: 5px 10px;
   margin:15px 10px;
   }
 
+/* Upscore / Downscore */
+.score.likes {color: #FF8B24;}
+.score.dislikes {color: #9494FF;}
 
+/* Coloured Reply */
+
+.entry .buttons a[onclick*="reply"] {
+  font-weight:bold;
+  color:#FFEBD5 !important;
+  }
