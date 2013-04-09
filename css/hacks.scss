@@ -24,30 +24,6 @@ a[href$='#helptip']:hover em {
   text-decoration: none;
 }
 
-/* Faction Icons on URLS */
-a[href*='#alliance-icon']:before {
-  background: url('%%icon-alliance%%') no-repeat scroll;
-  display: inline-block;
-  vertical-align: middle;
-  width: 18px;
-  height: 18px;
-  content: "";
-}
-
-a[href*='#horde-icon']:before {
-  background: url('%%icon-horde%%') no-repeat scroll;
-  display: inline-block;
-  vertical-align: middle;
-  width: 18px;
-  height: 18px;
-  content: "";
-}
-
-a[href*='#alliance-icon']:before+span.keyNavAnnotation,
-a[href*='#horde-icon']:before+span.keyNavAnnotation {
-  display: none;
-}
-
 .thing.id-t3_15be39 {  
     display: none;
 }
