@@ -294,24 +294,6 @@ a.author[href$='reddit.com/user/Eldtyara']:after { content: "Community Manager E
 .flair-goldama+a.author, .flair-goldama+a.author:visited { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; border-radius: 4px !important; }
 .flair-goldama+a.submitter, .flair-goldama+a.submitter:visited { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; border-radius: 4px !important; }
 
-/* TODO: Figure out a way to just use the fucking thread id to change 3 user's flairs */
-
-/* Scamming Douchebag List
-reddit.com/user/whoisthismilfhere was here originally, got removed
-
-.tagline a[href$="reddit.com/user/pierpont123"]:after, 
-.collapsed a[href$="reddit.com/user/pierpont123"]:after {
-  color: red;
-  content: "  I am a scamming douchebag. AMA";
-}*/
-
-/* Lunar Festival */
-/*.flair-lunar::after {
-  content: url('%%flair-lunar%%') !important;
-  width: 18px;
-  height: 18px;
-}
-*/
 /* Nothing to see here */
 .flair-imjustthatawesome+a.author, .flair-imjustthatawesome+a.author:visited,
 .flair-imjustthatawesome+a.submitter, .flair-imjustthatawesome+a.submitter:visited {
@@ -324,12 +306,6 @@ reddit.com/user/whoisthismilfhere was here originally, got removed
 
 .flair-imjustthatawesome::after {
   content: url('%%flair-imjustthatawesome%%') !important;
-  width: 16px;
-  height: 16px;
-}
-
-.flair-sausagefest::after {
-  content: url('%%flair-sausagefest2%%') !important;
   width: 16px;
   height: 16px;
 }
