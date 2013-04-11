@@ -14,12 +14,12 @@
   z-index:99981 !important;
   }
 
-.thing.link > .keyHighlight {
+.thing.link > .RES-keyNav-activeElement {
   outline: none !important;
  /* background: url('../images/res-highlight-green.png') no-repeat;*/
   background-color: transparent !important;
 }
-.thing.link > .keyHighlight + div {
+.thing.link > .RES-keyNav-activeElement + div {
 background:transparent;
 width: 60px;
 position: absolute;
@@ -31,18 +31,18 @@ border-radius: 1em;
 box-shadow: 0px 0px 25px #992;
 }
 
-.thing.link.compressed > .keyHighlight + div {
+.thing.link.compressed > .RES-keyNav-activeElement + div {
 box-shadow: none !important;
 display:none;
 }
 
-.thing.link.reported > .keyHighlight + div {
+.thing.link.reported > .RES-keyNav-activeElement + div {
 box-shadow:0px 0px 40px #fff;
 }
 
 
 
-.thing.comment > .keyHighlight, .thing.link.compressed > .keyHighlight {
+.thing.comment > .RES-keyNav-activeElement, .thing.link.compressed > .keyHighlight {
   background: url('%%res-highlight-green%%') no-repeat;
   outline: none !important;
   background-color: transparent !important;
@@ -241,5 +241,7 @@ a[title="Nuke!"] {
   }
 #RESShortcutsEditContainer { border-radius:2em; top:29px !important; right:-3px !important;}
 
-
+/*.RES-keyNav-activeElement.entry {
+    background-color: #221306 !important;
+}*/
 /** +++ RES HACKS ENDS +++ **/
