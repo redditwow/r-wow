@@ -241,7 +241,7 @@ a[title="Nuke!"] {
   }
 #RESShortcutsEditContainer { border-radius:2em; top:29px !important; right:-3px !important;}
 
-.RES-keyNav-activeElement,  {
+.RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed  {
     background-color: transparent !important;
 }
 /** +++ RES HACKS ENDS +++ **/
