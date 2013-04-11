@@ -241,10 +241,7 @@ a[title="Nuke!"] {
   }
 #RESShortcutsEditContainer { border-radius:2em; top:29px !important; right:-3px !important;}
 
-.RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed  {
-    background-color: transparent !important;
-}
+.content .RES-keyNav-activeElement, .content .commentarea .RES-keyNav-activeElement .md, .content .commentarea .RES-keyNav-activeElement.entry .noncollapsed {background-color:transparent !important;}
 
-#siteTable .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: transparent !important; }
-.commentarea .RES-keyNav-activeElement.entry .noncollapsed { background: transparent !important; }
+
 /** +++ RES HACKS ENDS +++ **/
