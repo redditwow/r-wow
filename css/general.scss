@@ -255,3 +255,5 @@ a[href*='wowwiki.com']:after {
     font-weight: bold;
     content: "Please only report posts that actually violate the subreddit's rules.";
 }
+
+.popup { z-index: 9999 !important; } 
