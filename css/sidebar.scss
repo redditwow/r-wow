@@ -448,3 +448,15 @@ a[href="/message/compose?to=%2Fr%2Fwow"] + .title + .content {
 .side a[href="http://www.reddit.com/user/WoWCaretaker"] {
     display: none;
 }
+
+body.search-page .side>.spacer:first-child {
+    /* push everything down further to fix people who aren't logged in. */
+    height: 200px;
+}
+
+body.search-page .login-form-side {
+    /* dirty fix for form being offside */
+    width: 330px;
+    margin-left: 60px;
+    margin-top: 80px;
+}

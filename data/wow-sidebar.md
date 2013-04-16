@@ -78,5 +78,5 @@ Channel: #wow
 * [Related Websites](/r/wow/wiki/resources)
 * [Flair](/r/wow/wiki/flair)
 * [Reddit Guilds](/r/wow/wiki/guilds)
-* [Class Guides](/r/wow/wiki/guides)
+* [Guides](/r/wow/wiki/guides)
 * [FAQs](/r/wow/wiki/faqs)
