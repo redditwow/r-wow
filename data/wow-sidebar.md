@@ -1,4 +1,5 @@
-### Blizzard announces [Hearthstone: Heroes of Warcraft](http://www.reddit.com/r/wow/comments/1asrnv/blizzard_announces_hearthstone_heroes_of_warcraft/). Join us /r/hearthstone!
+### Remember: [IRC](/r/wow/wiki/irc) and [Loot Tuesdays](/r/wow/wiki/loot) including [the loot thread for this week](/r/wow/comments/1cglsk/weekly_loot_mount_achievements_thread_for_april/)
+
 
 #Of Interest
 
@@ -13,13 +14,13 @@ The moderators and MVPs for this sub have started curating content that we think
 
 #Subreddit of the Day
 
-/r/Transmogrification - play dressup then stab somebody
+/r/Hearthstone - the new Heroes of Warcraft game
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[WoWPedia](http://www.wowpedia.org/Portal:Main) - So much better than WoW Wiki.
+[Durumu Maze](http://durumu-maze.com) - thanks to /u/CJGibson and /u/shookie, you no longer have to die, noob.
 
 [All related websites](/r/wow/wiki/resources)
 
