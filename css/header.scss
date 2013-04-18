@@ -22,9 +22,9 @@ background-position:center bottom;
 }
 
 /* Subreddit Listing Bar / Shared */
+#sr-header-area {background:url('%%topbar-transparent%%');}
 #sr-header-area, #header-bottom-right {
   padding: 10px 0px 10px 5px;
-  background-color: #1d1d1d;
   color: #EEEEEE;
   white-space: nowrap;
   overflow: hidden;
@@ -56,11 +56,12 @@ background-position:center bottom;
 
 /* Header Image */
 #header {
+  z-index:auto;
   background-color:#333;
   background-image:url('%%reddit-header-thunderking%%');
   background-position:center;
   border-bottom:1px solid #000;
-  height:150px;
+  height:183px;
 }
 
 #header-img-a {
@@ -82,8 +83,8 @@ background-position:center bottom;
 /* User information block - making this baby "bnet style" */ 
 #header-bottom-right {
   position: absolute;
-  right: 0px;
-  top:0px !important;
+  right:388px;
+  top:144px !important;
   bottom: 0px;
   height: 18px;
   border-radius: 0px;
@@ -93,8 +94,8 @@ background-position:center bottom;
   padding-right: 7px;
   font-size: 10px;
   z-index:9999;
+  background:transparent;
 }
-
 #header-bottom-right a {
   color: #797e84;
 }
@@ -142,9 +143,9 @@ background-position:center bottom;
   padding: 7px 10px 5px 10px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin-left:140px;
-  position:relative;
-  top:3px;
+  position:absolute;
+  top:112px;
+  left:10px;
 }
 
 #header-bottom-left .tabmenu li {
