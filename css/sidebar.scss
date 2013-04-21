@@ -17,7 +17,7 @@
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 
 .side {
-  margin: 0px 5px 0 0;
+  margin: 0px -16px 0 0;
   width: 439px;
   background: url('%%frame-wood-repeat%%');
   background-repeat: repeat-y;
@@ -27,6 +27,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   z-index: 9001;
   float: right;
   position:relative;
+  top:-125px
 }
 .side a {
   color: #008467;
@@ -54,7 +55,20 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   top: -40px;
   padding-right: 9px;
   z-index: 9001;
+  padding-top:215px;
 }
+.side > .spacer:first-child::before {
+  content: "";
+  background:url('%%thunderkinglogo%%');
+  border-radius:1em;
+  border:1px solid #322;
+  width:350px;
+  height:215px;
+  display:block;
+  position:absolute;
+  top:66px;
+  left:61px;
+  }
 .side > .spacer:last-child {
   background:url('%%mop-graphics%%');
   background-position: -0px -839px;

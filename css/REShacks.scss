@@ -244,7 +244,8 @@ a[title="Nuke!"] {
 #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
   background:transparent !important;
   }
-#RESShortcutsEditContainer { border-radius:2em; top:29px !important; right:-3px !important;}
+#RESShortcutsSort {background:transparent!important;}
+#RESShortcutsEditContainer { border-radius:2em; top:11px !important; right:-3px !important;z-index:999999;}
 
 .content .RES-keyNav-activeElement, .content .commentarea .RES-keyNav-activeElement .md, .content .commentarea .RES-keyNav-activeElement.entry .noncollapsed {background-color:transparent !important;}
 
