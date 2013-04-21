@@ -6,6 +6,9 @@ body {
   background-color:#333;
   background-image: url('%%body-background%%');
   color: #d2bfa4;
+  position:relative;
+  /* HACKY HACKY HACKY HACK */
+  z-index:-2;
 }
 
 a {
