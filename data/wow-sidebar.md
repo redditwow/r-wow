@@ -1,4 +1,4 @@
-### Remember: [IRC](/r/wow/wiki/irc) and [Loot Tuesdays](/r/wow/wiki/loot) including [the loot thread for this week](/r/wow/comments/1cglsk/weekly_loot_mount_achievements_thread_for_april/)
+### Blizzcon Tickets onsale tonight at [7pm PDT](http://timeanddate.com/s/2cwa). Checkout [Rorak's Ticket Purchase Tips](http://us.battle.net/wow/en/forum/topic/8568989229). [IRC](/r/wow/wiki/irc)
 
 
 #Of Interest
