@@ -1,4 +1,4 @@
-### Blizzcon Tickets onsale tonight at [7pm PDT](http://timeanddate.com/s/2cwa). Checkout [Rorak's Ticket Purchase Tips](http://us.battle.net/wow/en/forum/topic/8568989229). [IRC](/r/wow/wiki/irc)
+### Come hangout in [IRC](/r/wow/wiki/irc), it isn't just for neckbeards!
 
 
 #Of Interest
