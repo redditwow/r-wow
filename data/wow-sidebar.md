@@ -1,4 +1,4 @@
-### Remember: [IRC](/r/wow/wiki/irc) and [Loot Tuesdays](/r/wow/wiki/loot) including [the loot thread for this week](/r/wow/comments/1cglsk/weekly_loot_mount_achievements_thread_for_april/)
+### Come hangout in [IRC](/r/wow/wiki/irc), it isn't just for neckbeards!
 
 
 #Of Interest
