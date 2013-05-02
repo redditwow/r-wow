@@ -14,6 +14,8 @@
   z-index:99981 !important;
   }
 
+.RESImage.loaded {z-index:99999;}
+
 .thing.link > .RES-keyNav-activeElement,
 .thing.link > .keyHighlight {
   outline: none !important;
