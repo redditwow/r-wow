@@ -1,4 +1,4 @@
-### Come hangout in [IRC](/r/wow/wiki/irc), it isn't just for neckbeards!
+### Check out [the contest](/r/wowraf/comments/1dms31/giveaway/) happening in /r/wowraf! 
 
 
 #Of Interest
