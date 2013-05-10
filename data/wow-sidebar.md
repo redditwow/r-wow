@@ -10,17 +10,17 @@ These FAQs can probably help you.
 
 The moderators and MVPs for this sub have started curating content that we think is espeically interesting.
 
-[Curated Content](/r/wow/search?q=flair%3A%27mod%27+OR+flair%3A%27blizzard%27&sort=new&restrict_sr=on&t=all)
+[Curated Content](/r/wow/search?q=flair%3A%27mod%27+OR+flair%3A%27blizzard%27+OR+flair%3A%27promoted%27&sort=new&restrict_sr=on&t=all)
 
 #Subreddit of the Day
 
-/r/Hearthstone - the new Heroes of Warcraft game
+/r/wowraf - they have a contest right now, too
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[Durumu Maze](http://durumu-maze.com) - thanks to /u/CJGibson and /u/shookie, you no longer have to die, noob.
+[RealmPop](http://wow.realmpop.com/) - See how populated a realm is with handy dandy visualizationsi
 
 [All related websites](/r/wow/wiki/resources)
 
