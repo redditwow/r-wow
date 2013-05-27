@@ -1,4 +1,3 @@
-### Check out [the contest](/r/wowraf/comments/1dms31/giveaway/) happening in /r/wowraf! 
 
 
 #Of Interest
@@ -14,13 +13,13 @@ The moderators and MVPs for this sub have started curating content that we think
 
 #Subreddit of the Day
 
-/r/wowraf - they have a contest right now, too
+/r/Transmogrification - because you should be *pretty*
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[RealmPop](http://wow.realmpop.com/) - See how populated a realm is with handy dandy visualizationsi
+[WoWHead](http://www.wowhead.com) - the all knowing database of wonderfulness
 
 [All related websites](/r/wow/wiki/resources)
 
@@ -66,6 +65,10 @@ The moderators and MVPs for this sub have started curating content that we think
 * Racist, homophobic, sexist or otherwise hateful comments will be removed, and will result in a warning or a ban.
 * Please try to remain civil. Attempts to annoy or harass may result in a ban.
 * **Trolling is not tolerated.**
+
+## Contests and Giveaways
+
+Contact the mods first and [read the guidelines](/r/wow/wiki/rules#wiki_giveaways_and_contests)!
 
 #IRC
 
