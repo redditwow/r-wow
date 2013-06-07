@@ -25,7 +25,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   padding-top: 0px;
   color: #d2bfa4;
   float: right;
-  margin-top:-105px;
+  margin-top:25px;
 }
 .side a {
   color: #008467;
@@ -55,18 +55,6 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   z-index: 9001;
   padding-top:215px;
 }
-.side > .spacer:first-child::before {
-  content: "";
-  background:url('%%thunderkinglogo%%');
-  border-radius:1em;
-  border:1px solid #322;
-  width:350px;
-  height:215px;
-  display:block;
-  position:absolute;
-  top:66px;
-  left:52px;
-  }
 .side > .spacer:last-child {
   background:url('%%mop-graphics%%');
   background-position: -0px -839px;
@@ -477,12 +465,10 @@ body.search-page .login-form-side {
 
 /* MENU STUFF */
 
-
-
-.side blockquote {
+.titlebox blockquote {
     position: absolute;
     display: block;
-    top: 184px;
+    top: 182px;
     z-index: 1;
     left: -2px;
     right: 0;
@@ -490,20 +476,20 @@ body.search-page .login-form-side {
     margin: 0;
     height: 32px;
     border-bottom:1px solid #120910;
-    background: url('%%thread-background-transparent%%') repeat-x #221409
+    background: url('%%thread-background-transparent%%') repeat-x #020;
+    z-index: 50;
+    font-size: 14px;
+    margin: 0px;
+    padding: 3px 0 0 0 ;
+    color: #d2bfa4;
     }
 
-.side blockquote li {
+.titlebox blockquote li {
     list-style:none;
     }
-
-.titlebox blockquote{
-z-index: 50;
-font-size: 14px;
-margin: 0px;
-padding: 0px;
-color: #d2bfa4;
-}
+.titlebox blockquote a {
+    color:#d2bfa4;
+    }
 
 
 
@@ -524,8 +510,8 @@ box-shadow: 0px 1px 3px #210E07;
 /*turns the lists into menus*/
 
 .titlebox blockquote ul {
-float: left;
-margin:0px;
+    float: left;
+    margin:0px;
 }
 
 
@@ -534,7 +520,6 @@ margin:0px;
 
 .titlebox blockquote ul li {
 display: none;
-padding:2px;
 text-align: left;
 }
 
@@ -550,8 +535,6 @@ display:block;
 display: block
 }
 
-
-
 /*turns top list item into section header*/
 
 .titlebox blockquote li:first-child { 
@@ -559,34 +542,30 @@ padding: 0;
 cursor:default;
 }
 
-
 /* setting up spacing for dropdown links so dropdown dividers work*/
 
-.titlebox blockquote ul li a{
-padding: 2px 7px;
-margin: -2px -7px;
+.titlebox blockquote ul li a {
+display:block;
+padding:5px 12px;
 }
-
 
 /* hovering a dropdown option*/
 
-.titlebox blockquote ul li a:hover{
+.titlebox blockquote ul li a:hover {
 color: #d2bfa4;
-text-shadow: 0px 1px 2px #744087; 
 }
 
 
 /* dropdown selection item */
 
 .titlebox blockquote ul li {
-background: #221409;
-border-left: 1px  #222 solid;
-border-bottom: 1px  #222 solid;
-border-right: 1px  #222 solid;
+background: #020;
+border-left: 1px #222 solid;
+border-bottom: 1px #222 solid;
+border-right: 1px #222 solid;
 font-size: 14px;
 line-height: 22px;
 min-width: 125px;
-padding: 2px 7px;
 color: #d2bfa4;
 }
 
@@ -601,39 +580,26 @@ line-height: 32px;
 min-width: 0;
 padding:0;
 color: #d2bfa4;
-text-shadow: 0px 1px 2px #744087; 
 }
-
 
 /* when hovering over dropdown selection item */
 
 .titlebox blockquote ul li a:hover{
-background: #1B1108;
-color:white;
+background:#010;
 }
-
-
 /* when hovering over menu top-level option*/
 
 .titlebox blockquote ul li:first-child:hover{
-background: #1B1108;
+background: #010;
 }
-
-
 
 .titlebox blockquote ul:first-child{
 margin-left: 15px;}
 
-.titlebox blockquote li a:hover {
-color:orangered;
-}
-
-
-
 /*custom size for menu sections*/
 
-.titlebox blockquote ul:nth-of-type(1) li{width:100px;}
-.titlebox blockquote ul:nth-of-type(1), .titlebox blockquote ul:nth-of-type(1) li:first-child{width:65px;}
+.titlebox blockquote ul:nth-of-type(1) li{width:145px;}
+.titlebox blockquote ul:nth-of-type(1), .titlebox blockquote ul:nth-of-type(1) li:first-child{width:75px;}
 
 .titlebox blockquote ul:nth-of-type(2) li{width:100px;}
 .titlebox blockquote ul:nth-of-type(2), .titlebox blockquote ul:nth-of-type(2) li:first-child{width:100px;}
@@ -644,11 +610,9 @@ color:orangered;
 .titlebox blockquote ul:nth-of-type(4) li{width:160px;}
 .titlebox blockquote ul:nth-of-type(4), .titlebox blockquote ul:nth-of-type(4) li:first-child{width:120px;}
 
-.titlebox blockquote ul:nth-of-type(5) li{width:130px;}
-.titlebox blockquote ul:nth-of-type(5), .titlebox blockquote ul:nth-of-type(5) li:first-child{width:95px;}
+.titlebox blockquote ul:nth-of-type(5) li{width:145px;}
+.titlebox blockquote ul:nth-of-type(5), .titlebox blockquote ul:nth-of-type(5) li:first-child{width:105px;}
 
-.titlebox blockquote ul:nth-of-type(6) li{width:130px;}
-.titlebox blockquote ul:nth-of-type(6) {width:75px;} .titlebox blockquote ul:nth-of-type(6) li:first-child{width:75px;}
 
 .sidecontentbox {
 
