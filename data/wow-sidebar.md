@@ -13,13 +13,13 @@ The moderators and MVPs for this sub have started curating content that we think
 
 #Subreddit of the Day
 
-/r/Transmogrification - because you should be *pretty*
+/r/WoWGuilds - a place to find guilds, as simple as that.
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[WoWHead](http://www.wowhead.com) - the all knowing database of wonderfulness
+[The Undermine Journal](https://theunderminejournal.com/) - would you like to have a million gold? Start here!
 
 [All related websites](/r/wow/wiki/resources)
 
