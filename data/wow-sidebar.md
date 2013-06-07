@@ -1,6 +1,4 @@
-
-
-#Of Interest
+### Check out lhavelund's hands on report of the [Blizzard EU Community Summit](http://www.reddit.com/r/wow/comments/1fj6qs/2013_eu_blizzard_community_summit_handson_report/)
 
 These FAQs can probably help you.
 
