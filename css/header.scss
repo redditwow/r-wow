@@ -57,7 +57,7 @@ background-position:center bottom;
 /* Header Image */
 #header {
   background-color:#333;
-  background-image:url('%%reddit-header-thunderking%%');
+  background-image:url('%%reddit-header-escalation%%');
   background-position:center;
   border-bottom:1px solid #000;
   height:150px;
@@ -100,11 +100,11 @@ background-position:center bottom;
 }
 
 #header-bottom-right > * { position: relative; top: 4px; }
-
+/*
 .flat-list.sr-bar {
   margin-right: 325px;
 }
-
+*/
 .sr-list .flat-list.sr-bar:first-child {
   margin-right: 0px;
 }
