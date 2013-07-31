@@ -53,7 +53,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   top: -40px;
   padding-right: 9px;
   z-index: 9001;
-  padding-top:215px;
+  padding-top:125px;
 }
 .side > .spacer:last-child {
   background:url('%%mop-graphics%%');
@@ -468,7 +468,7 @@ body.search-page .login-form-side {
 .titlebox blockquote {
     position: absolute;
     display: block;
-    top: 182px;
+    top: 172px;
     z-index: 1;
     left: -2px;
     right: 0;
@@ -476,7 +476,7 @@ body.search-page .login-form-side {
     margin: 0;
     height: 32px;
     border-bottom:1px solid #120910;
-    background: url('%%thread-background-transparent%%') repeat-x #4e1b10;
+    background: url('%%texturebar%%') repeat-x #4e1b10;
     z-index: 50;
     font-size: 12px;
     margin: 0px;
@@ -496,13 +496,13 @@ body.search-page .login-form-side {
 /*turns top quote in sidebar into menu container*/
 
 .titlebox blockquote:first-child {
-border-left: none !important;
-width: 100%;
-position: absolute;
-z-index: 10;
-left: 0px;
-height: 32px;
-box-shadow: 0px 1px 3px #210E07;
+  border-left: none !important;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  left: 0px;
+  height: 32px;
+  box-shadow: 0px 1px 3px #210E07;
 }
 
 
@@ -557,12 +557,14 @@ color: #d2bfa4;
 
 
 /* dropdown selection item */
-
+.titlebox blockquote ul li:nth-child(2) {
+  border-top: 1px #300 solid;
+  }
 .titlebox blockquote ul li {
-  background: #300;
-  border-left: 1px #222 solid;
-  border-bottom: 1px #222 solid;
-  border-right: 1px #222 solid;
+  background: url('%%texturebar%%') repeat-x #4e1b10;
+  border-left: 1px #100 solid;
+  border-bottom: 1px #100 solid;
+  border-right: 1px #100 solid;
   font-size: 12px;
   line-height: 22px;
   min-width: 125px;
@@ -585,12 +587,12 @@ color: #d2bfa4;
 /* when hovering over dropdown selection item */
 
 .titlebox blockquote ul li a:hover{
-background:#010;
+  background:#200;
 }
 /* when hovering over menu top-level option*/
 
 .titlebox blockquote ul li:first-child:hover{
-background: #100;
+  background: #200;
 }
 
 .titlebox blockquote ul:first-child{

@@ -243,12 +243,19 @@ a[title="Nuke!"] {
   z-index:9005 !important;
 }
 
-#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash, #RESShortcutsSort {
   background:transparent !important;
+  font-size:14px !important;
+  color:#ddd !important;
   }
 #RESShortcutsSort {background:transparent!important;}
-#RESShortcutsEditContainer { border-radius:2em; top:11px !important; right:-3px !important;z-index:999999;}
+#RESShortcutsEditContainer { border-radius:2em; top:6px !important; right:-3px !important;z-index:999999;background:transparent !important;}
 
 .content .RES-keyNav-activeElement, .content .commentarea .RES-keyNav-activeElement .md, .content .commentarea .RES-keyNav-activeElement.entry .noncollapsed {background-color:transparent !important;}
+
+body .RESShortcutsCurrentSub:visited, body .RESShortcutsCurrentSub {
+  color:#ffc100 !important;
+  }
+
 
 /** +++ RES HACKS ENDS +++ **/

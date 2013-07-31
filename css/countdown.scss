@@ -7,21 +7,19 @@
 
 /* Mists of Pandaria sidebar */
 .side h5 a {
-  background:url('%%thunderkinglogo%%');
-  border-radius:1em;
-  border:1px solid #322;
-  width:350px;
-  height:215px;
+  background:url('%%patch-logo%%') no-repeat center top;
+  width:235px;
+  height:100px;
   display:block;
   position:absolute;
   top:242px;
-  right:21px;
+  right:81px;
   z-index:99999;
   text-indent:-999em;
 }
 
 .side h5 a:hover {
-  box-shadow:0 0 5px #99b;
+  background-position:center bottom;
   }
 
 /** +++ COUNTDOWN ENDS +++ */
