@@ -13,7 +13,7 @@
   color: #364657;
   left: 85px;
   position: absolute;
-  top: 32px;
+  top: 36px;
   width: 150px;
   background-position:center top;
 }
@@ -23,8 +23,8 @@ background-position:center bottom;
 
 /* Subreddit Listing Bar / Shared */
 #sr-header-area, #header-bottom-right {
-  padding: 10px 0px 10px 5px;
-  background-color: #1d1d1d;
+  background:url('%%topbar-transparent%%');
+  padding: 5px 0px 5px 5px;
   color: #EEEEEE;
   white-space: nowrap;
   overflow: hidden;
@@ -56,15 +56,16 @@ background-position:center bottom;
 
 /* Header Image */
 #header {
+  z-index:auto;
   background-color:#333;
   background-image:url('%%reddit-header-escalation%%');
   background-position:center;
   border-bottom:1px solid #000;
-  height:150px;
+  height:171px;
 }
 
 #header-img-a {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-right: 5px;
   margin-left: 5px;
   height:100px;
@@ -82,8 +83,7 @@ background-position:center bottom;
 /* User information block - making this baby "bnet style" */ 
 #header-bottom-right {
   position: absolute;
-  right: 0px;
-  top:0px !important;
+  top:29px !important;
   bottom: 0px;
   height: 18px;
   border-radius: 0px;
@@ -94,9 +94,12 @@ background-position:center bottom;
   font-size: 10px;
   z-index:9999;
 }
-
 #header-bottom-right a {
-  color: #797e84;
+  color: #a1dfff;
+}
+
+#header-bottom-right .user {
+margin-left:25px !important;
 }
 
 #header-bottom-right > * { position: relative; top: 4px; }
@@ -142,9 +145,10 @@ background-position:center bottom;
   padding: 7px 10px 5px 10px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin-left:140px;
-  position:relative;
-  top:3px;
+  position:absolute;
+  top:107px;
+  left:10px;
+  z-index:9999;
 }
 
 #header-bottom-left .tabmenu li {
