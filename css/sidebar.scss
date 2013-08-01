@@ -17,11 +17,11 @@
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 
 .side {
-  margin: 0px -16px 0 0;
-  width: 439px;
+  margin: 0px; 
+  width: 380px;
   background: url('%%frame-wood-repeat%%');
   background-repeat: repeat-y;
-  background-position: center top;
+  background-position: left top;
   padding-top: 0px;
   color: #d2bfa4;
   float: right;
@@ -38,20 +38,20 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 
 .side .spacer { 
   margin:0;
-  width: 334px;
-  padding:0 43px 0 0;
+  width: 304px;
+  padding:0 10px 0 0;
   float: right;
 }
 .side > .spacer:first-child {
   background:url('%%mop-graphics%%');
   background-position: -0px -589px;
   background-repeat:no-repeat;
-  width: 430px;
+  width: 380px;
   height:86px;
   position:relative;
   bottom:20px;
   top: -40px;
-  padding-right: 9px;
+  padding-right: 0;
   z-index: 9001;
   padding-top:125px;
 }
@@ -59,7 +59,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   background:url('%%mop-graphics%%');
   background-position: -0px -839px;
   background-repeat:no-repeat;
-  width:359px;
+  width:301px;
   height:142px;
   padding: 0 0 0 80px;
 }
@@ -92,9 +92,8 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   width: 300px;
   position: relative;
   top: 80px;
-  padding: 0 0 0 12px;
+  padding: 0 22px 0 12px;
   float: right;
-  padding-right: 58px;
 }
 #searchexpando {
   padding-top: 10px;
@@ -197,8 +196,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 .morelink+.spacer { visibility: hidden; height: 0px; }
 
 .sidebox.submit { 
-    width: 300px;
-    padding-left: 15px;
+    width: 285px;
     z-index: 50;
     margin-bottom:1em;
 }
@@ -470,7 +468,7 @@ body.search-page .login-form-side {
     display: block;
     top: 172px;
     z-index: 1;
-    left: -2px;
+    left:0;
     right: 0;
     padding: 0;
     margin: 0;
@@ -482,6 +480,7 @@ body.search-page .login-form-side {
     margin: 0px;
     padding: 3px 0 0 0 ;
     color: #d2bfa4;
+    border-left:0 !important;
     }
 
 .titlebox blockquote li {
