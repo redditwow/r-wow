@@ -1,31 +1,16 @@
 ### Check out lhavelund's hands on report of the [Blizzard EU Community Summit](http://www.reddit.com/r/wow/comments/1fj6qs/2013_eu_blizzard_community_summit_handson_report/)
 
-These FAQs can probably help you.
-
-[Just Starting Out?](/r/wow/wiki/newplayer)  
-[Returning to WoW?](/r/wow/wiki/guides/returning_to_wow)  
-
-The moderators and MVPs for this sub have started curating content that we think is espeically interesting.
-
-[Curated Content](/r/wow/search?q=flair%3A%27mod%27+OR+flair%3A%27blizzard%27+OR+flair%3A%27promoted%27&sort=new&restrict_sr=on&t=all)
-
 #Subreddit of the Day
 
-/r/WoWGuilds - a place to find guilds, as simple as that.
+/r/Honrar - HONRAR!
 
 [All related subreddits](/r/wow/wiki/related)
 
 #Site of the Day
 
-[The Undermine Journal](https://theunderminejournal.com/) - would you like to have a million gold? Start here!
+[HowToPriest.com](http://howtopriest.com) - Got a priest? Figure out what to do here!
 
 [All related websites](/r/wow/wiki/resources)
-
-#Official Blizzard Links
-
-* [Blizzard Website](http://blizzard.com)
-* [World of Warcraft Website](http://worldofwarcraft.com)
-* [WoW Official Forums](http://battle.net/wow/en/forum/)
 
 #Rules
 
@@ -49,14 +34,13 @@ The moderators and MVPs for this sub have started curating content that we think
 
 **DON'T POST**
 
-* Cheats, hacks, account trades
-* Gold selling, other WoW TOS violations
+* Cheats, hacks, account trades, private server information, gold selling, other WoW TOS violations
 * GM Conversations (jokes or tickets)
 * Rage Comics, Image Macros
-* Reposts from this week. 
+* Reposts from this week or [Fixed] style posts
 * More than one personal submission per week
-* I'm quitting WoW posts
-* [Loot](/r/wow/wiki/loot) if it isn't Tuesday
+* WoW quitting posts
+* [Loot](/r/wow/wiki/loot) outside the loot thread.
 
 ## Comment Rules
 
@@ -80,4 +64,50 @@ Channel: #wow
 * [Flair](/r/wow/wiki/flair)
 * [Reddit Guilds](/r/wow/wiki/guilds)
 * [Guides](/r/wow/wiki/guides)
+* [FAQs](/r/wow/wiki/faqs)
+
+> * FAQs
+* [I'm new to WoW! What do I do?](/r/wow/wiki/newplayer)
+* [Should I return? What's different?](/r/wow/wiki/guides/Returning_to_WoW)
+* [How do I gear up?](/r/wow/wiki/gearup)
+* [Is there a battletag list?](/r/wow/comments/17kt4j/due_to_overwhelming_demand_exchange_your/)
+* [Which mod is best mod?](/u/aphoenix)
+
+> #
+
+> + Categories
++ [All Links](/r/wow)
++ [Blue Posts](/r/wow/search?q=flair:'Blizzard'&restrict_sr=on&sort=new)
++ [Mod Posts](/r/wow/search?q=flair:'Mod'&restrict_sr=on&sort=new)
++ [Mod Promoted](/r/wow/search?q=flair:'Promoted'&restrict_sr=on&sort=new)
++ [Loot Threads](/r/wow/search?q=flair:'Loot'&restrict_sr=on&sort=new)
+
+> #
+
+> * Related Subreddits
+* [Transmogrification](/r/Transmogrification)
+* [User Interface](/r/wowui)
+* [WoW Comics](/r/wowcomics)
+* [Guilds](/r/wowguilds)
+* [Scrolls](/r/wowscrolls)
+* [Recruit a Friend](/r/wowraf)
+* [Economy](/r/woweconomy)
+* [Streaming](/r/wowstreams)
+* [Full Listing](/r/wow/wiki/related)
+
+> #
+
+> * Blizzard Links
+* [Blizzard Website](http://blizzard.com/)
+* [WoW Forums](http://worldofwarcraft.com/)
+* [World of Warcraft Site](http://worldofwarcraft.com/)
+
+> #
+
+> * Resources
+* [Related Subreddits](/r/wow/wiki/related)
+* [Related Websites](/r/wow/wiki/resources)
+* [Flair](/r/wow/wiki/flair)
+* [Reddit Guilds](/r/wow/wiki/guilds)
+* [Class Guides](/r/wow/wiki/guides)
 * [FAQs](/r/wow/wiki/faqs)
