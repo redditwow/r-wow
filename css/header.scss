@@ -16,6 +16,7 @@
   top: 36px;
   width: 150px;
   background-position:center top;
+  z-index:99999;
 }
 .pagename a:hover {
 background-position:center bottom;
@@ -73,6 +74,8 @@ background-position:center bottom;
   background:url('%%hoversnoo%%');
   background-position:center bottom;
   display:inline-block;
+  position:relative;
+  z-index:99999;
 }
 #header-img-a:hover {
   background-position:center top;
