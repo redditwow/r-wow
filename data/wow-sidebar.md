@@ -93,6 +93,7 @@ Channel: #wow
 * [Recruit a Friend](/r/wowraf)
 * [Economy](/r/woweconomy)
 * [Streaming](/r/wowstreams)
+* [Honrar!](/r/Honrar)
 * [Full Listing](/r/wow/wiki/related)
 
 > #
