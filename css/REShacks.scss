@@ -8,13 +8,13 @@
 
 
 #RESConsole {
-  z-index:99999 !important;
+  z-index:111 !important;
   }
 #modalOverlay {
-  z-index:99981 !important;
+  z-index:111 !important;
   }
 
-.RESImage.loaded {z-index:99999;}
+.RESImage.loaded {z-index:101;}
 
 .thing.link > .RES-keyNav-activeElement,
 .thing.link > .keyHighlight {
@@ -167,7 +167,7 @@ a.voteWeight {
 
 #RESDropdownList {
   position:relative;
-  z-index:9107;
+  z-index:107;
 }
 
 /* I keep having a problem with glyphicons getting changed, so I have the reddit tags in here */
@@ -240,7 +240,7 @@ a[title="Nuke!"] {
   }
 
 #RESAccountSwitcherDropdown {
-  z-index:9005 !important;
+  z-index:101 !important;
 }
 
 #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash, #RESShortcutsSort {
@@ -249,11 +249,11 @@ a[title="Nuke!"] {
   color:#ddd !important;
   }
 #RESShortcutsSort {background:transparent!important;}
-#RESShortcutsEditContainer { border-radius:2em; top:6px !important; right:-3px !important;z-index:999999;background:transparent !important;}
+#RESShortcutsEditContainer { border-radius:2em; top:6px !important; right:0px !important;z-index:111;background:transparent !important;}
 
 .content .RES-keyNav-activeElement, .content .commentarea .RES-keyNav-activeElement .md, .content .commentarea .RES-keyNav-activeElement.entry .noncollapsed {background-color:transparent !important;}
 
-.RESImage.loaded {z-index:99999;}
+.RESImage.loaded {z-index:111;}
 
 body .RESShortcutsCurrentSub:visited, body .RESShortcutsCurrentSub {
   color:#ffc100 !important;

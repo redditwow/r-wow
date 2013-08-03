@@ -52,7 +52,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   bottom:20px;
   top: -40px;
   padding-right: 0;
-  z-index: 9001;
+  z-index: 90;
   padding-top:125px;
 }
 .side > .spacer:last-child {
@@ -65,13 +65,9 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 }
 
 .side > .spacer:last-child .sidecontentbox {
-  width: 334px;
+  width: 284px;
   height:24px;
   overflow:hidden;
-}
-
-.sidecontentbox {
-
 }
 
 /* Collapse Button */
@@ -98,7 +94,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 #searchexpando {
   padding-top: 10px;
   position: relative;
-  z-index: 99999;
+  z-index: 100;
 }
 #search input[type="text"] {
   width: 300px;
@@ -527,10 +523,9 @@ display:block;
 
 /*shows menu on hover*/
 
-.titlebox blockquote ul li:first-child, .titlebox blockquote ul:hover li {
-display: block
+.titlebox blockquote ul li:first-child, .titlebox blockquote ul:hover li, .titlebox blockquote ul li:hover {
+  display: block;
 }
-
 /*turns top list item into section header*/
 
 .titlebox blockquote li:first-child { 

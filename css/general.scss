@@ -250,7 +250,7 @@ a[href*='wowwiki.com']:after {
 .report-button:hover:before{
     position: absolute;
     display: block;
-    z-index: 9001;
+    z-index: 80;
     padding: 2px 4px;
     background-color: #B94A48;
     color: #FFFFFF;
@@ -260,4 +260,4 @@ a[href*='wowwiki.com']:after {
     margin-top:2em;
 }
 
-.popup { z-index: 9999 !important; } 
+.popup { z-index:100 !important; } 
