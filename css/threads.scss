@@ -145,22 +145,29 @@ a.pretty-button.positive:hover { background-color: #05641A; }
   border-left: 1px dotted #26150D;
 }
 
-html .comment {
+html .comment,
+.res-commentBoxes .comment {
   padding: 0px 3px !important;
   border: 1px solid #2C180D !important;
   border-radius: 4px;
   margin-left: 13px !important;
 }
 
-.comment .child {
+.comment .child,
+.res-commentBoxes .comment .child {
   margin:10px 1px 4px 15px;
-  }
+}
 
 html .comment .comment,
 html .comment .comment .comment .comment,
 html .comment .comment .comment .comment .comment .comment,
 html .comment .comment .comment .comment .comment .comment .comment .comment,
-html .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+html .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background-color: #1C0F09 !important;
 }
 
@@ -168,7 +175,12 @@ html .comment,
 html .comment .comment .comment, 
 html .comment .comment .comment .comment .comment, 
 html .comment .comment .comment .comment .comment .comment .comment,  
-html .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+html .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment,
+.res-commentBoxes .comment .comment .comment, 
+.res-commentBoxes .comment .comment .comment .comment .comment, 
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,  
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment{
   background-color: #0F0805 !important;
 }
 
