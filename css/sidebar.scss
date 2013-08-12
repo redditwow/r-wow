@@ -7,11 +7,11 @@
 .subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
-  content: " Brawlers";
+  content: " Pals for Araxom";
 }
 .users-online .word {display:none;}
 .users-online .number::after {
-  content: " stuck on Hexos";
+  content: " Pals for Crithto";
   }
 
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
@@ -222,7 +222,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 .fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background-position: -0px -110px !important; }
 
 /* Flair Selector */
-.flairselector { box-shadow: 2px 2px 2px #2C180D; }
+.flairselector { box-shadow: 2px 2px 2px #2C180D; z-index:1000;}
 .flairselector.drop-choices.active { border: 3px double #2C180D; }
 .flairselector.drop-choices.active h2 { background: #322111; color: #E2C7A3; border: 3px double #2C180D; }
 .flairselector.drop-choices.active button { background-color: #1B1108; color: #E2C7A3; border: 3px double #2C180D; }
