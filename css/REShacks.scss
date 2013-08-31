@@ -258,5 +258,11 @@ a[title="Nuke!"] {
 body .RESShortcutsCurrentSub:visited, body .RESShortcutsCurrentSub {
   color:#ffc100 !important;
   }
+  
+  /* Parent hover fix */
+  
+.noncollapsed form.usertext p {
+  color: #d2bfa4;
+  }
 
 /** +++ RES HACKS ENDS +++ **/
