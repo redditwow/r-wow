@@ -2,7 +2,7 @@
 
 #Subreddit of the Day
 
-/r/Transmogrification - See how beautiful wow can be.
+/r/Transmogrification - your body is a wonderland.
 
 [All related subreddits](/r/wow/wiki/related)
 
@@ -108,3 +108,10 @@ Channel: #wow
 * [Reddit Guilds](/r/wow/wiki/guilds)
 * [Class Guides](/r/wow/wiki/guides)
 * [FAQs](/r/wow/wiki/faqs)
+
+> #
+
+> * Reddit Guilds
+* [**<reddit>** Sargeras US](/r/redditguild)
+* [**<Karma Horde>** Stormreaver US](/r/fth)
+* [**<reddit>** Stormscale EU](/r/euguild)

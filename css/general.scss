@@ -10,7 +10,7 @@ body {
   /* HACKY HACKY HACKY HACK */
   z-index:-2;
 }
-
+.link.promotedlink.promoted a, #siteTable .thing .title a {margin-top:0 !important;}
 a {
   color: #008467;
 }

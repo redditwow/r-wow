@@ -2,6 +2,31 @@
  * Threads.css
  */
 
+
+/***
+ * Gold Users
+ */
+
+.new-comment .usertext-body {
+  background-color: #120;
+  border:1px dotted #333;
+  color: #eee !important;
+  padding: 3px 10px;
+  margin: 5px 5px 5px 0;
+}
+.new-comment .usertext-body .md p, .new-comment .usertext-body .md li {
+  color:#eee !important;
+  }
+.new-comment .usertext-body .md a {
+  color:#00ecba !important;
+  }
+.gold-accent {
+  background-color:#120;
+  border:0 !important;
+  color:#eee !important;
+  }
+
+
 #siteTable {
   margin-top: 10px; /* Keeps us lined up with the sidebar header */
 }
@@ -36,7 +61,21 @@
 .link.promotedlink.promoted .thumbnail {
     margin: 0px 10px;
 }
+.organic-listing {
+padding: 0;
+overflow: hidden;
+position: relative;
+background-color: #241104;
+margin: 47px 30px 7px;
+border-radius: 1em;
+}
 
+.link.promotedlink.promoted {
+background: #300;
+border-radius: 1em;
+padding: 1em;
+border:none;
+}
 
 .link.last-clicked {
     overflow:visible;
@@ -163,11 +202,11 @@ html .comment .comment .comment .comment,
 html .comment .comment .comment .comment .comment .comment,
 html .comment .comment .comment .comment .comment .comment .comment .comment,
 html .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
-.res-commentBoxes .comment .comment,
-.res-commentBoxes .comment .comment .comment .comment,
-.res-commentBoxes .comment .comment .comment .comment .comment .comment,
-.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
-.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+html.res-commentBoxes .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
   background-color: #1C0F09 !important;
 }
 
@@ -176,17 +215,20 @@ html .comment .comment .comment,
 html .comment .comment .comment .comment .comment, 
 html .comment .comment .comment .comment .comment .comment .comment,  
 html .comment .comment .comment .comment .comment .comment .comment .comment .comment,
-.res-commentBoxes .comment,
-.res-commentBoxes .comment .comment .comment, 
-.res-commentBoxes .comment .comment .comment .comment .comment, 
-.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,  
-.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+html.res-commentBoxes .comment,
+html.res-commentBoxes .comment .comment .comment, 
+html.res-commentBoxes .comment .comment .comment .comment .comment, 
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,  
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment{
   background-color: #0F0805 !important;
 }
 
-.sitetable.nestedlisting > .thing{
+html .res .sitetable.nestedlisting > .thing,
+.sitetable.nestedlisting > .thing,
+.sitetable.nestedlisting .thing {
   background: #1C0F09;
   margin-top: 5px;
+  border:1px solid #0F0805;
 }
 
 .thing .usertext-edit {
@@ -275,15 +317,6 @@ hr {
   position:relative;
   right:5px;
   }
-
-/* Gold New Comments issue */
-
-.new-comment .usertext-body {
-  background-color: #E2C7A3;
-  color: #221409;
-  border: 1px solid #666;
-  padding: 3px 10px;
-  margin: 5px 5px 5px 0;}
 
 
 /* Tables */

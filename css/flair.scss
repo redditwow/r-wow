@@ -308,3 +308,9 @@ a.author[href$='reddit.com/user/Crithto']:after { content: "Community Team NA"; 
   width: 16px;
   height: 16px;
 }
+.flair-andrew::after {
+  content: url('%%warglaiveicon%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-andrew+.author {color:#58F15B !important;}
