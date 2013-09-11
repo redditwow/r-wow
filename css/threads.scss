@@ -68,14 +68,18 @@ position: relative;
 background-color: #241104;
 margin: 47px 30px 7px;
 border-radius: 1em;
+border:0;
 }
 
 .link.promotedlink.promoted {
 background: #300;
 border-radius: 1em;
 padding: 1em;
-border:none;
+border:0;
+margin:0;
 }
+
+.link.promotedlink.promoted .thumbnail {display:none;}
 
 .link.last-clicked {
     overflow:visible;
