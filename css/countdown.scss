@@ -8,18 +8,18 @@
 /* Mists of Pandaria sidebar */
 .side h5 a {
   background:url('%%patch-logo%%') no-repeat center top;
-  width:235px;
-  height:100px;
+  width:262px;
+  height:131px;
   display:block;
   position:absolute;
-  top:242px;
-  right:51px;
+  top:228px;
+  right:34px;
   z-index:100;
   text-indent:-999em;
 }
 
 .side h5 a:hover {
-  background-position:center bottom;
+  background-position:0 -134px;
   }
 
 /** +++ COUNTDOWN ENDS +++ */
