@@ -280,6 +280,8 @@ a.author[href$='reddit.com/user/Crithto']:after { content: "Community Team NA"; 
   height: 21px;
 }
 
+.side .flair-robot-wowcaretaker {display:none;}
+
 .flair-robot-wowcaretaker+.author, .flair-robot-wowcaretaker+.author:visited { color: #FFB100 !important; vertical-align: baseline !important;}
 .flair-robot-wowcaretaker+.submitter, .flair-robot-wowcaretaker+.submitter:visited { color: #000000 !important; vertical-align: baseline !important; background-color: #FFB100 !important; }
 
