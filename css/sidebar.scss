@@ -7,11 +7,11 @@
 .subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
-  content: " waiting for 5.4";
+  content: " in queue;
 }
 .users-online .word {display:none;}
 .users-online .number::after {
-  content: " Sylvanas horse posts";
+  content: " on the Timeless Isle";
   }
 
 h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
