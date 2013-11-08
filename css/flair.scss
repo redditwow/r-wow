@@ -317,3 +317,8 @@ a.author[href$='reddit.com/user/Crithto']:after { content: "Community Team NA"; 
   }
 .flair-andrew+a.author, .flair-andrew+a.author:visited,
 .flair-andrew+a.submitter, .flair-andrew+a.submitter:visited {color:#58F15B !important;}
+
+
+
+/* Nitesmoke Specific for Halloween */
+.flair-nitesmoke + a::after {content:" the Hallowed";}
