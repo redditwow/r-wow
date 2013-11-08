@@ -12,11 +12,15 @@
   height:131px;
   display:block;
   position:absolute;
-  top:228px;
+  top:355px;
   right:34px;
   z-index:100;
   text-indent:-999em;
 }
+.side h5 + h5 a {
+  top:475px;
+  background:url('%%expansion-logo%%') no-repeat center top;
+  }
 
 .side h5 a:hover {
   background-position:center bottom;
@@ -25,12 +29,12 @@
 
 .md a[href$='#bconpromo'] {
     background: url(%%bcon-promo%%);
-        background-position: 0px 0px;
-            display: block;
-                font-size: 0;
-                    height: 50px;
-                        width: 690px;
-                        }
+    background-position: 0px 0px;
+    display: block;
+    font-size: 0;
+    height: 50px;
+    width: 690px;
+    }
 
 
 

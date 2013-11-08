@@ -54,6 +54,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   padding-right: 0;
   z-index: 90;
   padding-top:125px;
+  margin-bottom:200px;
 }
 .side > .spacer:last-child {
   background:url('%%mop-graphics%%');
@@ -87,7 +88,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 .side #search {
   width: 300px;
   position: relative;
-  top: 80px;
+  top: -45px;
   padding: 0 22px 0 12px;
   float: right;
 }
@@ -195,6 +196,12 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
     width: 285px;
     z-index: 50;
     margin-bottom:1em;
+    position:absolute;
+    top:275px;
+    z-index:90;
+}
+.sidebox.submit-text {
+    top:304px;
 }
 
 /* Reddit/RES "Subscribe" Buttons */
