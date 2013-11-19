@@ -52,7 +52,7 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
   bottom:20px;
   top: -40px;
   padding-right: 0;
-  z-index: 92;
+  z-index: 90;
   padding-top:125px;
   margin-bottom:200px;
 }
@@ -96,6 +96,9 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   padding-top: 10px;
   position: relative;
   z-index: 100;
+  right: 278px;
+  width: 250px;
+  top: -36px;
 }
 #search input[type="text"] {
   width: 300px;
