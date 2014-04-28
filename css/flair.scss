@@ -311,13 +311,76 @@ a.author[href$='reddit.com/user/Crithto']:after { content: "Community Team NA"; 
   height: 16px;
 }
 .flair-andrew::after {
-  content: url('%%warglaiveicon%%') !important;
+  content: url('%%warglaives%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-raptor::after {
+  content: url('%%sharkraptor%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-vusys::after {
+  content: url('%%vusys%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-phedre::after {
+  content: url('%%phedre%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-vertical::after {
+  content: url('%%vertical%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-roboticide::after {
+  content: url('%%roboticide%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-waahht::after {
+  content: url('%%waahht%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-lasse::after {
+  content: url('%%lasse%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-nitesmoke::after {
+  content: url('%%nitesmoke%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-automod::after {
+  content: url('%%yeti%%') !important;
+  width:18px;
+  height:18px;
+  }
+.flair-herpdeeps::after {
+  content: url('%%herpdeeps%%') !important;
   width:18px;
   height:18px;
   }
 .flair-andrew+a.author, .flair-andrew+a.author:visited,
-.flair-andrew+a.submitter, .flair-andrew+a.submitter:visited {color:#58F15B !important;}
+.flair-andrew+a.submitter, .flair-andrew+a.submitter:visited {color:#ef0 !important;}
 
+.flair-automod+a.author, .flair-automod+a.author:visited,
+.flair-automod+a.submitter, .flair-automod+a.submitter:visited {color:#bbb !important;}
+
+
+.flair-waahht+.author,.flair-alliance-waahht+.author,.flair-horde-waahht+.author { color: #FFF !important; }
+.flair-lasse+.author,.flair-alliance-lasse+.author,.flair-horde-lasse+.author { color: #FFF569 !important; }
+.flair-herpdeeps+.author,.flair-alliance-herpdeeps+.author,.flair-horde-herpdeeps+.author { color: #FFF569 !important; }
+.flair-nitesmoke+.author,.flair-alliance-nitesmoke+.author,.flair-horde-nitesmoke+.author { color: #F58CBA !important; }
+.flair-vusys+.author,.flair-alliance-vusys+.author,.flair-horde-vusys+.author { color: #6698cb !important; }
+.flair-roboticide+.author,.flair-alliance-roboticide+.author,.flair-horde-roboticide+.author { color: #900 !important; }
+.flair-phedre+.author,.flair-alliance-phedre+.author,.flair-horde-phedre+.author { color: #fff !important; }
+.flair-vertical+.author,.flair-alliance-vertical+.author,.flair-horde-vertical+.author { color: #c95 !important; }
+.flair-raptor+.author,.flair-alliance-raptor+.author,.flair-horde-raptor+.author { color: #FF7D0A !important; }
 
 
 /* Nitesmoke Specific for Halloween */
