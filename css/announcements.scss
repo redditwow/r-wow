@@ -1,10 +1,7 @@
 /***
  * Announcements.css
- * -- This is a configurable announcement block!
  * -- This requires you to make an edit to the sidebar. Example:
  * -- ### **Announcement:** [WoW Dev AMA 9/11 at 5:30 p.m. PDT](http://www.reddit.com/r/wow/comments/zome8/blizzard_will_be_doing_an_iama_in_rwow_tomorrow/)
- * -- Be sure to remove the sidebar edit when the announcement is over.
- * -- Add a CSS Comment that starts from ANNOUNCESTART and ends just before ANNOUNCEENDS
  */
 /** +++ ANNOUNCE STARTS +++ **/
 
@@ -33,8 +30,4 @@ div.content {
   background:url('%%announcehead%%');
   background-repeat:no-repeat;
   color:#B39265;
-
-/*  padding-top:46px; /* for single line announcements. Remove for double. */
-}  
-
-/** +++ ANNOUNCE ENDS +++ **/
+}

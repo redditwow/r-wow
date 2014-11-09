@@ -218,18 +218,12 @@ li.flairsample-left { padding-top: 5px; }
 /* They have special flair classes that are not user selectable */
 
 .flair-blizzard::after {
-  content: url('%%flair-blizzard%%') !important;
+  content:"";
   width: 20px;
   height: 13px;
+  background-position:-7px -855px;
 }
 
-.flair-rainbowdash::after {
-  content: url('%%flair-ghostcrawler%%');
-  width: 47px;
-  height: 22px;
-}
-
-.flair-blizzard+a.author, .flair-rainbowdash+a.author,
 .flair-blizzard+a.author:visited, .flair-rainbowdash+a.author:visited { 
   color: #00B4FF !important; 
 }
@@ -246,7 +240,7 @@ a.author[href$='reddit.com/user/Eldtyara']:after, a.author[href$='reddit.com/use
   background-color: #1D1D1D;
 }
 
-a.author[href$='reddit.com/user/Ghostcrawler']:after { content: "Greg Street (Lead Systems Designer)"; }
+a.author[href$='reddit.com/user/Ghostcrawler']:after { content: "Greg Street (Blizzard Emeritus)"; }
 a.author[href$='reddit.com/user/Kalgan']:after { content: "Tom Chilton (Game Director)"; }
 a.author[href$='reddit.com/user/Zarhym']:after { content: "Jonathan Brown (Community Manager)"; }
 a.author[href$='reddit.com/user/TheFargo']:after { content: "Dave Kosak (Lead Quest Designer)"; }
@@ -257,120 +251,49 @@ a.author[href$='reddit.com/user/Crithto']:after { content: "Community Team NA"; 
 
 /* Popular WoWFansite Flairs */
 .flair-fansite-wowhead::after { 
-  content: url('%%flair-wowhead%%') !important;
+  content: "";
   width: 29px;
   height: 16px;
+  background-position:-4px -890px;
 }
 
 .flair-fansite-wowhead+.author, .flair-fansite-wowhead+.author:visited  { color: #C41F3B !important;}
 .flair-fansite-wowhead+a.submitter, .flair-fansite-wowhead+a.submitter:visited{ background-color: #C41F3B !important; color: #FFFFFF !important; }
 
 .flair-fansite-mmochampion::after { 
-  content: url('%%flair-mmochampion%%') !important;
+  content: "";
   width: 29px;
   height: 16px;
+  background-position:-5px -871px;
 }
-
-/* WoWCaretaker */
-
-.flair-robot-wowcaretaker::after {
+.flair-fansite-icyveins::after { 
   content: "";
-  background: url('%%modicons%%') no-repeat -1px -51px;
-  width: 20px;
-  height: 21px;
+  width: 18px;
+  height: 18px;
+  background-position:-10px -909px;
 }
 
-.side .flair-robot-wowcaretaker {display:none;}
+.flair-fansite-icyveins+.author, .flair-fansite-icyveins+.author:visited { color:#2192cf; }
+.flair-fansite-icyveins+a.submitter, .flair-fansite-icyveins+a.submitter:visited{ background-color: #C41F3B !important; color: #FFFFFF !important; }
 
-.flair-robot-wowcaretaker+.author, .flair-robot-wowcaretaker+.author:visited { color: #FFB100 !important; vertical-align: baseline !important;}
-.flair-robot-wowcaretaker+.submitter, .flair-robot-wowcaretaker+.submitter:visited { color: #000000 !important; vertical-align: baseline !important; background-color: #FFB100 !important; }
 
-/* Goldmaking AMA Thread */
-.flair-goldama::after {
-  content: url('%%flair-goldcoin%%') !important;
-  width: 14px;
-  height: 14px;
-}
+.flair-andrew::after      { content: ""; width:18px; height:18px; background-position: 0 -630px;}
+.flair-raptor::after      { content: ""; width:18px; height:18px; background-position: -18px -684px}
+.flair-vusys::after       { content: ""; width:18px; height:18px; background-position: -18px -702px}
+.flair-phedre::after      { content: ""; width:18px; height:18px; background-position: -18px -666px;}
+.flair-vertical::after    { content: ""; width:18px; height:18px; background-position: 0 -702px}
+.flair-roboticide::after  { content: ""; width:18px; height:18px; background-position: 0 -684px}
+.flair-waahht::after      { content: ""; width:18px; height:18px; background-position: 0 -720px}
+.flair-lasse::after       { content: ""; width:18px; height:18px; background-position: -18px -648px;}
+.flair-nitesmoke::after   { content: ""; width:18px; height:18px; background-position: 0 -666px;}
+.flair-automod::after     { content: ""; width:18px; height:18px; background-position: -18px -630px;}
+.flair-herpdeeps::after   { content: ""; width:18px; height:18px; background-position: 0 -648px;}
 
-.flair-goldama+a.author, .flair-goldama+a.author:visited { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; border-radius: 4px !important; }
-.flair-goldama+a.submitter, .flair-goldama+a.submitter:visited { background-color: #FFB100 !important; color: #000000 !important; vertical-align: baseline !important; border-radius: 4px !important; }
-
-/* Nothing to see here */
-.flair-imjustthatawesome+a.author, .flair-imjustthatawesome+a.author:visited,
-.flair-imjustthatawesome+a.submitter, .flair-imjustthatawesome+a.submitter:visited {
-  color: #FF8000 !important;
-  background-color: transparent !important;
-}
-
-.flair-imjustthatawesome+a.author::before { content: "["; }
-.flair-imjustthatawesome+a.author::after { content: "]"; }
-
-.flair-imjustthatawesome::after {
-  content: url('%%flair-imjustthatawesome%%') !important;
-  width: 16px;
-  height: 16px;
-}
-.flair-andrew::after {
-  content: url('%%warglaives%%') !important;
-  width:18px;
-  height:18px;
-  }
-.flair-raptor::after {
-  content: url('%%sharkraptor%%') !important;
-  width:18px;
-  height:18px;
-  }
-.flair-vusys::after {
-  content: url('%%vusys%%') !important;
-  width:18px;
-  height:18px;
-  }
-.flair-phedre::after {
-  content: url('%%phedre%%') !important;
-  width:18px;
-  height:18px;
-  }
-.flair-vertical::after {
-  content: url('%%vertical%%') !important;
-  width:18px;
-  height:18px;
-  }
-.flair-roboticide::after {
-  content: url('%%roboticide%%') !important;
-  width:18px;
-  height:18px;
-  }
-.flair-waahht::after {
-  content: url('%%waahht%%') !important;
-  width:18px;
-  height:18px;
-  }
-.flair-lasse::after {
-  content: url('%%lasse%%') !important;
-  width:18px;
-  height:18px;
-  }
-.flair-nitesmoke::after {
-  content: url('%%nitesmoke%%') !important;
-  width:18px;
-  height:18px;
-  }
-.flair-automod::after {
-  content: url('%%yeti%%') !important;
-  width:18px;
-  height:18px;
-  }
-.flair-herpdeeps::after {
-  content: url('%%herpdeeps%%') !important;
-  width:18px;
-  height:18px;
-  }
 .flair-andrew+a.author, .flair-andrew+a.author:visited,
 .flair-andrew+a.submitter, .flair-andrew+a.submitter:visited {color:#ef0 !important;}
 
 .flair-automod+a.author, .flair-automod+a.author:visited,
 .flair-automod+a.submitter, .flair-automod+a.submitter:visited {color:#bbb !important;}
-
 
 .flair-waahht+.author,.flair-alliance-waahht+.author,.flair-horde-waahht+.author { color: #FFF !important; }
 .flair-lasse+.author,.flair-alliance-lasse+.author,.flair-horde-lasse+.author { color: #FFF569 !important; }
@@ -381,7 +304,6 @@ a.author[href$='reddit.com/user/Crithto']:after { content: "Community Team NA"; 
 .flair-phedre+.author,.flair-alliance-phedre+.author,.flair-horde-phedre+.author { color: #fff !important; }
 .flair-vertical+.author,.flair-alliance-vertical+.author,.flair-horde-vertical+.author { color: #c95 !important; }
 .flair-raptor+.author,.flair-alliance-raptor+.author,.flair-horde-raptor+.author { color: #FF7D0A !important; }
-
 
 /* Nitesmoke Specific for Halloween */
 .flair-nitesmoke + a::after {content:" the Hallowed";}
