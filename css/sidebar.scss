@@ -7,28 +7,25 @@
 .subscribers {margin-left:29px;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
-  content: " Garrosh Head Hunters";
+  content: " Adventurers";
 }
 .users-online .word {display:none;}
 .users-online .number::after {
-  content: " Kills with no Heirloom";
+  content: " in Draenor now";
   }
 
-h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
+h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-weight: normal; }
 
 .side {
-  margin: 0px; 
-  width: 380px;
-  background: url('%%frame-wood-repeat%%');
-  background-repeat: repeat-y;
-  background-position: left top;
   padding-top: 0px;
-  color: #d2bfa4;
-  float: right;
-  margin-top:25px;
+  background:transparent;
+  margin:0;
+  position:relative;
+  top:-35px;
+  z-index:3;
 }
 .side a {
-  color: #008467;
+  color: #128;
   background: none;
 }
 
@@ -38,79 +35,92 @@ h1.redditname a { font-family: Georgia, Garamond, serif; font-weight: normal; }
 
 .side .spacer { 
   margin:0;
-  width: 304px;
-  padding:0 10px 0 0;
+  padding:0 5px 0 25px;
   float: right;
+  background:url(%%sidebar-repeat%%) repeat-y center top;
+  width:286px;
 }
-.side > .spacer:first-child {
-  background:url('%%mop-graphics%%');
-  background-position: -0px -589px;
-  background-repeat:no-repeat;
-  width: 380px;
-  height:86px;
+.side::before {
+  content:'';
+  background:url(%%sidebar-top%%) no-repeat center top;
+  width:399px;
+  height:401px;
   position:relative;
-  bottom:20px;
-  top: -40px;
-  padding-right: 0;
-  z-index: 90;
-  padding-top:125px;
-  margin-bottom:200px;
+  padding:0;
+  display:block;
+  right:99px;
 }
-.side > .spacer:last-child {
-  background:url('%%mop-graphics%%');
-  background-position: -0px -839px;
-  background-repeat:no-repeat;
-  width:301px;
-  height:142px;
-  padding: 0 0 0 80px;
-}
-
-.side > .spacer:last-child .sidecontentbox {
-  width: 284px;
-  height:24px;
-  overflow:hidden;
+.side::after {
+  content:'';
+  display:block;
+  background:url(%%sidebar-bottom%%) no-repeat;
+  height:344px;
+  width:316px;
+  position:absolute;
+  bottom:-342px;
+  right:0;
 }
 
-/* Collapse Button */
+/* Title of subreddit */
+
+.side h1.redditname {
+  display:block;
+  position:absolute;
+  top:40px;
+  text-align:center;
+  width:92%;
+  }
+
+/* Announcement */
+
+.side .md h3 {
+  position:absolute;
+  top:72px;
+  width:92%;
+  font-size:14px;
+  font-weight:normal;
+  width:245px;
+  padding:12px;
+  border-radius:3px;
+  border:1px solid #530;
+  background:rgba(0,0,0,0.5);
+  color:#ded;
+  }
+.side .md h3 a {
+  color:#adf;
+  }
+/* Collapse Button  -  */
 .sidecontentbox .collapse-button {
   background: #2f1c0e;
   color: #866A45;
   border: #866A45;
 }
 
-
-
 form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   background:transparent;
 }
 
 /* Search Box */
-.side #search {
-  width: 300px;
-  position: relative;
-  top: -45px;
-  padding: 0 22px 0 12px;
-  float: right;
-}
-#searchexpando {
-  padding-top: 10px;
-  position: relative;
-  z-index: 100;
-  right: 278px;
-  width: 250px;
-  top: -36px;
-}
+
 #search input[type="text"] {
-  width: 300px;
-  background-color: #1b1108;
-  border: 3px double #2c180d;
-  color: #E2C7A3 !important;
+  background-color: rgba(0,0,0,.5);
+  border: 3px double #530;
+  color: #eee !important;
+  margin:12px 0;
+  width:286px;
 }
+#search input[type="text"]:focus {
+ background-color: rgba(0,0,0,0.9);
+ }
 
 /* Search Box "Expando" */
 .infobar { 
-  background-color: #221409;
-  border: 3px double #2C180D;
+  border: 3px double #530;
+  color:#eee;
+  position:relative;
+  top:-20px;
+  border-top:0;
+  background:rgba(0,0,0,0.5);
 }
 
 
@@ -184,7 +194,6 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 
 .morelink a, .morelink a:hover { color: #FFB100; border: 0px; }
 .morelink, .morelink:hover, .morelink .nub, .morelink:hover .nub { 
-  background-image: url('%%mop-graphics%%'); 
 }
 
 .morelink { background-position: -0px -0px; }
@@ -213,7 +222,6 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 .fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut, .RESSubscriptionButton,
 .fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover, .RESSubscriptionButton:hover {
   background: transparent !important;
-  background-image: url('%%mop-graphics%%') !important;
   border: 0px !important;
   line-height: 20px !important;
   padding: 4px 8px !important;

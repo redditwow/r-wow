@@ -3,13 +3,15 @@
  * Things that just don't fit anywhere else and don't need their ownfile
  */
 body {
-  background-color:#333;
-  background-image: url('%%body-background%%');
-  color: #d2bfa4;
+  background-color:#ebefdb;
+  background: url('%%body-background%%') center top;
+  color: #222;
   position:relative;
-  /* HACKY HACKY HACKY HACK */
-  z-index:-2;
 }
+
+div.content {
+  z-index:1;
+  }
 .link.promotedlink.promoted a, #siteTable .thing .title a {margin-top:0 !important;}
 a {
   color: #008467;

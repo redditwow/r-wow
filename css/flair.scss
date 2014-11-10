@@ -206,14 +206,6 @@ li.flairsample-left { padding-top: 5px; }
 
 /*____ The following section is flair that is related to special posters. ____*/
 
-/* Pandasnoo creator */
-
-.flair-pandasnoo::after {
-  content: url('%%flair-pandasnoo%%') !important;
-}
-
-.flair-pandasnoo+.author { color: #FFFFFF; }
-
 /* Blizzard Employees - Icons */
 /* They have special flair classes that are not user selectable */
 

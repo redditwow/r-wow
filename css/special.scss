@@ -3,12 +3,6 @@
  *  -- This area is used for flagging threads or posts based on their ids --
  */
 
- /* Official Blizzard Threads 
-.thing.id-t3_zkgu2, 
-.thing.id-t3_zqm8d,
-.thing.id-t3_13afx8 
-*/
-
 /* Because I love you man */
 a[href$='wowhead.com/item=19019'], .comment .md p > a[href$="wowhead.com/item=19019"]:visited, a[href$='wowhead.com/item=19019']:before, a[href$='wowhead.com/item=19019']:after {
   color: #FF8000 !important;
@@ -16,7 +10,6 @@ a[href$='wowhead.com/item=19019'], .comment .md p > a[href$="wowhead.com/item=19
 a[href$='wowhead.com/item=19019']:before {
   content: "DID SOMEBODY SAY ";
 }
-
 a[href$='wowhead.com/item=19019']:after {
   content: "?!?!!?";
 }
