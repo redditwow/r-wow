@@ -3,7 +3,6 @@
  */
 
 /* The Linkflair Classes */
-
 .linkflairlabel {border:none;padding:4px;font-size:10px;}
 .linkflair-bluepost .linkflairlabel {background:rgba(0,0,99,0.4);color:#00b4ff}
 .linkflair-modpost .linkflairlabel {background:rgba(0,99,0,0.2);}
@@ -16,14 +15,9 @@
 .linkflair-switchup .linkflairlabel {}
 .linkflair-pvp .linkflairlabel {}
 
-
 /* BLUEPOSTS */
-#siteTable .thing.linkflair-bluepost .domain, 
-#siteTable .thing.linkflair-bluepost .domain a, 
-#siteTable .thing.linkflair-bluepost .tagline { color: #888877; }
-#siteTable .thing.linkflair-bluepost .entry .buttons li a { color: #888877; font-weight: bold; }
 #siteTable .thing.linkflair-bluepost .title {
-  color: #00B4FF !important;
+  color: #158 !important;
 }
 
 /*MODPOST*/
@@ -37,7 +31,7 @@
   background:rgba(99,0,99,0.2);
 }
 #siteTable .thing.linkflair-modpost {
-  background:rgba(0,99,0,0.2);
+  background:rgba(160,255,160,0.2);
   }
 #siteTable .thing.linkflair-awesomepost {
   background:rgba(212,212,212,0.7);
@@ -46,7 +40,7 @@
   background:rgba(99,0,0,0.2);
 }
 #siteTable .thing.linkflair-bluepost {
-  background:rgba(0,22,55,0.7);
+  background:rgba(175,175,255,0.2);
   }
 
 .linkflairlabel { display: none; }
@@ -102,11 +96,18 @@ a.thumbnail.default, a.thumbnail.self { background-position: -0px -1140px !impor
 .linkflair-warlock a.thumbnail { background-position: -0px -681px !important; }
 .linkflair-warrior a.thumbnail { background-position: -0px -757px !important; }
 .linkflair-lore a.thumbnail { background-position: -0px -833px !important; }
-.linkflair-pvp a.thumbnail { background-position: -0px -909px !important; }
 .linkflair-raiding a.thumbnail { background-position: -0px -985px !important; }
 .linkflair-bluepost a.thumbnail { background-position: -0px -1061px !important; }
 .linkflair-general a.thumbnail { background-position: -0px -1213px !important; }
 .linkflair-modpost a.thumbnail { background-position: -0px -1364px !important; }
+.linkflair-murloc a.thumbnail { background-position: -0px -833px!important; }
+.linkflair-tank a.thumbnail { background-position: -0px -985px!important; }
+.linkflair-heal a.thumbnail { background-position: -0px -1213px!important; }
+.linkflair-raid a.thumbnail { background-position: -0px -1364px!important; }
+.linkflair-switchup a.thumbnail { background-position: -0px -833px!important; }
+.linkflair-pvp a.thumbnail { background-position: -0px -909px !important; }
+
+
 
 /* NSFW goes at the end because it will always override linkflair */
 a.thumbnail.nsfw { background-position: -0px -1292px !important; }

@@ -194,7 +194,7 @@ html.res-commentBoxes .comment .comment .comment .comment,
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment,
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-  background-color: #1C0F09 !important;
+  background-color: rgba(255,255,255,0.3) !important;
 }
 
 html .comment,
@@ -207,7 +207,7 @@ html.res-commentBoxes .comment .comment .comment,
 html.res-commentBoxes .comment .comment .comment .comment .comment, 
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,  
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment{
-  background-color: #0F0805 !important;
+  background-color: rgba(235,235,235,0.3) !important;
 }
 
 html .res .sitetable.nestedlisting > .thing,
@@ -215,7 +215,7 @@ html .res .sitetable.nestedlisting > .thing,
 .sitetable.nestedlisting .thing {
   background: #1C0F09;
   margin-top: 5px;
-  border:1px solid #0F0805;
+  border:0;
 }
 
 .thing .usertext-edit {
@@ -326,12 +326,13 @@ padding: 5px 10px;
   }
 
 /* Upscore / Downscore */
-.score.likes {color: #FF8B24;}
-.score.dislikes {color: #9494FF;}
+.link .score {color:#555;}
+.link .score.likes {color: #FF4500;}
+.link .score.dislikes {color: #158;}
 
 /* Coloured Reply */
 
 .entry .buttons a[onclick*="reply"] {
   font-weight:bold;
-  color:#FFEBD5 !important;
+  color:#000 !important;
   }

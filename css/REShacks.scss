@@ -34,6 +34,13 @@
 }
 
 
+/* RES is more of a hack then reddit */
+.RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove  { padding: 0px 8px !important; }
+.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove { background-position: -0px -50px !important; }
+.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESshortcut.RESshortcutside.remove:hover { background-position: -0px -90px !important; }
+.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut { background-position: -0px -70px !important; }
+.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background-position: -0px -110px !important; }
+
 
 
 /* Markdown help table */
@@ -69,73 +76,6 @@ blockquote {
 .tagline a {
     color: #008467;
 }
-
-/* Footer */
-.footer {
-  color: #B39265;
-  padding: 5px;
-  margin: 15px;
-  border: 1px solid #2C180D !important;
-  background-color: #1C0F09 !important;
-}
-
-.flat-vert.title {
-  color: #B39265;
-}
-
-.footer a, .bottommenu a {
-  color: #008467 !important;
-}
-
-.footer .col {
-  border-left: 1px solid #B39265;
-}
-
-.bottommenu {
-  color: #B39265;
-}
-
-/* /r/wow/submit styling */
-
-.roundfield, .content.submit .roundfield.info-notice {
-  background-color: #221409;
-  border:none;
-}
-
-.roundfield textarea, .roundfield input[type="text"], 
-.roundfield input[type="url"],
-.roundfield input[type="password"], .roundfield input[type="number"],
-.linefield textarea, .linefield input[type="text"], 
-.linefield input[type="password"], .linefield input[type="number"] {
-  font-size: 100%;
-  width: 492px;
-  padding: 3px;
-  margin: 0;
-  border: 3px double #2C180D;
-  background: #1B1108;
-  color: #E2C7A3;
-}
-
-#suggested-reddits a {
-  color: #008467 !important;
-}
-
-#url-field button {
-  height: 30px;
-  border: 1px solid #2C180D;
-  background: #1B1108;
-  color: #FFB100;
-  border-radius: 4px;
-  padding: 0 20px;
-  text-transform: capitalize;
-  display: block;
-  line-height: 30px;
-}
-
-
-
-
-
 
 #RESConsole {
   z-index:111 !important;

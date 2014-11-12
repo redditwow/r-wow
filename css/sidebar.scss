@@ -134,7 +134,7 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   background:transparent;
   margin-bottom: 5px;
   margin-top: 5px;
-  color: #FFB100;
+  color: #000;
 }
 .leavemoderator {
   margin-top:8px;
@@ -237,13 +237,6 @@ right:0;
 .RESSubscriptionButton, .RESSubscriptionButton:hover {
   line-height: 17px !important;
 }
-
-/* RES is more of a hack then reddit */
-.RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove  { padding: 0px 8px !important; }
-.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove { background-position: -0px -50px !important; }
-.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESshortcut.RESshortcutside.remove:hover { background-position: -0px -90px !important; }
-.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut { background-position: -0px -70px !important; }
-.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background-position: -0px -110px !important; }
 
 /* Flair Selector */
 .flairselector { box-shadow: 2px 2px 2px #2C180D; z-index:1000;}
