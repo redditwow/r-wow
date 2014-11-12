@@ -1,11 +1,6 @@
-/***
- * Threads.css
- */
+/*Threads.css*/
 
-
-/***
- * Gold Users
- */
+/* Gold Users */
 
 .new-comment .usertext-body {
   background-color: #120;
@@ -26,36 +21,27 @@
   color:#eee !important;
   }
 
-
 #siteTable {
-  margin-top: 10px; /* Keeps us lined up with the sidebar header */
+  margin-top: 25px; /* Keeps us lined up with the sidebar header */
 }
 
 #siteTable .thing {
-  background: url('%%thread-background-transparent%%') repeat-x #29120A;
-  border: 1px solid #000;
-  padding: 4px 0 5px;
   margin: 0 10px 0 5px;
   position:relative;
   z-index:auto;
+  background:rgba(212,212,192,0.2);
+  border-bottom:1px solid #999;
 }
-
-
-#siteTable > .thing:first-child { 
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-}
-#siteTable > .thing:last-child {
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;  
-}
+#siteTable .thing:last-child {
+ border-bottom:0;
+ }
 
 .link.promotedlink.promoted a, #siteTable .thing .title a, #sitetable .thing.comment a.title {
-  color: #5FFBDA;
+  color: #128;
   margin-top: 11px;
 }
 .link.promotedlink.promoted a:visited, #siteTable .thing .title a:visited, #siteTable .thing.comment a.title:visited {
-  color: #826A19;
+  color: #128;
 }
 
 .link.promotedlink.promoted .thumbnail {
@@ -101,8 +87,8 @@ padding: 15px 10px 10px 40px;}
 
 
 /* Text stuff inside of thing */
-.domain, .domain a, .tagline { color: #B39265; }
-.entry .buttons li a { color: #EFC9A0; font-weight: normal; /* #B39265;*/ }
+.domain, .domain a, .tagline { color: #444; }
+.entry .buttons li a { color: #222; font-weight: normal; /* #B39265;*/ }
 .link .flat-list, .domain, .domain a, .tagline { padding: 5px 0;}
 .link .rank { display: none; margin-top: 23px; color: #000; }
 
@@ -155,9 +141,6 @@ a[href*='#blizzpost']~em {
 
 /* Reported and Spam Posts */
 
-#siteTable .thing.reported, #siteTable .thing.spam {
-  background: url('%%thread-background-transparent%%') repeat-x #bf0000;
-}
 
 .entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp {
   background-color: #4C0418;
@@ -179,7 +162,7 @@ a.pretty-button.positive:hover { background-color: #05641A; }
 
 
 .commentarea {
-  background: url('%%thread-background%%') repeat-x #1C110B;
+  background: rgba(212,212,212,0.2);
   margin: 0 10px 0 5px;
   padding:10px 10px 20px;
   border-bottom:2px solid #0F0805;

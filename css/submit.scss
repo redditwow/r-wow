@@ -1,0 +1,15 @@
+/* styles for the submit page */
+#link-desc, #text-desc {
+  font-size: 0;
+  padding: 15px;
+}
+#link-desc::after {
+  content: "Please read the sidebar before submitting your thread. If your submission fits any of our related subreddits, it doesn't belong here. Help us keep /r/wow tidy! Thank you.";
+  font-weight: bold;
+  font-size: small;
+}
+#text-desc::after {
+  content: "Please read the sidebar before submitting your thread. If your submission fits any of our related subreddits, it doesn't belong here. Help us keep /r/wow tidy! Thank you.";
+  font-weight: bold;
+  font-size: small;
+}

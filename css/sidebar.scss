@@ -24,6 +24,12 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   top:-35px;
   z-index:3;
 }
+@media (max-width:1367px) {
+.side {
+  top:-5px;
+  }
+
+}
 .side a {
   color: #128;
   background: none;
@@ -101,7 +107,6 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 }
 
 /* Search Box */
-
 #search input[type="text"] {
   background-color: rgba(0,0,0,.5);
   border: 3px double #530;
@@ -157,10 +162,11 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   background:transparent;
 }
 
-
-.titlebox h1 a {
-  color: #008467 !important;
+.side iframe {
+position:absolute;
+right:0;
 }
+
 
 .titlebox .bottom { 
   color: #B39265;

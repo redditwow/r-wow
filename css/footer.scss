@@ -1,0 +1,15 @@
+
+.footer-parent {
+  background:url(%%footer%%) no-repeat center top #222;
+  min-height:600px;
+  }
+.footer-parent::after {
+  content:'';
+  background:url('%%header-separator%%') repeat-x;
+  height:71px;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:677px;
+  }
+
