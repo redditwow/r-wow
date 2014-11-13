@@ -16,22 +16,31 @@
 .linkflair-pvp .linkflairlabel {}
 
 /* BLUEPOSTS */
-#siteTable .thing.linkflair-bluepost .title {
-  color: #158 !important;
+#siteTable .thing.linkflair-bluepost .md * {
+  color:white;
+  }
+#siteTable .thing.linkflair-bluepost a {
+  color: #00b4ff !important;
 }
-
+#siteTable .thing.linkflair-modpost a {
+  color:#cfb !important;
+  }
+#siteTable .thing.linkflair-bluepost p.tagline,
+#siteTable .thing.linkflair-modpost p.tagline {
+  color:#bababa;
+  }
 /*MODPOST*/
 #siteTable .thing.linkflair-modpost a {
-  color:#07D97F;
+  color:#020;
 }
 #siteTable .thing.linkflair-modpost .md h2 {
-  color: #D2BFA4;
+  color: #020;
 }
 #siteTable .thing.linkflair-lootpost {
-  background:rgba(99,0,99,0.2);
+  background:rgba(212,212,212,0.7);
 }
 #siteTable .thing.linkflair-modpost {
-  background:rgba(160,255,160,0.2);
+  background:rgba(24,99,46,0.5);
   }
 #siteTable .thing.linkflair-awesomepost {
   background:rgba(212,212,212,0.7);
@@ -40,7 +49,7 @@
   background:rgba(99,0,0,0.2);
 }
 #siteTable .thing.linkflair-bluepost {
-  background:rgba(175,175,255,0.2);
+  background:rgba(36, 58, 93, 0.75);
   }
 
 .linkflairlabel { display: none; }

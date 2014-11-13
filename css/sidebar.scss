@@ -36,7 +36,7 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   margin:0;
   position:relative;
   z-index:3;
-  top:20px;
+  top:-25px;
   }
 
 .side a {
@@ -136,7 +136,6 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   border: 3px double #530;
   color:#eee;
   position:relative;
-  top:-20px;
   border-top:0;
   background:rgba(0,0,0,0.5);
 }
@@ -411,6 +410,5 @@ body.search-page .login-form-side {
 }
 
 .flairselector.drop-choices.active {
-  left:25px !important;
-
+  left:-250px !important;
   }

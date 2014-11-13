@@ -8,43 +8,41 @@
   margin: 0 10px 0 5px;
   position:relative;
   z-index:auto;
-  background:rgba(212,212,192,0.2);
+  background:rgba(212,212,212,0.35);
   border-bottom:1px solid #999;
 }
 #siteTable .thing:last-child {
  border-bottom:0;
  }
+@media (max-width:1300px) {
+  #siteTable .thing:first-child .entry {
+    padding-right:135px;
+  }
+}
 
 .link.promotedlink.promoted a, #siteTable .thing .title a, #sitetable .thing.comment a.title {
-  color: #128;
-  margin-top: 11px;
 }
 .link.promotedlink.promoted a:visited, #siteTable .thing .title a:visited, #siteTable .thing.comment a.title:visited {
-  color: #128;
 }
 
 .link.promotedlink.promoted .thumbnail {
+    display:none;
     margin: 0px 10px;
 }
 .organic-listing {
   padding: 0;
   overflow: hidden;
   position: relative;
-  background-color: rgba(0,0,0,0.5);
-  margin: 47px 30px 7px;
-  border-radius: 1em;
+  background-color: transparent; 
+  margin:11px 395px 7px 4px;
   border:0;
 }
 
 .link.promotedlink.promoted {
-background: #300;
-border-radius: 1em;
-padding: 1em;
 border:0;
 margin:0;
 }
 
-.link.promotedlink.promoted .thumbnail {display:none;}
 
 .link.last-clicked {
     overflow:visible;
@@ -156,9 +154,6 @@ html .comment,
   border: 1px solid #888 !important;
   margin-left: 13px !important;
 }
-html .comment:hover, .res-commentBoxes .comment {
-  border:1px solid #111 !important;
-  }
 
 .comment .child,
 .res-commentBoxes .comment .child {
@@ -229,9 +224,9 @@ html .res .sitetable.nestedlisting > .thing,
 }
 
 .usertext.border .usertext-body, .usertext.grayed .usertext-body {
-  background-color: #180D08;
+  background-color: rgba(212,212,199,0.2);
   padding-left: 5px;
-  border: 1px solid #000000;
+  border: 0;
 }
 .comment.spam > .child, .message.spam > .child {
 background-color:#521D10;
@@ -298,12 +293,11 @@ padding: 5px 10px;
 
 /* Sponsored Links */
 
-.link.promotedlink.promoted {
-  background:#241104;
-  }
 .link.promotedlink {
   border:1px solid #59200f;
   margin:50px 10px 5px;
+  background:rgba(212,212,192,0.2);
+  margin-right:300px;
   }
 
 /* Upscore / Downscore */
