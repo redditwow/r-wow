@@ -27,13 +27,13 @@
     margin: 0px 10px;
 }
 .organic-listing {
-padding: 0;
-overflow: hidden;
-position: relative;
-background-color: #241104;
-margin: 47px 30px 7px;
-border-radius: 1em;
-border:0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+  margin: 47px 30px 7px;
+  border-radius: 1em;
+  border:0;
 }
 
 .link.promotedlink.promoted {
@@ -144,7 +144,7 @@ a.pretty-button.positive:hover { background-color: #05641A; }
   background: rgba(212,212,212,0.2);
   margin: 0 10px 0 5px;
   padding:10px 10px 20px;
-  border-bottom:2px solid #0F0805;
+  border-bottom:2px solid #888;
 }
 .commentarea .child {
   border-left: 1px dotted #26150D;
@@ -153,10 +153,12 @@ a.pretty-button.positive:hover { background-color: #05641A; }
 html .comment,
 .res-commentBoxes .comment {
   padding: 0px 3px !important;
-  border: 1px solid #2C180D !important;
-  border-radius: 4px;
+  border: 1px solid #888 !important;
   margin-left: 13px !important;
 }
+html .comment:hover, .res-commentBoxes .comment {
+  border:1px solid #111 !important;
+  }
 
 .comment .child,
 .res-commentBoxes .comment .child {
@@ -192,7 +194,6 @@ html.res-commentBoxes .comment .comment .comment .comment .comment .comment .com
 html .res .sitetable.nestedlisting > .thing,
 .sitetable.nestedlisting > .thing,
 .sitetable.nestedlisting .thing {
-  background: #1C0F09;
   margin-top: 5px;
   border:0;
 }
@@ -255,11 +256,34 @@ background-color:#521D10;
     display:inline-block;
     }
 
-/* Messy shit */
+/* Actual Typography */
 
-.md h2 {
-	color: #008467;
+.content .md h1 {
+  color:#000;
+  font-size:2em;
+  line-height:1.5em;
 }
+.content .md h2 {
+  color:#000;
+  font-size:1.8333em;
+  line-height:1.6364em;
+}
+.content .md h3 {
+  color:#000;
+  font-size:1.6667em;
+  line-height:1.8em;
+}
+.content .md h4 {
+  color:#000;
+  font-size:1.5em;
+  line-height:1em;
+}
+.content .md h5 {
+  color:#000;
+  font-size:.1333em;
+  line-height:1.25em;
+}
+
 
 p#noresults {
   padding: 15px;

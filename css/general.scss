@@ -11,6 +11,7 @@ body {
 
 div.content {
   z-index:1;
+  margin-bottom:140px;
   }
 
 .link.promotedlink.promoted a, .thing .title a {margin-top:0 !important;}
@@ -28,7 +29,7 @@ a {
   font-size: 10px;
   color: #FFF;
   font-weight: bold;
-  background: rgba(0,0,0,0.75);
+  background: #222;
   content: "Racist, ethnic, sexist, homophobic, or otherwise hateful slurs of any kind will lead to a lifetime ban.";
   margin-left: 39px;
   margin-top: -17px;

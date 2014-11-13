@@ -41,8 +41,6 @@
 .fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut { background-position: -0px -70px !important; }
 .fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background-position: -0px -110px !important; }
 
-
-
 /* Markdown help table */
 .usertext table.markhelp {
   background: #1B1108;
@@ -97,12 +95,12 @@ blockquote {
   background:transparent;
   width: 60px;
   position: absolute;
-  top: 15px;
+  top: 13px;
   left: 60px;
-  height: 60px;
+  height: 57px;
   z-index: 1;
   border-radius: 1em;
-  box-shadow: 0px 0px 40px #222;
+  box-shadow: 0px 4px 54px #212;
 }
 
 .thing.link.compressed > .RES-keyNav-activeElement + div,
