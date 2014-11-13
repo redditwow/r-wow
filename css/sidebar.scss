@@ -4,7 +4,7 @@
 
 /* What do we call our users? */
 
-.subscribers {margin-left:29px;}
+.subscribers {margin-left:29px;display:block;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
   content: " Adventurers";
@@ -16,21 +16,28 @@
 
 h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-weight: normal; }
 
+/* simple linkinfo */
+
+.linkinfo {
+  background:rgba(231,250,250,0.2);
+  text-align:center;
+  margin:20px 0;
+  border:0;
+  border-radius:2px;
+  }
+.linkinfo .score {
+  margin:10px;
+  font-family: Friz Quadrata TT;
+  }
+
 .side {
   padding-top: 0px;
   background:transparent;
   margin:0;
   position:relative;
-  top:-35px;
   z-index:3;
-  background:url(%%sidebar-repeat%%) repeat-y center top;
-}
-/* zomg media queries, let's not collide with the menu bar */
-@media (max-width:1367px) {
-.side {
-  top:-5px;
+  top:20px;
   }
-}
 
 .side a {
   color: #128;
@@ -43,9 +50,10 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
 
 .side .spacer { 
   margin:0;
-  padding:6px 5px 6px 25px;
+  padding:0px 5px 0px 25px;
   float: right;
   width:286px;
+  background:url(%%sidebar-repeat%%) repeat-y center top;
 }
 .side .spacer {
   
@@ -101,9 +109,10 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   }
 /* Collapse Button  -  */
 .sidecontentbox .collapse-button {
-  background: #2f1c0e;
-  color: #866A45;
-  border: #866A45;
+  background: #112;
+  color: #ddd;
+  border: 0;
+  padding:2px;
 }
 
 form.toggle.flairtoggle, form.toggle.leavemoderator-button {
@@ -144,19 +153,29 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   margin-top:8px;
   }
 .titlebox .usertext .md > h1, .sidecontentbox .title {
-  background: #221409;
-  color: #E2C7A3;
-  border: 3px double #2c180d;
+  background: rgba(0,0,0,0.25); 
+  color:#ded;
   padding:2px 5px;
 }
 
 .sidecontentbox .title h1 {
-  color: #E2C7A3;
+  color: #ded;
 }
 
 .sidecontentbox a.helplink {
-  margin: 8px 5px 0 0;
-}
+  background:url(%%linkflair%%) no-repeat -10px -1445px;
+  width:0px;
+  height:10px;
+  text-indent:-999em;
+  float:right;
+  width:140px;
+  color:#ddd;
+  padding:4px 5px 6px 25px;
+  margin-top:0;
+  }
+.sidecontentbox a.helplink:hover {
+  text-indent:0;
+  }
 
 .sidecontentbox .content {
   background:transparent;
@@ -167,15 +186,26 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 }
 
 .side iframe {
-position:absolute;
-right:0;
+  margin:0 0 0 -9px;
 }
 
-
+.titlebox {
+  padding-top:1.25em;
+  }
 .titlebox .bottom { 
-  color: #B39265;
-  border-top: 3px solid #221409;
+  color: #201;
 }
+.titlebox .bottom::after, 
+#moderation_tools::after,
+.side .spacer:first-child::after,
+.side .spacer:last-child::after{
+  content:'';
+  display:block;
+  width:308px;
+  height:43px;
+  background:url(%%chainz%%) no-repeat;
+  margin-left:-18px;
+  }
 
 .sidecontentbox .content {
   /* Moderator box */
@@ -213,7 +243,7 @@ right:0;
 
 /* Disable the useless reddit information after a morelink */
 .morelink+.spacer { visibility: hidden; height: 0px; }
-
+.sidebox.create {width:267px;background:transparent;color:#158;}
 .sidebox.submit { 
     width: 200px;
     margin-bottom:1em;
@@ -231,10 +261,10 @@ right:0;
 .fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESSubscriptionButton.unsubscribe:hover,
 .fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut, .RESSubscriptionButton,
 .fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover, .RESSubscriptionButton:hover {
-  background: transparent !important;
   border: 0px !important;
   line-height: 20px !important;
   padding: 4px 8px !important;
+  color:#ded;
 }
 
 .RESSubscriptionButton.unsubscribe, .RESSubscriptionButton.unsubscribe:hover,
@@ -242,23 +272,11 @@ right:0;
   line-height: 17px !important;
 }
 
-/* Flair Selector */
-.flairselector { box-shadow: 2px 2px 2px #2C180D; z-index:1000;}
-.flairselector.drop-choices.active { border: 3px double #2C180D; }
-.flairselector.drop-choices.active h2 { background: #322111; color: #E2C7A3; border: 3px double #2C180D; }
-.flairselector.drop-choices.active button { background-color: #1B1108; color: #E2C7A3; border: 3px double #2C180D; }
-.flairselector.drop-choices.active button:hover { background-color: #422913; cursor:pointer; }
-.flairselector form { border-top: 3px double #2C180D; }
-.drop-choices {
-  background-color: #221409;
-  border: 3px double #2C180D;
-  width: 220px !important;
-  }
 .side .drop-choices {
   left: 150px !important;
 }
 
-.drop-choices a.choice:hover{
+.drop-choices a.choice:hover {
   background: #36200E;
   color: #FFFFFF;
 }
@@ -267,14 +285,12 @@ div.subbuttons {
   padding-top: 10px;
 }
 
-.flairselector li { border: 0px; }
 .customizer input[type="text"] {
   background-color: #1B1108;
   border: 3px double #2C180D;
   color: #E2C7A3;
 }
 
-.flairselector li:hover{ background-color: #2C180D; border:0px; }
 
 /* Login Form */
 .login-form-side {
@@ -334,7 +350,6 @@ div.subbuttons {
 .icon-menu .reddit-reported::before { background-position: -0px -142px; }
 .icon-menu .reddit-spam::before { background-position: -0px -166px; }
 .icon-menu .reddit-ban::before { background-position: -0px -190px; }
-.icon-menu .reddit-flair::before { background-position: -0px -214px; }
 .icon-menu .reddit-moderationlog::before { background-position: -0px -237px; }
 .icon-menu .reddit-unmoderated::before { background-position: -0px -259px; }
 
@@ -365,8 +380,6 @@ div.subbuttons {
   margin:8px 0;
 }
 .side .md h2 {
-  color: #D2BFA5;
-  font-style: italic;
   }
 
 /* The Moderator box has looked awful so lets adjust that and right the
@@ -397,5 +410,7 @@ body.search-page .login-form-side {
     margin-top: 80px;
 }
 
+.flairselector.drop-choices.active {
+  left:25px !important;
 
-
+  }

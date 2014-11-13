@@ -16,16 +16,10 @@
  
 /* People without Flair (aka n00bs) */
 a.author {
-  color: #FFFFFF;
   padding-right:4px;
 }
 
 a.author.submitter, a.author.submitter:visited { 
-  color: #000000 !important;
-  padding: 2px 4px !important;
-  border-radius: 3px !important; 
-  background: #fff !important;
-  border: none !important;
 }
 
 /* People with Flair - General Rules */
@@ -48,8 +42,6 @@ a.author.submitter, a.author.submitter:visited {
 .author {
   font-weight: bold !important;
   padding: 4px 5px 4px 2px !important;
-  vertical-align: middle !important;
-  background:#111;
 }
 
 p.tagline, .tagline { height: 18px; margin: 4px 0 0; border: 0px; }

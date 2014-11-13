@@ -36,20 +36,16 @@
 
 /* RES is more of a hack then reddit */
 .RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove  { padding: 0px 8px !important; }
-.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove { background-position: -0px -50px !important; }
-.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESshortcut.RESshortcutside.remove:hover { background-position: -0px -90px !important; }
-.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut { background-position: -0px -70px !important; }
-.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background-position: -0px -110px !important; }
+.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove { background:rgba(99,0,0,0.5);}
+.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESshortcut.RESshortcutside.remove:hover { background:background:rgba(99,0,0,0.9);}
+.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut { background:rgba(0,99,0,0.5);}
+.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background:rgba(0,99,0,0.9);}
 
 /* Markdown help table */
 .usertext table.markhelp {
-  background: #1B1108;
-  color: #B39265 !important;
+  color: #222 !important;
 }
 
-.usertext table.markhelp a {
-  color: #008467 !important;
-}
 
 .usertext table.markhelp, .usertext .markhelp td, .usertext .markhelp tr {
   border: 1px solid #2C180D;
@@ -72,7 +68,6 @@ blockquote {
 
 /* Author defaults */
 .tagline a {
-    color: #008467;
 }
 
 #RESConsole {
@@ -173,11 +168,6 @@ a.voteWeight {
   }
 .RESDropdownList li {
   border-bottom:1px solid #2C180D !important;
-  }
-  
-.RESDropdownList li,  
-.RESDropdownList li a {
-  color: #008467 !important;
   }
   
 .RESDropdownList li:hover,
