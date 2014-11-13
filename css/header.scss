@@ -5,16 +5,16 @@
 /* World of reddit Logo */
 .pagename a {
   display: block;
-  background-image: url('%%reddit-mistslogo%%');
+  background-image: url('%%logo%%');
   background-repeat: no-repeat;
   margin: 0 auto;
   font-size: 0px;
-  padding: 76px 0 0 0;
+  padding: 72px 0 0 0;
   color: #364657;
-  left: 140px;
+  left: 185px;
   position: absolute;
   top: 36px;
-  width: 150px;
+  width: 159px;
   background-position:center top;
   z-index:100;
 }
@@ -73,19 +73,19 @@ background-position:center bottom;
   }
 
 #header-img-a {
-  margin-top: 10px;
+  margin-top: 0;
   margin-right: 5px;
-  margin-left: 55px;
-  height:100px;
-  width:90px;
+  margin-left: 100px;
+  height:110px;
+  width:70px;
   background:url('%%hoversnoo%%');
-  background-position:center bottom;
+  background-position:center -4px;
   display:inline-block;
   position:relative;
   z-index:100;
 }
 #header-img-a:hover {
-  background-position:center top;
+  background-position:center -115px;
   }
 #header-img {display:none;}  
 

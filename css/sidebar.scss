@@ -24,12 +24,13 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   top:-35px;
   z-index:3;
 }
+/* zomg media queries, let's not collide with the menu bar */
 @media (max-width:1367px) {
 .side {
   top:-5px;
   }
-
 }
+
 .side a {
   color: #128;
   background: none;
@@ -45,6 +46,9 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   float: right;
   background:url(%%sidebar-repeat%%) repeat-y center top;
   width:286px;
+}
+.side .spacer {
+  
 }
 .side::before {
   content:'';
@@ -198,28 +202,28 @@ right:0;
   background: transparent;
 }
 
-.morelink a, .morelink a:hover { color: #FFB100; border: 0px; }
-.morelink, .morelink:hover, .morelink .nub, .morelink:hover .nub { 
-}
-
-.morelink { background-position: -0px -0px; }
-.morelink .nub { background-position: -0px -186px; }
-.morelink:hover { background-position: -0px -25px; }
-.morelink:hover .nub { background-position: -18px -186px; }
+.morelink a, .morelink a:hover {
+  color: #efe; border: 0px; 
+  background:rgba(0,0,0,0.8);
+  padding:8px;
+  }
+.morelink a:hover {
+  background:rgba(0,0,0,1);
+  }
 
 /* Disable the useless reddit information after a morelink */
 .morelink+.spacer { visibility: hidden; height: 0px; }
 
 .sidebox.submit { 
-    width: 285px;
-    z-index: 50;
+    width: 200px;
     margin-bottom:1em;
     position:absolute;
     top:275px;
     z-index:90;
+    left:51px;
 }
 .sidebox.submit-text {
-    top:304px;
+    top:330px;
 }
 
 /* Reddit/RES "Subscribe" Buttons */
@@ -292,21 +296,6 @@ div.subbuttons {
 #remember-me { 
   padding-left: 6px; 
   line-height: 20px;
-}
-
-.submit button.btn  { 
-  height: 30px;
-  border: 1px solid #2C180D;
-  background: #1B1108;
-  color: #FFB100;
-  border-radius: 4px;
-  padding: 0 20px;
-  text-transform: capitalize;
-}
-
-.submit button.btn:hover {
-  background: #2f1D0E;
-  cursor: pointer;
 }
 
 /* Sidebar Icons */

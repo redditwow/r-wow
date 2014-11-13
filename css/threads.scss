@@ -1,26 +1,5 @@
 /*Threads.css*/
 
-/* Gold Users */
-
-.new-comment .usertext-body {
-  background-color: #120;
-  border:1px dotted #333;
-  color: #eee !important;
-  padding: 3px 10px;
-  margin: 5px 5px 5px 0;
-}
-.new-comment .usertext-body .md p, .new-comment .usertext-body .md li {
-  color:#eee !important;
-  }
-.new-comment .usertext-body .md a {
-  color:#00ecba !important;
-  }
-.gold-accent {
-  background-color:#120;
-  border:0 !important;
-  color:#eee !important;
-  }
-
 #siteTable {
   margin-top: 25px; /* Keeps us lined up with the sidebar header */
 }
@@ -227,33 +206,20 @@ html .res .sitetable.nestedlisting > .thing,
   }
 
 .usertext-edit textarea {
-  border: 3px double #2C180D;
-  background-color: #1B1108;
-  color: #E2C7A3;
-  border-radius: 5px;
-}
+  border: 3px double #999;
+  background:rgba(0,0,0,.6);
+  color: #eee;
+  border-radius: 3px;
+  }
+.usertext-edit textarea:focus {
+  border:3px double #900;
+  background:rgba(0,0,0,0.9);
+  }
 
 .comment .usertext,
 .res-commentBoxes .comment .usertext {
   margin-right: 20px;
   }
-
-.usertext button, .usertext .help-toggle.toggle a.option.active {
-  height: 30px;
-  border: 1px solid #2C180D;
-  background: #1B1108;
-  color: #FFB100;
-  border-radius: 4px;
-  padding: 0 20px;
-  text-transform: capitalize;
-  display: block;
-  line-height: 30px;
-}
-
-.usertext button:hover, .usertext .help-toggle a.option.active:hover {
-  background: #2f1D0E;
-  cursor: pointer;
-}
 
 
 .panestack-title {
