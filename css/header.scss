@@ -11,7 +11,7 @@
   font-size: 0px;
   padding: 72px 0 0 0;
   color: #364657;
-  left: 185px;
+  left: 94px;
   position: absolute;
   top: 36px;
   width: 159px;
@@ -75,7 +75,7 @@ background-position:center bottom;
 #header-img-a {
   margin-top: 0;
   margin-right: 5px;
-  margin-left: 100px;
+  margin-left: 15px;
   height:110px;
   width:70px;
   background:url('%%hoversnoo%%');
@@ -152,56 +152,31 @@ margin-left:25px !important;
 }
 
 #header-bottom-left .tabmenu {
-  background: url('%%menu-repeat%%') repeat-x;
-  padding: 7px 10px 5px 10px;
   position:absolute;
-  top:93px;
-  left:114px;
+  top:71px;
+  left:256px;
   z-index:8;
-  padding:19px;
-}
-#header-bottom-left .tabmenu::before {
-  content:'';
-  display:block;
-  height:60px;
-  width:113px;
-  background: url('%%menu-left%%') no-repeat;
-  position:absolute;
-  left:-113px;
-  top:1px;
+  padding:5px;
+  background:rgba(0,0,0,0.5);
   }
-#header-bottom-left .tabmenu::after {
-  content:'';
-  display:block;
-  height:60px;
-  width:113px;
-  background: url('%%menu-right%%') no-repeat;
-  position:absolute;
-  right:-113px;
-  top:1px;
-  }
-
 #header-bottom-left .tabmenu li {
-  height: 18px;
-  display: block;
-  float: left;
-  background: transparent;
-}
-
+  height:18px;
+  display:block;
+  float:left;
+  background:transparent;
+  }
 #header-bottom-left .tabmenu li a {
-  background: transparent;
-  border: none;
-  text-align: center;
-  display: block;
-  color: #FFB100;
-}
-
+  background:transparent;
+  border:none;
+  text-align:center;
+  display:block;
+  color:#ffb100;
+  font-size:10px;
+  }
 #header-bottom-left .tabmenu li a:hover {
-  color: #FFFFFF;
-}
-
+  color:#fff;
+  }
 #header-bottom-left .tabmenu li.selected a {
-  background: transparent;
-  border: none;
-  display: block;
-}
+  color:#fff;
+  }
+ 
