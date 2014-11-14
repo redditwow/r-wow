@@ -26,9 +26,10 @@ a.author.submitter, a.author.submitter:visited {
  .flair {
   padding: 1px 5px;
   margin: 0px;
-  background: #111;
   border: 0;
   border-radius: 0;
+  color:#333;
+  background:transparent;
 }
 
 .flair:after {
@@ -274,7 +275,7 @@ a.author[href$='reddit.com/user/Crithto']:after { content: "Community Team NA"; 
 .flair-herpdeeps::after   { content: ""; width:18px; height:18px; background-position: 0 -648px;}
 
 .flair-andrew+a.author, .flair-andrew+a.author:visited,
-.flair-andrew+a.submitter, .flair-andrew+a.submitter:visited {color:#ef0 !important;}
+.flair-andrew+a.submitter, .flair-andrew+a.submitter:visited {color:orangered !important;}
 
 .flair-automod+a.author, .flair-automod+a.author:visited,
 .flair-automod+a.submitter, .flair-automod+a.submitter:visited {color:#bbb !important;}

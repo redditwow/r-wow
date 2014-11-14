@@ -33,14 +33,14 @@
   padding: 0;
   overflow: hidden;
   position: relative;
-  background-color: transparent; 
+  background-color: rgba(229,212,212,0.62) !important;
   margin:11px 395px 7px 4px;
-  border:0;
+  border:3px solid #999;
 }
-
 .link.promotedlink.promoted {
-border:0;
-margin:0;
+  border:0;
+  margin:0;
+  background:transparent !important;
 }
 
 
