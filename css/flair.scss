@@ -41,8 +41,9 @@ a.author.submitter, a.author.submitter:visited {
 }
 
 .author {
-  font-weight: bold !important;
-  padding: 4px 5px 4px 2px !important;
+  font-weight: bold;
+  padding: 3px 8px;
+  background:rgba(0,0,0,0.9);
 }
 
 p.tagline, .tagline { height: 18px; margin: 4px 0 0; border: 0px; }
