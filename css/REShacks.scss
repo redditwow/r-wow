@@ -82,9 +82,11 @@ blockquote {
 .thing.link > .RES-keyNav-activeElement,
 .thing.link > .keyHighlight {
   outline: none !important;
- /* background: url('../images/res-highlight-green.png') no-repeat;*/
+  background: url('../images/res-highlight-green.png') no-repeat;
   background-color: transparent !important;
 }
+
+/*
 .thing.link > .RES-keyNav-activeElement + div,
 .thing.link > .keyHighlight + div {
   background:transparent;
@@ -99,7 +101,9 @@ blockquote {
 }
 
 .thing.link.compressed > .RES-keyNav-activeElement + div,
-.thing.link.compressed > .keyHighlight + div {
+.thing.link.compressed > .keyHighlight + div,
+
+{
   box-shadow: none !important;
   display:none;
 }
@@ -108,7 +112,7 @@ blockquote {
 .thing.link.reported > .keyHighlight + div {
   box-shadow:0px 0px 40px #fff;
 }
-
+*/
 
 
 .thing.comment > .RES-keyNav-activeElement, .thing.link.compressed > .RES-keyNav-activeElement,
