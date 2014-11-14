@@ -7,6 +7,7 @@ body {
   background: url('%%body-background%%') center top;
   color: #222;
   position:relative;
+  min-width:400px; /* this is as responsive as I get */
 }
 
 div.content {
