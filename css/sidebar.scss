@@ -6,18 +6,19 @@
 
 .subscribers {margin-left:29px;display:block;}
 .subscribers .word {display:none;}
-.subscribers .number::after {
-  content: " people waiting patiently";
+.subscribers .number::before {
+  content: "Position in Queue: ";
 }
 .users-online .word {display:none;}
-.users-online .number::after {
-  content: " freaking out in forums";
+.users-online .number::before {
+  content: "Estimated Time: ";
   }
-
+.users-online .number::after {
+  content: " minutes"
+  }
 h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-weight: normal; }
 
 /* simple linkinfo */
-
 .linkinfo {
   background:rgba(231,250,250,0.2);
   text-align:center;
@@ -29,7 +30,6 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   margin:10px;
   font-family: Friz Quadrata TT;
   }
-
 .side {
   padding-top: 0px;
   background:transparent;
@@ -37,6 +37,7 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   position:relative;
   z-index:3;
   top:-25px;
+  margin-bottom:344px;
   }
 
 .side a {
@@ -60,7 +61,7 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
 }
 .side::before {
   content:'';
-  background:url(%%sidebar-top%%) no-repeat center top;
+  background:url(%%sidebar-top-alt%%) no-repeat center top;
   width:399px;
   height:401px;
   position:relative;
@@ -80,7 +81,6 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
 }
 
 /* Title of subreddit */
-
 .side h1.redditname {
   display:block;
   position:absolute;
@@ -90,7 +90,6 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   }
 
 /* Announcement */
-
 .side .md h3 {
   position:absolute;
   top:60px;
@@ -109,16 +108,18 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   }
 /* Collapse Button  -  */
 .sidecontentbox .collapse-button {
-  background: #112;
-  color: #ddd;
+  float: right;
+  background: rgba(0,0,0,0.3);
+  color: #222;
   border: 0;
   padding:2px;
+  position:relative;
+  top:-20px;
 }
 
 form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   background:transparent;
 }
-
 /* Search Box */
 #search input[type="text"] {
   background-color: rgba(0,0,0,.5);
@@ -139,8 +140,6 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   border-top:0;
   background:rgba(0,0,0,0.5);
 }
-
-
 .titlebox form.toggle, .leavemoderator {
   padding:2px 4px;
   background:transparent;
@@ -151,39 +150,48 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
 .leavemoderator {
   margin-top:8px;
   }
-.titlebox .usertext .md > h1, .sidecontentbox .title {
-  background: rgba(0,0,0,0.25); 
-  color:#ded;
-  padding:2px 5px;
+.titlebox .usertext .md > h1, .sidecontentbox .title h1 {
+  background:rgba(212,212,212,0.2);
+  padding:4px 8px;
+  color:#222;
+  font-size:1.5em;
+  font-weight:bold;
+  margin-top:1em;
+  display:block;
 }
-
-.sidecontentbox .title h1 {
-  color: #ded;
-}
-
-.sidecontentbox a.helplink {
-  background:url(%%linkflair%%) no-repeat -10px -1445px;
-  width:0px;
-  height:10px;
-  text-indent:-999em;
-  float:right;
-  width:140px;
-  color:#ddd;
-  padding:4px 5px 6px 25px;
+.titlebox .usertext .md h3 + h1, .titlebox .usertext .md h4 + h1 {
   margin-top:0;
   }
-.sidecontentbox a.helplink:hover {
-  text-indent:0;
+.titlebox .usertext .md > h2 {
+  color:#222;
+  font-size:1.2em;
+  font-weight:bold;
   }
-
+.sidecontentbox a.helplink {
+  background:url(%%linkflair%%) no-repeat 0px -1438px rgba(0,0,0,0.8);
+  height: 10px;
+  text-indent: 0;
+  float: none;
+  width: 215px;
+  color: #DED;
+  padding: 18px 11px 24px 56px;
+  margin-top: 0;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  }
+.sidecontentbox a.helplink:hover {
+  background-color:#000;
+  }
 .sidecontentbox .content {
   background:transparent;
 }
-
 .sidebox .spacer {
   background:transparent;
 }
-
+.side .sponsorshipbox {
+  margin-top:1em;
+  }
 .side iframe {
   margin:0 0 0 -9px;
 }
@@ -352,9 +360,6 @@ div.subbuttons {
 .icon-menu .reddit-moderationlog::before { background-position: -0px -237px; }
 .icon-menu .reddit-unmoderated::before { background-position: -0px -259px; }
 
-.collapse-button {
-  float: right;
-}
 
 #moderation_tools {
   margin: 20px 0;
@@ -378,8 +383,6 @@ div.subbuttons {
 .gadget .reddit-link {
   margin:8px 0;
 }
-.side .md h2 {
-  }
 
 /* The Moderator box has looked awful so lets adjust that and right the
  * moderators names. Yay for chaining selectors. */
