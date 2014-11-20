@@ -1,0 +1,146 @@
+.titlebox blockquote {
+  background: url('%%menu-repeat%%') repeat-x;
+  padding: 7px 10px 5px 10px;
+  position:absolute;
+  top:93px;
+  left:114px;
+  z-index:8;
+  padding:19px;
+}
+.titlebox blockquote::before {
+  content:'';
+  display:block;
+  height:60px;
+  width:113px;
+  background: url('%%menu-left%%') no-repeat;
+  position:absolute;
+  left:-113px;
+  top:1px;
+  }
+.titlebox blockquote::after {
+  content:'';
+  display:block;
+  height:60px;
+  width:113px;
+  background: url('%%menu-right%%') no-repeat;
+  position:absolute;
+  right:-113px;
+  top:1px;
+  }
+
+#header-bottom-left .tabmenu li {
+  height: 18px;
+  display: block;
+  float: left;
+  background: transparent;
+}
+
+#header-bottom-left .tabmenu li a {
+  background: transparent;
+  border: none;
+  text-align: center;
+  display: block;
+  color: #FFB100;
+}
+
+#header-bottom-left .tabmenu li a:hover {
+  color: #FFFFFF;
+}
+
+#header-bottom-left .tabmenu li.selected a {
+  background: transparent;
+  border: none;
+  display: block;
+}
+
+.titlebox blockquote ul {
+  float:left;
+  margin:0px 4px;
+  }
+
+.titlebox blockquote ul li {
+  display:none;
+  text-align:left;
+  }
+
+.titlebox blockquote li a {
+  display:block;
+  }
+.titlebox blockquote ul li:first-child, .titlebox blockquote ul:hover li,
+.titlebox blockquote ul li:hover {
+  display:block;
+  }
+ .titlebox blockquote li:first-child {
+  padding:0;
+  cursor:default;
+  }
+
+
+.titlebox blockquote ul li a {
+  display:block;
+  padding:5px 12px;
+  }
+.titlebox blockquote ul li a:hover {
+  color:#d2bfa4
+  }
+
+/* dropdown selection item */
+.titlebox blockquote ul li:nth-child(2) {
+  border-top: 1px #100 solid;
+  }
+.titlebox blockquote ul li {
+  border-left: 1px #100 solid;
+  border-bottom: 1px #100 solid;
+  border-right: 1px #100 solid;
+  font-size: 12px;
+  line-height: 22px;
+  min-width: 125px;
+  color: #d2bfa4;
+}
+
+
+/* menu top-level option*/
+
+.titlebox blockquote ul li:first-child{
+  background: none;
+  text-align: center;
+  border: none;
+  line-height: 32px;
+  min-width: 0;
+  padding:0;
+  color: #d2bfa4;
+}
+
+/* when hovering over dropdown selection item */
+
+.titlebox blockquote ul li a:hover{
+  background:#200;
+}
+/* when hovering over menu top-level option*/
+
+.titlebox blockquote ul li:first-child:hover{
+  background: #200;
+}
+
+.titlebox blockquote ul:first-child{
+margin-left: 15px;}
+
+/*custom size for menu sections*/
+
+.titlebox blockquote ul:nth-of-type(1) li{width:145px;}
+.titlebox blockquote ul:nth-of-type(1), .titlebox blockquote ul:nth-of-type(1) li:first-child{width:57px;}
+
+.titlebox blockquote ul:nth-of-type(2) li{width:100px;}
+.titlebox blockquote ul:nth-of-type(2), .titlebox blockquote ul:nth-of-type(2) li:first-child{width:89px;}
+
+.titlebox blockquote ul:nth-of-type(3) li{width:145px;}
+.titlebox blockquote ul:nth-of-type(3), .titlebox blockquote ul:nth-of-type(3) li:first-child{width:138px;}
+
+.titlebox blockquote ul:nth-of-type(4) li{width:160px;}
+.titlebox blockquote ul:nth-of-type(4), .titlebox blockquote ul:nth-of-type(4) li:first-child{width:106px;}
+
+.titlebox blockquote ul:nth-of-type(5) li{width:145px;}
+.titlebox blockquote ul:nth-of-type(5), .titlebox blockquote ul:nth-of-type(5) li:first-child{width:86px;}
+
+.titlebox blockquote ul:nth-of-type(6) li{width:135px;}
+.titlebox blockquote ul:nth-of-type(6), .titlebox blockquote ul:nth-of-type(6) li:first-child{width:96px;}
