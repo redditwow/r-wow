@@ -33,6 +33,11 @@
   color: #FFFFFF !important;
 }
 
+#NREFloat {
+  background:rgba(255,255,255,0.5);
+  padding:3px 7px;
+  z-index:9999;
+  }
 
 /* RES is more of a hack then reddit */
 .RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove  { padding: 0px 8px !important; }
