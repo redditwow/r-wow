@@ -1,26 +1,20 @@
 /***
  * Special.css
- *  -- This area is used for flagging threads or posts based on their ids --
  */
 
- /* Official Blizzard Threads 
-.thing.id-t3_zkgu2, 
-.thing.id-t3_zqm8d,
-.thing.id-t3_13afx8 
-*/
-
-/* Because I love you man */
+/* Because I love you man */ /* THUNDERFURY */
 a[href$='wowhead.com/item=19019'], .comment .md p > a[href$="wowhead.com/item=19019"]:visited, a[href$='wowhead.com/item=19019']:before, a[href$='wowhead.com/item=19019']:after {
   color: #FF8000 !important;
 }
 a[href$='wowhead.com/item=19019']:before {
   content: "DID SOMEBODY SAY ";
 }
-
 a[href$='wowhead.com/item=19019']:after {
   content: "?!?!!?";
 }
+/* /THUNDERFURY */
 
+/* Links in wiki? */
 a[href$='#deathknight'] { color: #C41F3B; }
 a[href$='#druid'] { color: #FF7D0A; }
 a[href$='#hunter'] { color: #ABD473; }
@@ -32,7 +26,6 @@ a[href$='#rogue'] { color: #FFF569; }
 a[href$='#shaman'] { color: #0070DE; }
 a[href$='#warlock'] { color: #9482C9; }
 a[href$='#warrior'] { color: #C79C6E; }
-
 
 a[href$='#deathknight']:before, a[href$='#druid']:before, a[href$='#hunter']:before, a[href$='#mage']:before,
 a[href$='#monk']:before, a[href$='#paladin']:before, a[href$='#priest']:before, a[href$='#rogue']:before,
@@ -57,8 +50,7 @@ a[href$='#warlock']:before{ content: ""; background-position: 0px -36px; width: 
 a[href$='#warrior']:before{ content: ""; background-position: 0px -54px; width: 18px; }
 
 .rulespage {
-margin-top:2em;
-  background:#1C0F09;
+  margin-top:2em;
   border:1px solid #2C180D;
   border-radius:14px;
   }

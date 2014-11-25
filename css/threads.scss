@@ -1,85 +1,48 @@
-/***
- * Threads.css
- */
-
-
-/***
- * Gold Users
- */
-
-.new-comment .usertext-body {
-  background-color: #120;
-  border:1px dotted #333;
-  color: #eee !important;
-  padding: 3px 10px;
-  margin: 5px 5px 5px 0;
-}
-.new-comment .usertext-body .md p, .new-comment .usertext-body .md li {
-  color:#eee !important;
-  }
-.new-comment .usertext-body .md a {
-  color:#00ecba !important;
-  }
-.gold-accent {
-  background-color:#120;
-  border:0 !important;
-  color:#eee !important;
-  }
-
+/*Threads.css*/
 
 #siteTable {
-  margin-top: 10px; /* Keeps us lined up with the sidebar header */
+  margin-top: 25px; /* Keeps us lined up with the sidebar header */
 }
 
 #siteTable .thing {
-  background: url('%%thread-background-transparent%%') repeat-x #29120A;
-  border: 1px solid #000;
-  padding: 4px 0 5px;
   margin: 0 10px 0 5px;
   position:relative;
   z-index:auto;
+  background:rgba(212,212,212,0.35);
+  border-bottom:1px solid #999;
 }
-
-
-#siteTable > .thing:first-child { 
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-}
-#siteTable > .thing:last-child {
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;  
+#siteTable .thing:last-child {
+ border-bottom:0;
+ }
+@media (max-width:1300px) {
+  #siteTable .thing:first-child .entry {
+    padding-right:135px;
+  }
 }
 
 .link.promotedlink.promoted a, #siteTable .thing .title a, #sitetable .thing.comment a.title {
-  color: #5FFBDA;
-  margin-top: 11px;
 }
 .link.promotedlink.promoted a:visited, #siteTable .thing .title a:visited, #siteTable .thing.comment a.title:visited {
-  color: #826A19;
 }
 
 .link.promotedlink.promoted .thumbnail {
+    display:none;
     margin: 0px 10px;
 }
 .organic-listing {
-padding: 0;
-overflow: hidden;
-position: relative;
-background-color: #241104;
-margin: 47px 30px 7px;
-border-radius: 1em;
-border:0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(229,212,212,0.62) !important;
+  margin:11px 395px 7px 4px;
+  border:3px solid #999;
 }
-
 .link.promotedlink.promoted {
-background: #300;
-border-radius: 1em;
-padding: 1em;
-border:0;
-margin:0;
+  border:0;
+  margin:0;
+  background:transparent !important;
 }
 
-.link.promotedlink.promoted .thumbnail {display:none;}
 
 .link.last-clicked {
     overflow:visible;
@@ -101,8 +64,8 @@ padding: 15px 10px 10px 40px;}
 
 
 /* Text stuff inside of thing */
-.domain, .domain a, .tagline { color: #B39265; }
-.entry .buttons li a { color: #EFC9A0; font-weight: normal; /* #B39265;*/ }
+.domain, .domain a, .tagline { color: #444; }
+.entry .buttons li a { color: #222; font-weight: normal; }
 .link .flat-list, .domain, .domain a, .tagline { padding: 5px 0;}
 .link .rank { display: none; margin-top: 23px; color: #000; }
 
@@ -155,9 +118,6 @@ a[href*='#blizzpost']~em {
 
 /* Reported and Spam Posts */
 
-#siteTable .thing.reported, #siteTable .thing.spam {
-  background: url('%%thread-background-transparent%%') repeat-x #bf0000;
-}
 
 .entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp {
   background-color: #4C0418;
@@ -179,20 +139,19 @@ a.pretty-button.positive:hover { background-color: #05641A; }
 
 
 .commentarea {
-  background: url('%%thread-background%%') repeat-x #1C110B;
+  background: rgba(212,212,212,0.2);
   margin: 0 10px 0 5px;
   padding:10px 10px 20px;
-  border-bottom:2px solid #0F0805;
+  border-bottom:2px solid #888;
 }
 .commentarea .child {
-  border-left: 1px dotted #26150D;
+  border-left: 0;
 }
 
 html .comment,
 .res-commentBoxes .comment {
   padding: 0px 3px !important;
-  border: 1px solid #2C180D !important;
-  border-radius: 4px;
+  border: 1px solid #888 !important;
   margin-left: 13px !important;
 }
 
@@ -211,7 +170,7 @@ html.res-commentBoxes .comment .comment .comment .comment,
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment,
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-  background-color: #1C0F09 !important;
+  background-color: rgba(255,255,255,0.3) !important;
 }
 
 html .comment,
@@ -224,15 +183,14 @@ html.res-commentBoxes .comment .comment .comment,
 html.res-commentBoxes .comment .comment .comment .comment .comment, 
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,  
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment{
-  background-color: #0F0805 !important;
+  background-color: rgba(235,235,235,0.3) !important;
 }
 
 html .res .sitetable.nestedlisting > .thing,
 .sitetable.nestedlisting > .thing,
 .sitetable.nestedlisting .thing {
-  background: #1C0F09;
   margin-top: 5px;
-  border:1px solid #0F0805;
+  border:0;
 }
 
 .thing .usertext-edit {
@@ -244,58 +202,36 @@ html .res .sitetable.nestedlisting > .thing,
   }
 
 .usertext-edit textarea {
-  border: 3px double #2C180D;
-  background-color: #1B1108;
-  color: #E2C7A3;
-  border-radius: 5px;
-}
+  border: 3px double #999;
+  background:rgba(0,0,0,.6);
+  color: #eee;
+  border-radius: 3px;
+  }
+.usertext-edit textarea:focus {
+  border:3px double #900;
+  background:rgba(0,0,0,0.9);
+  }
 
 .comment .usertext,
 .res-commentBoxes .comment .usertext {
   margin-right: 20px;
   }
 
-.usertext button, .usertext .help-toggle.toggle a.option.active {
-  height: 30px;
-  border: 1px solid #2C180D;
-  background: #1B1108;
-  color: #FFB100;
-  border-radius: 4px;
-  padding: 0 20px;
-  text-transform: capitalize;
-  display: block;
-  line-height: 30px;
-}
-
-.usertext button:hover, .usertext .help-toggle a.option.active:hover {
-  background: #2f1D0E;
-  cursor: pointer;
-}
-
 
 .panestack-title {
   padding-top: 16px;
-  border-bottom: 1px dotted #B39265;
+  border-bottom: 1px dotted #888;
 }
 
 .usertext.border .usertext-body, .usertext.grayed .usertext-body {
-  background-color: #180D08;
+  background-color: rgba(212,212,199,0.2);
   padding-left: 5px;
-  border: 1px solid #000000;
+  border: 0;
 }
 .comment.spam > .child, .message.spam > .child {
 background-color:#521D10;
 }
 
-
-.comment a {
-  color: #008467;
-}
-
-.comment a:visited, .comment .md p > a:visited {
-  border-bottom: 1px dotted #008467 !important;
-  color: #008467 !important;
-}
 
 /* Collapsible Comments */
 
@@ -306,11 +242,34 @@ background-color:#521D10;
     display:inline-block;
     }
 
-/* Messy shit */
+/* Actual Typography */
 
-.md h2 {
-	color: #008467;
+.content .md h1 {
+  color:#000;
+  font-size:2em;
+  line-height:1.5em;
 }
+.content .md h2 {
+  color:#000;
+  font-size:1.8333em;
+  line-height:1.6364em;
+}
+.content .md h3 {
+  color:#000;
+  font-size:1.6667em;
+  line-height:1.8em;
+}
+.content .md h4 {
+  color:#000;
+  font-size:1.5em;
+  line-height:1em;
+}
+.content .md h5 {
+  color:#000;
+  font-size:.1333em;
+  line-height:1.25em;
+}
+
 
 p#noresults {
   padding: 15px;
@@ -334,21 +293,21 @@ padding: 5px 10px;
 
 /* Sponsored Links */
 
-.link.promotedlink.promoted {
-  background:#241104;
-  }
 .link.promotedlink {
   border:1px solid #59200f;
   margin:50px 10px 5px;
+  background:rgba(212,212,192,0.2);
+  margin-right:300px;
   }
 
 /* Upscore / Downscore */
-.score.likes {color: #FF8B24;}
-.score.dislikes {color: #9494FF;}
+.link .score {color:#555;}
+.link .score.likes {color: #FF4500;}
+.link .score.dislikes {color: #158;}
 
 /* Coloured Reply */
 
 .entry .buttons a[onclick*="reply"] {
   font-weight:bold;
-  color:#FFEBD5 !important;
+  color:#000 !important;
   }

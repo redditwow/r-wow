@@ -1,11 +1,75 @@
 /***
-  padding-right:4px;
  * RES Hacks.css
- * -- Hacks to make RES work go in here. 
  */
-/** +++ RES HACKS STARTS +++ **/
-/* RES Trickery - screw you honestbleeps for having so much css! am jk */
 
+.popup { z-index:1001 !important; } 
+#userbarToggle {
+  color: #FFB100 !important;
+  background-color: #1D1D1D !important;
+  border-right: 1px solid #000000 !important;
+  padding-left: 4px;
+}
+#RESShortcutsEditContainer {
+  position: absolute !important;
+  right: 0px !important;
+  top: 40px !important;
+  background-color: #1D1D1D !important;
+}
+
+#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+  color: #FFB100 !important;
+  background-color: #1D1D1D !important;
+}
+
+.RESSubscriptionButton, .RESSubscriptionButton:hover {
+  background: #226D0E !important;
+  border: 1px solid #447023 !important;
+  color: #FFFFFF !important;
+}
+
+.RESSubscriptionButton.unsubscribe, .RESSubscriptionButton.unsubscribe:hover {
+  background: #630517 !important;
+  border: 1px solid #6D0110 !important;
+  color: #FFFFFF !important;
+}
+
+#NREFloat {
+  background:rgba(255,255,255,0.5);
+  padding:3px 7px;
+  z-index:9999;
+  }
+
+/* RES is more of a hack then reddit */
+.RESshortcut, .RESshortcut:hover, .RESshortcutside, .RESshortcutside:hover, .RESshortcut.RESshortcutside.remove  { padding: 0px 8px !important; }
+.fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove, .RESshortcut.RESshortcutside.remove { background:rgba(99,0,0,0.5);}
+.fancy-toggle-button .remove:hover, .RESshortcutside.remove:hover, .RESDashboardToggle.remove:hover, .RESshortcut.RESshortcutside.remove:hover { background:background:rgba(99,0,0,0.9);}
+.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle, .RESshortcut { background:rgba(0,99,0,0.5);}
+.fancy-toggle-button .add:hover, .RESshortcutside:hover, .RESDashboardToggle:hover, .RESshortcut:hover { background:rgba(0,99,0,0.9);}
+
+/* Markdown help table */
+.usertext table.markhelp {
+  color: #222 !important;
+}
+
+
+.usertext table.markhelp, .usertext .markhelp td, .usertext .markhelp tr {
+  border: 1px solid #2C180D;
+}
+
+.usertext table.markhelp tbody tr:first-child {
+  color: #E2C7A3 !important;
+  background: #070502 !important;
+}
+
+/* Usertext crazy margin fix */
+
+.usertext-edit {padding:0 1px;}
+
+
+/* Markup changes */
+blockquote {
+  border-left: 2px solid #FFB100 !important;
+}
 
 #RESConsole {
   z-index:111 !important;
@@ -19,24 +83,28 @@
 .thing.link > .RES-keyNav-activeElement,
 .thing.link > .keyHighlight {
   outline: none !important;
- /* background: url('../images/res-highlight-green.png') no-repeat;*/
+  background: url('../images/res-highlight-green.png') no-repeat;
   background-color: transparent !important;
 }
+
+/*
 .thing.link > .RES-keyNav-activeElement + div,
 .thing.link > .keyHighlight + div {
   background:transparent;
   width: 60px;
   position: absolute;
-  top: 15px;
+  top: 13px;
   left: 60px;
-  height: 60px;
+  height: 57px;
   z-index: 1;
   border-radius: 1em;
-  box-shadow: 0px 0px 25px #992;
+  box-shadow: 0px 4px 54px #212;
 }
 
 .thing.link.compressed > .RES-keyNav-activeElement + div,
-.thing.link.compressed > .keyHighlight + div {
+.thing.link.compressed > .keyHighlight + div,
+
+{
   box-shadow: none !important;
   display:none;
 }
@@ -45,7 +113,7 @@
 .thing.link.reported > .keyHighlight + div {
   box-shadow:0px 0px 40px #fff;
 }
-
+*/
 
 
 .thing.comment > .RES-keyNav-activeElement, .thing.link.compressed > .RES-keyNav-activeElement,
@@ -71,12 +139,12 @@ a.voteWeight {
 }
 
 .RESDialogSmall > h3 {
-  background-color: #221409 !important;
-  color: #E2C7A3 !important;
+  background-color: #555 !important;
+  color: #eee !important;
   }
 .RESDialogSmall {
-  background-color: #e2c7a3 !important;
-  color:#221409 !important;
+  background-color: #eee !important;
+  color:#222 !important;
   }
 
 /* styling some popups */
@@ -105,11 +173,6 @@ a.voteWeight {
   }
 .RESDropdownList li {
   border-bottom:1px solid #2C180D !important;
-  }
-  
-.RESDropdownList li,  
-.RESDropdownList li a {
-  color: #008467 !important;
   }
   
 .RESDropdownList li:hover,
@@ -203,9 +266,6 @@ a.voteWeight {
   position:relative;
   top:2px;
   }
-.userTagLink.hasTag, #userTaggerPreview {
-  border-color:#311B1B !important;
-  }
 
 #NREPause {
   background:url('%%glyphicons-halflings%%') no-repeat -291px -75px !important;
@@ -258,11 +318,17 @@ a[title="Nuke!"] {
 body .RESShortcutsCurrentSub:visited, body .RESShortcutsCurrentSub {
   color:#ffc100 !important;
   }
-  
-  /* Parent hover fix */
-  
-.noncollapsed form.usertext p {
-  color: #d2bfa4;
+.res a.userTagged {margin-right:5px;}
+.RESUserTag .userTagLink.hasTag {
+  display:inline;
+  padding:3px 4px;
+  border-radius:0;
+  top:1px;
+  position:relative;
+  margin-right:2px;
   }
+
+
+  
 
 /** +++ RES HACKS ENDS +++ **/

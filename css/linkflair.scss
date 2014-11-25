@@ -2,43 +2,55 @@
  * Linkflair.css
  */
 
-
 /* The Linkflair Classes */
-
 .linkflairlabel {border:none;padding:4px;font-size:10px;}
-.linkflair-bluepost .linkflairlabel {background:#022642;color:#00b4ff}
-.linkflair-modpost .linkflairlabel {color:#d2bfa4;background:#020}
-.linkflair-lootpost .linkflairlabel {color:white;background:#260329;}
-.linkflair-awesomepost .linkflairlabel {color:#d2bfa4;background:#571700;}
+.linkflair-bluepost .linkflairlabel {background:rgba(0,0,99,0.4);color:#00b4ff}
+.linkflair-modpost .linkflairlabel {background:rgba(0,99,0,0.2);}
+.linkflair-lootpost .linkflairlabel {background:rgba(99,0,99,0.2);}
+.linkflair-awesomepost .linkflairlabel {background:rgba(212,212,212,0.7);}
+.linkflair-murloc .linkflairlabel {}
+.linkflair-tank .linkflairlabel {}
+.linkflair-heal .linkflairlabel {}
+.linkflair-raid .linkflairlabel {}
+.linkflair-switchup .linkflairlabel {}
+.linkflair-pvp .linkflairlabel {}
 
-
-#siteTable .thing.linkflair-bluepost .domain, #siteTable .thing.linkflair-bluepost .domain a, #siteTable .thing.linkflair-bluepost .tagline { color: #888877; }
-
-#siteTable .thing.linkflair-bluepost .entry .buttons li a { color: #888877; font-weight: bold; }
-
-#siteTable .thing.linkflair-bluepost {
-  background: url('%%thread-background-transparent%%') repeat-x #022642 !important;
-  color: #00B4FF !important;
+/* BLUEPOSTS */
+#siteTable .thing.linkflair-bluepost .md * {
+  color:white;
+  }
+#siteTable .thing.linkflair-bluepost a {
+  color: #00b4ff;
+  text-shadow:0 0 0;
 }
 
-#siteTable .thing.linkflair-bluepost .title {
-  color: #00B4FF !important;
-}
+#siteTable .thing.linkflair-bluepost p.tagline,
+#siteTable .thing.linkflair-modpost p.tagline {
+  color:#bababa;
+  }
+
+/*MODPOST*/
 #siteTable .thing.linkflair-modpost a {
-  color:#07D97F;
+  color:#cfb;
+  text-shadow:0 0 0;
 }
 #siteTable .thing.linkflair-modpost .md h2 {
-  color: #D2BFA4;
+  color: #020;
 }
 #siteTable .thing.linkflair-lootpost {
-  background: url('%%thread-background-transparent%%') repeat-x #260329;
+  background:rgba(212,212,212,0.7);
 }
 #siteTable .thing.linkflair-modpost {
-  background: url('%%thread-background-transparent%%') repeat-x #020;
-  color:#cdc;
+  background:rgba(65,86,58,0.7);
   }
 #siteTable .thing.linkflair-awesomepost {
-  background: url('%%thread-background-transparent%%') repeat-x #571700;
+  background:rgba(212,212,212,0.7);
+  }
+#siteTable .thing.reported, #siteTable .thing.spam {
+  background:rgba(99,0,0,0.2);
+}
+#siteTable .thing.linkflair-bluepost {
+  background:rgba(36, 58, 93, 0.75);
   }
 
 .linkflairlabel { display: none; }
@@ -94,11 +106,18 @@ a.thumbnail.default, a.thumbnail.self { background-position: -0px -1140px !impor
 .linkflair-warlock a.thumbnail { background-position: -0px -681px !important; }
 .linkflair-warrior a.thumbnail { background-position: -0px -757px !important; }
 .linkflair-lore a.thumbnail { background-position: -0px -833px !important; }
-.linkflair-pvp a.thumbnail { background-position: -0px -909px !important; }
 .linkflair-raiding a.thumbnail { background-position: -0px -985px !important; }
 .linkflair-bluepost a.thumbnail { background-position: -0px -1061px !important; }
 .linkflair-general a.thumbnail { background-position: -0px -1213px !important; }
 .linkflair-modpost a.thumbnail { background-position: -0px -1364px !important; }
+.linkflair-murloc a.thumbnail { background-position: -0px -833px!important; }
+.linkflair-tank a.thumbnail { background-position: -0px -985px!important; }
+.linkflair-heal a.thumbnail { background-position: -0px -1213px!important; }
+.linkflair-raid a.thumbnail { background-position: -0px -1364px!important; }
+.linkflair-switchup a.thumbnail { background-position: -0px -833px!important; }
+.linkflair-pvp a.thumbnail { background-position: -0px -909px !important; }
+
+
 
 /* NSFW goes at the end because it will always override linkflair */
 a.thumbnail.nsfw { background-position: -0px -1292px !important; }

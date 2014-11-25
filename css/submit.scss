@@ -1,0 +1,116 @@
+/* styles for the submit page */
+#link-desc, #text-desc {
+  font-size: 12px;
+  padding: 15px;
+  background:transparent;
+  border:0;
+  position:absolute;
+  right:20px;
+  top:400px;
+  z-index:5;
+  width:225px;
+  border:1px solid #530;
+  background:rgba(0,0,0,0.5);
+  color:#ded;
+}
+#text-desc {
+  top:385px;
+  }
+
+.tabmenu.formtab .selected a {
+  background-color: rgba(0,0,0,1);
+  color:#fff;
+  border: none;
+}
+
+.tabmenu.formtab a {
+  padding: 6px 18px;
+  border: 1px solid #2C180D;
+  border-bottom: none;
+  background: rgba(0,0,0,0.7);
+  color: #ded;
+}
+/* /r/wow/submit styling */
+
+.submit .formtab li {
+  color:white;
+}
+
+/* Let's add some helpers to the submit screen */
+
+.submit .formtab li:first-child a::before {
+  content:'submit a ';
+  }
+.submit .formtab li:last-child a::before {
+  content:'submit a self post (';
+  }
+.submit .formtab li:last-child a::after {
+  content:')';
+  }
+.submit .formtab li:first-child::after {
+  content:'or';
+  display:inline-block;
+  width:40px;
+  text-align:center;
+  color:#222;
+  }
+
+/* move that submission help text */
+
+.roundfield.submit_text {
+  background:rgba(0,0,0,0.8);
+  border:1px solid #999;
+  position:absolute;
+  top:228px;
+  left:545px;
+  width:300px;
+  max-height:700px;
+  }
+.submit .submit_text * {
+  color:white;
+ }
+.submit_text a {
+  color:#adf;
+  }
+/* This can improve, but for now, just undo this if the page isn't wide enough */
+@media (max-width:1245px) {
+.submit_text {
+  position:static;
+  width:500px;
+  }
+
+}
+
+.roundfield, .content.submit .roundfield.info-notice {
+  background-color: rgba(0,0,0,0.5);
+  border:none;
+  color:#ADF;
+}
+
+
+.roundfield textarea, .roundfield input[type="text"], 
+.roundfield input[type="url"],
+.roundfield input[type="password"], .roundfield input[type="number"],
+.linefield textarea, .linefield input[type="text"], 
+.linefield input[type="password"], .linefield input[type="number"] {
+  font-size: 100%;
+  width: 492px;
+  padding: 3px;
+  margin: 0;
+  border: 3px double #999;
+  color: #ADF;
+  background: rgba(0,0,0,0.5);
+}
+.roundfield textarea:focus, .roundfield input[type="text"]:focus, 
+.roundfield input[type="url"]:focus,
+.roundfield input[type="password"]:focus, .roundfield input[type="number"]:focus,
+.linefield textarea:focus, .linefield input[type="text"]:focus, 
+.linefield input[type="password"]:focus, .linefield input[type="number"]:focus {
+  background:rgba(0,0,0,0.9);
+  border-color:#900;
+  }
+
+#suggested-reddits a {
+  color: #ADF !important;
+}
+

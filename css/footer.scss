@@ -1,0 +1,39 @@
+
+.footer-parent {
+  background:url(%%footer%%) no-repeat center top #222;
+  min-height:600px;
+  position:relative;
+  z-index:1;
+  }
+.footer-parent::after {
+  content:'';
+  background:url('%%header-separator%%') repeat-x;
+  height:71px;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:625px;
+  }
+
+/* Footer */
+.footer {
+  padding: 5px;
+  margin: 15px;
+  background:rgba(0,0,0,0.5);
+  border:3px double #530;
+}
+
+.flat-vert.title {
+  color: #eee;
+}
+
+.footer a {
+  color: #ADF;
+}
+.footer .col {
+  border-left: 1px solid #999;
+}
+
+.bottommenu {
+  color: #222;
+}
