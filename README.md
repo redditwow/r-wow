@@ -4,19 +4,6 @@ This is the place for the design of the World of Warcraft subreddit.
 
 **If you would like to use any of our assets for your subreddit's stylesheet. PLEASE [contact us](http://www.reddit.com/message/compose?to=%2Fr%2Fwow) before doing so.**
 
-System Status
-=================================
-
-| Subreddit     | Status                                      |||
-| ------------- |:-------------:|:-------------:|:-------------:|
-| **/r/wow**    | [![wowcssstatus][wowcssstatus]][wowcssstatus] | [![wowimgstatus][wowimgstatus]][wowimgstatus] | [![wowsdbstatus][wowsdbstatus]][wowsdbstatus] |
-
-
-[wowcssstatus]: https://battletagfriendfinder.com/sync-status/wow-css.png
-[wowimgstatus]: https://battletagfriendfinder.com/sync-status/wow-images.png
-[wowsdbstatus]: https://battletagfriendfinder.com/sync-status/wow-sidebar.png
-
-
 Sanity Documentation
 ----------------------------------------
 
@@ -25,8 +12,8 @@ Sidebar heading markup:
 * H1 is used for sectional headings
 * H2 is used for H1 children headings
 * H3 is reserved for announcements
-* H4 is reserved for special events (Battle.Net World Championships)
-* H5 is reserved for countdowns (Mists of Pandaria Launch)
+* H4 is reserved for link to sidebar for mobile 
+* H5 is currently available for use 
 * H6 is currently available for use
 
 SASS Rewrite Coding Standards
