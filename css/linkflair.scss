@@ -20,18 +20,19 @@
   color:white;
   }
 #siteTable .thing.linkflair-bluepost a {
-  color: #00b4ff !important;
+  color: #00b4ff;
+  text-shadow:0 0 0;
 }
-#siteTable .thing.linkflair-modpost a {
-  color:#cfb !important;
-  }
+
 #siteTable .thing.linkflair-bluepost p.tagline,
 #siteTable .thing.linkflair-modpost p.tagline {
   color:#bababa;
   }
+
 /*MODPOST*/
 #siteTable .thing.linkflair-modpost a {
-  color:#020;
+  color:#cfb;
+  text-shadow:0 0 0;
 }
 #siteTable .thing.linkflair-modpost .md h2 {
   color: #020;
