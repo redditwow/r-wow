@@ -4,18 +4,11 @@ This is the place for the design of the World of Warcraft subreddit.
 
 **If you would like to use any of our assets for your subreddit's stylesheet. PLEASE [contact us](http://www.reddit.com/message/compose?to=%2Fr%2Fwow) before doing so.**
 
-System Status
-=================================
+Requirements
+----------------------------------------
 
-| Subreddit     | Status                                      |||
-| ------------- |:-------------:|:-------------:|:-------------:|
-| **/r/wow**    | [![wowcssstatus][wowcssstatus]][wowcssstatus] | [![wowimgstatus][wowimgstatus]][wowimgstatus] | [![wowsdbstatus][wowsdbstatus]][wowsdbstatus] |
-
-
-[wowcssstatus]: https://battletagfriendfinder.com/sync-status/wow-css.png
-[wowimgstatus]: https://battletagfriendfinder.com/sync-status/wow-images.png
-[wowsdbstatus]: https://battletagfriendfinder.com/sync-status/wow-sidebar.png
-
+* python to run the concatenation script at tools/redditcss.py
+* upload permissions in a subreddit
 
 Sanity Documentation
 ----------------------------------------
@@ -25,17 +18,25 @@ Sidebar heading markup:
 * H1 is used for sectional headings
 * H2 is used for H1 children headings
 * H3 is reserved for announcements
-* H4 is reserved for special events (Battle.Net World Championships)
-* H5 is reserved for countdowns (Mists of Pandaria Launch)
-* H6 is currently available for use
+* H4 is reserved for sidebar link for mobile users
+* H5 is open if needed
+* H6 is open if needed
+* blockquote is reserved for dropdown menu
+
+Building Stylesheets
+----------------------------------------
+
+To build the stylesheets, you need to run the redditcss.py script from the directory it's in (or any subdirectory of the project). Then copy and paste the 
+stylesheet from the project's top directoy into any subreddit.
+
+You'll have to manually sync right now, which means updates to images, sidebars, etc. are all somewhat painful to deal with.
 
 SASS Rewrite Coding Standards
 ----------------------------------------
 
 Proposed is the following:
 
-* Indentation must be spaces. 4 spaces each level per [PEP8](http://www.python.org/dev/peps/pep-0008/#indentation)
-* All property definitions must end with a semicolon. While not necessary for the last prop in a set, it keeps shit clean.
+* Indentation must be spaces. 2 spaces each level per 
+* All property definitions must end with a semicolon. While not necessary for the last prop in a set, it keeps things clean.
 * One space following the colon after the name of a property. Again, for cleanliness.
-* All colors must be in hexadecimal format. Letters should also be capitalized.
 * No single-line declarations unless you're setting up a million related things in a row. Example: setting the background position for a sprite
