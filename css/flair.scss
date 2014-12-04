@@ -88,84 +88,87 @@ p.tagline, .tagline { height: 18px; margin: 4px 0 0; border: 0px; }
 .flair-horde-mage:after{ content: ""; background-position: 0px -612px; width: 36px; }
 
 /* The below code gives usernames pretty class/faction colored styling */
-.flair-alliance+.author:hover,
-.flair-alliance+.author:visited:hover 
-  { background-color:transparent; text-shadow:0 0 4px #247FAA; color: #222; }
-.flair-horde+.author:hover,
-.flair-horde+.author:visited:hover 
-  { background-color:transparent; text-shadow:0 0 4px #B30000; color: #222 ; }
-.flair-deathknight+.author:hover, .flair-alliance-deathknight+.author:hover, .flair-horde-deathknight+.author:hover,
-.flair-deathknight+.author:visited:hover, .flair-alliance-deathknight+.author:visited:hover, .flair-horde-deathknight+.author:visited:hover 
-  { background-color:transparent; text-shadow:0 0 4px #C41F3B; color: #222; }
-.flair-druid+.author:hover, .flair-alliance-druid+.author:hover, .flair-horde-druid+.author:hover,
-.flair-druid+.author:visited:hover, .flair-alliance-druid+.author:visited:hover, .flair-horde-druid+.author:visited:hover
-  { background-color:transparent; text-shadow:0 0 4px #FF7D0A; color: #222; }
-.flair-hunter+.author:hover, .flair-alliance-hunter+.author:hover, .flair-horde-hunter+.author:hover,
-.flair-hunter+.author:visited:hover, .flair-alliance-hunter+.author:visited:hover, .flair-horde-hunter+.author:visited:hover 
-  { background-color:transparent; text-shadow:0 0 4px #ABD473; color: #222; }
-.flair-mage+.author:hover, .flair-alliance-mage+.author:hover, .flair-horde-mage+.author:hover,
-.flair-mage+.author:visited:hover, .flair-alliance-mage+.author:visited:hover, .flair-horde-mage+.author:visited:hover
-  { background-color:transparent; text-shadow:0 0 4px #69CCF0; color: #222; }
-.flair-monk+.author:hover, .flair-alliance-monk+.author:hover, .flair-horde-monk+.author:hover,
-.flair-monk+.author:visited:hover, .flair-alliance-monk+.author:visited:hover, .flair-horde-monk+.author:visited:hover
-  { background-color:transparent; text-shadow:0 0 4px #00FF96; color: #222; }
-.flair-paladin+.author:hover, .flair-alliance-paladin+.author:hover, .flair-horde-paladin+.author:hover,
-.flair-paladin+.author:visited, .flair-alliance-paladin+.author:visited:hover, .flair-horde-paladin+.author:visited:hover 
-  { background-color:transparent; text-shadow:0 0 4px #F58CBA; color: #222;}
-.flair-priest+.author:hover, .flair-alliance-priest+.author:hover, .flair-horde-priest+.author:hover,
-.flair-priest+.author:visited:hover, .flair-alliance-priest+.author:visited:hover, .flair-horde-priest+.author:visited:hover 
-  { background-color:transparent; text-shadow:0 0 4px #FFFFFF; color: #222; }
-.flair-rogue+.author:hover, .flair-alliance-rogue+.author:hover, .flair-horde-rogue+.author:hover,
-.flair-rogue+.author:visited:hover, .flair-alliance-rogue+.author:visited:hover, .flair-horde-rogue+.author:visited:hover 
-  { background-color:transparent; text-shadow:0 0 4px #FFF569;  color: #222; }
-.flair-shaman+.author:hover, .flair-alliance-shaman+.author:hover, .flair-horde-shaman+.author:hover,
-.flair-shaman+.author:visited:hover, .flair-alliance-shaman+.author:visited:hover, .flair-horde-shaman+.author:visited:hover 
-  { background-color:transparent; text-shadow:0 0 4px #0070DE; color: #222; }
-.flair-warlock+.author:hover, .flair-alliance-warlock+.author:hover, .flair-horde-warlock+.author:hover,
-.flair-warlock+.author:visited:hover, .flair-alliance-warlock+.author:visited:hover, .flair-horde-warlock+.author:visited:hover 
-  { background-color:transparent; text-shadow:0 0 4px #9482C9; color: #222; }
-.flair-warrior+.author:hover, .flair-alliance-warrior+.author:hover, .flair-horde-warrior+.author:hover,
-.flair-warrior+.author:visited:hover, .flair-alliance-warrior+.author:visited:hover, .flair-horde-warrior+.author:visited:hover 
-  { background-color:transparent; text-shadow:0 0 4px #C79C6E; color: #222 ; }
+.flair-alliance+.author,
+.flair-alliance+.author:visited
+  { background-color:transparent; text-shadow:0 0 1px #247FAA; color: #222; }
+.flair-horde+.author,
+.flair-horde+.author:visited 
+  { background-color:transparent; text-shadow:0 0 1px #B30000; color: #222 ; }
+.flair-deathknight+.author, .flair-alliance-deathknight+.author, .flair-horde-deathknight+.author,
+.flair-deathknight+.author:visited, .flair-alliance-deathknight+.author:visited, .flair-horde-deathknight+.author:visited 
+  { background-color:transparent; text-shadow:0 0 1px #C41F3B; color: #222; }
+.flair-druid+.author, .flair-alliance-druid+.author, .flair-horde-druid+.author,
+.flair-druid+.author:visited, .flair-alliance-druid+.author:visited, .flair-horde-druid+.author:visited
+  { background-color:transparent; text-shadow:0 0 1px #FF7D0A; color: #222; }
+.flair-hunter+.author, .flair-alliance-hunter+.author, .flair-horde-hunter+.author,
+.flair-hunter+.author:visited, .flair-alliance-hunter+.author:visited, .flair-horde-hunter+.author:visited 
+  { background-color:transparent; text-shadow:0 0 1px #ABD473; color: #222; }
+.flair-mage+.author, .flair-alliance-mage+.author, .flair-horde-mage+.author,
+.flair-mage+.author:visited, .flair-alliance-mage+.author:visited, .flair-horde-mage+.author:visited
+  { background-color:transparent; text-shadow:0 0 1px #69CCF0; color: #222; }
+.flair-monk+.author, .flair-alliance-monk+.author, .flair-horde-monk+.author,
+.flair-monk+.author:visited, .flair-alliance-monk+.author:visited, .flair-horde-monk+.author:visited
+  { background-color:transparent; text-shadow:0 0 1px #00FF96; color: #222; }
+.flair-paladin+.author, .flair-alliance-paladin+.author, .flair-horde-paladin+.author,
+.flair-paladin+.author:visited, .flair-alliance-paladin+.author:visited, .flair-horde-paladin+.author:visited 
+  { background-color:transparent; text-shadow:0 0 1px #F58CBA; color: #222;}
+.flair-priest+.author, .flair-alliance-priest+.author, .flair-horde-priest+.author,
+.flair-priest+.author:visited, .flair-alliance-priest+.author:visited, .flair-horde-priest+.author:visited 
+  { background-color:transparent; text-shadow:0 0 1px #FFFFFF; color: #222; }
+.flair-rogue+.author, .flair-alliance-rogue+.author, .flair-horde-rogue+.author,
+.flair-rogue+.author:visited, .flair-alliance-rogue+.author:visited, .flair-horde-rogue+.author:visited 
+  { background-color:transparent; text-shadow:0 0 1px #FFF569;  color: #222; }
+.flair-shaman+.author, .flair-alliance-shaman+.author, .flair-horde-shaman+.author,
+.flair-shaman+.author:visited, .flair-alliance-shaman+.author:visited, .flair-horde-shaman+.author:visited 
+  { background-color:transparent; text-shadow:0 0 1px #0070DE; color: #222; }
+.flair-warlock+.author, .flair-alliance-warlock+.author, .flair-horde-warlock+.author,
+.flair-warlock+.author:visited, .flair-alliance-warlock+.author:visited, .flair-horde-warlock+.author:visited 
+  { background-color:transparent; text-shadow:0 0 1px #9482C9; color: #222; }
+.flair-warrior+.author, .flair-alliance-warrior+.author, .flair-horde-warrior+.author,
+.flair-warrior+.author:visited, .flair-alliance-warrior+.author:visited, .flair-horde-warrior+.author:visited 
+  { background-color:transparent; text-shadow:0 0 1px #C79C6E; color: #222 ; }
 
  /* Let thread submitters keep awesome flair related colorschemes */
+.thing .tagline .flair+a.submitter, .thing .tagline .flair+a.submitter:visited 
+  { text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
 .thing .tagline .flair-alliance+a.submitter, .thing .tagline .flair-alliance+a.submitter:visited
-  { color: #247FAA !important; background-color:rgba(0,0,0,0.25) !important;border:1px solid #999;}
+  { color: #247FAA !important;}
 .thing .tagline .flair-horde+a.submitter, .thing .tagline .flair-horde+a.submitter:visited
-  { color: #B30000 !important;background-color:rgba(0,0,0,0.25) !important;border:1px solid #999; }
+  { color: #B30000 !important;}
 .thing .tagline .flair-deathknight+a.submitter,.thing .tagline .flair-alliance-deathknight+a.submitter,.thing .tagline .flair-horde-deathknight+a.submitter,
 .thing .tagline .flair-deathknight+a.submitter:visited,.thing .tagline .flair-alliance-deathknight+a.submitter:visited,.thing .tagline .flair-horde-deathknight+a.submitter:visited
-  { color: #C41F3B !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #C41F3B !important;}
 .thing .tagline .flair-druid+a.submitter,.thing .tagline .flair-alliance-druid+a.submitter,.thing .tagline .flair-horde-druid+a.submitter,
 .thing .tagline .flair-druid+a.submitter:visited,.thing .tagline .flair-alliance-druid+a.submitter:visited,.thing .tagline .flair-horde-druid+a.submitter:visited
-  { color: #FF7D0A !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #FF7D0A !important;}
 .thing .tagline .flair-hunter+a.submitter,.thing .tagline .flair-alliance-hunter+a.submitter,.thing .tagline .flair-horde-hunter+a.submitter,
 .thing .tagline .flair-hunter+a.submitter:visited,.thing .tagline .flair-alliance-hunter+a.submitter:visited,.thing .tagline .flair-horde-hunter+a.submitter:visited
-  { color: #ABD473 !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #ABD473 !important;}
 .thing .tagline .flair-mage+a.submitter,.thing .tagline .flair-alliance-mage+a.submitter,.thing .tagline .flair-horde-mage+a.submitter,
 .thing .tagline .flair-mage+a.submitter:visited,.thing .tagline .flair-alliance-mage+a.submitter:visited,.thing .tagline .flair-horde-mage+a.submitter:visited
-  { color: #69CCF0 !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #69CCF0 !important;}
 .thing .tagline .flair-monk+a.submitter,.thing .tagline .flair-alliance-monk+a.submitter,.thing .tagline .flair-horde-monk+a.submitter,
 .thing .tagline .flair-monk+a.submitter:visited,.thing .tagline .flair-alliance-monk+a.submitter:visited,.thing .tagline .flair-horde-monk+a.submitter:visited
-  { color: #00FF96 !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #00FF96 !important;}
 .thing .tagline .flair-paladin+a.submitter,.thing .tagline .flair-alliance-paladin+a.submitter,.thing .tagline .flair-horde-paladin+a.submitter,
 .thing .tagline .flair-paladin+a.submitter:visited,.thing .tagline .flair-alliance-paladin+a.submitter:visited,.thing .tagline .flair-horde-paladin+a.submitter:visited
-  { color: #F58CBA !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #F58CBA !important;}
 .thing .tagline .flair-priest+a.submitter,.thing .tagline .flair-alliance-priest+a.submitter,.thing .tagline .flair-horde-priest+a.submitter,
 .thing .tagline .flair-priest+a.submitter:visited,.thing .tagline .flair-alliance-priest+a.submitter:visited,.thing .tagline .flair-horde-priest+a.submitter:visited
-  { color: #FFFFFF !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #FFFFFF !important;}
 .thing .tagline .flair-rogue+a.submitter,.thing .tagline .flair-alliance-rogue+a.submitter,.thing .tagline .flair-horde-rogue+a.submitter,
 .thing .tagline .flair-rogue+a.submitter:visited,.thing .tagline .flair-alliance-rogue+a.submitter:visited,.thing .tagline .flair-horde-rogue+a.submitter:visited
-  { color: #FFF569 !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #FFF569 !important;}
 .thing .tagline .flair-shaman+a.submitter,.thing .tagline .flair-alliance-shaman+a.submitter,.thing .tagline .flair-horde-shaman+a.submitter,
 .thing .tagline .flair-shaman+a.submitter:visited,.thing .tagline .flair-alliance-shaman+a.submitter:visited,.thing .tagline .flair-horde-shaman+a.submitter:visited
-  { color: #0070DE !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #0070DE !important;}
 .thing .tagline .flair-warlock+a.submitter,.thing .tagline .flair-alliance-warlock+a.submitter,.thing .tagline .flair-horde-warlock+a.submitter,
 .thing .tagline .flair-warlock+a.submitter:visited,.thing .tagline .flair-alliance-warlock+a.submitter:visited,.thing .tagline .flair-horde-warlock+a.submitter:visited
-  { color: #9482C9 !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #9482C9 !important;}
 .thing .tagline .flair-warrior+a.submitter,.thing .tagline .flair-alliance-warrior+a.submitter,.thing .tagline .flair-horde-warrior+a.submitter,
 .thing .tagline .flair-warrior+a.submitter:visited,.thing .tagline .flair-alliance-warrior+a.submitter:visited,.thing .tagline .flair-horde-warrior+a.submitter:visited
-  { color: #C79C6E !important;background-color:rgba(0,0,0,0.25)!important; border:1px solid #999;}
+  { color: #C79C6E !important;}
 
 /* Friends with Flair - Get a special icon in addition to their normal looks */
 html .thing .tagline .author.friend {
