@@ -33,9 +33,10 @@
   padding: 0;
   overflow: hidden;
   position: relative;
-  background-color: rgba(229,212,212,0.62) !important;
-  margin:11px 395px 7px 4px;
-  border:3px solid #999;
+  background-color: rgba(212,212,212,0.5) !important;
+  margin:11px 320px 7px 4px;
+  border:3px double #899;
+  border-radius:5px;
 }
 .link.promotedlink.promoted {
   border:0;
@@ -43,11 +44,9 @@
   background:transparent !important;
 }
 
-
 .link.last-clicked {
     overflow:visible;
     }
-
 
 #siteTable .thing.comment .parent {
 padding: 15px 10px 10px 40px;}
