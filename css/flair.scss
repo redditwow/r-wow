@@ -230,23 +230,35 @@ li.flairsample-left { padding-top: 5px; }
 }
 
 /* Blizzard Employees - Job Titles */
-a.author[href$='reddit.com/user/Ghostcrawler']:after, a.author[href$='reddit.com/user/Kalgan']:after,
-a.author[href$='reddit.com/user/Zarhym']:after, a.author[href$='reddit.com/user/TheFargo']:after,
-a.author[href$='reddit.com/user/WatcherDev']:after, a.author[href$='reddit.com/user/Araxom']:after,
-a.author[href$='reddit.com/user/Eldtyara']:after, a.author[href$='reddit.com/user/Crithto']:after {
+/*a.author[href$='reddit.com/user/Ghostcrawler']:after, */
+a.author[href$='reddit.com/user/Kalgan']:after,
+a.author[href$='reddit.com/user/WatcherDev']:after,
+a.author[href$='reddit.com/user/Mumper_Blizz']:after,
+a.author[href$='reddit.com/user/Desvin']:after,
+a.author[href$='reddit.com/user/Zarhym']:after, 
+a.author[href$='reddit.com/user/bashiok_foreal']:after, 
+a.author[href$='reddit.com/user/devolore']:after, 
+a.author[href$='reddit.com/user/TheFargo']:after,
+a.author[href$='reddit.com/user/WatcherDev']:after, 
+a.author[href$='reddit.com/user/Araxom']:after,
+a.author[href$='reddit.com/user/Crithto']:after {
   margin-left: 5px;
   padding: 2px 4px;
   background-color: #1D1D1D;
 }
 
-a.author[href$='reddit.com/user/Ghostcrawler']:after { content: " - Greg Street (Blizzard Emeritus)"; }
-a.author[href$='reddit.com/user/Kalgan']:after { content: " - Tom Chilton (Game Director)"; }
-a.author[href$='reddit.com/user/Zarhym']:after { content: " - Jonathan Brown (Community Manager)"; }
-a.author[href$='reddit.com/user/TheFargo']:after { content: " - Dave Kosak (Lead Quest Designer)"; }
-a.author[href$='reddit.com/user/WatcherDev']:after { content: " - Ion Hazzikostas (Lead Encounter Designer)"; }
-a.author[href$='reddit.com/user/Araxom']:after { content: " - Blizzard Customer Support"; }
-a.author[href$='reddit.com/user/Eldtyara']:after { content: " - Community Manager EU"; }
-a.author[href$='reddit.com/user/Crithto']:after { content: " - Community Team NA"; }
+/*a.author[href$='reddit.com/user/Ghostcrawler']:after { content: " - Greg Street (Blizzard Emeritus)"; }*/
+
+a.author[href$='reddit.com/user/Kalgan']:after          { content: "Tom Chilton (Game Director)"; }
+a.author[href$='reddit.com/user/WatcherDev']:after      { content: "Ion Hazzikostas (Lead Game Designer)"; }
+a.author[href$='reddit.com/user/Mumper_Blizz']:after    { content: "Cory Stockton (Lead Game Designer)"; }
+a.author[href$='reddit.com/user/Desvin']:after          { content: "Brian Holinka (Senior Game Designer)"; }
+a.author[href$='reddit.com/user/Zarhym']:after          { content: "Jonathan Brown (Community Manager)"; }
+a.author[href$='reddit.com/user/bashiok_foreal']:after  { content: "Micah Whipple (Community Manager)"; }
+a.author[href$='reddit.com/user/devolore']:after        { content: "Josh Allen (Community Manager)"; }
+a.author[href$='reddit.com/user/TheFargo']:after        { content: "Dave Kosak (Lead Quest Designer)"; }
+a.author[href$='reddit.com/user/Araxom']:after          { content: "Blizzard Customer Support"; }
+a.author[href$='reddit.com/user/Crithto']:after         { content: "Community Team NA"; }
 
 
 /* Popular WoWFansite Flairs */
@@ -275,7 +287,7 @@ a.author[href$='reddit.com/user/Crithto']:after { content: " - Community Team NA
 .flair-fansite-icyveins+.author, .flair-fansite-icyveins+.author:visited { color:#2192cf; }
 .flair-fansite-icyveins+a.submitter, .flair-fansite-icyveins+a.submitter:visited{ background-color: #C41F3B !important; color: #FFFFFF !important; }
 
-.flair-andrew::after      { content: ""; width:18px; height:18px; background-position: 0 -630px;}
+.flair-aphoenix::after      { content: ""; width:18px; height:18px; background-position: 0 -630px;}
 .flair-raptor::after      { content: ""; width:18px; height:18px; background-position: -18px -684px}
 .flair-vusys::after       { content: ""; width:18px; height:18px; background-position: -18px -702px}
 .flair-phedre::after      { content: ""; width:18px; height:18px; background-position: -18px -666px;}
@@ -285,24 +297,28 @@ a.author[href$='reddit.com/user/Crithto']:after { content: " - Community Team NA
 .flair-lasse::after       { content: ""; width:18px; height:18px; background-position: -18px -648px;}
 .flair-automod::after     { content: ""; width:18px; height:18px; background-position: -18px -630px;}
 .flair-herpdeeps::after   { content: ""; width:18px; height:18px; background-position: 0 -648px;}
+.flair-zvitiate::after    { content: ""; width:18px; height:18px; background-position: -18px -648px;}
 .flair-arthur::after      { content: ""; width:18px; height:18px; background-position: 0 -758px;}
 .flair-bewmkin::after     { content: ""; width:18px; height:18px; background-position: -18px -758px;}
 .flair-doctor::after      { content: ""; width:18px; height:18px; background-position: 0 -776px;}
 
-.flair-andrew+a.author, .flair-andrew+a.author:visited,
-.flair-andrew+a.submitter, .flair-andrew+a.submitter:visited {color:orangered !important;}
+.flair-aphoenix+a.author, .flair-aphoenix+a.author:visited,
+.flair-aphoenix+a.submitter, .flair-aphoenix+a.submitter:visited {color:orangered !important;}
 
 .flair-automod+a.author, .flair-automod+a.author:visited,
 .flair-automod+a.submitter, .flair-automod+a.submitter:visited {color:#bbb !important;}
 
 .flair-waahht+.author, .flair-waahht+a.author:visited,
-.flair-andrew+a.submitter, .flair-andrew+a.submitter:visited {color: #555 !important; }
+.flair-waahht+a.submitter, .flair-waahht+a.submitter:visited {color: #555 !important; }
 
 .flair-lasse+.author, .flair-lasse+a.author:visited,
 .flair-lasse+a.submitter, .flair-lasse+a.submitter:visited {color: #a96B00 !important; }
 
 .flair-herpdeeps+.author, .flair-herpdeeps+a.author:visited,
 .flair-herpdeeps+a.submitter, .flair-herpdeeps+a.submitter:visited { color: yellow !important; }
+
+.flair-herpdeeps+.author, .flair-herpdeeps+a.author:visited,
+.flair-herpdeeps+a.submitter, .flair-herpdeeps+a.submitter:visited { color: orange !important; }
 
 .flair-vusys+.author, .flair-vusys+a.author:visited,
 .flair-vusys+a.submitter, .flair-herpdeeps+a.submitter:visited {color: #6698cb !important; }
