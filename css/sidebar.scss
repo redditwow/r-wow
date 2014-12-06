@@ -6,15 +6,12 @@
 
 .subscribers {margin-left:29px;display:block;}
 .subscribers .word {display:none;}
-.subscribers .number::before {
-  content: "Position in Queue: ";
+.subscribers .number::after {
+  content: " Iron Horde ";
 }
 .users-online .word {display:none;}
-.users-online .number::before {
-  content: "Estimated Time: ";
-  }
 .users-online .number::after {
-  content: " minutes"
+  content: " checking out a runescape twitch stream";
   }
 h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-weight: normal; }
 

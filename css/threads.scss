@@ -26,9 +26,12 @@
 }
 
 .link.promotedlink.promoted .thumbnail {
-    display:none;
     margin: 0px 10px;
 }
+.link.promotedlink.promoted .thumbnail::after {
+  content:"";
+  display:none;
+  }
 .organic-listing {
   padding: 0;
   overflow: hidden;
@@ -283,9 +286,9 @@ hr {
 
 /* Tables */
 
-.md th {color:#fae3c3;}
+.md th {color:#222;}
 .md td, .md th {
-border: 1px solid #D2BFA4;
+border: 1px solid #333;
 padding: 5px 10px;
 }
 

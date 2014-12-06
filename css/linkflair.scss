@@ -20,7 +20,7 @@
   color:white;
   }
 #siteTable .thing.linkflair-bluepost a {
-  color: #00b4ff;
+  color: #00b4ff !important;
   text-shadow:0 0 0;
 }
 
@@ -34,14 +34,19 @@
   color:#cfb;
   text-shadow:0 0 0;
 }
-#siteTable .thing.linkflair-modpost .md h2 {
-  color: #020;
+#siteTable .thing.linkflair-modpost .md, 
+#siteTable .thing.linkflair-modpost .md h1,
+#siteTable .thing.linkflair-modpost .md h2,
+#siteTable .thing.linkflair-modpost .md h3,
+#siteTable .thing.linkflair-modpost .md h4,
+#siteTable .thing.linkflair-modpost .md h5 {
+  color: #fff;
 }
 #siteTable .thing.linkflair-lootpost {
   background:rgba(212,212,212,0.7);
 }
 #siteTable .thing.linkflair-modpost {
-  background:rgba(65,86,58,0.7);
+  background:rgba(65,86,58,0.8);
   }
 #siteTable .thing.linkflair-awesomepost {
   background:rgba(212,212,212,0.7);
