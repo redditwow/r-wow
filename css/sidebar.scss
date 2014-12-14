@@ -31,9 +31,6 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   padding-top: 0px;
   background:transparent;
   margin:0;
-  position:relative;
-  z-index:3;
-  top:-25px;
   margin-bottom:344px;
   }
 
@@ -72,25 +69,26 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   background:url(%%sidebar-bottom%%) no-repeat;
   height:344px;
   width:316px;
-  position:absolute;
-  bottom:-342px;
-  right:0;
+  position:relative;
+  right:16px;
+  clear:right;
 }
 
 /* Title of subreddit */
 .side h1.redditname {
   display:block;
   position:absolute;
-  top:30px;
+  top:182px;
   text-align:center;
-  width:92%;
+  width:316px;
+  right:0;
   }
 
 /* Announcement */
 .side .md h3 {
   position:absolute;
-  top:60px;
-  width:92%;
+  top:210px;
+  width:270px;
   font-size:14px;
   font-weight:normal;
   width:245px;
@@ -252,12 +250,12 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
     width: 200px;
     margin-bottom:1em;
     position:absolute;
-    top:275px;
+    top:433px;
     z-index:90;
-    left:51px;
+    right:51px;
 }
 .sidebox.submit-text {
-    top:330px;
+    top:485px;
 }
 
 /* Reddit/RES "Subscribe" Buttons */

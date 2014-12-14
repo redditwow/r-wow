@@ -1,30 +1,30 @@
 .titlebox blockquote {
   background: url('%%menu-repeat%%') repeat-x;
-  padding: 7px 10px 5px 10px;
+  padding: 29px 0 39px 0;
   position:absolute;
-  top:93px;
-  left:114px;
+  top:130px;
+  left:159px;
   z-index:8;
-  padding:19px;
+  border-left:0 !important;
 }
 .titlebox blockquote::before {
   content:'';
   display:block;
-  height:60px;
-  width:113px;
+  height:90px;
+  width:158px;
   background: url('%%menu-left%%') no-repeat;
   position:absolute;
-  left:-113px;
+  left:-158px;
   top:1px;
   }
 .titlebox blockquote::after {
   content:'';
   display:block;
-  height:60px;
-  width:113px;
+  height:90px;
+  width:158px;
   background: url('%%menu-right%%') no-repeat;
   position:absolute;
-  right:-113px;
+  right:-158px;
   top:1px;
   }
 
@@ -40,7 +40,7 @@
   border: none;
   text-align: center;
   display: block;
-  color: #FFB100;
+  color: #eee;
 }
 
 #header-bottom-left .tabmenu li a:hover {
@@ -56,6 +56,10 @@
 .titlebox blockquote ul {
   float:left;
   margin:0px 4px;
+  }
+
+.titlebox blockquote ul:hover {
+  background:#222;
   }
 
 .titlebox blockquote ul li {
@@ -79,9 +83,7 @@
 .titlebox blockquote ul li a {
   display:block;
   padding:5px 12px;
-  }
-.titlebox blockquote ul li a:hover {
-  color:#d2bfa4
+  color:#eee;
   }
 
 /* dropdown selection item */
@@ -95,35 +97,40 @@
   font-size: 12px;
   line-height: 22px;
   min-width: 125px;
-  color: #d2bfa4;
+  color: #eee;
+  background:#222;
 }
 
 
 /* menu top-level option*/
 
-.titlebox blockquote ul li:first-child{
+.titlebox blockquote ul li:first-child {
   background: none;
   text-align: center;
   border: none;
   line-height: 32px;
   min-width: 0;
   padding:0;
-  color: #d2bfa4;
+  color: #fff;
 }
 
 /* when hovering over dropdown selection item */
 
-.titlebox blockquote ul li a:hover{
-  background:#200;
-}
+.titlebox blockquote ul li a:hover {
+  background:#bbb;
+  color:#222;
+  }
 /* when hovering over menu top-level option*/
 
-.titlebox blockquote ul li:first-child:hover{
-  background: #200;
+.titlebox blockquote ul li:first-child:hover {
+  background: #222;
 }
 
-.titlebox blockquote ul:first-child{
+.titlebox blockquote ul:first-child {
 margin-left: 15px;}
+
+/* Reddit Guilds should be formatted to put gname / server on seperate lines */
+ .titlebox blockquote ul li a strong {display:block;}
 
 /*custom size for menu sections*/
 
@@ -133,8 +140,8 @@ margin-left: 15px;}
 .titlebox blockquote ul:nth-of-type(2) li{width:100px;}
 .titlebox blockquote ul:nth-of-type(2), .titlebox blockquote ul:nth-of-type(2) li:first-child{width:89px;}
 
-.titlebox blockquote ul:nth-of-type(3) li{width:145px;}
-.titlebox blockquote ul:nth-of-type(3), .titlebox blockquote ul:nth-of-type(3) li:first-child{width:138px;}
+.titlebox blockquote ul:nth-of-type(3) li{width:200px;}
+.titlebox blockquote ul:nth-of-type(3), .titlebox blockquote ul:nth-of-type(3) li:first-child{width:100px;}
 
 .titlebox blockquote ul:nth-of-type(4) li{width:160px;}
 .titlebox blockquote ul:nth-of-type(4), .titlebox blockquote ul:nth-of-type(4) li:first-child{width:106px;}
@@ -143,4 +150,4 @@ margin-left: 15px;}
 .titlebox blockquote ul:nth-of-type(5), .titlebox blockquote ul:nth-of-type(5) li:first-child{width:86px;}
 
 .titlebox blockquote ul:nth-of-type(6) li{width:135px;}
-.titlebox blockquote ul:nth-of-type(6), .titlebox blockquote ul:nth-of-type(6) li:first-child{width:96px;}
+.titlebox blockquote ul:nth-of-type(6), .titlebox blockquote ul:nth-of-type(6) li:first-child{width:135px;}
