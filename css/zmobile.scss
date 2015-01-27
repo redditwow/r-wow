@@ -17,17 +17,22 @@
 .entry {padding-right:30px !important;}
 }
 
+@media (max-width:900px) {
+.side blockquote {left:14%;}
+}
+
 @media (max-width:850px) {
 
 .side {
-  position:fixed;
+  position:absolute;
   left:-400px;
   z-index:999;
 }
+.side blockquote {display:none;}
 .side h4 {
   position:absolute;
   display:block;
-  top:184px;
+  top:8px;
   right:-243px;
   padding:7px 10px;
   background:rgba(0,0,0,0.5);

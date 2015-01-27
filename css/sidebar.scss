@@ -7,11 +7,11 @@
 .subscribers {margin-left:29px;display:block;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
-  content: " Iron Horde ";
+  content: " checking garrison missions";
 }
 .users-online .word {display:none;}
 .users-online .number::after {
-  content: " checking out a runescape twitch stream";
+  content: " exploring Draenor";
   }
 h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-weight: normal; }
 
@@ -274,10 +274,6 @@ form.toggle.flairtoggle, form.toggle.leavemoderator-button {
   line-height: 17px !important;
 }
 
-.side .drop-choices {
-  left: 150px !important;
-}
-
 .drop-choices a.choice:hover {
   background: #36200E;
   color: #FFFFFF;
@@ -406,7 +402,3 @@ body.search-page .login-form-side {
     margin-left: 60px;
     margin-top: 80px;
 }
-
-.side .flairselector.drop-choices.active {
-  left:-250px !important;
-  }

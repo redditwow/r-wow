@@ -53,9 +53,10 @@
   display: block;
 }
 
-.titlebox blockquote ul {
+.titlebox .md blockquote ul {
   float:left;
   margin:0px 4px;
+  padding-left:0;
   }
 
 .titlebox blockquote ul:hover {
@@ -144,7 +145,7 @@ margin-left: 15px;}
 .titlebox blockquote ul:nth-of-type(3), .titlebox blockquote ul:nth-of-type(3) li:first-child{width:100px;}
 
 .titlebox blockquote ul:nth-of-type(4) li{width:160px;}
-.titlebox blockquote ul:nth-of-type(4), .titlebox blockquote ul:nth-of-type(4) li:first-child{width:106px;}
+.titlebox blockquote ul:nth-of-type(4), .titlebox blockquote ul:nth-of-type(4) li:first-child{width:150px;}
 
 .titlebox blockquote ul:nth-of-type(5) li{width:145px;}
 .titlebox blockquote ul:nth-of-type(5), .titlebox blockquote ul:nth-of-type(5) li:first-child{width:86px;}
