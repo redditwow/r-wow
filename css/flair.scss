@@ -129,6 +129,7 @@ p.tagline, .tagline { margin: 4px 0 0; border: 0px; }
 .flair-warrior+.author:visited, .flair-alliance-warrior+.author:visited, .flair-horde-warrior+.author:visited 
   { background-color:transparent; text-shadow:0 0 1px #C79C6E; color: #222 ; }
 
+
  /* Let thread submitters keep awesome flair related colorschemes */
 .thing .tagline .flair+a.submitter, .thing .tagline .flair+a.submitter:visited 
   { text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -296,14 +297,15 @@ a.author[href$='reddit.com/user/Crithto']:after         { content: "Community Te
 
 .flair-fansite-openraid::after { 
   content: "";
-  width: 18px;
-  height: 18px;
-  background-position:-10px -909px;
+  width: 21px;
+  height: 21px;
+  background-position:-8 -826px;
 }
 .flair-fansite-openraid+.author, .flair-fansite-openraid+.author:visited { color:#555; }
 .flair-fansite-openraid+a.submitter, .flair-fansite-openraid+a.submitter:visited{ background-color: #555 !important; color: #FFFFFF !important; }
 
-.flair-aphoenix::after      { content: ""; width:18px; height:18px; background-position: 0 -630px;}
+.flair-method::after      { content: ""; width:18px; height:18px; background-position: 0 -758px;}
+.flair-aphoenix::after    { content: ""; width:18px; height:18px; background-position: 0 -630px;}
 .flair-raptor::after      { content: ""; width:18px; height:18px; background-position: -18px -684px}
 .flair-vusys::after       { content: ""; width:18px; height:18px; background-position: -18px -702px}
 .flair-phedre::after      { content: ""; width:18px; height:18px; background-position: -18px -666px;}
@@ -317,6 +319,9 @@ a.author[href$='reddit.com/user/Crithto']:after         { content: "Community Te
 .flair-arthur::after      { content: ""; width:18px; height:18px; background-position: 0 -758px;}
 .flair-bewmkin::after     { content: ""; width:18px; height:18px; background-position: -18px -758px;}
 .flair-doctor::after      { content: ""; width:18px; height:18px; background-position: 0 -776px;}
+
+.flair-aphoenix+a.author, .flair-aphoenix+a.author:visited,
+.flair-aphoenix+a.submitter, .flair-aphoenix+a.submitter:visited {color:rgba(241,96,42,1)  !important;}
 
 .flair-aphoenix+a.author, .flair-aphoenix+a.author:visited,
 .flair-aphoenix+a.submitter, .flair-aphoenix+a.submitter:visited {color:orangered !important;}
