@@ -1,7 +1,3 @@
-/***
- * Flair.css
- */
-
 .flair { color:#0F9;}
 
 /* defaults */
@@ -321,46 +317,46 @@ a.author[href$='reddit.com/user/Crithto']:after         { content: "Community Te
 .flair-doctor::after      { content: ""; width:18px; height:18px; background-position: -18px -720px;}
 
 .flair-aphoenix+a.author, .flair-aphoenix+a.author:visited,
-.flair-aphoenix+a.submitter, .flair-aphoenix+a.submitter:visited {color:#001df5 !important;}
+.flair-aphoenix+a.submitter, .flair-aphoenix+a.submitter:visited {color:orangered;}
 
 .flair-automod+a.author, .flair-automod+a.author:visited,
-.flair-automod+a.submitter, .flair-automod+a.submitter:visited {color:#bbb !important;}
+.flair-automod+a.submitter, .flair-automod+a.submitter:visited {color:#bbb ;}
 
 .flair-waahht+.author, .flair-waahht+a.author:visited,
-.flair-waahht+a.submitter, .flair-waahht+a.submitter:visited {color: #555 !important; }
+.flair-waahht+a.submitter, .flair-waahht+a.submitter:visited {color: #555 ; }
 
 .flair-lasse+.author, .flair-lasse+a.author:visited,
-.flair-lasse+a.submitter, .flair-lasse+a.submitter:visited {color: #a96B00 !important; }
+.flair-lasse+a.submitter, .flair-lasse+a.submitter:visited {color: #a96B00 ; }
 
 .flair-herpdeeps+.author, .flair-herpdeeps+a.author:visited,
-.flair-herpdeeps+a.submitter, .flair-herpdeeps+a.submitter:visited { color: yellow !important; }
+.flair-herpdeeps+a.submitter, .flair-herpdeeps+a.submitter:visited { color: yellow ; }
 
 .flair-zvitiate+.author, .flair-zvitiate+a.author:visited,
-.flair-zvitiate+a.submitter, .flair-zvitiate+a.submitter:visited { color: orange !important; }
+.flair-zvitiate+a.submitter, .flair-zvitiate+a.submitter:visited { color: orange ; }
 
 .flair-vusys+.author, .flair-vusys+a.author:visited,
-.flair-vusys+a.submitter, .flair-vusys+a.submitter:visited {color: #6698cb !important; }
+.flair-vusys+a.submitter, .flair-vusys+a.submitter:visited {color: #6698cb ; }
 
 .flair-roboticide+.author, .flair-roboticide+a.author:visited,
-.flair-roboticide+a.submitter, .flair-roboticide+a.submitter:visited {color: #900 !important; }
+.flair-roboticide+a.submitter, .flair-roboticide+a.submitter:visited {color: #900 ; }
 
 .flair-phedre+.author, .flair-phedre+a.author:visited,
-.flair-phedre+a.submitter, .flair-phedre+a.submitter:visited {color: #605 !important;}
+.flair-phedre+a.submitter, .flair-phedre+a.submitter:visited {color: #605 ;}
 
 .flair-vertical+.author, .flair-vertical+a.author:visited,
-.flair-vertical+a.submitter, .flair-vertical+a.submitter:visited {color: #c95 !important; }
+.flair-vertical+a.submitter, .flair-vertical+a.submitter:visited {color: #c95 ; }
 
 .flair-raptor+.author, .flair-raptor+a.author:visited,
-.flair-raptor+a.submitter, .flair-raptor+a.submitter:visited {color: #CD7300 !important; }
+.flair-raptor+a.submitter, .flair-raptor+a.submitter:visited {color: #CD7300 ; }
 
 .flair-arthur+.author, .flair-arthur+a.author:visited,
-.flair-arthur+a.submitter, .flair-arthur+a.submitter:visited {color:#B03809 !important; }
+.flair-arthur+a.submitter, .flair-arthur+a.submitter:visited {color:#B03809 ; }
 
 .flair-bewmkin+.author, .flair-bewmin+a.author:visited,
-.flair-bewmkin+a.submitter, .flair-bewmkin+a.submitter:visited {color:#939 !important; }
+.flair-bewmkin+a.submitter, .flair-bewmkin+a.submitter:visited {color:#939 ; }
 
 .flair-doctor+.author, .flair-doctor+a.author:visited,
-.flair-doctor+a.submitter, .flair-doctor+a.submitter:visited {color:#AF5500 !important; }
+.flair-doctor+a.submitter, .flair-doctor+a.submitter:visited {color:#AF5500 ; }
 
 .flair-method+.author:hover {text-shadow:0 0 6px #ee6d37;}
 .flair-aphoenix+.author:hover {text-shadow:0px 0px 9px #C6F2FF;}
