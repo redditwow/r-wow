@@ -227,9 +227,15 @@ html .res .sitetable.nestedlisting > .thing,
   padding-left: 5px;
   border: 0;
 }
-.comment.spam > .child, .message.spam > .child {
-background-color:#521D10;
+
+.comment.spam > .child, .message .spam > .child {background:transparent;}
+.comment.spam > .child > div > div, .message.spam > .child > div > div {
+  background:#D8D3CB !important;
 }
+
+.sitetable .thing.comment.spam {
+  background:rgba(99,0,0,0.3) !important;
+  }
 
 
 /* Collapsible Comments */
