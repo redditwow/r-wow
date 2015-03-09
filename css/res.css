@@ -1,4 +1,8 @@
 .popup { z-index:1001 !important; } 
+.viewSource textarea[readonly] {
+  color:#444;
+  }
+
 #userbarToggle {
   color: #FFB100 !important;
   background-color: #1D1D1D !important;

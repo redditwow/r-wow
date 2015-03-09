@@ -303,6 +303,7 @@ a.author[href$='reddit.com/user/Crithto']:after         { content: "Community Te
 .flair-fansite-openraid+a.submitter, .flair-fansite-openraid+a.submitter:visited{ background-color: #555 !important; color: #FFFFFF !important; }
 
 .flair-method::after      { content: ""; width:18px; height:18px; background-position: 0 -758px;}
+.flair-midwinter::after   { content: ""; width:32px; height:18px; background-position: -1px -806px;}
 .flair-aphoenix::after    { content: ""; width:18px; height:18px; background-position: 0 -630px;}
 .flair-raptor::after      { content: ""; width:18px; height:18px; background-position: -18px -684px}
 .flair-vusys::after       { content: ""; width:18px; height:18px; background-position: -18px -702px}
@@ -320,6 +321,7 @@ a.author[href$='reddit.com/user/Crithto']:after         { content: "Community Te
 
 .flair-aphoenix+a.author, .flair-aphoenix+a.author:visited,
 .flair-aphoenix+a.submitter, .flair-aphoenix+a.submitter:visited {color:orangered;}
+.flair-aphoenix+.author:hover {text-shadow:0px 0px 9px #C6F2FF;}
 
 .flair-automod+a.author, .flair-automod+a.author:visited,
 .flair-automod+a.submitter, .flair-automod+a.submitter:visited {color:#bbb ;}
@@ -360,8 +362,7 @@ a.author[href$='reddit.com/user/Crithto']:after         { content: "Community Te
 .flair-doctor+.author, .flair-doctor+a.author:visited,
 .flair-doctor+a.submitter, .flair-doctor+a.submitter:visited {color:#AF5500 ; }
 
-.flair-method+.author:hover {text-shadow:0 0 6px #ee6d37;}
-.flair-aphoenix+.author:hover {text-shadow:0px 0px 9px #C6F2FF;}
+.flair-method+.author:hover, .flair-midwinter+.author:hover {text-shadow:0 0 6px #ee6d37;}
 
 /* Moderators */
 #siteTable .thing .tagline .author.moderator, 
