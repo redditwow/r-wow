@@ -1,6 +1,6 @@
 .popup { z-index:1001 !important; } 
-.viewSource textarea[readonly] {
-  color:#444;
+.livePreview, .livePreview .md, .viewSource textarea[readonly] {
+  color:#444 !important;
   }
 
 #userbarToggle {
@@ -198,9 +198,10 @@ a.voteWeight {
 #NREMail.havemail {background-position:0 -9px !important;}
 #NREMail {height:9px !important;}
 
+`
+
 
 /* Hack for dropdown menus  */
-
 
 /* MF Darkmode */
 

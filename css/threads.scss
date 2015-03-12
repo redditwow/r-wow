@@ -82,6 +82,21 @@ padding: 15px 10px 10px 40px;}
 .midcol { width: 36px !important; padding: 10px 0px; }
 .entry { padding: 5px 0 0;}
 
+/* Downvote Message */
+
+.arrow.downmod:hover::after {
+  content: '';
+  display: block;
+  background: url(%%downvote%%) no-repeat;
+  width: 350px;
+  height: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 200;
+  left: 100px;
+  margin-top: -90px;
+  }
+
 /* Expandos */
 
 .expando-button {
@@ -93,14 +108,16 @@ padding: 15px 10px 10px 40px;}
   background-image: url('%%expando%%') !important;
 }
 
-.expando-button.selftext.collapsed, .expando-button.selftext.expanded:hover { background-position: -0px -0px; }
-.expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded { background-position: -0px -31px; }
-.expando-button.video.collapsed, .expando-button.video.expanded:hover { background-position: -0px -62px; }
-.expando-button.video.collapsed:hover, .expando-button.video.expanded { background-position: -0px -93px; }
-.expando-button.image, .expando-button.image.expanded:hover { background-position: -0px -129px !important; }
-.expando-button.image:hover, .expando-button.image.expanded { background-position: -0px -160px !important; }
-.expando-button.gallery, .expando-button.gallery.expanded:hover { background-position: -0px -193px !important; }
-.expando-button.gallery:hover, .expando-button.gallery.expanded { background-position: -0px -224px !important; }
+.expando-button.selftext.collapsed, .expando-button.selftext.expanded:hover {background-position: -0px -31px;}
+.expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded {background-position: -0 0;}
+.expando-button.video.collapsed, .expando-button.video.expanded:hover       {background-position: -0px -93px;}
+.expando-button.video.collapsed:hover, .expando-button.video.expanded       {background-position: -0px -82px;}
+.expando-button.video-muted.collapsed, .expando-button.video-muted.expanded:hover       {background-position: -0px -93px;}
+.expando-button.video-muted.collapsed:hover, .expando-button.video-muted.expanded       {background-position: -0px -62px;}
+.expando-button.image, .expando-button.image.expanded:hover                 {background-position: -0px -129px !important;}
+.expando-button.image:hover, .expando-button.image.expanded                 {background-position: -0px -160px !important;}
+.expando-button.gallery, .expando-button.gallery.expanded:hover             {background-position: -0px -224px !important;}
+.expando-button.gallery:hover, .expando-button.gallery.expanded             {background-position: -0px -193px !important;}
 
 /* Posts within threads */
 
