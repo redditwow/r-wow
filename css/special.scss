@@ -3,10 +3,10 @@ a[href$='wowhead.com/item=19019'], .comment .md p > a[href$="wowhead.com/item=19
   color: #FF8000 !important;
 }
 a[href$='wowhead.com/item=19019']:before {
-  content: "DID SOMEBODY SAY ";
+  content: "DID SOMEBODY SAY [";
 }
 a[href$='wowhead.com/item=19019']:after {
-  content: "?!?!!?";
+  content: "]?!?!!?";
 }
 /* /THUNDERFURY */
 
