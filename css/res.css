@@ -239,6 +239,7 @@ a.voteWeight {
   border:none !important;
   background-color:rgba(20,20,20,0.1) !important;
   margin:10px auto !important;
+  width:auto !important;
   }
 
 #RESDropdownList {
