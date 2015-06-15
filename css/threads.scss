@@ -1,13 +1,11 @@
 #siteTable {
   margin-top: 25px; /* Keeps us lined up with the sidebar header */
 }
-
 #siteTable .thing {
   margin: 0 10px 0 5px;
   z-index:auto;
   background:rgba(212,212,212,0.35);
   border-bottom:1px solid #999;
-  padding-bottom:1.6em;
 }
 #siteTable .thing:last-child {
  border-bottom:0;
@@ -119,6 +117,14 @@ padding: 15px 10px 10px 40px;}
 .expando-button.image:hover, .expando-button.image.expanded                 {background-position: -0px -129px !important;}
 .expando-button.gallery, .expando-button.gallery.expanded:hover             {background-position: -0px -224px !important;}
 .expando-button.gallery:hover, .expando-button.gallery.expanded             {background-position: -0px -193px !important;}
+
+.expando {
+  margin:5px 0 20px 0;
+}
+.madeVisible {
+  margin-bottom:16px;
+  }
+
 
 /* Posts within threads */
 

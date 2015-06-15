@@ -214,6 +214,44 @@ li.flairsample-left { padding-top: 5px; }
 
 /*____ The following section is flair that is related to special posters. ____*/
 
+
+/* Welcomes Comic Sans Overlords */
+
+a.author[href$='reddit.com/user/samsparta21'] {
+  font-family:Comic Sans, Comic Sans MS, Cursive;
+}
+a.author[href$='reddit.com/user/samsparta21']::after {
+  content: ' welcomes the Comic Sans Overlords';
+  }
+
+a.author[href$='reddit.com/user/KudagFirefist']::after {
+  content: ' hates fun';
+  }
+a.author[href$='reddit.com/user/KilianaNightwolf']::after {
+  content: ' cannot see this flair. Shhhh.';
+  color: red;
+  }
+a.author[href$='reddit.com/user/BobShmob117']::after {
+  content: ' is sooooo fancy';
+  }
+a.author[href$='reddit.com/user/TheJack38']::after {
+  content: " probably won't notice his flair either";
+  }
+
+a.author[href$='reddit.com/user/CJGibson']::after {
+  content: " <3";
+  }
+a.author[href$='reddit.com/user/Cpl_Cocks'] {
+  color:rgba(0,0,0,0.2); 
+  }
+a.author[href$='reddit.com/user/Cpl_Cocks']::after {
+  text-decoration:none;
+  color: #009;
+  content: " SFC_Cocks (promotion)";
+  }
+
+
+
 /* Blizzard Employees - Icons */
 /* They have special flair classes that are not user selectable */
 
@@ -312,7 +350,7 @@ a.author[href$='reddit.com/user/Crithto']:after         { content: "Community Te
 .flair-roboticide::after  { content: ""; width:18px; height:18px; background-position: 0 -684px}
 .flair-waahht::after      { content: ""; width:18px; height:18px; background-position: 0 -720px}
 .flair-lasse::after       { content: ""; width:18px; height:18px; background-position: -18px -648px;}
-.flair-automod::after     { content: ""; width:18px; height:18px; background-position: -18px -630px;}
+.flair-aptbot::after     { content: ""; width:18px; height:18px; background-position: -18px -630px;}
 .flair-herpdeeps::after   { content: ""; width:18px; height:18px; background-position: 0 -648px;}
 .flair-zvitiate::after    { content: ""; width:18px; height:18px; background-position: -18px -648px;}
 .flair-arthur::after      { content: ""; width:18px; height:18px; background-position: -18px -758px;}
@@ -323,8 +361,8 @@ a.author[href$='reddit.com/user/Crithto']:after         { content: "Community Te
 .flair-aphoenix+a.submitter, .flair-aphoenix+a.submitter:visited {color:orangered;}
 .flair-aphoenix+.author:hover {text-shadow:0px 0px 9px #C6F2FF;}
 
-.flair-automod+a.author, .flair-automod+a.author:visited,
-.flair-automod+a.submitter, .flair-automod+a.submitter:visited {color:#bbb ;}
+.flair-aptbot+a.author, .flair-aptbot+a.author:visited,
+.flair-aptbot+a.submitter, .flair-aptbot+a.submitter:visited {color:#bbb ;}
 
 .flair-waahht+.author, .flair-waahht+a.author:visited,
 .flair-waahht+a.submitter, .flair-waahht+a.submitter:visited {color: #555 ; }

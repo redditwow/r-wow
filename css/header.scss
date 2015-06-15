@@ -19,12 +19,15 @@ background-position:center bottom;
 }
 
 /* Subreddit Listing Bar / Shared */
+#sr-header-area {
+  overflow: hidden;
+  }
+
 #sr-header-area, #header-bottom-right {
   background:rgba(0,0,0,0.5);
   padding: 5px 0px 5px 5px;
   color: #EEEEEE;
   white-space: nowrap;
-  overflow: hidden;
   border-bottom: 1px solid #1d1d1d;
   font-size: 90%;
 }
@@ -53,6 +56,21 @@ background-position:center bottom;
 
 }
 
+/* Header Bottom Right */
+
+#header-bottom-right a { 
+  color:#A1DFFF;
+  }
+#header-bottom-right {
+  padding:15px 15px 12px 25px !important;
+  top:64px !important;
+  right:20px !important;
+  z-index:99;
+  overflow:show !important;
+  }
+#header-bottom-right:hover {
+  box-shadow: 0 0 20px #8a330c;
+  }
 
 /* Header Image */
 #header {
@@ -90,29 +108,6 @@ background-position:center bottom;
 
 
 /* User information block - making this baby "bnet style" */ 
-#header-bottom-right {
-  position: absolute;
-  top:29px !important;
-  bottom: 0px;
-  height: 18px;
-  border-radius: 0px;
-  color: #797e84;
-  font-weight: bold;
-  padding-left: 30px;
-  padding-right: 7px;
-  font-size: 10px;
-  z-index:90;
-}
-#header-bottom-right a {
-  color: #a1dfff;
-}
-
-#header-bottom-right .user {
-margin-left:25px !important;
-}
-
-#header-bottom-right > * { position: relative; top: 4px; }
-/*
 .flat-list.sr-bar {
   margin-right: 325px;
 }
@@ -131,6 +126,7 @@ margin-left:25px !important;
 #modmail { 
   width: 14px !important; 
   height: 12px !important; 
+  top:0;
 }
 
 .nohavemail, .havemail {
@@ -141,7 +137,7 @@ margin-left:25px !important;
 #mail.havemail { background-position: -0px -12px; background-repeat: no-repeat; }
 #modmail.nohavemail { background-position: -0px -24px; background-repeat: no-repeat; }
 #modmail.havemail { background-position: -0px -38px; background-repeat: no-repeat; }
-
+#modmail {position:relative;top:-2px; }
 /* Logo, Redditname, Tabmenu */
 
 #header-bottom-left {

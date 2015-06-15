@@ -9,9 +9,12 @@
 
 #userbarToggle {
   color: #FFB100 !important;
-  background-color: #1D1D1D !important;
-  border-right: 1px solid #000000 !important;
-  padding-left: 4px;
+  background-color: rgba(0,0,0,0) !important;
+  border-right: 0 !important;
+  padding-left: 0;
+  top:0px !important;
+  margin-top:9px;
+  left:0px !important;
 }
 #RESShortcutsEditContainer {
   position: absolute !important;
@@ -136,7 +139,7 @@ a.voteWeight {
   margin-right:7px;
 }
 #RESMainGearOverlay .gearIcon {
-  top:7px !important;
+  top:13px !important;
   }
 .gearIcon, #RESSettingsButton {
   width: 14px !important;
@@ -157,10 +160,10 @@ a.voteWeight {
 
 /* styling some popups */
 #authorInfoToolTip .blueButton {
-  background-color:#221409 !important;
+  background-color:rgba(0,0,0,0.7) !important;
   }
 .RESCloseButton {
-  color: #221409 !important;
+  color: #111 !important;
   background-color: #E2C7A3 !important;
   }
 
@@ -176,7 +179,7 @@ a.voteWeight {
   border:1px black solid;
   }
 .RESDropdownList {
-  background-color: #221409 !important;
+  background-color: rgba(0,0,0,0.8) !important;
   border: 1px solid #2C180D !important;
   }
 .RESDropdownList li {
@@ -185,7 +188,7 @@ a.voteWeight {
   
 .RESDropdownList li:hover,
 .RESDropdownList li a:hover {
-  background-color: #36200E !important;
+  background-color: #000 !important;
   color: #FFFFFF !important;
   }
   

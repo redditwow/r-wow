@@ -3,11 +3,11 @@
 .subscribers {margin-left:29px;display:block;}
 .subscribers .word {display:none;}
 .subscribers .number::after {
-  content: " COERCION WARRIORS";
+  content: " Sneaky Rogues";
 }
 .users-online .word {display:none;}
 .users-online .number::after {
-  content: " YELLING, 'WALK IT OFF!'";
+  content: " pick pocketing ogres";
   }
 h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-weight: normal; }
 
@@ -81,6 +81,7 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
   }
 
 /* Announcement */
+
 .side .md h3 {
   position:absolute;
   top:210px;
@@ -97,6 +98,7 @@ h1.redditname a { font-family: Friz Quadrata TT, Georgia, Garamond, serif; font-
 .side .md h3 a {
   color:#adf;
   }
+/*
 /* Collapse Button  -  */
 .sidecontentbox .collapse-button {
   float: right;
