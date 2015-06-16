@@ -67,6 +67,8 @@ background-position:center bottom;
   right:20px !important;
   z-index:99;
   overflow:show !important;
+  height:18px;
+  border-radius:0;
   }
 #header-bottom-right:hover {
   box-shadow: 0 0 20px #8a330c;
@@ -109,7 +111,7 @@ background-position:center bottom;
 
 /* User information block - making this baby "bnet style" */ 
 .flat-list.sr-bar {
-  margin-right: 325px;
+  margin-right: 5px;
 }
 */
 .sr-list .flat-list.sr-bar:first-child {
