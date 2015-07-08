@@ -1,3 +1,7 @@
 .beta-hint {
   left:0;
   }
+
+.res .beta-hint {
+  left:-20px;
+  }
