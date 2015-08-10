@@ -384,6 +384,12 @@ a[href="/message/compose?to=%2Fr%2Fwow"] + .title + .content {
     display: none;
 }
 
+/* Sidebar lists don't need to be indented so far */
+
+.side .md ul, .side .md ol, .side .md .-lists {
+  padding-left: 15px;
+  }
+
 body.search-page .side>.spacer:first-child {
     /* push everything down further to fix people who aren't logged in. */
     height: 200px;

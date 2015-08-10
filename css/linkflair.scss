@@ -1,7 +1,17 @@
 /* The Linkflair Classes */
-.linkflairlabel {border:none;padding:4px;font-size:10px;}
-.linkflair-bluepost .linkflairlabel {background:rgba(0,0,99,0.4);color:#00b4ff}
-.linkflair-modpost .linkflairlabel {background:rgba(0,99,0,0.2);}
+.linkflairlabel {
+  border:none;
+  padding:4px;
+  font-size:10px;
+  position:relative;
+  top:3px;
+  background:rgba(255,255,244,0.5);
+  }
+
+
+
+.linkflair-bluepost .linkflairlabel {background:rgba(0,0,99,0.4);color:#00b4ff;}
+.linkflair-modpost .linkflairlabel {background:rgba(255,255,255,0.2);color:#fff;}
 .linkflair-lootpost .linkflairlabel {background:rgba(99,0,99,0.2);}
 .linkflair-awesomepost .linkflairlabel {background:rgba(212,212,212,0.7);}
 .linkflair-murloc .linkflairlabel {}
@@ -54,7 +64,6 @@
   background:rgba(36, 58, 93, 0.75);
   }
 
-.linkflairlabel { display: none; }
 .flairoptionpane .linkflairlabel { display: inline-block; }
 
 .thing a.thumbnail {

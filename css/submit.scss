@@ -71,6 +71,10 @@
 .submit_text a {
   color:#adf;
   }
+.submit .submit_text ul {
+  margin-left:0;
+  padding-left:15px;
+  }
 /* This can improve, but for now, just undo this if the page isn't wide enough */
 @media (max-width:1245px) {
 .submit_text {

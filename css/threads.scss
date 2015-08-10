@@ -334,6 +334,14 @@ padding: 5px 10px;
 .link .score.likes {color: #FF4500;}
 .link .score.dislikes {color: #158;}
 
+.linkflair-modpost.link .score {color:#999;}
+.linkflair-bluepost.link .score {color:#999;}
+
+.linkflair-modpost.link .score.likes {color:#f60;}
+.linkflair-bluepost.link .score.likes {color:#f60;}
+
+.linkflair-modpost.link .score.dislikes {color:#036;}
+.linkflair-bluepost.link .score.dislikes {color:#58C;}
 /* Coloured Reply */
 
 .entry .buttons a[onclick*="reply"] {
