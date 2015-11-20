@@ -4,10 +4,11 @@ a[href="#spoiler"],a[href="#s"] {
   color:transparent;
   text-shadow: 0 0 8px rgba(0,0,0,0.9);
   cursor: default;
+}
 
 a[href="/spoiler"]:hover,a[href="/s"]:hover,
 a[href="#spoiler"]:hover,a[href="#s"]:hover { 
-  color: 111 !important 
+  color: 111 !important;
 }
 
 .linkflair-spoiler a.title{
