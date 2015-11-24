@@ -1,31 +1,46 @@
-a[href="/spoiler"],a[href="/s"],
-a[href="#spoiler"],a[href="#s"] {
+html([lang="ns"]) a[href="/spoiler"],
+html([lang="ns"]) a[href="/s"],
+html([lang="ns"]) a[href="#spoiler"],
+html([lang="ns"]) a[href="#s"] {
   background:rgba(0,0,0,0.2);
-  color:transparent;
+  color:transparent !important;
   text-shadow: 0 0 8px rgba(0,0,0,0.9);
   cursor: default;
 }
 
-a[href="/spoiler"]:hover,a[href="/s"]:hover,
-a[href="#spoiler"]:hover,a[href="#s"]:hover { 
-  color: 111 !important;
+html([lang="ns"]) a[href="/spoiler"]:hover,
+html([lang="ns"]) a[href="/s"]:hover,
+html([lang="ns"]) a[href="#spoiler"]:hover,
+html([lang="ns"]) a[href="#s"]:hover { 
+  color: #333 !important;
+  text-shadow: 0 0 0 !important;
 }
 
-.linkflair-spoiler a.title{
+html([lang="ns"]) .linkflair-modpost a[href="/spoiler"]:hover,
+html([lang="ns"]) .linkflair-modpost a[href="/s"]:hover,
+html([lang="ns"]) .linkflair-modpost a[href="#spoiler"]:hover,
+html([lang="ns"]) .linkflair-modpost a[href="#s"]:hover { 
+  color:#ddd !important;
+}
+    
+  
+  
+  
+html([lang="ns"]) .linkflair-spoiler a.title {
   background:rgba(0,0,0,0.2);
-  color:transparent;
+  color:transparent !important;
   text-shadow: 0 0 8px rgba(0,0,0,0.9);
 }
-.linkflair-spoiler a.title:visited{
+html([lang="ns"]) .linkflair-spoiler a.title:visited {
   background:rgba(0,0,0,0.2);
-  color:transparent;
+  color:transparent !important;
   text-shadow: 0 0 8px rgba(0,0,0,0.9);
 }
-.linkflair-spoiler a.title:hover{
-  background: none;
-  color: auto;
+html([lang="ns"]) .linkflair-spoiler a.title:hover,
+html([lang="ns"]) .linkflair-spoiler:hover a.title {
+  background: transparent !important;
+  color: #222 !important;
+  text-shadow:0 0 0 !important;
 }
 
 
-
-        
