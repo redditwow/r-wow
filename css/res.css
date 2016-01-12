@@ -252,26 +252,8 @@ a.voteWeight {
 
 /* I keep having a problem with glyphicons getting changed, so I have the reddit tags in here */
 
-.RESGalleryControls a {
-  cursor: pointer;
-  display: inline-block;
-  background-image: url('%%glyphicons-halflings%%') !important;
-  width: 12px;
-  height: 12px;
-  margin: 7px;
-}
-
-.RESGalleryControls .next {
-  background-position:-361px -74px !important;
-}
-.RESGalleryControls .previous {
-  background-position:-217px -74px !important;
-}
-.RESGalleryControls .next.end {
-  background-position:-195px -74px !important;
-}
-.RESGalleryControls .previous.end {
-  background-position:-388px -74px !important;
+.RESGalleryControls .next::after, .RESGalleryControls .previous::after {
+  color:#222;
 }
 
 .RESUserTagImage {
