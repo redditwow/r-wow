@@ -1,0 +1,143 @@
+/* abios upcoming matches */
+
+.side .md > ul:nth-of-type(1) {
+  padding: 0;
+  list-style: none;
+}
+
+.side .md > ul:nth-of-type(1) > li {
+  background: rgba(0,0,0,0.5);
+  margin-bottom: 1px;
+  color: #ded;
+}
+
+.side .md > ul:nth-of-type(1) > li > p {
+  display: none;
+}
+
+.side .md > ul:nth-of-type(1) > li > ul {
+  padding: 8px 6px;
+  position: relative;
+  margin: 0;
+  list-style: none;
+}
+
+.side .md > ul:nth-of-type(1) > li > ul > li {
+  height: auto;
+  font-size: 11px !important;
+}
+
+.side .md > ul:nth-of-type(1) > li > ul > li a {
+  color: #adf;
+}
+.side .md > ul:nth-of-type(1) > li > ul > li:nth-child(1) {
+  position: absolute;
+  top: 8px;
+}
+
+.side .md > ul:nth-of-type(1) > li > ul > li:nth-child(2) {
+  font-size: 10px !important;
+  position: absolute;
+  top: 22px;
+}
+
+.side .md > ul:nth-of-type(1) > li > ul > li:nth-child(3),
+.side .md > ul:nth-of-type(1) > li > ul > li:nth-child(4) {
+  position: relative;
+  left: 50px;
+}
+
+.side .md > ul:nth-of-type(1) > li > ul > li:nth-child(4) > a {
+  width: 16px;
+  height: 11px;
+  background-image: url(%%flags%%);
+  cursor: default;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  border-radius: 2px;
+}
+
+.side .md > ul:nth-of-type(1) > li > ul > li:nth-child(5) {
+  position: absolute;
+  right: 11px;
+  top: 12px;
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 10px !important;
+  border-radius: 2px;
+  background: #49bb47;
+  color: #fff;
+}
+
+.side .md > ul:nth-of-type(1) > li > ul > li:nth-child(5) > a {
+  color: #fff !important;
+}
+
+.side .md > ul:nth-of-type(1) > li > ul > li:nth-child(5) > a:hover {
+  text-decoration: underline;
+}
+
+.side .md > ul:nth-of-type(1) > li:last-child > ul {
+  padding: 0;
+  border: 0;
+}
+
+.side .md > ul:nth-of-type(1) > li:last-child > ul > li:nth-child(1) {
+  position: static;
+}
+
+.side .md > ul:nth-of-type(1) > li:last-child > ul > li:nth-child(1) > a {
+  display: block;
+  text-align: center;
+  padding: 8px 0;
+}
+
+a[href="#ar"] { background-position: -160px 0 !important; }
+a[href="#at"] { background-position: -192px 0 !important; }
+a[href="#au"] { background-position: -208px 0 !important; }
+a[href="#be"] { background-position: -48px -11px !important; }
+a[href="#br"] { background-position: -192px -11px !important; }
+a[href="#ca"] { background-position: -48px -22px !important; }
+a[href="#ch"] { background-position: -128px -22px !important; }
+a[href="#cl"] { background-position: -176px -22px}
+a[href="#cn"] { background-position: -208px -22px !important; }
+a[href="#co"] { background-position: -224px -22px !important; }
+a[href="#cr"] { background-position: -240px -22px !important; }
+a[href="#cz"] { background-position: -64px -33px !important; }
+a[href="#de"] { background-position: -80px -33px !important; }
+a[href="#dk"] { background-position: -112px -33px !important; }
+a[href="#dm"] { background-position: -128px -33px !important; }
+a[href="#ec"] { background-position: -176px -33px !important; }
+a[href="#es"] { background-position: -16px -44px !important; }
+a[href="#eu"] { background-position: -48px -44px !important; }
+a[href="#fi"] { background-position: -64px -44px !important; }
+a[href="#fr"] { background-position: -144px -44px !important; }
+a[href="#ga"] { background-position: -160px -44px !important; }
+a[href="#gb"] { background-position: -176px -44px !important; }
+a[href="#gr"] { background-position: -112px -55px !important; }
+a[href="#hr"] { background-position: 0 -66px !important; }
+a[href="#hu"] { background-position: -32px -66px !important; }
+a[href="#ie"] { background-position: -80px -66px !important; }
+a[href="#is"] { background-position: -192px -66px !important; }
+a[href="#it"] { background-position: -208px -66px !important; }
+a[href="#jp"] { background-position: -16px -77px }
+a[href="#lu"] { background-position: -96px -88px !important; }
+a[href="#mc"] { background-position: -160px -88px }
+a[href="#mt"] { background-position: -128px -99px !important; }
+a[href="#mx"] { background-position: -192px -99px !important; }
+a[href="#nl"] { background-position: -80px -110px !important; }
+a[href="#no"] { background-position: -96px -110px !important; }
+a[href="#nz"] { background-position: -160px -110px !important; }
+a[href="#pl"] { background-position: -32px -121px !important; }
+a[href="#pt"] { background-position: -112px -121px !important; }
+a[href="#ro"] { background-position: -192px -121px !important; }
+a[href="#rs"] { background-position: -208px -121px !important; }
+a[href="#scotland"] { background-position: -48px -132px !important; }
+a[href="#se"] { background-position: -80px -132px }
+a[href="#si"] { background-position: -128px -132px !important; }
+a[href="#sk"] { background-position: -144px -132px !important; }
+a[href="#ua"] { background-position: -112px -154px !important; }
+a[href="#us"] { background-position: -160px -154px !important; }
+a[href="#na"] { background-position: -160px -154px !important; }
+a[href="#wales"] { background-position: -64px -165px !important; }
